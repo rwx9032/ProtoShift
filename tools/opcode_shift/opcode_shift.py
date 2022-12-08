@@ -1,7 +1,7 @@
 import csv
 
 NEWCMDID_PATH='..\\..\\proto\\newcmdid.csv'
-OLDCMDID_PATH='..\\..\\proto\\newcmdid.csv'
+OLDCMDID_PATH='..\\..\\proto\\oldcmdid.csv'
 
 
 newcmdid = {}
