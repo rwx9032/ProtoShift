@@ -49,38 +49,38 @@ public final class BartenderActivityDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-     * @return A list containing the unk3300BPCBOANPBHF.
+     * <code>repeated uint32 unlock_item_list = 3;</code>
+     * @return A list containing the unlockItemList.
      */
-    java.util.List<java.lang.Integer> getUnk3300BPCBOANPBHFList();
+    java.util.List<java.lang.Integer> getUnlockItemListList();
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-     * @return The count of unk3300BPCBOANPBHF.
+     * <code>repeated uint32 unlock_item_list = 3;</code>
+     * @return The count of unlockItemList.
      */
-    int getUnk3300BPCBOANPBHFCount();
+    int getUnlockItemListCount();
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
+     * <code>repeated uint32 unlock_item_list = 3;</code>
      * @param index The index of the element to return.
-     * @return The unk3300BPCBOANPBHF at the given index.
+     * @return The unlockItemList at the given index.
      */
-    int getUnk3300BPCBOANPBHF(int index);
+    int getUnlockItemList(int index);
 
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-     * @return A list containing the unk3300OGPLCBFDHCF.
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
+     * @return A list containing the unlockFormulaList.
      */
-    java.util.List<java.lang.Integer> getUnk3300OGPLCBFDHCFList();
+    java.util.List<java.lang.Integer> getUnlockFormulaListList();
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-     * @return The count of unk3300OGPLCBFDHCF.
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
+     * @return The count of unlockFormulaList.
      */
-    int getUnk3300OGPLCBFDHCFCount();
+    int getUnlockFormulaListCount();
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300OGPLCBFDHCF at the given index.
+     * @return The unlockFormulaList at the given index.
      */
-    int getUnk3300OGPLCBFDHCF(int index);
+    int getUnlockFormulaList(int index);
 
     /**
      * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
@@ -126,8 +126,8 @@ public final class BartenderActivityDetailInfoOuterClass {
     }
     private BartenderActivityDetailInfo() {
       unlockLevelList_ = java.util.Collections.emptyList();
-      unk3300BPCBOANPBHF_ = emptyIntList();
-      unk3300OGPLCBFDHCF_ = emptyIntList();
+      unlockItemList_ = emptyIntList();
+      unlockFormulaList_ = emptyIntList();
       unlockTaskList_ = java.util.Collections.emptyList();
     }
 
@@ -207,61 +207,61 @@ public final class BartenderActivityDetailInfoOuterClass {
       return unlockLevelList_.get(index);
     }
 
-    public static final int UNK3300_BPCBOANPBHF_FIELD_NUMBER = 3;
-    private com.google.protobuf.Internal.IntList unk3300BPCBOANPBHF_;
+    public static final int UNLOCK_ITEM_LIST_FIELD_NUMBER = 3;
+    private com.google.protobuf.Internal.IntList unlockItemList_;
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-     * @return A list containing the unk3300BPCBOANPBHF.
+     * <code>repeated uint32 unlock_item_list = 3;</code>
+     * @return A list containing the unlockItemList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300BPCBOANPBHFList() {
-      return unk3300BPCBOANPBHF_;
+        getUnlockItemListList() {
+      return unlockItemList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-     * @return The count of unk3300BPCBOANPBHF.
+     * <code>repeated uint32 unlock_item_list = 3;</code>
+     * @return The count of unlockItemList.
      */
-    public int getUnk3300BPCBOANPBHFCount() {
-      return unk3300BPCBOANPBHF_.size();
+    public int getUnlockItemListCount() {
+      return unlockItemList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
+     * <code>repeated uint32 unlock_item_list = 3;</code>
      * @param index The index of the element to return.
-     * @return The unk3300BPCBOANPBHF at the given index.
+     * @return The unlockItemList at the given index.
      */
-    public int getUnk3300BPCBOANPBHF(int index) {
-      return unk3300BPCBOANPBHF_.getInt(index);
+    public int getUnlockItemList(int index) {
+      return unlockItemList_.getInt(index);
     }
-    private int unk3300BPCBOANPBHFMemoizedSerializedSize = -1;
+    private int unlockItemListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_OGPLCBFDHCF_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList unk3300OGPLCBFDHCF_;
+    public static final int UNLOCK_FORMULA_LIST_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList unlockFormulaList_;
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-     * @return A list containing the unk3300OGPLCBFDHCF.
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
+     * @return A list containing the unlockFormulaList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300OGPLCBFDHCFList() {
-      return unk3300OGPLCBFDHCF_;
+        getUnlockFormulaListList() {
+      return unlockFormulaList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-     * @return The count of unk3300OGPLCBFDHCF.
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
+     * @return The count of unlockFormulaList.
      */
-    public int getUnk3300OGPLCBFDHCFCount() {
-      return unk3300OGPLCBFDHCF_.size();
+    public int getUnlockFormulaListCount() {
+      return unlockFormulaList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
+     * <code>repeated uint32 unlock_formula_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300OGPLCBFDHCF at the given index.
+     * @return The unlockFormulaList at the given index.
      */
-    public int getUnk3300OGPLCBFDHCF(int index) {
-      return unk3300OGPLCBFDHCF_.getInt(index);
+    public int getUnlockFormulaList(int index) {
+      return unlockFormulaList_.getInt(index);
     }
-    private int unk3300OGPLCBFDHCFMemoizedSerializedSize = -1;
+    private int unlockFormulaListMemoizedSerializedSize = -1;
 
     public static final int UNLOCK_TASK_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.newproto.BartenderTaskInfoOuterClass.BartenderTaskInfo> unlockTaskList_;
@@ -329,22 +329,22 @@ public final class BartenderActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getUnk3300BPCBOANPBHFList().size() > 0) {
+      if (getUnlockItemListList().size() > 0) {
         output.writeUInt32NoTag(26);
-        output.writeUInt32NoTag(unk3300BPCBOANPBHFMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockItemListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300BPCBOANPBHF_.size(); i++) {
-        output.writeUInt32NoTag(unk3300BPCBOANPBHF_.getInt(i));
+      for (int i = 0; i < unlockItemList_.size(); i++) {
+        output.writeUInt32NoTag(unlockItemList_.getInt(i));
       }
       for (int i = 0; i < unlockTaskList_.size(); i++) {
         output.writeMessage(5, unlockTaskList_.get(i));
       }
-      if (getUnk3300OGPLCBFDHCFList().size() > 0) {
+      if (getUnlockFormulaListList().size() > 0) {
         output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(unk3300OGPLCBFDHCFMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockFormulaListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300OGPLCBFDHCF_.size(); i++) {
-        output.writeUInt32NoTag(unk3300OGPLCBFDHCF_.getInt(i));
+      for (int i = 0; i < unlockFormulaList_.size(); i++) {
+        output.writeUInt32NoTag(unlockFormulaList_.getInt(i));
       }
       if (isDevelopModuleOpen_ != false) {
         output.writeBool(9, isDevelopModuleOpen_);
@@ -366,17 +366,17 @@ public final class BartenderActivityDetailInfoOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300BPCBOANPBHF_.size(); i++) {
+        for (int i = 0; i < unlockItemList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300BPCBOANPBHF_.getInt(i));
+            .computeUInt32SizeNoTag(unlockItemList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300BPCBOANPBHFList().isEmpty()) {
+        if (!getUnlockItemListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300BPCBOANPBHFMemoizedSerializedSize = dataSize;
+        unlockItemListMemoizedSerializedSize = dataSize;
       }
       for (int i = 0; i < unlockTaskList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -384,17 +384,17 @@ public final class BartenderActivityDetailInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300OGPLCBFDHCF_.size(); i++) {
+        for (int i = 0; i < unlockFormulaList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300OGPLCBFDHCF_.getInt(i));
+            .computeUInt32SizeNoTag(unlockFormulaList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300OGPLCBFDHCFList().isEmpty()) {
+        if (!getUnlockFormulaListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300OGPLCBFDHCFMemoizedSerializedSize = dataSize;
+        unlockFormulaListMemoizedSerializedSize = dataSize;
       }
       if (isDevelopModuleOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -427,10 +427,10 @@ public final class BartenderActivityDetailInfoOuterClass {
           != other.getIsContentClosed()) return false;
       if (!getUnlockLevelListList()
           .equals(other.getUnlockLevelListList())) return false;
-      if (!getUnk3300BPCBOANPBHFList()
-          .equals(other.getUnk3300BPCBOANPBHFList())) return false;
-      if (!getUnk3300OGPLCBFDHCFList()
-          .equals(other.getUnk3300OGPLCBFDHCFList())) return false;
+      if (!getUnlockItemListList()
+          .equals(other.getUnlockItemListList())) return false;
+      if (!getUnlockFormulaListList()
+          .equals(other.getUnlockFormulaListList())) return false;
       if (!getUnlockTaskListList()
           .equals(other.getUnlockTaskListList())) return false;
       if (getIsDevelopModuleOpen()
@@ -453,13 +453,13 @@ public final class BartenderActivityDetailInfoOuterClass {
         hash = (37 * hash) + UNLOCK_LEVEL_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getUnlockLevelListList().hashCode();
       }
-      if (getUnk3300BPCBOANPBHFCount() > 0) {
-        hash = (37 * hash) + UNK3300_BPCBOANPBHF_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300BPCBOANPBHFList().hashCode();
+      if (getUnlockItemListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_ITEM_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockItemListList().hashCode();
       }
-      if (getUnk3300OGPLCBFDHCFCount() > 0) {
-        hash = (37 * hash) + UNK3300_OGPLCBFDHCF_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300OGPLCBFDHCFList().hashCode();
+      if (getUnlockFormulaListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_FORMULA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockFormulaListList().hashCode();
       }
       if (getUnlockTaskListCount() > 0) {
         hash = (37 * hash) + UNLOCK_TASK_LIST_FIELD_NUMBER;
@@ -605,9 +605,9 @@ public final class BartenderActivityDetailInfoOuterClass {
           unlockLevelListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300BPCBOANPBHF_ = emptyIntList();
+        unlockItemList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        unk3300OGPLCBFDHCF_ = emptyIntList();
+        unlockFormulaList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         if (unlockTaskListBuilder_ == null) {
           unlockTaskList_ = java.util.Collections.emptyList();
@@ -656,15 +656,15 @@ public final class BartenderActivityDetailInfoOuterClass {
           result.unlockLevelList_ = unlockLevelListBuilder_.build();
         }
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300BPCBOANPBHF_.makeImmutable();
+          unlockItemList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300BPCBOANPBHF_ = unk3300BPCBOANPBHF_;
+        result.unlockItemList_ = unlockItemList_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          unk3300OGPLCBFDHCF_.makeImmutable();
+          unlockFormulaList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.unk3300OGPLCBFDHCF_ = unk3300OGPLCBFDHCF_;
+        result.unlockFormulaList_ = unlockFormulaList_;
         if (unlockTaskListBuilder_ == null) {
           if (((bitField0_ & 0x00000008) != 0)) {
             unlockTaskList_ = java.util.Collections.unmodifiableList(unlockTaskList_);
@@ -752,23 +752,23 @@ public final class BartenderActivityDetailInfoOuterClass {
             }
           }
         }
-        if (!other.unk3300BPCBOANPBHF_.isEmpty()) {
-          if (unk3300BPCBOANPBHF_.isEmpty()) {
-            unk3300BPCBOANPBHF_ = other.unk3300BPCBOANPBHF_;
+        if (!other.unlockItemList_.isEmpty()) {
+          if (unlockItemList_.isEmpty()) {
+            unlockItemList_ = other.unlockItemList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300BPCBOANPBHFIsMutable();
-            unk3300BPCBOANPBHF_.addAll(other.unk3300BPCBOANPBHF_);
+            ensureUnlockItemListIsMutable();
+            unlockItemList_.addAll(other.unlockItemList_);
           }
           onChanged();
         }
-        if (!other.unk3300OGPLCBFDHCF_.isEmpty()) {
-          if (unk3300OGPLCBFDHCF_.isEmpty()) {
-            unk3300OGPLCBFDHCF_ = other.unk3300OGPLCBFDHCF_;
+        if (!other.unlockFormulaList_.isEmpty()) {
+          if (unlockFormulaList_.isEmpty()) {
+            unlockFormulaList_ = other.unlockFormulaList_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureUnk3300OGPLCBFDHCFIsMutable();
-            unk3300OGPLCBFDHCF_.addAll(other.unk3300OGPLCBFDHCF_);
+            ensureUnlockFormulaListIsMutable();
+            unlockFormulaList_.addAll(other.unlockFormulaList_);
           }
           onChanged();
         }
@@ -829,16 +829,16 @@ public final class BartenderActivityDetailInfoOuterClass {
                 break;
               case 24: {
                 int v = input.readUInt32();
-                ensureUnk3300BPCBOANPBHFIsMutable();
-                unk3300BPCBOANPBHF_.addInt(v);
+                ensureUnlockItemListIsMutable();
+                unlockItemList_.addInt(v);
                 break;
               } // case 24
               case 26: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300BPCBOANPBHFIsMutable();
+                ensureUnlockItemListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300BPCBOANPBHF_.addInt(input.readUInt32());
+                  unlockItemList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -858,16 +858,16 @@ public final class BartenderActivityDetailInfoOuterClass {
               } // case 42
               case 48: {
                 int v = input.readUInt32();
-                ensureUnk3300OGPLCBFDHCFIsMutable();
-                unk3300OGPLCBFDHCF_.addInt(v);
+                ensureUnlockFormulaListIsMutable();
+                unlockFormulaList_.addInt(v);
                 break;
               } // case 48
               case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300OGPLCBFDHCFIsMutable();
+                ensureUnlockFormulaListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300OGPLCBFDHCF_.addInt(input.readUInt32());
+                  unlockFormulaList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -1183,159 +1183,159 @@ public final class BartenderActivityDetailInfoOuterClass {
         return unlockLevelListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300BPCBOANPBHF_ = emptyIntList();
-      private void ensureUnk3300BPCBOANPBHFIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockItemList_ = emptyIntList();
+      private void ensureUnlockItemListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300BPCBOANPBHF_ = mutableCopy(unk3300BPCBOANPBHF_);
+          unlockItemList_ = mutableCopy(unlockItemList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-       * @return A list containing the unk3300BPCBOANPBHF.
+       * <code>repeated uint32 unlock_item_list = 3;</code>
+       * @return A list containing the unlockItemList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300BPCBOANPBHFList() {
+          getUnlockItemListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300BPCBOANPBHF_) : unk3300BPCBOANPBHF_;
+                 java.util.Collections.unmodifiableList(unlockItemList_) : unlockItemList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-       * @return The count of unk3300BPCBOANPBHF.
+       * <code>repeated uint32 unlock_item_list = 3;</code>
+       * @return The count of unlockItemList.
        */
-      public int getUnk3300BPCBOANPBHFCount() {
-        return unk3300BPCBOANPBHF_.size();
+      public int getUnlockItemListCount() {
+        return unlockItemList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
+       * <code>repeated uint32 unlock_item_list = 3;</code>
        * @param index The index of the element to return.
-       * @return The unk3300BPCBOANPBHF at the given index.
+       * @return The unlockItemList at the given index.
        */
-      public int getUnk3300BPCBOANPBHF(int index) {
-        return unk3300BPCBOANPBHF_.getInt(index);
+      public int getUnlockItemList(int index) {
+        return unlockItemList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
+       * <code>repeated uint32 unlock_item_list = 3;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300BPCBOANPBHF to set.
+       * @param value The unlockItemList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BPCBOANPBHF(
+      public Builder setUnlockItemList(
           int index, int value) {
-        ensureUnk3300BPCBOANPBHFIsMutable();
-        unk3300BPCBOANPBHF_.setInt(index, value);
+        ensureUnlockItemListIsMutable();
+        unlockItemList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-       * @param value The unk3300BPCBOANPBHF to add.
+       * <code>repeated uint32 unlock_item_list = 3;</code>
+       * @param value The unlockItemList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300BPCBOANPBHF(int value) {
-        ensureUnk3300BPCBOANPBHFIsMutable();
-        unk3300BPCBOANPBHF_.addInt(value);
+      public Builder addUnlockItemList(int value) {
+        ensureUnlockItemListIsMutable();
+        unlockItemList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
-       * @param values The unk3300BPCBOANPBHF to add.
+       * <code>repeated uint32 unlock_item_list = 3;</code>
+       * @param values The unlockItemList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300BPCBOANPBHF(
+      public Builder addAllUnlockItemList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300BPCBOANPBHFIsMutable();
+        ensureUnlockItemListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300BPCBOANPBHF_);
+            values, unlockItemList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_BPCBOANPBHF = 3;</code>
+       * <code>repeated uint32 unlock_item_list = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BPCBOANPBHF() {
-        unk3300BPCBOANPBHF_ = emptyIntList();
+      public Builder clearUnlockItemList() {
+        unlockItemList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300OGPLCBFDHCF_ = emptyIntList();
-      private void ensureUnk3300OGPLCBFDHCFIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockFormulaList_ = emptyIntList();
+      private void ensureUnlockFormulaListIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          unk3300OGPLCBFDHCF_ = mutableCopy(unk3300OGPLCBFDHCF_);
+          unlockFormulaList_ = mutableCopy(unlockFormulaList_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-       * @return A list containing the unk3300OGPLCBFDHCF.
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
+       * @return A list containing the unlockFormulaList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300OGPLCBFDHCFList() {
+          getUnlockFormulaListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300OGPLCBFDHCF_) : unk3300OGPLCBFDHCF_;
+                 java.util.Collections.unmodifiableList(unlockFormulaList_) : unlockFormulaList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-       * @return The count of unk3300OGPLCBFDHCF.
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
+       * @return The count of unlockFormulaList.
        */
-      public int getUnk3300OGPLCBFDHCFCount() {
-        return unk3300OGPLCBFDHCF_.size();
+      public int getUnlockFormulaListCount() {
+        return unlockFormulaList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
        * @param index The index of the element to return.
-       * @return The unk3300OGPLCBFDHCF at the given index.
+       * @return The unlockFormulaList at the given index.
        */
-      public int getUnk3300OGPLCBFDHCF(int index) {
-        return unk3300OGPLCBFDHCF_.getInt(index);
+      public int getUnlockFormulaList(int index) {
+        return unlockFormulaList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300OGPLCBFDHCF to set.
+       * @param value The unlockFormulaList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OGPLCBFDHCF(
+      public Builder setUnlockFormulaList(
           int index, int value) {
-        ensureUnk3300OGPLCBFDHCFIsMutable();
-        unk3300OGPLCBFDHCF_.setInt(index, value);
+        ensureUnlockFormulaListIsMutable();
+        unlockFormulaList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-       * @param value The unk3300OGPLCBFDHCF to add.
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
+       * @param value The unlockFormulaList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300OGPLCBFDHCF(int value) {
-        ensureUnk3300OGPLCBFDHCFIsMutable();
-        unk3300OGPLCBFDHCF_.addInt(value);
+      public Builder addUnlockFormulaList(int value) {
+        ensureUnlockFormulaListIsMutable();
+        unlockFormulaList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
-       * @param values The unk3300OGPLCBFDHCF to add.
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
+       * @param values The unlockFormulaList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300OGPLCBFDHCF(
+      public Builder addAllUnlockFormulaList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300OGPLCBFDHCFIsMutable();
+        ensureUnlockFormulaListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300OGPLCBFDHCF_);
+            values, unlockFormulaList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OGPLCBFDHCF = 6;</code>
+       * <code>repeated uint32 unlock_formula_list = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OGPLCBFDHCF() {
-        unk3300OGPLCBFDHCF_ = emptyIntList();
+      public Builder clearUnlockFormulaList() {
+        unlockFormulaList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -1691,14 +1691,14 @@ public final class BartenderActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!BartenderActivityDetailInfo.proto\032\030Bar" +
       "tenderLevelInfo.proto\032\027BartenderTaskInfo" +
-      ".proto\"\360\001\n\033BartenderActivityDetailInfo\022\031" +
+      ".proto\"\355\001\n\033BartenderActivityDetailInfo\022\031" +
       "\n\021is_content_closed\030\017 \001(\010\022.\n\021unlock_leve" +
-      "l_list\030\n \003(\0132\023.BartenderLevelInfo\022\033\n\023Unk" +
-      "3300_BPCBOANPBHF\030\003 \003(\r\022\033\n\023Unk3300_OGPLCB" +
-      "FDHCF\030\006 \003(\r\022,\n\020unlock_task_list\030\005 \003(\0132\022." +
-      "BartenderTaskInfo\022\036\n\026is_develop_module_o" +
-      "pen\030\t \001(\010B\036\n\034emu.grasscutter.net.newprot" +
-      "ob\006proto3"
+      "l_list\030\n \003(\0132\023.BartenderLevelInfo\022\030\n\020unl" +
+      "ock_item_list\030\003 \003(\r\022\033\n\023unlock_formula_li" +
+      "st\030\006 \003(\r\022,\n\020unlock_task_list\030\005 \003(\0132\022.Bar" +
+      "tenderTaskInfo\022\036\n\026is_develop_module_open" +
+      "\030\t \001(\010B\036\n\034emu.grasscutter.net.newprotob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1711,7 +1711,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     internal_static_BartenderActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BartenderActivityDetailInfo_descriptor,
-        new java.lang.String[] { "IsContentClosed", "UnlockLevelList", "Unk3300BPCBOANPBHF", "Unk3300OGPLCBFDHCF", "UnlockTaskList", "IsDevelopModuleOpen", });
+        new java.lang.String[] { "IsContentClosed", "UnlockLevelList", "UnlockItemList", "UnlockFormulaList", "UnlockTaskList", "IsDevelopModuleOpen", });
     emu.grasscutter.net.newproto.BartenderLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.BartenderTaskInfoOuterClass.getDescriptor();
   }

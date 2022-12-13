@@ -19,10 +19,10 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_FJOJFPPPOFP = 4;</code>
-     * @return The unk3300FJOJFPPPOFP.
+     * <code>uint32 filter_city_id = 4;</code>
+     * @return The filterCityId.
      */
-    int getUnk3300FJOJFPPPOFP();
+    int getFilterCityId();
 
     /**
      * <code>repeated .DailyTaskInfo task_list = 2;</code>
@@ -49,10 +49,10 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
         int index);
 
     /**
-     * <code>uint32 Unk3300_NADIOIJGPHE = 9;</code>
-     * @return The unk3300NADIOIJGPHE.
+     * <code>uint32 finished_daily_task_num = 9;</code>
+     * @return The finishedDailyTaskNum.
      */
-    int getUnk3300NADIOIJGPHE();
+    int getFinishedDailyTaskNum();
   }
   /**
    * <pre>
@@ -106,15 +106,15 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
               emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify.class, emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify.Builder.class);
     }
 
-    public static final int UNK3300_FJOJFPPPOFP_FIELD_NUMBER = 4;
-    private int unk3300FJOJFPPPOFP_;
+    public static final int FILTER_CITY_ID_FIELD_NUMBER = 4;
+    private int filterCityId_;
     /**
-     * <code>uint32 Unk3300_FJOJFPPPOFP = 4;</code>
-     * @return The unk3300FJOJFPPPOFP.
+     * <code>uint32 filter_city_id = 4;</code>
+     * @return The filterCityId.
      */
     @java.lang.Override
-    public int getUnk3300FJOJFPPPOFP() {
-      return unk3300FJOJFPPPOFP_;
+    public int getFilterCityId() {
+      return filterCityId_;
     }
 
     public static final int TASK_LIST_FIELD_NUMBER = 2;
@@ -157,15 +157,15 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       return taskList_.get(index);
     }
 
-    public static final int UNK3300_NADIOIJGPHE_FIELD_NUMBER = 9;
-    private int unk3300NADIOIJGPHE_;
+    public static final int FINISHED_DAILY_TASK_NUM_FIELD_NUMBER = 9;
+    private int finishedDailyTaskNum_;
     /**
-     * <code>uint32 Unk3300_NADIOIJGPHE = 9;</code>
-     * @return The unk3300NADIOIJGPHE.
+     * <code>uint32 finished_daily_task_num = 9;</code>
+     * @return The finishedDailyTaskNum.
      */
     @java.lang.Override
-    public int getUnk3300NADIOIJGPHE() {
-      return unk3300NADIOIJGPHE_;
+    public int getFinishedDailyTaskNum() {
+      return finishedDailyTaskNum_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -185,11 +185,11 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       for (int i = 0; i < taskList_.size(); i++) {
         output.writeMessage(2, taskList_.get(i));
       }
-      if (unk3300FJOJFPPPOFP_ != 0) {
-        output.writeUInt32(4, unk3300FJOJFPPPOFP_);
+      if (filterCityId_ != 0) {
+        output.writeUInt32(4, filterCityId_);
       }
-      if (unk3300NADIOIJGPHE_ != 0) {
-        output.writeUInt32(9, unk3300NADIOIJGPHE_);
+      if (finishedDailyTaskNum_ != 0) {
+        output.writeUInt32(9, finishedDailyTaskNum_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -204,13 +204,13 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, taskList_.get(i));
       }
-      if (unk3300FJOJFPPPOFP_ != 0) {
+      if (filterCityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300FJOJFPPPOFP_);
+          .computeUInt32Size(4, filterCityId_);
       }
-      if (unk3300NADIOIJGPHE_ != 0) {
+      if (finishedDailyTaskNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300NADIOIJGPHE_);
+          .computeUInt32Size(9, finishedDailyTaskNum_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -227,12 +227,12 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       }
       emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify other = (emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify) obj;
 
-      if (getUnk3300FJOJFPPPOFP()
-          != other.getUnk3300FJOJFPPPOFP()) return false;
+      if (getFilterCityId()
+          != other.getFilterCityId()) return false;
       if (!getTaskListList()
           .equals(other.getTaskListList())) return false;
-      if (getUnk3300NADIOIJGPHE()
-          != other.getUnk3300NADIOIJGPHE()) return false;
+      if (getFinishedDailyTaskNum()
+          != other.getFinishedDailyTaskNum()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -244,14 +244,14 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_FJOJFPPPOFP_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300FJOJFPPPOFP();
+      hash = (37 * hash) + FILTER_CITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getFilterCityId();
       if (getTaskListCount() > 0) {
         hash = (37 * hash) + TASK_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTaskListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_NADIOIJGPHE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NADIOIJGPHE();
+      hash = (37 * hash) + FINISHED_DAILY_TASK_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getFinishedDailyTaskNum();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -391,7 +391,7 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300FJOJFPPPOFP_ = 0;
+        filterCityId_ = 0;
 
         if (taskListBuilder_ == null) {
           taskList_ = java.util.Collections.emptyList();
@@ -400,7 +400,7 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
           taskListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300NADIOIJGPHE_ = 0;
+        finishedDailyTaskNum_ = 0;
 
         return this;
       }
@@ -429,7 +429,7 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       public emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify buildPartial() {
         emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify result = new emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300FJOJFPPPOFP_ = unk3300FJOJFPPPOFP_;
+        result.filterCityId_ = filterCityId_;
         if (taskListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             taskList_ = java.util.Collections.unmodifiableList(taskList_);
@@ -439,7 +439,7 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
         } else {
           result.taskList_ = taskListBuilder_.build();
         }
-        result.unk3300NADIOIJGPHE_ = unk3300NADIOIJGPHE_;
+        result.finishedDailyTaskNum_ = finishedDailyTaskNum_;
         onBuilt();
         return result;
       }
@@ -488,8 +488,8 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify other) {
         if (other == emu.grasscutter.net.newproto.WorldOwnerDailyTaskNotifyOuterClass.WorldOwnerDailyTaskNotify.getDefaultInstance()) return this;
-        if (other.getUnk3300FJOJFPPPOFP() != 0) {
-          setUnk3300FJOJFPPPOFP(other.getUnk3300FJOJFPPPOFP());
+        if (other.getFilterCityId() != 0) {
+          setFilterCityId(other.getFilterCityId());
         }
         if (taskListBuilder_ == null) {
           if (!other.taskList_.isEmpty()) {
@@ -517,8 +517,8 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
             }
           }
         }
-        if (other.getUnk3300NADIOIJGPHE() != 0) {
-          setUnk3300NADIOIJGPHE(other.getUnk3300NADIOIJGPHE());
+        if (other.getFinishedDailyTaskNum() != 0) {
+          setFinishedDailyTaskNum(other.getFinishedDailyTaskNum());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -560,12 +560,12 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
                 break;
               } // case 18
               case 32: {
-                unk3300FJOJFPPPOFP_ = input.readUInt32();
+                filterCityId_ = input.readUInt32();
 
                 break;
               } // case 32
               case 72: {
-                unk3300NADIOIJGPHE_ = input.readUInt32();
+                finishedDailyTaskNum_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -586,33 +586,33 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300FJOJFPPPOFP_ ;
+      private int filterCityId_ ;
       /**
-       * <code>uint32 Unk3300_FJOJFPPPOFP = 4;</code>
-       * @return The unk3300FJOJFPPPOFP.
+       * <code>uint32 filter_city_id = 4;</code>
+       * @return The filterCityId.
        */
       @java.lang.Override
-      public int getUnk3300FJOJFPPPOFP() {
-        return unk3300FJOJFPPPOFP_;
+      public int getFilterCityId() {
+        return filterCityId_;
       }
       /**
-       * <code>uint32 Unk3300_FJOJFPPPOFP = 4;</code>
-       * @param value The unk3300FJOJFPPPOFP to set.
+       * <code>uint32 filter_city_id = 4;</code>
+       * @param value The filterCityId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300FJOJFPPPOFP(int value) {
+      public Builder setFilterCityId(int value) {
         
-        unk3300FJOJFPPPOFP_ = value;
+        filterCityId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_FJOJFPPPOFP = 4;</code>
+       * <code>uint32 filter_city_id = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300FJOJFPPPOFP() {
+      public Builder clearFilterCityId() {
         
-        unk3300FJOJFPPPOFP_ = 0;
+        filterCityId_ = 0;
         onChanged();
         return this;
       }
@@ -857,33 +857,33 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
         return taskListBuilder_;
       }
 
-      private int unk3300NADIOIJGPHE_ ;
+      private int finishedDailyTaskNum_ ;
       /**
-       * <code>uint32 Unk3300_NADIOIJGPHE = 9;</code>
-       * @return The unk3300NADIOIJGPHE.
+       * <code>uint32 finished_daily_task_num = 9;</code>
+       * @return The finishedDailyTaskNum.
        */
       @java.lang.Override
-      public int getUnk3300NADIOIJGPHE() {
-        return unk3300NADIOIJGPHE_;
+      public int getFinishedDailyTaskNum() {
+        return finishedDailyTaskNum_;
       }
       /**
-       * <code>uint32 Unk3300_NADIOIJGPHE = 9;</code>
-       * @param value The unk3300NADIOIJGPHE to set.
+       * <code>uint32 finished_daily_task_num = 9;</code>
+       * @param value The finishedDailyTaskNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NADIOIJGPHE(int value) {
+      public Builder setFinishedDailyTaskNum(int value) {
         
-        unk3300NADIOIJGPHE_ = value;
+        finishedDailyTaskNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_NADIOIJGPHE = 9;</code>
+       * <code>uint32 finished_daily_task_num = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NADIOIJGPHE() {
+      public Builder clearFinishedDailyTaskNum() {
         
-        unk3300NADIOIJGPHE_ = 0;
+        finishedDailyTaskNum_ = 0;
         onChanged();
         return this;
       }
@@ -966,11 +966,11 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037WorldOwnerDailyTaskNotify.proto\032\023Daily" +
-      "TaskInfo.proto\"x\n\031WorldOwnerDailyTaskNot" +
-      "ify\022\033\n\023Unk3300_FJOJFPPPOFP\030\004 \001(\r\022!\n\ttask" +
-      "_list\030\002 \003(\0132\016.DailyTaskInfo\022\033\n\023Unk3300_N" +
-      "ADIOIJGPHE\030\t \001(\rB\036\n\034emu.grasscutter.net." +
-      "newprotob\006proto3"
+      "TaskInfo.proto\"w\n\031WorldOwnerDailyTaskNot" +
+      "ify\022\026\n\016filter_city_id\030\004 \001(\r\022!\n\ttask_list" +
+      "\030\002 \003(\0132\016.DailyTaskInfo\022\037\n\027finished_daily" +
+      "_task_num\030\t \001(\rB\036\n\034emu.grasscutter.net.n" +
+      "ewprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -982,7 +982,7 @@ public final class WorldOwnerDailyTaskNotifyOuterClass {
     internal_static_WorldOwnerDailyTaskNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WorldOwnerDailyTaskNotify_descriptor,
-        new java.lang.String[] { "Unk3300FJOJFPPPOFP", "TaskList", "Unk3300NADIOIJGPHE", });
+        new java.lang.String[] { "FilterCityId", "TaskList", "FinishedDailyTaskNum", });
     emu.grasscutter.net.newproto.DailyTaskInfoOuterClass.getDescriptor();
   }
 

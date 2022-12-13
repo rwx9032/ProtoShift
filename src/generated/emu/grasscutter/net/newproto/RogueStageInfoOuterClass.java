@@ -58,10 +58,10 @@ public final class RogueStageInfoOuterClass {
     boolean getIsTakenReward();
 
     /**
-     * <code>bool Unk3300_HMCJOLLKMMB = 14;</code>
-     * @return The unk3300HMCJOLLKMMB.
+     * <code>bool is_explored = 14;</code>
+     * @return The isExplored.
      */
-    boolean getUnk3300HMCJOLLKMMB();
+    boolean getIsExplored();
 
     /**
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 5;</code>
@@ -94,10 +94,10 @@ public final class RogueStageInfoOuterClass {
     boolean getUnk3300HMAELBBOFDN();
 
     /**
-     * <code>uint32 Unk3300_CMMGKMMMOAL = 3;</code>
-     * @return The unk3300CMMGKMMMOAL.
+     * <code>uint32 coin_c_num = 3;</code>
+     * @return The coinCNum.
      */
-    int getUnk3300CMMGKMMMOAL();
+    int getCoinCNum();
 
     /**
      * <code>bool is_open = 13;</code>
@@ -112,10 +112,10 @@ public final class RogueStageInfoOuterClass {
     int getStageId();
 
     /**
-     * <code>uint32 Unk3300_DABPFCPCNCB = 4;</code>
-     * @return The unk3300DABPFCPCNCB.
+     * <code>uint32 max_passed_level = 4;</code>
+     * @return The maxPassedLevel.
      */
-    int getUnk3300DABPFCPCNCB();
+    int getMaxPassedLevel();
 
     /**
      * <code>uint32 cur_level = 12;</code>
@@ -246,15 +246,15 @@ public final class RogueStageInfoOuterClass {
       return isTakenReward_;
     }
 
-    public static final int UNK3300_HMCJOLLKMMB_FIELD_NUMBER = 14;
-    private boolean unk3300HMCJOLLKMMB_;
+    public static final int IS_EXPLORED_FIELD_NUMBER = 14;
+    private boolean isExplored_;
     /**
-     * <code>bool Unk3300_HMCJOLLKMMB = 14;</code>
-     * @return The unk3300HMCJOLLKMMB.
+     * <code>bool is_explored = 14;</code>
+     * @return The isExplored.
      */
     @java.lang.Override
-    public boolean getUnk3300HMCJOLLKMMB() {
-      return unk3300HMCJOLLKMMB_;
+    public boolean getIsExplored() {
+      return isExplored_;
     }
 
     public static final int RUNE_RECORD_LIST_FIELD_NUMBER = 5;
@@ -308,15 +308,15 @@ public final class RogueStageInfoOuterClass {
       return unk3300HMAELBBOFDN_;
     }
 
-    public static final int UNK3300_CMMGKMMMOAL_FIELD_NUMBER = 3;
-    private int unk3300CMMGKMMMOAL_;
+    public static final int COIN_C_NUM_FIELD_NUMBER = 3;
+    private int coinCNum_;
     /**
-     * <code>uint32 Unk3300_CMMGKMMMOAL = 3;</code>
-     * @return The unk3300CMMGKMMMOAL.
+     * <code>uint32 coin_c_num = 3;</code>
+     * @return The coinCNum.
      */
     @java.lang.Override
-    public int getUnk3300CMMGKMMMOAL() {
-      return unk3300CMMGKMMMOAL_;
+    public int getCoinCNum() {
+      return coinCNum_;
     }
 
     public static final int IS_OPEN_FIELD_NUMBER = 13;
@@ -341,15 +341,15 @@ public final class RogueStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int UNK3300_DABPFCPCNCB_FIELD_NUMBER = 4;
-    private int unk3300DABPFCPCNCB_;
+    public static final int MAX_PASSED_LEVEL_FIELD_NUMBER = 4;
+    private int maxPassedLevel_;
     /**
-     * <code>uint32 Unk3300_DABPFCPCNCB = 4;</code>
-     * @return The unk3300DABPFCPCNCB.
+     * <code>uint32 max_passed_level = 4;</code>
+     * @return The maxPassedLevel.
      */
     @java.lang.Override
-    public int getUnk3300DABPFCPCNCB() {
-      return unk3300DABPFCPCNCB_;
+    public int getMaxPassedLevel() {
+      return maxPassedLevel_;
     }
 
     public static final int CUR_LEVEL_FIELD_NUMBER = 12;
@@ -405,11 +405,11 @@ public final class RogueStageInfoOuterClass {
       if (unk3300GGHMFKNHPAJ_ != 0) {
         output.writeUInt32(2, unk3300GGHMFKNHPAJ_);
       }
-      if (unk3300CMMGKMMMOAL_ != 0) {
-        output.writeUInt32(3, unk3300CMMGKMMMOAL_);
+      if (coinCNum_ != 0) {
+        output.writeUInt32(3, coinCNum_);
       }
-      if (unk3300DABPFCPCNCB_ != 0) {
-        output.writeUInt32(4, unk3300DABPFCPCNCB_);
+      if (maxPassedLevel_ != 0) {
+        output.writeUInt32(4, maxPassedLevel_);
       }
       for (int i = 0; i < runeRecordList_.size(); i++) {
         output.writeMessage(5, runeRecordList_.get(i));
@@ -435,8 +435,8 @@ public final class RogueStageInfoOuterClass {
       if (isOpen_ != false) {
         output.writeBool(13, isOpen_);
       }
-      if (unk3300HMCJOLLKMMB_ != false) {
-        output.writeBool(14, unk3300HMCJOLLKMMB_);
+      if (isExplored_ != false) {
+        output.writeBool(14, isExplored_);
       }
       if (unk3300HPKFHLLCJBM_ != 0) {
         output.writeUInt32(275, unk3300HPKFHLLCJBM_);
@@ -461,13 +461,13 @@ public final class RogueStageInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, unk3300GGHMFKNHPAJ_);
       }
-      if (unk3300CMMGKMMMOAL_ != 0) {
+      if (coinCNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300CMMGKMMMOAL_);
+          .computeUInt32Size(3, coinCNum_);
       }
-      if (unk3300DABPFCPCNCB_ != 0) {
+      if (maxPassedLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300DABPFCPCNCB_);
+          .computeUInt32Size(4, maxPassedLevel_);
       }
       for (int i = 0; i < runeRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -501,9 +501,9 @@ public final class RogueStageInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(13, isOpen_);
       }
-      if (unk3300HMCJOLLKMMB_ != false) {
+      if (isExplored_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, unk3300HMCJOLLKMMB_);
+          .computeBoolSize(14, isExplored_);
       }
       if (unk3300HPKFHLLCJBM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -541,20 +541,20 @@ public final class RogueStageInfoOuterClass {
       }
       if (getIsTakenReward()
           != other.getIsTakenReward()) return false;
-      if (getUnk3300HMCJOLLKMMB()
-          != other.getUnk3300HMCJOLLKMMB()) return false;
+      if (getIsExplored()
+          != other.getIsExplored()) return false;
       if (!getRuneRecordListList()
           .equals(other.getRuneRecordListList())) return false;
       if (getUnk3300HMAELBBOFDN()
           != other.getUnk3300HMAELBBOFDN()) return false;
-      if (getUnk3300CMMGKMMMOAL()
-          != other.getUnk3300CMMGKMMMOAL()) return false;
+      if (getCoinCNum()
+          != other.getCoinCNum()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
       if (getStageId()
           != other.getStageId()) return false;
-      if (getUnk3300DABPFCPCNCB()
-          != other.getUnk3300DABPFCPCNCB()) return false;
+      if (getMaxPassedLevel()
+          != other.getMaxPassedLevel()) return false;
       if (getCurLevel()
           != other.getCurLevel()) return false;
       if (getUnk3300OHHBEPOICLI()
@@ -586,9 +586,9 @@ public final class RogueStageInfoOuterClass {
       hash = (37 * hash) + IS_TAKEN_REWARD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsTakenReward());
-      hash = (37 * hash) + UNK3300_HMCJOLLKMMB_FIELD_NUMBER;
+      hash = (37 * hash) + IS_EXPLORED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300HMCJOLLKMMB());
+          getIsExplored());
       if (getRuneRecordListCount() > 0) {
         hash = (37 * hash) + RUNE_RECORD_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRuneRecordListList().hashCode();
@@ -596,15 +596,15 @@ public final class RogueStageInfoOuterClass {
       hash = (37 * hash) + UNK3300_HMAELBBOFDN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300HMAELBBOFDN());
-      hash = (37 * hash) + UNK3300_CMMGKMMMOAL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300CMMGKMMMOAL();
+      hash = (37 * hash) + COIN_C_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getCoinCNum();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
       hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getStageId();
-      hash = (37 * hash) + UNK3300_DABPFCPCNCB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DABPFCPCNCB();
+      hash = (37 * hash) + MAX_PASSED_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxPassedLevel();
       hash = (37 * hash) + CUR_LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getCurLevel();
       hash = (37 * hash) + UNK3300_OHHBEPOICLI_FIELD_NUMBER;
@@ -753,7 +753,7 @@ public final class RogueStageInfoOuterClass {
         }
         isTakenReward_ = false;
 
-        unk3300HMCJOLLKMMB_ = false;
+        isExplored_ = false;
 
         if (runeRecordListBuilder_ == null) {
           runeRecordList_ = java.util.Collections.emptyList();
@@ -764,13 +764,13 @@ public final class RogueStageInfoOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         unk3300HMAELBBOFDN_ = false;
 
-        unk3300CMMGKMMMOAL_ = 0;
+        coinCNum_ = 0;
 
         isOpen_ = false;
 
         stageId_ = 0;
 
-        unk3300DABPFCPCNCB_ = 0;
+        maxPassedLevel_ = 0;
 
         curLevel_ = 0;
 
@@ -814,7 +814,7 @@ public final class RogueStageInfoOuterClass {
           result.avatarTeam_ = avatarTeamBuilder_.build();
         }
         result.isTakenReward_ = isTakenReward_;
-        result.unk3300HMCJOLLKMMB_ = unk3300HMCJOLLKMMB_;
+        result.isExplored_ = isExplored_;
         if (runeRecordListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             runeRecordList_ = java.util.Collections.unmodifiableList(runeRecordList_);
@@ -825,10 +825,10 @@ public final class RogueStageInfoOuterClass {
           result.runeRecordList_ = runeRecordListBuilder_.build();
         }
         result.unk3300HMAELBBOFDN_ = unk3300HMAELBBOFDN_;
-        result.unk3300CMMGKMMMOAL_ = unk3300CMMGKMMMOAL_;
+        result.coinCNum_ = coinCNum_;
         result.isOpen_ = isOpen_;
         result.stageId_ = stageId_;
-        result.unk3300DABPFCPCNCB_ = unk3300DABPFCPCNCB_;
+        result.maxPassedLevel_ = maxPassedLevel_;
         result.curLevel_ = curLevel_;
         result.unk3300OHHBEPOICLI_ = unk3300OHHBEPOICLI_;
         result.unk3300HPKFHLLCJBM_ = unk3300HPKFHLLCJBM_;
@@ -895,8 +895,8 @@ public final class RogueStageInfoOuterClass {
         if (other.getIsTakenReward() != false) {
           setIsTakenReward(other.getIsTakenReward());
         }
-        if (other.getUnk3300HMCJOLLKMMB() != false) {
-          setUnk3300HMCJOLLKMMB(other.getUnk3300HMCJOLLKMMB());
+        if (other.getIsExplored() != false) {
+          setIsExplored(other.getIsExplored());
         }
         if (runeRecordListBuilder_ == null) {
           if (!other.runeRecordList_.isEmpty()) {
@@ -927,8 +927,8 @@ public final class RogueStageInfoOuterClass {
         if (other.getUnk3300HMAELBBOFDN() != false) {
           setUnk3300HMAELBBOFDN(other.getUnk3300HMAELBBOFDN());
         }
-        if (other.getUnk3300CMMGKMMMOAL() != 0) {
-          setUnk3300CMMGKMMMOAL(other.getUnk3300CMMGKMMMOAL());
+        if (other.getCoinCNum() != 0) {
+          setCoinCNum(other.getCoinCNum());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
@@ -936,8 +936,8 @@ public final class RogueStageInfoOuterClass {
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
         }
-        if (other.getUnk3300DABPFCPCNCB() != 0) {
-          setUnk3300DABPFCPCNCB(other.getUnk3300DABPFCPCNCB());
+        if (other.getMaxPassedLevel() != 0) {
+          setMaxPassedLevel(other.getMaxPassedLevel());
         }
         if (other.getCurLevel() != 0) {
           setCurLevel(other.getCurLevel());
@@ -985,12 +985,12 @@ public final class RogueStageInfoOuterClass {
                 break;
               } // case 16
               case 24: {
-                unk3300CMMGKMMMOAL_ = input.readUInt32();
+                coinCNum_ = input.readUInt32();
 
                 break;
               } // case 24
               case 32: {
-                unk3300DABPFCPCNCB_ = input.readUInt32();
+                maxPassedLevel_ = input.readUInt32();
 
                 break;
               } // case 32
@@ -1045,7 +1045,7 @@ public final class RogueStageInfoOuterClass {
                 break;
               } // case 104
               case 112: {
-                unk3300HMCJOLLKMMB_ = input.readBool();
+                isExplored_ = input.readBool();
 
                 break;
               } // case 112
@@ -1319,33 +1319,33 @@ public final class RogueStageInfoOuterClass {
         return this;
       }
 
-      private boolean unk3300HMCJOLLKMMB_ ;
+      private boolean isExplored_ ;
       /**
-       * <code>bool Unk3300_HMCJOLLKMMB = 14;</code>
-       * @return The unk3300HMCJOLLKMMB.
+       * <code>bool is_explored = 14;</code>
+       * @return The isExplored.
        */
       @java.lang.Override
-      public boolean getUnk3300HMCJOLLKMMB() {
-        return unk3300HMCJOLLKMMB_;
+      public boolean getIsExplored() {
+        return isExplored_;
       }
       /**
-       * <code>bool Unk3300_HMCJOLLKMMB = 14;</code>
-       * @param value The unk3300HMCJOLLKMMB to set.
+       * <code>bool is_explored = 14;</code>
+       * @param value The isExplored to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HMCJOLLKMMB(boolean value) {
+      public Builder setIsExplored(boolean value) {
         
-        unk3300HMCJOLLKMMB_ = value;
+        isExplored_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_HMCJOLLKMMB = 14;</code>
+       * <code>bool is_explored = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300HMCJOLLKMMB() {
+      public Builder clearIsExplored() {
         
-        unk3300HMCJOLLKMMB_ = false;
+        isExplored_ = false;
         onChanged();
         return this;
       }
@@ -1621,33 +1621,33 @@ public final class RogueStageInfoOuterClass {
         return this;
       }
 
-      private int unk3300CMMGKMMMOAL_ ;
+      private int coinCNum_ ;
       /**
-       * <code>uint32 Unk3300_CMMGKMMMOAL = 3;</code>
-       * @return The unk3300CMMGKMMMOAL.
+       * <code>uint32 coin_c_num = 3;</code>
+       * @return The coinCNum.
        */
       @java.lang.Override
-      public int getUnk3300CMMGKMMMOAL() {
-        return unk3300CMMGKMMMOAL_;
+      public int getCoinCNum() {
+        return coinCNum_;
       }
       /**
-       * <code>uint32 Unk3300_CMMGKMMMOAL = 3;</code>
-       * @param value The unk3300CMMGKMMMOAL to set.
+       * <code>uint32 coin_c_num = 3;</code>
+       * @param value The coinCNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CMMGKMMMOAL(int value) {
+      public Builder setCoinCNum(int value) {
         
-        unk3300CMMGKMMMOAL_ = value;
+        coinCNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_CMMGKMMMOAL = 3;</code>
+       * <code>uint32 coin_c_num = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CMMGKMMMOAL() {
+      public Builder clearCoinCNum() {
         
-        unk3300CMMGKMMMOAL_ = 0;
+        coinCNum_ = 0;
         onChanged();
         return this;
       }
@@ -1714,33 +1714,33 @@ public final class RogueStageInfoOuterClass {
         return this;
       }
 
-      private int unk3300DABPFCPCNCB_ ;
+      private int maxPassedLevel_ ;
       /**
-       * <code>uint32 Unk3300_DABPFCPCNCB = 4;</code>
-       * @return The unk3300DABPFCPCNCB.
+       * <code>uint32 max_passed_level = 4;</code>
+       * @return The maxPassedLevel.
        */
       @java.lang.Override
-      public int getUnk3300DABPFCPCNCB() {
-        return unk3300DABPFCPCNCB_;
+      public int getMaxPassedLevel() {
+        return maxPassedLevel_;
       }
       /**
-       * <code>uint32 Unk3300_DABPFCPCNCB = 4;</code>
-       * @param value The unk3300DABPFCPCNCB to set.
+       * <code>uint32 max_passed_level = 4;</code>
+       * @param value The maxPassedLevel to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DABPFCPCNCB(int value) {
+      public Builder setMaxPassedLevel(int value) {
         
-        unk3300DABPFCPCNCB_ = value;
+        maxPassedLevel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DABPFCPCNCB = 4;</code>
+       * <code>uint32 max_passed_level = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DABPFCPCNCB() {
+      public Builder clearMaxPassedLevel() {
         
-        unk3300DABPFCPCNCB_ = 0;
+        maxPassedLevel_ = 0;
         onChanged();
         return this;
       }
@@ -1917,19 +1917,18 @@ public final class RogueStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024RogueStageInfo.proto\032\035RogueShowAvatarT" +
       "eamInfo.proto\032\031RoguelikeRuneRecord.proto" +
-      "\"\274\003\n\016RogueStageInfo\022\035\n\024revise_monster_le" +
+      "\"\250\003\n\016RogueStageInfo\022\035\n\024revise_monster_le" +
       "vel\030\256\017 \001(\r\022\021\n\tis_passed\030\013 \001(\010\022\033\n\023Unk3300" +
       "_GGHMFKNHPAJ\030\002 \001(\r\022-\n\013avatar_team\030\010 \001(\0132" +
       "\030.RogueShowAvatarTeamInfo\022\027\n\017is_taken_re" +
-      "ward\030\t \001(\010\022\033\n\023Unk3300_HMCJOLLKMMB\030\016 \001(\010\022" +
-      ".\n\020rune_record_list\030\005 \003(\0132\024.RoguelikeRun" +
-      "eRecord\022\033\n\023Unk3300_HMAELBBOFDN\030\006 \001(\010\022\033\n\023" +
-      "Unk3300_CMMGKMMMOAL\030\003 \001(\r\022\017\n\007is_open\030\r \001" +
-      "(\010\022\020\n\010stage_id\030\007 \001(\r\022\033\n\023Unk3300_DABPFCPC" +
-      "NCB\030\004 \001(\r\022\021\n\tcur_level\030\014 \001(\r\022\033\n\023Unk3300_" +
-      "OHHBEPOICLI\030\001 \001(\r\022\034\n\023Unk3300_HPKFHLLCJBM" +
-      "\030\223\002 \001(\rB\036\n\034emu.grasscutter.net.newprotob" +
-      "\006proto3"
+      "ward\030\t \001(\010\022\023\n\013is_explored\030\016 \001(\010\022.\n\020rune_" +
+      "record_list\030\005 \003(\0132\024.RoguelikeRuneRecord\022" +
+      "\033\n\023Unk3300_HMAELBBOFDN\030\006 \001(\010\022\022\n\ncoin_c_n" +
+      "um\030\003 \001(\r\022\017\n\007is_open\030\r \001(\010\022\020\n\010stage_id\030\007 " +
+      "\001(\r\022\030\n\020max_passed_level\030\004 \001(\r\022\021\n\tcur_lev" +
+      "el\030\014 \001(\r\022\033\n\023Unk3300_OHHBEPOICLI\030\001 \001(\r\022\034\n" +
+      "\023Unk3300_HPKFHLLCJBM\030\223\002 \001(\rB\036\n\034emu.grass" +
+      "cutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1942,7 +1941,7 @@ public final class RogueStageInfoOuterClass {
     internal_static_RogueStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RogueStageInfo_descriptor,
-        new java.lang.String[] { "ReviseMonsterLevel", "IsPassed", "Unk3300GGHMFKNHPAJ", "AvatarTeam", "IsTakenReward", "Unk3300HMCJOLLKMMB", "RuneRecordList", "Unk3300HMAELBBOFDN", "Unk3300CMMGKMMMOAL", "IsOpen", "StageId", "Unk3300DABPFCPCNCB", "CurLevel", "Unk3300OHHBEPOICLI", "Unk3300HPKFHLLCJBM", });
+        new java.lang.String[] { "ReviseMonsterLevel", "IsPassed", "Unk3300GGHMFKNHPAJ", "AvatarTeam", "IsTakenReward", "IsExplored", "RuneRecordList", "Unk3300HMAELBBOFDN", "CoinCNum", "IsOpen", "StageId", "MaxPassedLevel", "CurLevel", "Unk3300OHHBEPOICLI", "Unk3300HPKFHLLCJBM", });
     emu.grasscutter.net.newproto.RogueShowAvatarTeamInfoOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.RoguelikeRuneRecordOuterClass.getDescriptor();
   }

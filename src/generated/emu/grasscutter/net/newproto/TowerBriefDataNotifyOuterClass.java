@@ -19,16 +19,16 @@ public final class TowerBriefDataNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_OLBDJEGPDFE = 6;</code>
-     * @return The unk3300OLBDJEGPDFE.
+     * <code>uint32 last_level_index = 6;</code>
+     * @return The lastLevelIndex.
      */
-    int getUnk3300OLBDJEGPDFE();
+    int getLastLevelIndex();
 
     /**
-     * <code>uint32 Unk3300_ILDODKDADMI = 9;</code>
-     * @return The unk3300ILDODKDADMI.
+     * <code>uint32 next_schedule_change_time = 9;</code>
+     * @return The nextScheduleChangeTime.
      */
-    int getUnk3300ILDODKDADMI();
+    int getNextScheduleChangeTime();
 
     /**
      * <code>bool is_finished_entrance_floor = 14;</code>
@@ -37,10 +37,10 @@ public final class TowerBriefDataNotifyOuterClass {
     boolean getIsFinishedEntranceFloor();
 
     /**
-     * <code>uint32 Unk3300_CFKJBOIJDBD = 1;</code>
-     * @return The unk3300CFKJBOIJDBD.
+     * <code>uint32 last_floor_index = 1;</code>
+     * @return The lastFloorIndex.
      */
-    int getUnk3300CFKJBOIJDBD();
+    int getLastFloorIndex();
 
     /**
      * <code>uint32 tower_schedule_id = 11;</code>
@@ -49,16 +49,16 @@ public final class TowerBriefDataNotifyOuterClass {
     int getTowerScheduleId();
 
     /**
-     * <code>uint32 Unk3300_KGHOIIAEIHH = 8;</code>
-     * @return The unk3300KGHOIIAEIHH.
+     * <code>uint32 schedule_start_time = 8;</code>
+     * @return The scheduleStartTime.
      */
-    int getUnk3300KGHOIIAEIHH();
+    int getScheduleStartTime();
 
     /**
-     * <code>uint32 Unk3300_CNMMBJABMKA = 7;</code>
-     * @return The unk3300CNMMBJABMKA.
+     * <code>uint32 total_star_num = 7;</code>
+     * @return The totalStarNum.
      */
-    int getUnk3300CNMMBJABMKA();
+    int getTotalStarNum();
   }
   /**
    * <pre>
@@ -110,26 +110,26 @@ public final class TowerBriefDataNotifyOuterClass {
               emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify.class, emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify.Builder.class);
     }
 
-    public static final int UNK3300_OLBDJEGPDFE_FIELD_NUMBER = 6;
-    private int unk3300OLBDJEGPDFE_;
+    public static final int LAST_LEVEL_INDEX_FIELD_NUMBER = 6;
+    private int lastLevelIndex_;
     /**
-     * <code>uint32 Unk3300_OLBDJEGPDFE = 6;</code>
-     * @return The unk3300OLBDJEGPDFE.
+     * <code>uint32 last_level_index = 6;</code>
+     * @return The lastLevelIndex.
      */
     @java.lang.Override
-    public int getUnk3300OLBDJEGPDFE() {
-      return unk3300OLBDJEGPDFE_;
+    public int getLastLevelIndex() {
+      return lastLevelIndex_;
     }
 
-    public static final int UNK3300_ILDODKDADMI_FIELD_NUMBER = 9;
-    private int unk3300ILDODKDADMI_;
+    public static final int NEXT_SCHEDULE_CHANGE_TIME_FIELD_NUMBER = 9;
+    private int nextScheduleChangeTime_;
     /**
-     * <code>uint32 Unk3300_ILDODKDADMI = 9;</code>
-     * @return The unk3300ILDODKDADMI.
+     * <code>uint32 next_schedule_change_time = 9;</code>
+     * @return The nextScheduleChangeTime.
      */
     @java.lang.Override
-    public int getUnk3300ILDODKDADMI() {
-      return unk3300ILDODKDADMI_;
+    public int getNextScheduleChangeTime() {
+      return nextScheduleChangeTime_;
     }
 
     public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 14;
@@ -143,15 +143,15 @@ public final class TowerBriefDataNotifyOuterClass {
       return isFinishedEntranceFloor_;
     }
 
-    public static final int UNK3300_CFKJBOIJDBD_FIELD_NUMBER = 1;
-    private int unk3300CFKJBOIJDBD_;
+    public static final int LAST_FLOOR_INDEX_FIELD_NUMBER = 1;
+    private int lastFloorIndex_;
     /**
-     * <code>uint32 Unk3300_CFKJBOIJDBD = 1;</code>
-     * @return The unk3300CFKJBOIJDBD.
+     * <code>uint32 last_floor_index = 1;</code>
+     * @return The lastFloorIndex.
      */
     @java.lang.Override
-    public int getUnk3300CFKJBOIJDBD() {
-      return unk3300CFKJBOIJDBD_;
+    public int getLastFloorIndex() {
+      return lastFloorIndex_;
     }
 
     public static final int TOWER_SCHEDULE_ID_FIELD_NUMBER = 11;
@@ -165,26 +165,26 @@ public final class TowerBriefDataNotifyOuterClass {
       return towerScheduleId_;
     }
 
-    public static final int UNK3300_KGHOIIAEIHH_FIELD_NUMBER = 8;
-    private int unk3300KGHOIIAEIHH_;
+    public static final int SCHEDULE_START_TIME_FIELD_NUMBER = 8;
+    private int scheduleStartTime_;
     /**
-     * <code>uint32 Unk3300_KGHOIIAEIHH = 8;</code>
-     * @return The unk3300KGHOIIAEIHH.
+     * <code>uint32 schedule_start_time = 8;</code>
+     * @return The scheduleStartTime.
      */
     @java.lang.Override
-    public int getUnk3300KGHOIIAEIHH() {
-      return unk3300KGHOIIAEIHH_;
+    public int getScheduleStartTime() {
+      return scheduleStartTime_;
     }
 
-    public static final int UNK3300_CNMMBJABMKA_FIELD_NUMBER = 7;
-    private int unk3300CNMMBJABMKA_;
+    public static final int TOTAL_STAR_NUM_FIELD_NUMBER = 7;
+    private int totalStarNum_;
     /**
-     * <code>uint32 Unk3300_CNMMBJABMKA = 7;</code>
-     * @return The unk3300CNMMBJABMKA.
+     * <code>uint32 total_star_num = 7;</code>
+     * @return The totalStarNum.
      */
     @java.lang.Override
-    public int getUnk3300CNMMBJABMKA() {
-      return unk3300CNMMBJABMKA_;
+    public int getTotalStarNum() {
+      return totalStarNum_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -201,20 +201,20 @@ public final class TowerBriefDataNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300CFKJBOIJDBD_ != 0) {
-        output.writeUInt32(1, unk3300CFKJBOIJDBD_);
+      if (lastFloorIndex_ != 0) {
+        output.writeUInt32(1, lastFloorIndex_);
       }
-      if (unk3300OLBDJEGPDFE_ != 0) {
-        output.writeUInt32(6, unk3300OLBDJEGPDFE_);
+      if (lastLevelIndex_ != 0) {
+        output.writeUInt32(6, lastLevelIndex_);
       }
-      if (unk3300CNMMBJABMKA_ != 0) {
-        output.writeUInt32(7, unk3300CNMMBJABMKA_);
+      if (totalStarNum_ != 0) {
+        output.writeUInt32(7, totalStarNum_);
       }
-      if (unk3300KGHOIIAEIHH_ != 0) {
-        output.writeUInt32(8, unk3300KGHOIIAEIHH_);
+      if (scheduleStartTime_ != 0) {
+        output.writeUInt32(8, scheduleStartTime_);
       }
-      if (unk3300ILDODKDADMI_ != 0) {
-        output.writeUInt32(9, unk3300ILDODKDADMI_);
+      if (nextScheduleChangeTime_ != 0) {
+        output.writeUInt32(9, nextScheduleChangeTime_);
       }
       if (towerScheduleId_ != 0) {
         output.writeUInt32(11, towerScheduleId_);
@@ -231,25 +231,25 @@ public final class TowerBriefDataNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300CFKJBOIJDBD_ != 0) {
+      if (lastFloorIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, unk3300CFKJBOIJDBD_);
+          .computeUInt32Size(1, lastFloorIndex_);
       }
-      if (unk3300OLBDJEGPDFE_ != 0) {
+      if (lastLevelIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, unk3300OLBDJEGPDFE_);
+          .computeUInt32Size(6, lastLevelIndex_);
       }
-      if (unk3300CNMMBJABMKA_ != 0) {
+      if (totalStarNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300CNMMBJABMKA_);
+          .computeUInt32Size(7, totalStarNum_);
       }
-      if (unk3300KGHOIIAEIHH_ != 0) {
+      if (scheduleStartTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300KGHOIIAEIHH_);
+          .computeUInt32Size(8, scheduleStartTime_);
       }
-      if (unk3300ILDODKDADMI_ != 0) {
+      if (nextScheduleChangeTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300ILDODKDADMI_);
+          .computeUInt32Size(9, nextScheduleChangeTime_);
       }
       if (towerScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -274,20 +274,20 @@ public final class TowerBriefDataNotifyOuterClass {
       }
       emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify other = (emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify) obj;
 
-      if (getUnk3300OLBDJEGPDFE()
-          != other.getUnk3300OLBDJEGPDFE()) return false;
-      if (getUnk3300ILDODKDADMI()
-          != other.getUnk3300ILDODKDADMI()) return false;
+      if (getLastLevelIndex()
+          != other.getLastLevelIndex()) return false;
+      if (getNextScheduleChangeTime()
+          != other.getNextScheduleChangeTime()) return false;
       if (getIsFinishedEntranceFloor()
           != other.getIsFinishedEntranceFloor()) return false;
-      if (getUnk3300CFKJBOIJDBD()
-          != other.getUnk3300CFKJBOIJDBD()) return false;
+      if (getLastFloorIndex()
+          != other.getLastFloorIndex()) return false;
       if (getTowerScheduleId()
           != other.getTowerScheduleId()) return false;
-      if (getUnk3300KGHOIIAEIHH()
-          != other.getUnk3300KGHOIIAEIHH()) return false;
-      if (getUnk3300CNMMBJABMKA()
-          != other.getUnk3300CNMMBJABMKA()) return false;
+      if (getScheduleStartTime()
+          != other.getScheduleStartTime()) return false;
+      if (getTotalStarNum()
+          != other.getTotalStarNum()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -299,21 +299,21 @@ public final class TowerBriefDataNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_OLBDJEGPDFE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OLBDJEGPDFE();
-      hash = (37 * hash) + UNK3300_ILDODKDADMI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300ILDODKDADMI();
+      hash = (37 * hash) + LAST_LEVEL_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getLastLevelIndex();
+      hash = (37 * hash) + NEXT_SCHEDULE_CHANGE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getNextScheduleChangeTime();
       hash = (37 * hash) + IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinishedEntranceFloor());
-      hash = (37 * hash) + UNK3300_CFKJBOIJDBD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300CFKJBOIJDBD();
+      hash = (37 * hash) + LAST_FLOOR_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getLastFloorIndex();
       hash = (37 * hash) + TOWER_SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTowerScheduleId();
-      hash = (37 * hash) + UNK3300_KGHOIIAEIHH_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KGHOIIAEIHH();
-      hash = (37 * hash) + UNK3300_CNMMBJABMKA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300CNMMBJABMKA();
+      hash = (37 * hash) + SCHEDULE_START_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getScheduleStartTime();
+      hash = (37 * hash) + TOTAL_STAR_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getTotalStarNum();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -452,19 +452,19 @@ public final class TowerBriefDataNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300OLBDJEGPDFE_ = 0;
+        lastLevelIndex_ = 0;
 
-        unk3300ILDODKDADMI_ = 0;
+        nextScheduleChangeTime_ = 0;
 
         isFinishedEntranceFloor_ = false;
 
-        unk3300CFKJBOIJDBD_ = 0;
+        lastFloorIndex_ = 0;
 
         towerScheduleId_ = 0;
 
-        unk3300KGHOIIAEIHH_ = 0;
+        scheduleStartTime_ = 0;
 
-        unk3300CNMMBJABMKA_ = 0;
+        totalStarNum_ = 0;
 
         return this;
       }
@@ -492,13 +492,13 @@ public final class TowerBriefDataNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify buildPartial() {
         emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify result = new emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify(this);
-        result.unk3300OLBDJEGPDFE_ = unk3300OLBDJEGPDFE_;
-        result.unk3300ILDODKDADMI_ = unk3300ILDODKDADMI_;
+        result.lastLevelIndex_ = lastLevelIndex_;
+        result.nextScheduleChangeTime_ = nextScheduleChangeTime_;
         result.isFinishedEntranceFloor_ = isFinishedEntranceFloor_;
-        result.unk3300CFKJBOIJDBD_ = unk3300CFKJBOIJDBD_;
+        result.lastFloorIndex_ = lastFloorIndex_;
         result.towerScheduleId_ = towerScheduleId_;
-        result.unk3300KGHOIIAEIHH_ = unk3300KGHOIIAEIHH_;
-        result.unk3300CNMMBJABMKA_ = unk3300CNMMBJABMKA_;
+        result.scheduleStartTime_ = scheduleStartTime_;
+        result.totalStarNum_ = totalStarNum_;
         onBuilt();
         return result;
       }
@@ -547,26 +547,26 @@ public final class TowerBriefDataNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify other) {
         if (other == emu.grasscutter.net.newproto.TowerBriefDataNotifyOuterClass.TowerBriefDataNotify.getDefaultInstance()) return this;
-        if (other.getUnk3300OLBDJEGPDFE() != 0) {
-          setUnk3300OLBDJEGPDFE(other.getUnk3300OLBDJEGPDFE());
+        if (other.getLastLevelIndex() != 0) {
+          setLastLevelIndex(other.getLastLevelIndex());
         }
-        if (other.getUnk3300ILDODKDADMI() != 0) {
-          setUnk3300ILDODKDADMI(other.getUnk3300ILDODKDADMI());
+        if (other.getNextScheduleChangeTime() != 0) {
+          setNextScheduleChangeTime(other.getNextScheduleChangeTime());
         }
         if (other.getIsFinishedEntranceFloor() != false) {
           setIsFinishedEntranceFloor(other.getIsFinishedEntranceFloor());
         }
-        if (other.getUnk3300CFKJBOIJDBD() != 0) {
-          setUnk3300CFKJBOIJDBD(other.getUnk3300CFKJBOIJDBD());
+        if (other.getLastFloorIndex() != 0) {
+          setLastFloorIndex(other.getLastFloorIndex());
         }
         if (other.getTowerScheduleId() != 0) {
           setTowerScheduleId(other.getTowerScheduleId());
         }
-        if (other.getUnk3300KGHOIIAEIHH() != 0) {
-          setUnk3300KGHOIIAEIHH(other.getUnk3300KGHOIIAEIHH());
+        if (other.getScheduleStartTime() != 0) {
+          setScheduleStartTime(other.getScheduleStartTime());
         }
-        if (other.getUnk3300CNMMBJABMKA() != 0) {
-          setUnk3300CNMMBJABMKA(other.getUnk3300CNMMBJABMKA());
+        if (other.getTotalStarNum() != 0) {
+          setTotalStarNum(other.getTotalStarNum());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -595,27 +595,27 @@ public final class TowerBriefDataNotifyOuterClass {
                 done = true;
                 break;
               case 8: {
-                unk3300CFKJBOIJDBD_ = input.readUInt32();
+                lastFloorIndex_ = input.readUInt32();
 
                 break;
               } // case 8
               case 48: {
-                unk3300OLBDJEGPDFE_ = input.readUInt32();
+                lastLevelIndex_ = input.readUInt32();
 
                 break;
               } // case 48
               case 56: {
-                unk3300CNMMBJABMKA_ = input.readUInt32();
+                totalStarNum_ = input.readUInt32();
 
                 break;
               } // case 56
               case 64: {
-                unk3300KGHOIIAEIHH_ = input.readUInt32();
+                scheduleStartTime_ = input.readUInt32();
 
                 break;
               } // case 64
               case 72: {
-                unk3300ILDODKDADMI_ = input.readUInt32();
+                nextScheduleChangeTime_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -645,64 +645,64 @@ public final class TowerBriefDataNotifyOuterClass {
         return this;
       }
 
-      private int unk3300OLBDJEGPDFE_ ;
+      private int lastLevelIndex_ ;
       /**
-       * <code>uint32 Unk3300_OLBDJEGPDFE = 6;</code>
-       * @return The unk3300OLBDJEGPDFE.
+       * <code>uint32 last_level_index = 6;</code>
+       * @return The lastLevelIndex.
        */
       @java.lang.Override
-      public int getUnk3300OLBDJEGPDFE() {
-        return unk3300OLBDJEGPDFE_;
+      public int getLastLevelIndex() {
+        return lastLevelIndex_;
       }
       /**
-       * <code>uint32 Unk3300_OLBDJEGPDFE = 6;</code>
-       * @param value The unk3300OLBDJEGPDFE to set.
+       * <code>uint32 last_level_index = 6;</code>
+       * @param value The lastLevelIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OLBDJEGPDFE(int value) {
+      public Builder setLastLevelIndex(int value) {
         
-        unk3300OLBDJEGPDFE_ = value;
+        lastLevelIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_OLBDJEGPDFE = 6;</code>
+       * <code>uint32 last_level_index = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OLBDJEGPDFE() {
+      public Builder clearLastLevelIndex() {
         
-        unk3300OLBDJEGPDFE_ = 0;
+        lastLevelIndex_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300ILDODKDADMI_ ;
+      private int nextScheduleChangeTime_ ;
       /**
-       * <code>uint32 Unk3300_ILDODKDADMI = 9;</code>
-       * @return The unk3300ILDODKDADMI.
+       * <code>uint32 next_schedule_change_time = 9;</code>
+       * @return The nextScheduleChangeTime.
        */
       @java.lang.Override
-      public int getUnk3300ILDODKDADMI() {
-        return unk3300ILDODKDADMI_;
+      public int getNextScheduleChangeTime() {
+        return nextScheduleChangeTime_;
       }
       /**
-       * <code>uint32 Unk3300_ILDODKDADMI = 9;</code>
-       * @param value The unk3300ILDODKDADMI to set.
+       * <code>uint32 next_schedule_change_time = 9;</code>
+       * @param value The nextScheduleChangeTime to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300ILDODKDADMI(int value) {
+      public Builder setNextScheduleChangeTime(int value) {
         
-        unk3300ILDODKDADMI_ = value;
+        nextScheduleChangeTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_ILDODKDADMI = 9;</code>
+       * <code>uint32 next_schedule_change_time = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300ILDODKDADMI() {
+      public Builder clearNextScheduleChangeTime() {
         
-        unk3300ILDODKDADMI_ = 0;
+        nextScheduleChangeTime_ = 0;
         onChanged();
         return this;
       }
@@ -738,33 +738,33 @@ public final class TowerBriefDataNotifyOuterClass {
         return this;
       }
 
-      private int unk3300CFKJBOIJDBD_ ;
+      private int lastFloorIndex_ ;
       /**
-       * <code>uint32 Unk3300_CFKJBOIJDBD = 1;</code>
-       * @return The unk3300CFKJBOIJDBD.
+       * <code>uint32 last_floor_index = 1;</code>
+       * @return The lastFloorIndex.
        */
       @java.lang.Override
-      public int getUnk3300CFKJBOIJDBD() {
-        return unk3300CFKJBOIJDBD_;
+      public int getLastFloorIndex() {
+        return lastFloorIndex_;
       }
       /**
-       * <code>uint32 Unk3300_CFKJBOIJDBD = 1;</code>
-       * @param value The unk3300CFKJBOIJDBD to set.
+       * <code>uint32 last_floor_index = 1;</code>
+       * @param value The lastFloorIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CFKJBOIJDBD(int value) {
+      public Builder setLastFloorIndex(int value) {
         
-        unk3300CFKJBOIJDBD_ = value;
+        lastFloorIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_CFKJBOIJDBD = 1;</code>
+       * <code>uint32 last_floor_index = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CFKJBOIJDBD() {
+      public Builder clearLastFloorIndex() {
         
-        unk3300CFKJBOIJDBD_ = 0;
+        lastFloorIndex_ = 0;
         onChanged();
         return this;
       }
@@ -800,64 +800,64 @@ public final class TowerBriefDataNotifyOuterClass {
         return this;
       }
 
-      private int unk3300KGHOIIAEIHH_ ;
+      private int scheduleStartTime_ ;
       /**
-       * <code>uint32 Unk3300_KGHOIIAEIHH = 8;</code>
-       * @return The unk3300KGHOIIAEIHH.
+       * <code>uint32 schedule_start_time = 8;</code>
+       * @return The scheduleStartTime.
        */
       @java.lang.Override
-      public int getUnk3300KGHOIIAEIHH() {
-        return unk3300KGHOIIAEIHH_;
+      public int getScheduleStartTime() {
+        return scheduleStartTime_;
       }
       /**
-       * <code>uint32 Unk3300_KGHOIIAEIHH = 8;</code>
-       * @param value The unk3300KGHOIIAEIHH to set.
+       * <code>uint32 schedule_start_time = 8;</code>
+       * @param value The scheduleStartTime to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KGHOIIAEIHH(int value) {
+      public Builder setScheduleStartTime(int value) {
         
-        unk3300KGHOIIAEIHH_ = value;
+        scheduleStartTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KGHOIIAEIHH = 8;</code>
+       * <code>uint32 schedule_start_time = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KGHOIIAEIHH() {
+      public Builder clearScheduleStartTime() {
         
-        unk3300KGHOIIAEIHH_ = 0;
+        scheduleStartTime_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300CNMMBJABMKA_ ;
+      private int totalStarNum_ ;
       /**
-       * <code>uint32 Unk3300_CNMMBJABMKA = 7;</code>
-       * @return The unk3300CNMMBJABMKA.
+       * <code>uint32 total_star_num = 7;</code>
+       * @return The totalStarNum.
        */
       @java.lang.Override
-      public int getUnk3300CNMMBJABMKA() {
-        return unk3300CNMMBJABMKA_;
+      public int getTotalStarNum() {
+        return totalStarNum_;
       }
       /**
-       * <code>uint32 Unk3300_CNMMBJABMKA = 7;</code>
-       * @param value The unk3300CNMMBJABMKA to set.
+       * <code>uint32 total_star_num = 7;</code>
+       * @param value The totalStarNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CNMMBJABMKA(int value) {
+      public Builder setTotalStarNum(int value) {
         
-        unk3300CNMMBJABMKA_ = value;
+        totalStarNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_CNMMBJABMKA = 7;</code>
+       * <code>uint32 total_star_num = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CNMMBJABMKA() {
+      public Builder clearTotalStarNum() {
         
-        unk3300CNMMBJABMKA_ = 0;
+        totalStarNum_ = 0;
         onChanged();
         return this;
       }
@@ -939,14 +939,14 @@ public final class TowerBriefDataNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032TowerBriefDataNotify.proto\"\346\001\n\024TowerBr" +
-      "iefDataNotify\022\033\n\023Unk3300_OLBDJEGPDFE\030\006 \001" +
-      "(\r\022\033\n\023Unk3300_ILDODKDADMI\030\t \001(\r\022\"\n\032is_fi" +
-      "nished_entrance_floor\030\016 \001(\010\022\033\n\023Unk3300_C" +
-      "FKJBOIJDBD\030\001 \001(\r\022\031\n\021tower_schedule_id\030\013 " +
-      "\001(\r\022\033\n\023Unk3300_KGHOIIAEIHH\030\010 \001(\r\022\033\n\023Unk3" +
-      "300_CNMMBJABMKA\030\007 \001(\rB\036\n\034emu.grasscutter" +
-      ".net.newprotob\006proto3"
+      "\n\032TowerBriefDataNotify.proto\"\341\001\n\024TowerBr" +
+      "iefDataNotify\022\030\n\020last_level_index\030\006 \001(\r\022" +
+      "!\n\031next_schedule_change_time\030\t \001(\r\022\"\n\032is" +
+      "_finished_entrance_floor\030\016 \001(\010\022\030\n\020last_f" +
+      "loor_index\030\001 \001(\r\022\031\n\021tower_schedule_id\030\013 " +
+      "\001(\r\022\033\n\023schedule_start_time\030\010 \001(\r\022\026\n\016tota" +
+      "l_star_num\030\007 \001(\rB\036\n\034emu.grasscutter.net." +
+      "newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -957,7 +957,7 @@ public final class TowerBriefDataNotifyOuterClass {
     internal_static_TowerBriefDataNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerBriefDataNotify_descriptor,
-        new java.lang.String[] { "Unk3300OLBDJEGPDFE", "Unk3300ILDODKDADMI", "IsFinishedEntranceFloor", "Unk3300CFKJBOIJDBD", "TowerScheduleId", "Unk3300KGHOIIAEIHH", "Unk3300CNMMBJABMKA", });
+        new java.lang.String[] { "LastLevelIndex", "NextScheduleChangeTime", "IsFinishedEntranceFloor", "LastFloorIndex", "TowerScheduleId", "ScheduleStartTime", "TotalStarNum", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,10 +19,10 @@ public final class HomeResourceOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_LJCAIDECBND = 6;</code>
-     * @return The unk3300LJCAIDECBND.
+     * <code>uint32 store_limit = 6;</code>
+     * @return The storeLimit.
      */
-    int getUnk3300LJCAIDECBND();
+    int getStoreLimit();
 
     /**
      * <code>fixed32 next_refresh_time = 13;</code>
@@ -31,10 +31,10 @@ public final class HomeResourceOuterClass {
     int getNextRefreshTime();
 
     /**
-     * <code>uint32 Unk3300_LINAPIIPNOB = 1;</code>
-     * @return The unk3300LINAPIIPNOB.
+     * <code>uint32 store_value = 1;</code>
+     * @return The storeValue.
      */
-    int getUnk3300LINAPIIPNOB();
+    int getStoreValue();
   }
   /**
    * Protobuf type {@code HomeResource}
@@ -76,15 +76,15 @@ public final class HomeResourceOuterClass {
               emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource.class, emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource.Builder.class);
     }
 
-    public static final int UNK3300_LJCAIDECBND_FIELD_NUMBER = 6;
-    private int unk3300LJCAIDECBND_;
+    public static final int STORE_LIMIT_FIELD_NUMBER = 6;
+    private int storeLimit_;
     /**
-     * <code>uint32 Unk3300_LJCAIDECBND = 6;</code>
-     * @return The unk3300LJCAIDECBND.
+     * <code>uint32 store_limit = 6;</code>
+     * @return The storeLimit.
      */
     @java.lang.Override
-    public int getUnk3300LJCAIDECBND() {
-      return unk3300LJCAIDECBND_;
+    public int getStoreLimit() {
+      return storeLimit_;
     }
 
     public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 13;
@@ -98,15 +98,15 @@ public final class HomeResourceOuterClass {
       return nextRefreshTime_;
     }
 
-    public static final int UNK3300_LINAPIIPNOB_FIELD_NUMBER = 1;
-    private int unk3300LINAPIIPNOB_;
+    public static final int STORE_VALUE_FIELD_NUMBER = 1;
+    private int storeValue_;
     /**
-     * <code>uint32 Unk3300_LINAPIIPNOB = 1;</code>
-     * @return The unk3300LINAPIIPNOB.
+     * <code>uint32 store_value = 1;</code>
+     * @return The storeValue.
      */
     @java.lang.Override
-    public int getUnk3300LINAPIIPNOB() {
-      return unk3300LINAPIIPNOB_;
+    public int getStoreValue() {
+      return storeValue_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -123,11 +123,11 @@ public final class HomeResourceOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300LINAPIIPNOB_ != 0) {
-        output.writeUInt32(1, unk3300LINAPIIPNOB_);
+      if (storeValue_ != 0) {
+        output.writeUInt32(1, storeValue_);
       }
-      if (unk3300LJCAIDECBND_ != 0) {
-        output.writeUInt32(6, unk3300LJCAIDECBND_);
+      if (storeLimit_ != 0) {
+        output.writeUInt32(6, storeLimit_);
       }
       if (nextRefreshTime_ != 0) {
         output.writeFixed32(13, nextRefreshTime_);
@@ -141,13 +141,13 @@ public final class HomeResourceOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300LINAPIIPNOB_ != 0) {
+      if (storeValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, unk3300LINAPIIPNOB_);
+          .computeUInt32Size(1, storeValue_);
       }
-      if (unk3300LJCAIDECBND_ != 0) {
+      if (storeLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, unk3300LJCAIDECBND_);
+          .computeUInt32Size(6, storeLimit_);
       }
       if (nextRefreshTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -168,12 +168,12 @@ public final class HomeResourceOuterClass {
       }
       emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource other = (emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource) obj;
 
-      if (getUnk3300LJCAIDECBND()
-          != other.getUnk3300LJCAIDECBND()) return false;
+      if (getStoreLimit()
+          != other.getStoreLimit()) return false;
       if (getNextRefreshTime()
           != other.getNextRefreshTime()) return false;
-      if (getUnk3300LINAPIIPNOB()
-          != other.getUnk3300LINAPIIPNOB()) return false;
+      if (getStoreValue()
+          != other.getStoreValue()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -185,12 +185,12 @@ public final class HomeResourceOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_LJCAIDECBND_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300LJCAIDECBND();
+      hash = (37 * hash) + STORE_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getStoreLimit();
       hash = (37 * hash) + NEXT_REFRESH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getNextRefreshTime();
-      hash = (37 * hash) + UNK3300_LINAPIIPNOB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300LINAPIIPNOB();
+      hash = (37 * hash) + STORE_VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + getStoreValue();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -319,11 +319,11 @@ public final class HomeResourceOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300LJCAIDECBND_ = 0;
+        storeLimit_ = 0;
 
         nextRefreshTime_ = 0;
 
-        unk3300LINAPIIPNOB_ = 0;
+        storeValue_ = 0;
 
         return this;
       }
@@ -351,9 +351,9 @@ public final class HomeResourceOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource buildPartial() {
         emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource result = new emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource(this);
-        result.unk3300LJCAIDECBND_ = unk3300LJCAIDECBND_;
+        result.storeLimit_ = storeLimit_;
         result.nextRefreshTime_ = nextRefreshTime_;
-        result.unk3300LINAPIIPNOB_ = unk3300LINAPIIPNOB_;
+        result.storeValue_ = storeValue_;
         onBuilt();
         return result;
       }
@@ -402,14 +402,14 @@ public final class HomeResourceOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource other) {
         if (other == emu.grasscutter.net.newproto.HomeResourceOuterClass.HomeResource.getDefaultInstance()) return this;
-        if (other.getUnk3300LJCAIDECBND() != 0) {
-          setUnk3300LJCAIDECBND(other.getUnk3300LJCAIDECBND());
+        if (other.getStoreLimit() != 0) {
+          setStoreLimit(other.getStoreLimit());
         }
         if (other.getNextRefreshTime() != 0) {
           setNextRefreshTime(other.getNextRefreshTime());
         }
-        if (other.getUnk3300LINAPIIPNOB() != 0) {
-          setUnk3300LINAPIIPNOB(other.getUnk3300LINAPIIPNOB());
+        if (other.getStoreValue() != 0) {
+          setStoreValue(other.getStoreValue());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -438,12 +438,12 @@ public final class HomeResourceOuterClass {
                 done = true;
                 break;
               case 8: {
-                unk3300LINAPIIPNOB_ = input.readUInt32();
+                storeValue_ = input.readUInt32();
 
                 break;
               } // case 8
               case 48: {
-                unk3300LJCAIDECBND_ = input.readUInt32();
+                storeLimit_ = input.readUInt32();
 
                 break;
               } // case 48
@@ -468,33 +468,33 @@ public final class HomeResourceOuterClass {
         return this;
       }
 
-      private int unk3300LJCAIDECBND_ ;
+      private int storeLimit_ ;
       /**
-       * <code>uint32 Unk3300_LJCAIDECBND = 6;</code>
-       * @return The unk3300LJCAIDECBND.
+       * <code>uint32 store_limit = 6;</code>
+       * @return The storeLimit.
        */
       @java.lang.Override
-      public int getUnk3300LJCAIDECBND() {
-        return unk3300LJCAIDECBND_;
+      public int getStoreLimit() {
+        return storeLimit_;
       }
       /**
-       * <code>uint32 Unk3300_LJCAIDECBND = 6;</code>
-       * @param value The unk3300LJCAIDECBND to set.
+       * <code>uint32 store_limit = 6;</code>
+       * @param value The storeLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300LJCAIDECBND(int value) {
+      public Builder setStoreLimit(int value) {
         
-        unk3300LJCAIDECBND_ = value;
+        storeLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_LJCAIDECBND = 6;</code>
+       * <code>uint32 store_limit = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300LJCAIDECBND() {
+      public Builder clearStoreLimit() {
         
-        unk3300LJCAIDECBND_ = 0;
+        storeLimit_ = 0;
         onChanged();
         return this;
       }
@@ -530,33 +530,33 @@ public final class HomeResourceOuterClass {
         return this;
       }
 
-      private int unk3300LINAPIIPNOB_ ;
+      private int storeValue_ ;
       /**
-       * <code>uint32 Unk3300_LINAPIIPNOB = 1;</code>
-       * @return The unk3300LINAPIIPNOB.
+       * <code>uint32 store_value = 1;</code>
+       * @return The storeValue.
        */
       @java.lang.Override
-      public int getUnk3300LINAPIIPNOB() {
-        return unk3300LINAPIIPNOB_;
+      public int getStoreValue() {
+        return storeValue_;
       }
       /**
-       * <code>uint32 Unk3300_LINAPIIPNOB = 1;</code>
-       * @param value The unk3300LINAPIIPNOB to set.
+       * <code>uint32 store_value = 1;</code>
+       * @param value The storeValue to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300LINAPIIPNOB(int value) {
+      public Builder setStoreValue(int value) {
         
-        unk3300LINAPIIPNOB_ = value;
+        storeValue_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_LINAPIIPNOB = 1;</code>
+       * <code>uint32 store_value = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300LINAPIIPNOB() {
+      public Builder clearStoreValue() {
         
-        unk3300LINAPIIPNOB_ = 0;
+        storeValue_ = 0;
         onChanged();
         return this;
       }
@@ -638,11 +638,10 @@ public final class HomeResourceOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022HomeResource.proto\"c\n\014HomeResource\022\033\n\023" +
-      "Unk3300_LJCAIDECBND\030\006 \001(\r\022\031\n\021next_refres" +
-      "h_time\030\r \001(\007\022\033\n\023Unk3300_LINAPIIPNOB\030\001 \001(" +
-      "\rB\036\n\034emu.grasscutter.net.newprotob\006proto" +
-      "3"
+      "\n\022HomeResource.proto\"S\n\014HomeResource\022\023\n\013" +
+      "store_limit\030\006 \001(\r\022\031\n\021next_refresh_time\030\r" +
+      " \001(\007\022\023\n\013store_value\030\001 \001(\rB\036\n\034emu.grasscu" +
+      "tter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -653,7 +652,7 @@ public final class HomeResourceOuterClass {
     internal_static_HomeResource_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeResource_descriptor,
-        new java.lang.String[] { "Unk3300LJCAIDECBND", "NextRefreshTime", "Unk3300LINAPIIPNOB", });
+        new java.lang.String[] { "StoreLimit", "NextRefreshTime", "StoreValue", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -73,21 +73,21 @@ public final class AvatarDataNotifyOuterClass {
     int getCurAvatarTeamId();
 
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-     * @return A list containing the unk3300HHKJBGKHIEJ.
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
+     * @return A list containing the ownedFlycloakList.
      */
-    java.util.List<java.lang.Integer> getUnk3300HHKJBGKHIEJList();
+    java.util.List<java.lang.Integer> getOwnedFlycloakListList();
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-     * @return The count of unk3300HHKJBGKHIEJ.
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
+     * @return The count of ownedFlycloakList.
      */
-    int getUnk3300HHKJBGKHIEJCount();
+    int getOwnedFlycloakListCount();
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300HHKJBGKHIEJ at the given index.
+     * @return The ownedFlycloakList at the given index.
      */
-    int getUnk3300HHKJBGKHIEJ(int index);
+    int getOwnedFlycloakList(int index);
 
     /**
      * <code>repeated uint64 temp_avatar_guid_list = 15;</code>
@@ -149,21 +149,21 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         int key);
 
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-     * @return A list containing the unk3300MDNLGGMGHAF.
+     * <code>repeated uint32 owned_costume_list = 5;</code>
+     * @return A list containing the ownedCostumeList.
      */
-    java.util.List<java.lang.Integer> getUnk3300MDNLGGMGHAFList();
+    java.util.List<java.lang.Integer> getOwnedCostumeListList();
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-     * @return The count of unk3300MDNLGGMGHAF.
+     * <code>repeated uint32 owned_costume_list = 5;</code>
+     * @return The count of ownedCostumeList.
      */
-    int getUnk3300MDNLGGMGHAFCount();
+    int getOwnedCostumeListCount();
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
+     * <code>repeated uint32 owned_costume_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MDNLGGMGHAF at the given index.
+     * @return The ownedCostumeList at the given index.
      */
-    int getUnk3300MDNLGGMGHAF(int index);
+    int getOwnedCostumeList(int index);
 
     /**
      * <code>repeated uint32 backup_avatar_team_order_list = 3;</code>
@@ -207,9 +207,9 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
     private AvatarDataNotify() {
       avatarList_ = java.util.Collections.emptyList();
       avatarRenameList_ = java.util.Collections.emptyList();
-      unk3300HHKJBGKHIEJ_ = emptyIntList();
+      ownedFlycloakList_ = emptyIntList();
       tempAvatarGuidList_ = emptyLongList();
-      unk3300MDNLGGMGHAF_ = emptyIntList();
+      ownedCostumeList_ = emptyIntList();
       backupAvatarTeamOrderList_ = emptyIntList();
     }
 
@@ -341,33 +341,33 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
       return curAvatarTeamId_;
     }
 
-    public static final int UNK3300_HHKJBGKHIEJ_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList unk3300HHKJBGKHIEJ_;
+    public static final int OWNED_FLYCLOAK_LIST_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList ownedFlycloakList_;
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-     * @return A list containing the unk3300HHKJBGKHIEJ.
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
+     * @return A list containing the ownedFlycloakList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300HHKJBGKHIEJList() {
-      return unk3300HHKJBGKHIEJ_;
+        getOwnedFlycloakListList() {
+      return ownedFlycloakList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-     * @return The count of unk3300HHKJBGKHIEJ.
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
+     * @return The count of ownedFlycloakList.
      */
-    public int getUnk3300HHKJBGKHIEJCount() {
-      return unk3300HHKJBGKHIEJ_.size();
+    public int getOwnedFlycloakListCount() {
+      return ownedFlycloakList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
+     * <code>repeated uint32 owned_flycloak_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300HHKJBGKHIEJ at the given index.
+     * @return The ownedFlycloakList at the given index.
      */
-    public int getUnk3300HHKJBGKHIEJ(int index) {
-      return unk3300HHKJBGKHIEJ_.getInt(index);
+    public int getOwnedFlycloakList(int index) {
+      return ownedFlycloakList_.getInt(index);
     }
-    private int unk3300HHKJBGKHIEJMemoizedSerializedSize = -1;
+    private int ownedFlycloakListMemoizedSerializedSize = -1;
 
     public static final int TEMP_AVATAR_GUID_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.LongList tempAvatarGuidList_;
@@ -489,33 +489,33 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
       return map.get(key);
     }
 
-    public static final int UNK3300_MDNLGGMGHAF_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList unk3300MDNLGGMGHAF_;
+    public static final int OWNED_COSTUME_LIST_FIELD_NUMBER = 5;
+    private com.google.protobuf.Internal.IntList ownedCostumeList_;
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-     * @return A list containing the unk3300MDNLGGMGHAF.
+     * <code>repeated uint32 owned_costume_list = 5;</code>
+     * @return A list containing the ownedCostumeList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300MDNLGGMGHAFList() {
-      return unk3300MDNLGGMGHAF_;
+        getOwnedCostumeListList() {
+      return ownedCostumeList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-     * @return The count of unk3300MDNLGGMGHAF.
+     * <code>repeated uint32 owned_costume_list = 5;</code>
+     * @return The count of ownedCostumeList.
      */
-    public int getUnk3300MDNLGGMGHAFCount() {
-      return unk3300MDNLGGMGHAF_.size();
+    public int getOwnedCostumeListCount() {
+      return ownedCostumeList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
+     * <code>repeated uint32 owned_costume_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MDNLGGMGHAF at the given index.
+     * @return The ownedCostumeList at the given index.
      */
-    public int getUnk3300MDNLGGMGHAF(int index) {
-      return unk3300MDNLGGMGHAF_.getInt(index);
+    public int getOwnedCostumeList(int index) {
+      return ownedCostumeList_.getInt(index);
     }
-    private int unk3300MDNLGGMGHAFMemoizedSerializedSize = -1;
+    private int ownedCostumeListMemoizedSerializedSize = -1;
 
     public static final int BACKUP_AVATAR_TEAM_ORDER_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList backupAvatarTeamOrderList_;
@@ -570,19 +570,19 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
       for (int i = 0; i < backupAvatarTeamOrderList_.size(); i++) {
         output.writeUInt32NoTag(backupAvatarTeamOrderList_.getInt(i));
       }
-      if (getUnk3300MDNLGGMGHAFList().size() > 0) {
+      if (getOwnedCostumeListList().size() > 0) {
         output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(unk3300MDNLGGMGHAFMemoizedSerializedSize);
+        output.writeUInt32NoTag(ownedCostumeListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300MDNLGGMGHAF_.size(); i++) {
-        output.writeUInt32NoTag(unk3300MDNLGGMGHAF_.getInt(i));
+      for (int i = 0; i < ownedCostumeList_.size(); i++) {
+        output.writeUInt32NoTag(ownedCostumeList_.getInt(i));
       }
-      if (getUnk3300HHKJBGKHIEJList().size() > 0) {
+      if (getOwnedFlycloakListList().size() > 0) {
         output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(unk3300HHKJBGKHIEJMemoizedSerializedSize);
+        output.writeUInt32NoTag(ownedFlycloakListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300HHKJBGKHIEJ_.size(); i++) {
-        output.writeUInt32NoTag(unk3300HHKJBGKHIEJ_.getInt(i));
+      for (int i = 0; i < ownedFlycloakList_.size(); i++) {
+        output.writeUInt32NoTag(ownedFlycloakList_.getInt(i));
       }
       if (curAvatarTeamId_ != 0) {
         output.writeUInt32(7, curAvatarTeamId_);
@@ -635,31 +635,31 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300MDNLGGMGHAF_.size(); i++) {
+        for (int i = 0; i < ownedCostumeList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300MDNLGGMGHAF_.getInt(i));
+            .computeUInt32SizeNoTag(ownedCostumeList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300MDNLGGMGHAFList().isEmpty()) {
+        if (!getOwnedCostumeListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300MDNLGGMGHAFMemoizedSerializedSize = dataSize;
+        ownedCostumeListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300HHKJBGKHIEJ_.size(); i++) {
+        for (int i = 0; i < ownedFlycloakList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300HHKJBGKHIEJ_.getInt(i));
+            .computeUInt32SizeNoTag(ownedFlycloakList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300HHKJBGKHIEJList().isEmpty()) {
+        if (!getOwnedFlycloakListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300HHKJBGKHIEJMemoizedSerializedSize = dataSize;
+        ownedFlycloakListMemoizedSerializedSize = dataSize;
       }
       if (curAvatarTeamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -718,16 +718,16 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
           .equals(other.getAvatarRenameListList())) return false;
       if (getCurAvatarTeamId()
           != other.getCurAvatarTeamId()) return false;
-      if (!getUnk3300HHKJBGKHIEJList()
-          .equals(other.getUnk3300HHKJBGKHIEJList())) return false;
+      if (!getOwnedFlycloakListList()
+          .equals(other.getOwnedFlycloakListList())) return false;
       if (!getTempAvatarGuidListList()
           .equals(other.getTempAvatarGuidListList())) return false;
       if (getChooseAvatarGuid()
           != other.getChooseAvatarGuid()) return false;
       if (!internalGetAvatarTeamMap().equals(
           other.internalGetAvatarTeamMap())) return false;
-      if (!getUnk3300MDNLGGMGHAFList()
-          .equals(other.getUnk3300MDNLGGMGHAFList())) return false;
+      if (!getOwnedCostumeListList()
+          .equals(other.getOwnedCostumeListList())) return false;
       if (!getBackupAvatarTeamOrderListList()
           .equals(other.getBackupAvatarTeamOrderListList())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -751,9 +751,9 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
       }
       hash = (37 * hash) + CUR_AVATAR_TEAM_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCurAvatarTeamId();
-      if (getUnk3300HHKJBGKHIEJCount() > 0) {
-        hash = (37 * hash) + UNK3300_HHKJBGKHIEJ_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300HHKJBGKHIEJList().hashCode();
+      if (getOwnedFlycloakListCount() > 0) {
+        hash = (37 * hash) + OWNED_FLYCLOAK_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOwnedFlycloakListList().hashCode();
       }
       if (getTempAvatarGuidListCount() > 0) {
         hash = (37 * hash) + TEMP_AVATAR_GUID_LIST_FIELD_NUMBER;
@@ -766,9 +766,9 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         hash = (37 * hash) + AVATAR_TEAM_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetAvatarTeamMap().hashCode();
       }
-      if (getUnk3300MDNLGGMGHAFCount() > 0) {
-        hash = (37 * hash) + UNK3300_MDNLGGMGHAF_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300MDNLGGMGHAFList().hashCode();
+      if (getOwnedCostumeListCount() > 0) {
+        hash = (37 * hash) + OWNED_COSTUME_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOwnedCostumeListList().hashCode();
       }
       if (getBackupAvatarTeamOrderListCount() > 0) {
         hash = (37 * hash) + BACKUP_AVATAR_TEAM_ORDER_LIST_FIELD_NUMBER;
@@ -950,14 +950,14 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         bitField0_ = (bitField0_ & ~0x00000002);
         curAvatarTeamId_ = 0;
 
-        unk3300HHKJBGKHIEJ_ = emptyIntList();
+        ownedFlycloakList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         tempAvatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000008);
         chooseAvatarGuid_ = 0L;
 
         internalGetMutableAvatarTeamMap().clear();
-        unk3300MDNLGGMGHAF_ = emptyIntList();
+        ownedCostumeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000020);
         backupAvatarTeamOrderList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000040);
@@ -1008,10 +1008,10 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         }
         result.curAvatarTeamId_ = curAvatarTeamId_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          unk3300HHKJBGKHIEJ_.makeImmutable();
+          ownedFlycloakList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.unk3300HHKJBGKHIEJ_ = unk3300HHKJBGKHIEJ_;
+        result.ownedFlycloakList_ = ownedFlycloakList_;
         if (((bitField0_ & 0x00000008) != 0)) {
           tempAvatarGuidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000008);
@@ -1021,10 +1021,10 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         result.avatarTeamMap_ = internalGetAvatarTeamMap();
         result.avatarTeamMap_.makeImmutable();
         if (((bitField0_ & 0x00000020) != 0)) {
-          unk3300MDNLGGMGHAF_.makeImmutable();
+          ownedCostumeList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000020);
         }
-        result.unk3300MDNLGGMGHAF_ = unk3300MDNLGGMGHAF_;
+        result.ownedCostumeList_ = ownedCostumeList_;
         if (((bitField0_ & 0x00000040) != 0)) {
           backupAvatarTeamOrderList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000040);
@@ -1133,13 +1133,13 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         if (other.getCurAvatarTeamId() != 0) {
           setCurAvatarTeamId(other.getCurAvatarTeamId());
         }
-        if (!other.unk3300HHKJBGKHIEJ_.isEmpty()) {
-          if (unk3300HHKJBGKHIEJ_.isEmpty()) {
-            unk3300HHKJBGKHIEJ_ = other.unk3300HHKJBGKHIEJ_;
+        if (!other.ownedFlycloakList_.isEmpty()) {
+          if (ownedFlycloakList_.isEmpty()) {
+            ownedFlycloakList_ = other.ownedFlycloakList_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureUnk3300HHKJBGKHIEJIsMutable();
-            unk3300HHKJBGKHIEJ_.addAll(other.unk3300HHKJBGKHIEJ_);
+            ensureOwnedFlycloakListIsMutable();
+            ownedFlycloakList_.addAll(other.ownedFlycloakList_);
           }
           onChanged();
         }
@@ -1158,13 +1158,13 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         }
         internalGetMutableAvatarTeamMap().mergeFrom(
             other.internalGetAvatarTeamMap());
-        if (!other.unk3300MDNLGGMGHAF_.isEmpty()) {
-          if (unk3300MDNLGGMGHAF_.isEmpty()) {
-            unk3300MDNLGGMGHAF_ = other.unk3300MDNLGGMGHAF_;
+        if (!other.ownedCostumeList_.isEmpty()) {
+          if (ownedCostumeList_.isEmpty()) {
+            ownedCostumeList_ = other.ownedCostumeList_;
             bitField0_ = (bitField0_ & ~0x00000020);
           } else {
-            ensureUnk3300MDNLGGMGHAFIsMutable();
-            unk3300MDNLGGMGHAF_.addAll(other.unk3300MDNLGGMGHAF_);
+            ensureOwnedCostumeListIsMutable();
+            ownedCostumeList_.addAll(other.ownedCostumeList_);
           }
           onChanged();
         }
@@ -1227,32 +1227,32 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
               } // case 26
               case 40: {
                 int v = input.readUInt32();
-                ensureUnk3300MDNLGGMGHAFIsMutable();
-                unk3300MDNLGGMGHAF_.addInt(v);
+                ensureOwnedCostumeListIsMutable();
+                ownedCostumeList_.addInt(v);
                 break;
               } // case 40
               case 42: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300MDNLGGMGHAFIsMutable();
+                ensureOwnedCostumeListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300MDNLGGMGHAF_.addInt(input.readUInt32());
+                  ownedCostumeList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
               } // case 42
               case 48: {
                 int v = input.readUInt32();
-                ensureUnk3300HHKJBGKHIEJIsMutable();
-                unk3300HHKJBGKHIEJ_.addInt(v);
+                ensureOwnedFlycloakListIsMutable();
+                ownedFlycloakList_.addInt(v);
                 break;
               } // case 48
               case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300HHKJBGKHIEJIsMutable();
+                ensureOwnedFlycloakListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300HHKJBGKHIEJ_.addInt(input.readUInt32());
+                  ownedFlycloakList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -1840,80 +1840,80 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300HHKJBGKHIEJ_ = emptyIntList();
-      private void ensureUnk3300HHKJBGKHIEJIsMutable() {
+      private com.google.protobuf.Internal.IntList ownedFlycloakList_ = emptyIntList();
+      private void ensureOwnedFlycloakListIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          unk3300HHKJBGKHIEJ_ = mutableCopy(unk3300HHKJBGKHIEJ_);
+          ownedFlycloakList_ = mutableCopy(ownedFlycloakList_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-       * @return A list containing the unk3300HHKJBGKHIEJ.
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
+       * @return A list containing the ownedFlycloakList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300HHKJBGKHIEJList() {
+          getOwnedFlycloakListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300HHKJBGKHIEJ_) : unk3300HHKJBGKHIEJ_;
+                 java.util.Collections.unmodifiableList(ownedFlycloakList_) : ownedFlycloakList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-       * @return The count of unk3300HHKJBGKHIEJ.
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
+       * @return The count of ownedFlycloakList.
        */
-      public int getUnk3300HHKJBGKHIEJCount() {
-        return unk3300HHKJBGKHIEJ_.size();
+      public int getOwnedFlycloakListCount() {
+        return ownedFlycloakList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
        * @param index The index of the element to return.
-       * @return The unk3300HHKJBGKHIEJ at the given index.
+       * @return The ownedFlycloakList at the given index.
        */
-      public int getUnk3300HHKJBGKHIEJ(int index) {
-        return unk3300HHKJBGKHIEJ_.getInt(index);
+      public int getOwnedFlycloakList(int index) {
+        return ownedFlycloakList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300HHKJBGKHIEJ to set.
+       * @param value The ownedFlycloakList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HHKJBGKHIEJ(
+      public Builder setOwnedFlycloakList(
           int index, int value) {
-        ensureUnk3300HHKJBGKHIEJIsMutable();
-        unk3300HHKJBGKHIEJ_.setInt(index, value);
+        ensureOwnedFlycloakListIsMutable();
+        ownedFlycloakList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-       * @param value The unk3300HHKJBGKHIEJ to add.
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
+       * @param value The ownedFlycloakList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300HHKJBGKHIEJ(int value) {
-        ensureUnk3300HHKJBGKHIEJIsMutable();
-        unk3300HHKJBGKHIEJ_.addInt(value);
+      public Builder addOwnedFlycloakList(int value) {
+        ensureOwnedFlycloakListIsMutable();
+        ownedFlycloakList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
-       * @param values The unk3300HHKJBGKHIEJ to add.
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
+       * @param values The ownedFlycloakList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300HHKJBGKHIEJ(
+      public Builder addAllOwnedFlycloakList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300HHKJBGKHIEJIsMutable();
+        ensureOwnedFlycloakListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300HHKJBGKHIEJ_);
+            values, ownedFlycloakList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_HHKJBGKHIEJ = 6;</code>
+       * <code>repeated uint32 owned_flycloak_list = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300HHKJBGKHIEJ() {
-        unk3300HHKJBGKHIEJ_ = emptyIntList();
+      public Builder clearOwnedFlycloakList() {
+        ownedFlycloakList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -2160,80 +2160,80 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300MDNLGGMGHAF_ = emptyIntList();
-      private void ensureUnk3300MDNLGGMGHAFIsMutable() {
+      private com.google.protobuf.Internal.IntList ownedCostumeList_ = emptyIntList();
+      private void ensureOwnedCostumeListIsMutable() {
         if (!((bitField0_ & 0x00000020) != 0)) {
-          unk3300MDNLGGMGHAF_ = mutableCopy(unk3300MDNLGGMGHAF_);
+          ownedCostumeList_ = mutableCopy(ownedCostumeList_);
           bitField0_ |= 0x00000020;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-       * @return A list containing the unk3300MDNLGGMGHAF.
+       * <code>repeated uint32 owned_costume_list = 5;</code>
+       * @return A list containing the ownedCostumeList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300MDNLGGMGHAFList() {
+          getOwnedCostumeListList() {
         return ((bitField0_ & 0x00000020) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300MDNLGGMGHAF_) : unk3300MDNLGGMGHAF_;
+                 java.util.Collections.unmodifiableList(ownedCostumeList_) : ownedCostumeList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-       * @return The count of unk3300MDNLGGMGHAF.
+       * <code>repeated uint32 owned_costume_list = 5;</code>
+       * @return The count of ownedCostumeList.
        */
-      public int getUnk3300MDNLGGMGHAFCount() {
-        return unk3300MDNLGGMGHAF_.size();
+      public int getOwnedCostumeListCount() {
+        return ownedCostumeList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
+       * <code>repeated uint32 owned_costume_list = 5;</code>
        * @param index The index of the element to return.
-       * @return The unk3300MDNLGGMGHAF at the given index.
+       * @return The ownedCostumeList at the given index.
        */
-      public int getUnk3300MDNLGGMGHAF(int index) {
-        return unk3300MDNLGGMGHAF_.getInt(index);
+      public int getOwnedCostumeList(int index) {
+        return ownedCostumeList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
+       * <code>repeated uint32 owned_costume_list = 5;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300MDNLGGMGHAF to set.
+       * @param value The ownedCostumeList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MDNLGGMGHAF(
+      public Builder setOwnedCostumeList(
           int index, int value) {
-        ensureUnk3300MDNLGGMGHAFIsMutable();
-        unk3300MDNLGGMGHAF_.setInt(index, value);
+        ensureOwnedCostumeListIsMutable();
+        ownedCostumeList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-       * @param value The unk3300MDNLGGMGHAF to add.
+       * <code>repeated uint32 owned_costume_list = 5;</code>
+       * @param value The ownedCostumeList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300MDNLGGMGHAF(int value) {
-        ensureUnk3300MDNLGGMGHAFIsMutable();
-        unk3300MDNLGGMGHAF_.addInt(value);
+      public Builder addOwnedCostumeList(int value) {
+        ensureOwnedCostumeListIsMutable();
+        ownedCostumeList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
-       * @param values The unk3300MDNLGGMGHAF to add.
+       * <code>repeated uint32 owned_costume_list = 5;</code>
+       * @param values The ownedCostumeList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300MDNLGGMGHAF(
+      public Builder addAllOwnedCostumeList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300MDNLGGMGHAFIsMutable();
+        ensureOwnedCostumeListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300MDNLGGMGHAF_);
+            values, ownedCostumeList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MDNLGGMGHAF = 5;</code>
+       * <code>repeated uint32 owned_costume_list = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MDNLGGMGHAF() {
-        unk3300MDNLGGMGHAF_ = emptyIntList();
+      public Builder clearOwnedCostumeList() {
+        ownedCostumeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000020);
         onChanged();
         return this;
@@ -2402,18 +2402,18 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
     java.lang.String[] descriptorData = {
       "\n\026AvatarDataNotify.proto\032\020AvatarInfo.pro" +
       "to\032\026AvatarRenameInfo.proto\032\020AvatarTeam.p" +
-      "roto\"\235\003\n\020AvatarDataNotify\022 \n\013avatar_list" +
+      "roto\"\234\003\n\020AvatarDataNotify\022 \n\013avatar_list" +
       "\030\016 \003(\0132\013.AvatarInfo\022-\n\022avatar_rename_lis" +
       "t\030\010 \003(\0132\021.AvatarRenameInfo\022\032\n\022cur_avatar" +
-      "_team_id\030\007 \001(\r\022\033\n\023Unk3300_HHKJBGKHIEJ\030\006 " +
+      "_team_id\030\007 \001(\r\022\033\n\023owned_flycloak_list\030\006 " +
       "\003(\r\022\035\n\025temp_avatar_guid_list\030\017 \003(\004\022\032\n\022ch" +
       "oose_avatar_guid\030\001 \001(\004\022=\n\017avatar_team_ma" +
       "p\030\013 \003(\0132$.AvatarDataNotify.AvatarTeamMap" +
-      "Entry\022\033\n\023Unk3300_MDNLGGMGHAF\030\005 \003(\r\022%\n\035ba" +
-      "ckup_avatar_team_order_list\030\003 \003(\r\032A\n\022Ava" +
-      "tarTeamMapEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 " +
-      "\001(\0132\013.AvatarTeam:\0028\001B\036\n\034emu.grasscutter." +
-      "net.newprotob\006proto3"
+      "Entry\022\032\n\022owned_costume_list\030\005 \003(\r\022%\n\035bac" +
+      "kup_avatar_team_order_list\030\003 \003(\r\032A\n\022Avat" +
+      "arTeamMapEntry\022\013\n\003key\030\001 \001(\r\022\032\n\005value\030\002 \001" +
+      "(\0132\013.AvatarTeam:\0028\001B\036\n\034emu.grasscutter.n" +
+      "et.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2427,7 +2427,7 @@ emu.grasscutter.net.newproto.AvatarTeamOuterClass.AvatarTeam defaultValue);
     internal_static_AvatarDataNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarDataNotify_descriptor,
-        new java.lang.String[] { "AvatarList", "AvatarRenameList", "CurAvatarTeamId", "Unk3300HHKJBGKHIEJ", "TempAvatarGuidList", "ChooseAvatarGuid", "AvatarTeamMap", "Unk3300MDNLGGMGHAF", "BackupAvatarTeamOrderList", });
+        new java.lang.String[] { "AvatarList", "AvatarRenameList", "CurAvatarTeamId", "OwnedFlycloakList", "TempAvatarGuidList", "ChooseAvatarGuid", "AvatarTeamMap", "OwnedCostumeList", "BackupAvatarTeamOrderList", });
     internal_static_AvatarDataNotify_AvatarTeamMapEntry_descriptor =
       internal_static_AvatarDataNotify_descriptor.getNestedTypes().get(0);
     internal_static_AvatarDataNotify_AvatarTeamMapEntry_fieldAccessorTable = new

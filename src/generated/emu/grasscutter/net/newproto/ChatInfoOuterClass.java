@@ -31,10 +31,10 @@ public final class ChatInfoOuterClass {
     int getTime();
 
     /**
-     * <code>uint32 Unk3300_HENLDIJMIOE = 10;</code>
-     * @return The unk3300HENLDIJMIOE.
+     * <code>uint32 to_uid = 10;</code>
+     * @return The toUid.
      */
-    int getUnk3300HENLDIJMIOE();
+    int getToUid();
 
     /**
      * <code>uint32 uid = 11;</code>
@@ -43,10 +43,10 @@ public final class ChatInfoOuterClass {
     int getUid();
 
     /**
-     * <code>uint32 Unk3300_PHBEHIGHOCD = 5;</code>
-     * @return The unk3300PHBEHIGHOCD.
+     * <code>uint32 sequence = 5;</code>
+     * @return The sequence.
      */
-    int getUnk3300PHBEHIGHOCD();
+    int getSequence();
 
     /**
      * <code>string text = 909;</code>
@@ -785,15 +785,15 @@ public final class ChatInfoOuterClass {
       return time_;
     }
 
-    public static final int UNK3300_HENLDIJMIOE_FIELD_NUMBER = 10;
-    private int unk3300HENLDIJMIOE_;
+    public static final int TO_UID_FIELD_NUMBER = 10;
+    private int toUid_;
     /**
-     * <code>uint32 Unk3300_HENLDIJMIOE = 10;</code>
-     * @return The unk3300HENLDIJMIOE.
+     * <code>uint32 to_uid = 10;</code>
+     * @return The toUid.
      */
     @java.lang.Override
-    public int getUnk3300HENLDIJMIOE() {
-      return unk3300HENLDIJMIOE_;
+    public int getToUid() {
+      return toUid_;
     }
 
     public static final int UID_FIELD_NUMBER = 11;
@@ -807,15 +807,15 @@ public final class ChatInfoOuterClass {
       return uid_;
     }
 
-    public static final int UNK3300_PHBEHIGHOCD_FIELD_NUMBER = 5;
-    private int unk3300PHBEHIGHOCD_;
+    public static final int SEQUENCE_FIELD_NUMBER = 5;
+    private int sequence_;
     /**
-     * <code>uint32 Unk3300_PHBEHIGHOCD = 5;</code>
-     * @return The unk3300PHBEHIGHOCD.
+     * <code>uint32 sequence = 5;</code>
+     * @return The sequence.
      */
     @java.lang.Override
-    public int getUnk3300PHBEHIGHOCD() {
-      return unk3300PHBEHIGHOCD_;
+    public int getSequence() {
+      return sequence_;
     }
 
     public static final int TEXT_FIELD_NUMBER = 909;
@@ -942,11 +942,11 @@ public final class ChatInfoOuterClass {
       if (isRead_ != false) {
         output.writeBool(3, isRead_);
       }
-      if (unk3300PHBEHIGHOCD_ != 0) {
-        output.writeUInt32(5, unk3300PHBEHIGHOCD_);
+      if (sequence_ != 0) {
+        output.writeUInt32(5, sequence_);
       }
-      if (unk3300HENLDIJMIOE_ != 0) {
-        output.writeUInt32(10, unk3300HENLDIJMIOE_);
+      if (toUid_ != 0) {
+        output.writeUInt32(10, toUid_);
       }
       if (uid_ != 0) {
         output.writeUInt32(11, uid_);
@@ -978,13 +978,13 @@ public final class ChatInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(3, isRead_);
       }
-      if (unk3300PHBEHIGHOCD_ != 0) {
+      if (sequence_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, unk3300PHBEHIGHOCD_);
+          .computeUInt32Size(5, sequence_);
       }
-      if (unk3300HENLDIJMIOE_ != 0) {
+      if (toUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, unk3300HENLDIJMIOE_);
+          .computeUInt32Size(10, toUid_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1021,12 +1021,12 @@ public final class ChatInfoOuterClass {
           != other.getIsRead()) return false;
       if (getTime()
           != other.getTime()) return false;
-      if (getUnk3300HENLDIJMIOE()
-          != other.getUnk3300HENLDIJMIOE()) return false;
+      if (getToUid()
+          != other.getToUid()) return false;
       if (getUid()
           != other.getUid()) return false;
-      if (getUnk3300PHBEHIGHOCD()
-          != other.getUnk3300PHBEHIGHOCD()) return false;
+      if (getSequence()
+          != other.getSequence()) return false;
       if (!getContentCase().equals(other.getContentCase())) return false;
       switch (contentCase_) {
         case 909:
@@ -1060,12 +1060,12 @@ public final class ChatInfoOuterClass {
           getIsRead());
       hash = (37 * hash) + TIME_FIELD_NUMBER;
       hash = (53 * hash) + getTime();
-      hash = (37 * hash) + UNK3300_HENLDIJMIOE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300HENLDIJMIOE();
+      hash = (37 * hash) + TO_UID_FIELD_NUMBER;
+      hash = (53 * hash) + getToUid();
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
-      hash = (37 * hash) + UNK3300_PHBEHIGHOCD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300PHBEHIGHOCD();
+      hash = (37 * hash) + SEQUENCE_FIELD_NUMBER;
+      hash = (53 * hash) + getSequence();
       switch (contentCase_) {
         case 909:
           hash = (37 * hash) + TEXT_FIELD_NUMBER;
@@ -1214,11 +1214,11 @@ public final class ChatInfoOuterClass {
 
         time_ = 0;
 
-        unk3300HENLDIJMIOE_ = 0;
+        toUid_ = 0;
 
         uid_ = 0;
 
-        unk3300PHBEHIGHOCD_ = 0;
+        sequence_ = 0;
 
         if (systemHintBuilder_ != null) {
           systemHintBuilder_.clear();
@@ -1253,9 +1253,9 @@ public final class ChatInfoOuterClass {
         emu.grasscutter.net.newproto.ChatInfoOuterClass.ChatInfo result = new emu.grasscutter.net.newproto.ChatInfoOuterClass.ChatInfo(this);
         result.isRead_ = isRead_;
         result.time_ = time_;
-        result.unk3300HENLDIJMIOE_ = unk3300HENLDIJMIOE_;
+        result.toUid_ = toUid_;
         result.uid_ = uid_;
-        result.unk3300PHBEHIGHOCD_ = unk3300PHBEHIGHOCD_;
+        result.sequence_ = sequence_;
         if (contentCase_ == 909) {
           result.content_ = content_;
         }
@@ -1324,14 +1324,14 @@ public final class ChatInfoOuterClass {
         if (other.getTime() != 0) {
           setTime(other.getTime());
         }
-        if (other.getUnk3300HENLDIJMIOE() != 0) {
-          setUnk3300HENLDIJMIOE(other.getUnk3300HENLDIJMIOE());
+        if (other.getToUid() != 0) {
+          setToUid(other.getToUid());
         }
         if (other.getUid() != 0) {
           setUid(other.getUid());
         }
-        if (other.getUnk3300PHBEHIGHOCD() != 0) {
-          setUnk3300PHBEHIGHOCD(other.getUnk3300PHBEHIGHOCD());
+        if (other.getSequence() != 0) {
+          setSequence(other.getSequence());
         }
         switch (other.getContentCase()) {
           case TEXT: {
@@ -1389,12 +1389,12 @@ public final class ChatInfoOuterClass {
                 break;
               } // case 24
               case 40: {
-                unk3300PHBEHIGHOCD_ = input.readUInt32();
+                sequence_ = input.readUInt32();
 
                 break;
               } // case 40
               case 80: {
-                unk3300HENLDIJMIOE_ = input.readUInt32();
+                toUid_ = input.readUInt32();
 
                 break;
               } // case 80
@@ -1514,33 +1514,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
 
-      private int unk3300HENLDIJMIOE_ ;
+      private int toUid_ ;
       /**
-       * <code>uint32 Unk3300_HENLDIJMIOE = 10;</code>
-       * @return The unk3300HENLDIJMIOE.
+       * <code>uint32 to_uid = 10;</code>
+       * @return The toUid.
        */
       @java.lang.Override
-      public int getUnk3300HENLDIJMIOE() {
-        return unk3300HENLDIJMIOE_;
+      public int getToUid() {
+        return toUid_;
       }
       /**
-       * <code>uint32 Unk3300_HENLDIJMIOE = 10;</code>
-       * @param value The unk3300HENLDIJMIOE to set.
+       * <code>uint32 to_uid = 10;</code>
+       * @param value The toUid to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HENLDIJMIOE(int value) {
+      public Builder setToUid(int value) {
         
-        unk3300HENLDIJMIOE_ = value;
+        toUid_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_HENLDIJMIOE = 10;</code>
+       * <code>uint32 to_uid = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300HENLDIJMIOE() {
+      public Builder clearToUid() {
         
-        unk3300HENLDIJMIOE_ = 0;
+        toUid_ = 0;
         onChanged();
         return this;
       }
@@ -1576,33 +1576,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
 
-      private int unk3300PHBEHIGHOCD_ ;
+      private int sequence_ ;
       /**
-       * <code>uint32 Unk3300_PHBEHIGHOCD = 5;</code>
-       * @return The unk3300PHBEHIGHOCD.
+       * <code>uint32 sequence = 5;</code>
+       * @return The sequence.
        */
       @java.lang.Override
-      public int getUnk3300PHBEHIGHOCD() {
-        return unk3300PHBEHIGHOCD_;
+      public int getSequence() {
+        return sequence_;
       }
       /**
-       * <code>uint32 Unk3300_PHBEHIGHOCD = 5;</code>
-       * @param value The unk3300PHBEHIGHOCD to set.
+       * <code>uint32 sequence = 5;</code>
+       * @param value The sequence to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PHBEHIGHOCD(int value) {
+      public Builder setSequence(int value) {
         
-        unk3300PHBEHIGHOCD_ = value;
+        sequence_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_PHBEHIGHOCD = 5;</code>
+       * <code>uint32 sequence = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PHBEHIGHOCD() {
+      public Builder clearSequence() {
         
-        unk3300PHBEHIGHOCD_ = 0;
+        sequence_ = 0;
         onChanged();
         return this;
       }
@@ -1969,17 +1969,16 @@ public final class ChatInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016ChatInfo.proto\"\347\002\n\010ChatInfo\022\017\n\007is_read" +
-      "\030\003 \001(\010\022\014\n\004time\030\001 \001(\r\022\033\n\023Unk3300_HENLDIJM" +
-      "IOE\030\n \001(\r\022\013\n\003uid\030\013 \001(\r\022\033\n\023Unk3300_PHBEHI" +
-      "GHOCD\030\005 \001(\r\022\017\n\004text\030\215\007 \001(\tH\000\022\017\n\004icon\030\336\007 " +
-      "\001(\rH\000\022,\n\013system_hint\030\237\006 \001(\0132\024.ChatInfo.S" +
-      "ystemHintH\000\032\032\n\nSystemHint\022\014\n\004type\030\017 \001(\r\"" +
-      "~\n\016SystemHintType\022\036\n\032SYSTEM_HINT_TYPE_CH" +
-      "AT_NONE\020\000\022%\n!SYSTEM_HINT_TYPE_CHAT_ENTER" +
-      "_WORLD\020\001\022%\n!SYSTEM_HINT_TYPE_CHAT_LEAVE_" +
-      "WORLD\020\002B\t\n\007contentB\036\n\034emu.grasscutter.ne" +
-      "t.newprotob\006proto3"
+      "\n\016ChatInfo.proto\"\317\002\n\010ChatInfo\022\017\n\007is_read" +
+      "\030\003 \001(\010\022\014\n\004time\030\001 \001(\r\022\016\n\006to_uid\030\n \001(\r\022\013\n\003" +
+      "uid\030\013 \001(\r\022\020\n\010sequence\030\005 \001(\r\022\017\n\004text\030\215\007 \001" +
+      "(\tH\000\022\017\n\004icon\030\336\007 \001(\rH\000\022,\n\013system_hint\030\237\006 " +
+      "\001(\0132\024.ChatInfo.SystemHintH\000\032\032\n\nSystemHin" +
+      "t\022\014\n\004type\030\017 \001(\r\"~\n\016SystemHintType\022\036\n\032SYS" +
+      "TEM_HINT_TYPE_CHAT_NONE\020\000\022%\n!SYSTEM_HINT" +
+      "_TYPE_CHAT_ENTER_WORLD\020\001\022%\n!SYSTEM_HINT_" +
+      "TYPE_CHAT_LEAVE_WORLD\020\002B\t\n\007contentB\036\n\034em" +
+      "u.grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1990,7 +1989,7 @@ public final class ChatInfoOuterClass {
     internal_static_ChatInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChatInfo_descriptor,
-        new java.lang.String[] { "IsRead", "Time", "Unk3300HENLDIJMIOE", "Uid", "Unk3300PHBEHIGHOCD", "Text", "Icon", "SystemHint", "Content", });
+        new java.lang.String[] { "IsRead", "Time", "ToUid", "Uid", "Sequence", "Text", "Icon", "SystemHint", "Content", });
     internal_static_ChatInfo_SystemHint_descriptor =
       internal_static_ChatInfo_descriptor.getNestedTypes().get(0);
     internal_static_ChatInfo_SystemHint_fieldAccessorTable = new

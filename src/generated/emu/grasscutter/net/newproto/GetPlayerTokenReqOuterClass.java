@@ -193,10 +193,10 @@ public final class GetPlayerTokenReqOuterClass {
         getBirthdayBytes();
 
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 7;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 7;</code>
+     * @return The subChannelId.
      */
-    int getUnk3300IADFJHNFKIB();
+    int getSubChannelId();
   }
   /**
    * <pre>
@@ -738,15 +738,15 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int UNK3300_IADFJHNFKIB_FIELD_NUMBER = 7;
-    private int unk3300IADFJHNFKIB_;
+    public static final int SUB_CHANNEL_ID_FIELD_NUMBER = 7;
+    private int subChannelId_;
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 7;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 7;</code>
+     * @return The subChannelId.
      */
     @java.lang.Override
-    public int getUnk3300IADFJHNFKIB() {
-      return unk3300IADFJHNFKIB_;
+    public int getSubChannelId() {
+      return subChannelId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -781,8 +781,8 @@ public final class GetPlayerTokenReqOuterClass {
       if (accountType_ != 0) {
         output.writeUInt32(6, accountType_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
-        output.writeUInt32(7, unk3300IADFJHNFKIB_);
+      if (subChannelId_ != 0) {
+        output.writeUInt32(7, subChannelId_);
       }
       if (channelId_ != 0) {
         output.writeUInt32(8, channelId_);
@@ -853,9 +853,9 @@ public final class GetPlayerTokenReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, accountType_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
+      if (subChannelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300IADFJHNFKIB_);
+          .computeUInt32Size(7, subChannelId_);
       }
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -955,8 +955,8 @@ public final class GetPlayerTokenReqOuterClass {
           .equals(other.getCountryCode())) return false;
       if (!getBirthday()
           .equals(other.getBirthday())) return false;
-      if (getUnk3300IADFJHNFKIB()
-          != other.getUnk3300IADFJHNFKIB()) return false;
+      if (getSubChannelId()
+          != other.getSubChannelId()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -1007,8 +1007,8 @@ public final class GetPlayerTokenReqOuterClass {
       hash = (53 * hash) + getCountryCode().hashCode();
       hash = (37 * hash) + BIRTHDAY_FIELD_NUMBER;
       hash = (53 * hash) + getBirthday().hashCode();
-      hash = (37 * hash) + UNK3300_IADFJHNFKIB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300IADFJHNFKIB();
+      hash = (37 * hash) + SUB_CHANNEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSubChannelId();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1186,7 +1186,7 @@ public final class GetPlayerTokenReqOuterClass {
 
         birthday_ = "";
 
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
 
         return this;
       }
@@ -1233,7 +1233,7 @@ public final class GetPlayerTokenReqOuterClass {
         result.accountToken_ = accountToken_;
         result.countryCode_ = countryCode_;
         result.birthday_ = birthday_;
-        result.unk3300IADFJHNFKIB_ = unk3300IADFJHNFKIB_;
+        result.subChannelId_ = subChannelId_;
         onBuilt();
         return result;
       }
@@ -1349,8 +1349,8 @@ public final class GetPlayerTokenReqOuterClass {
           birthday_ = other.birthday_;
           onChanged();
         }
-        if (other.getUnk3300IADFJHNFKIB() != 0) {
-          setUnk3300IADFJHNFKIB(other.getUnk3300IADFJHNFKIB());
+        if (other.getSubChannelId() != 0) {
+          setSubChannelId(other.getSubChannelId());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -1409,7 +1409,7 @@ public final class GetPlayerTokenReqOuterClass {
                 break;
               } // case 48
               case 56: {
-                unk3300IADFJHNFKIB_ = input.readUInt32();
+                subChannelId_ = input.readUInt32();
 
                 break;
               } // case 56
@@ -2533,33 +2533,33 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private int unk3300IADFJHNFKIB_ ;
+      private int subChannelId_ ;
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 7;</code>
-       * @return The unk3300IADFJHNFKIB.
+       * <code>uint32 sub_channel_id = 7;</code>
+       * @return The subChannelId.
        */
       @java.lang.Override
-      public int getUnk3300IADFJHNFKIB() {
-        return unk3300IADFJHNFKIB_;
+      public int getSubChannelId() {
+        return subChannelId_;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 7;</code>
-       * @param value The unk3300IADFJHNFKIB to set.
+       * <code>uint32 sub_channel_id = 7;</code>
+       * @param value The subChannelId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300IADFJHNFKIB(int value) {
+      public Builder setSubChannelId(int value) {
         
-        unk3300IADFJHNFKIB_ = value;
+        subChannelId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 7;</code>
+       * <code>uint32 sub_channel_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300IADFJHNFKIB() {
+      public Builder clearSubChannelId() {
         
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
         onChanged();
         return this;
       }
@@ -2641,7 +2641,7 @@ public final class GetPlayerTokenReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027GetPlayerTokenReq.proto\"\316\003\n\021GetPlayerT" +
+      "\n\027GetPlayerTokenReq.proto\"\311\003\n\021GetPlayerT" +
       "okenReq\022\013\n\003uid\030\n \001(\r\022\034\n\023Unk3300_DILMOPPL" +
       "PEM\030\307\r \001(\r\022\025\n\rplatform_type\030\002 \001(\r\022\020\n\010is_" +
       "guest\030\016 \001(\010\022\021\n\tonline_id\030\014 \001(\t\022\024\n\014accoun" +
@@ -2652,9 +2652,9 @@ public final class GetPlayerTokenReqOuterClass {
       "\022\016\n\006psn_id\030\005 \001(\t\022\017\n\006key_id\030\227\t \001(\r\022\023\n\013acc" +
       "ount_uid\030\004 \001(\t\022\025\n\rclient_ip_str\030\017 \001(\t\022\025\n" +
       "\raccount_token\030\t \001(\t\022\024\n\014country_code\030\013 \001" +
-      "(\t\022\021\n\010birthday\030\244\002 \001(\t\022\033\n\023Unk3300_IADFJHN" +
-      "FKIB\030\007 \001(\rB\036\n\034emu.grasscutter.net.newpro" +
-      "tob\006proto3"
+      "(\t\022\021\n\010birthday\030\244\002 \001(\t\022\026\n\016sub_channel_id\030" +
+      "\007 \001(\rB\036\n\034emu.grasscutter.net.newprotob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2665,7 +2665,7 @@ public final class GetPlayerTokenReqOuterClass {
     internal_static_GetPlayerTokenReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetPlayerTokenReq_descriptor,
-        new java.lang.String[] { "Uid", "Unk3300DILMOPPLPEM", "PlatformType", "IsGuest", "OnlineId", "AccountType", "ChannelId", "ClientRandKey", "Unk3300PHNOHCKIHIA", "Lang", "Unk3300PKONAOIDNFK", "Unk3300PMGFBMJNNCL", "PsnId", "KeyId", "AccountUid", "ClientIpStr", "AccountToken", "CountryCode", "Birthday", "Unk3300IADFJHNFKIB", });
+        new java.lang.String[] { "Uid", "Unk3300DILMOPPLPEM", "PlatformType", "IsGuest", "OnlineId", "AccountType", "ChannelId", "ClientRandKey", "Unk3300PHNOHCKIHIA", "Lang", "Unk3300PKONAOIDNFK", "Unk3300PMGFBMJNNCL", "PsnId", "KeyId", "AccountUid", "ClientIpStr", "AccountToken", "CountryCode", "Birthday", "SubChannelId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

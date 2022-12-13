@@ -61,19 +61,19 @@ public final class AvatarEnterSceneInfoOuterClass {
         int index);
 
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-     * @return Whether the unk3300EMAGOKCPPKN field is set.
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+     * @return Whether the weaponAbilityInfo field is set.
      */
-    boolean hasUnk3300EMAGOKCPPKN();
+    boolean hasWeaponAbilityInfo();
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-     * @return The unk3300EMAGOKCPPKN.
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+     * @return The weaponAbilityInfo.
      */
-    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300EMAGOKCPPKN();
+    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo();
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
      */
-    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300EMAGOKCPPKNOrBuilder();
+    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder();
 
     /**
      * <code>repeated uint32 buff_id_list = 8;</code>
@@ -93,19 +93,19 @@ public final class AvatarEnterSceneInfoOuterClass {
     int getBuffIdList(int index);
 
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-     * @return Whether the unk3300FCDDPFADNAI field is set.
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+     * @return Whether the avatarAbilityInfo field is set.
      */
-    boolean hasUnk3300FCDDPFADNAI();
+    boolean hasAvatarAbilityInfo();
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-     * @return The unk3300FCDDPFADNAI.
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+     * @return The avatarAbilityInfo.
      */
-    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300FCDDPFADNAI();
+    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo();
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
      */
-    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300FCDDPFADNAIOrBuilder();
+    emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder();
 
     /**
      * <code>uint64 weapon_guid = 15;</code>
@@ -228,30 +228,30 @@ public final class AvatarEnterSceneInfoOuterClass {
       return serverBuffList_.get(index);
     }
 
-    public static final int UNK3300_EMAGOKCPPKN_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo unk3300EMAGOKCPPKN_;
+    public static final int WEAPON_ABILITY_INFO_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-     * @return Whether the unk3300EMAGOKCPPKN field is set.
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+     * @return Whether the weaponAbilityInfo field is set.
      */
     @java.lang.Override
-    public boolean hasUnk3300EMAGOKCPPKN() {
-      return unk3300EMAGOKCPPKN_ != null;
+    public boolean hasWeaponAbilityInfo() {
+      return weaponAbilityInfo_ != null;
     }
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-     * @return The unk3300EMAGOKCPPKN.
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+     * @return The weaponAbilityInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300EMAGOKCPPKN() {
-      return unk3300EMAGOKCPPKN_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300EMAGOKCPPKN_;
+    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo() {
+      return weaponAbilityInfo_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
     }
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+     * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300EMAGOKCPPKNOrBuilder() {
-      return getUnk3300EMAGOKCPPKN();
+    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder() {
+      return getWeaponAbilityInfo();
     }
 
     public static final int BUFF_ID_LIST_FIELD_NUMBER = 8;
@@ -282,30 +282,30 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     private int buffIdListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_FCDDPFADNAI_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo unk3300FCDDPFADNAI_;
+    public static final int AVATAR_ABILITY_INFO_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-     * @return Whether the unk3300FCDDPFADNAI field is set.
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+     * @return Whether the avatarAbilityInfo field is set.
      */
     @java.lang.Override
-    public boolean hasUnk3300FCDDPFADNAI() {
-      return unk3300FCDDPFADNAI_ != null;
+    public boolean hasAvatarAbilityInfo() {
+      return avatarAbilityInfo_ != null;
     }
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-     * @return The unk3300FCDDPFADNAI.
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+     * @return The avatarAbilityInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300FCDDPFADNAI() {
-      return unk3300FCDDPFADNAI_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300FCDDPFADNAI_;
+    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo() {
+      return avatarAbilityInfo_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
     }
     /**
-     * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+     * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300FCDDPFADNAIOrBuilder() {
-      return getUnk3300FCDDPFADNAI();
+    public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder() {
+      return getAvatarAbilityInfo();
     }
 
     public static final int WEAPON_GUID_FIELD_NUMBER = 15;
@@ -334,14 +334,14 @@ public final class AvatarEnterSceneInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (unk3300FCDDPFADNAI_ != null) {
-        output.writeMessage(1, getUnk3300FCDDPFADNAI());
+      if (avatarAbilityInfo_ != null) {
+        output.writeMessage(1, getAvatarAbilityInfo());
       }
       if (weaponEntityId_ != 0) {
         output.writeUInt32(5, weaponEntityId_);
       }
-      if (unk3300EMAGOKCPPKN_ != null) {
-        output.writeMessage(6, getUnk3300EMAGOKCPPKN());
+      if (weaponAbilityInfo_ != null) {
+        output.writeMessage(6, getWeaponAbilityInfo());
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
         output.writeMessage(7, serverBuffList_.get(i));
@@ -371,17 +371,17 @@ public final class AvatarEnterSceneInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300FCDDPFADNAI_ != null) {
+      if (avatarAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getUnk3300FCDDPFADNAI());
+          .computeMessageSize(1, getAvatarAbilityInfo());
       }
       if (weaponEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, weaponEntityId_);
       }
-      if (unk3300EMAGOKCPPKN_ != null) {
+      if (weaponAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getUnk3300EMAGOKCPPKN());
+          .computeMessageSize(6, getWeaponAbilityInfo());
       }
       for (int i = 0; i < serverBuffList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -436,17 +436,17 @@ public final class AvatarEnterSceneInfoOuterClass {
           != other.getAvatarEntityId()) return false;
       if (!getServerBuffListList()
           .equals(other.getServerBuffListList())) return false;
-      if (hasUnk3300EMAGOKCPPKN() != other.hasUnk3300EMAGOKCPPKN()) return false;
-      if (hasUnk3300EMAGOKCPPKN()) {
-        if (!getUnk3300EMAGOKCPPKN()
-            .equals(other.getUnk3300EMAGOKCPPKN())) return false;
+      if (hasWeaponAbilityInfo() != other.hasWeaponAbilityInfo()) return false;
+      if (hasWeaponAbilityInfo()) {
+        if (!getWeaponAbilityInfo()
+            .equals(other.getWeaponAbilityInfo())) return false;
       }
       if (!getBuffIdListList()
           .equals(other.getBuffIdListList())) return false;
-      if (hasUnk3300FCDDPFADNAI() != other.hasUnk3300FCDDPFADNAI()) return false;
-      if (hasUnk3300FCDDPFADNAI()) {
-        if (!getUnk3300FCDDPFADNAI()
-            .equals(other.getUnk3300FCDDPFADNAI())) return false;
+      if (hasAvatarAbilityInfo() != other.hasAvatarAbilityInfo()) return false;
+      if (hasAvatarAbilityInfo()) {
+        if (!getAvatarAbilityInfo()
+            .equals(other.getAvatarAbilityInfo())) return false;
       }
       if (getWeaponGuid()
           != other.getWeaponGuid()) return false;
@@ -472,17 +472,17 @@ public final class AvatarEnterSceneInfoOuterClass {
         hash = (37 * hash) + SERVER_BUFF_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getServerBuffListList().hashCode();
       }
-      if (hasUnk3300EMAGOKCPPKN()) {
-        hash = (37 * hash) + UNK3300_EMAGOKCPPKN_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300EMAGOKCPPKN().hashCode();
+      if (hasWeaponAbilityInfo()) {
+        hash = (37 * hash) + WEAPON_ABILITY_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getWeaponAbilityInfo().hashCode();
       }
       if (getBuffIdListCount() > 0) {
         hash = (37 * hash) + BUFF_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getBuffIdListList().hashCode();
       }
-      if (hasUnk3300FCDDPFADNAI()) {
-        hash = (37 * hash) + UNK3300_FCDDPFADNAI_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300FCDDPFADNAI().hashCode();
+      if (hasAvatarAbilityInfo()) {
+        hash = (37 * hash) + AVATAR_ABILITY_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getAvatarAbilityInfo().hashCode();
       }
       hash = (37 * hash) + WEAPON_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -628,19 +628,19 @@ public final class AvatarEnterSceneInfoOuterClass {
           serverBuffListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          unk3300EMAGOKCPPKN_ = null;
+        if (weaponAbilityInfoBuilder_ == null) {
+          weaponAbilityInfo_ = null;
         } else {
-          unk3300EMAGOKCPPKN_ = null;
-          unk3300EMAGOKCPPKNBuilder_ = null;
+          weaponAbilityInfo_ = null;
+          weaponAbilityInfoBuilder_ = null;
         }
         buffIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          unk3300FCDDPFADNAI_ = null;
+        if (avatarAbilityInfoBuilder_ == null) {
+          avatarAbilityInfo_ = null;
         } else {
-          unk3300FCDDPFADNAI_ = null;
-          unk3300FCDDPFADNAIBuilder_ = null;
+          avatarAbilityInfo_ = null;
+          avatarAbilityInfoBuilder_ = null;
         }
         weaponGuid_ = 0L;
 
@@ -683,20 +683,20 @@ public final class AvatarEnterSceneInfoOuterClass {
         } else {
           result.serverBuffList_ = serverBuffListBuilder_.build();
         }
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          result.unk3300EMAGOKCPPKN_ = unk3300EMAGOKCPPKN_;
+        if (weaponAbilityInfoBuilder_ == null) {
+          result.weaponAbilityInfo_ = weaponAbilityInfo_;
         } else {
-          result.unk3300EMAGOKCPPKN_ = unk3300EMAGOKCPPKNBuilder_.build();
+          result.weaponAbilityInfo_ = weaponAbilityInfoBuilder_.build();
         }
         if (((bitField0_ & 0x00000002) != 0)) {
           buffIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.buffIdList_ = buffIdList_;
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          result.unk3300FCDDPFADNAI_ = unk3300FCDDPFADNAI_;
+        if (avatarAbilityInfoBuilder_ == null) {
+          result.avatarAbilityInfo_ = avatarAbilityInfo_;
         } else {
-          result.unk3300FCDDPFADNAI_ = unk3300FCDDPFADNAIBuilder_.build();
+          result.avatarAbilityInfo_ = avatarAbilityInfoBuilder_.build();
         }
         result.weaponGuid_ = weaponGuid_;
         onBuilt();
@@ -782,8 +782,8 @@ public final class AvatarEnterSceneInfoOuterClass {
             }
           }
         }
-        if (other.hasUnk3300EMAGOKCPPKN()) {
-          mergeUnk3300EMAGOKCPPKN(other.getUnk3300EMAGOKCPPKN());
+        if (other.hasWeaponAbilityInfo()) {
+          mergeWeaponAbilityInfo(other.getWeaponAbilityInfo());
         }
         if (!other.buffIdList_.isEmpty()) {
           if (buffIdList_.isEmpty()) {
@@ -795,8 +795,8 @@ public final class AvatarEnterSceneInfoOuterClass {
           }
           onChanged();
         }
-        if (other.hasUnk3300FCDDPFADNAI()) {
-          mergeUnk3300FCDDPFADNAI(other.getUnk3300FCDDPFADNAI());
+        if (other.hasAvatarAbilityInfo()) {
+          mergeAvatarAbilityInfo(other.getAvatarAbilityInfo());
         }
         if (other.getWeaponGuid() != 0L) {
           setWeaponGuid(other.getWeaponGuid());
@@ -829,7 +829,7 @@ public final class AvatarEnterSceneInfoOuterClass {
                 break;
               case 10: {
                 input.readMessage(
-                    getUnk3300FCDDPFADNAIFieldBuilder().getBuilder(),
+                    getAvatarAbilityInfoFieldBuilder().getBuilder(),
                     extensionRegistry);
 
                 break;
@@ -841,7 +841,7 @@ public final class AvatarEnterSceneInfoOuterClass {
               } // case 40
               case 50: {
                 input.readMessage(
-                    getUnk3300EMAGOKCPPKNFieldBuilder().getBuilder(),
+                    getWeaponAbilityInfoFieldBuilder().getBuilder(),
                     extensionRegistry);
 
                 break;
@@ -1240,123 +1240,123 @@ public final class AvatarEnterSceneInfoOuterClass {
         return serverBuffListBuilder_;
       }
 
-      private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo unk3300EMAGOKCPPKN_;
+      private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> unk3300EMAGOKCPPKNBuilder_;
+          emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> weaponAbilityInfoBuilder_;
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-       * @return Whether the unk3300EMAGOKCPPKN field is set.
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+       * @return Whether the weaponAbilityInfo field is set.
        */
-      public boolean hasUnk3300EMAGOKCPPKN() {
-        return unk3300EMAGOKCPPKNBuilder_ != null || unk3300EMAGOKCPPKN_ != null;
+      public boolean hasWeaponAbilityInfo() {
+        return weaponAbilityInfoBuilder_ != null || weaponAbilityInfo_ != null;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
-       * @return The unk3300EMAGOKCPPKN.
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
+       * @return The weaponAbilityInfo.
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300EMAGOKCPPKN() {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          return unk3300EMAGOKCPPKN_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300EMAGOKCPPKN_;
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo() {
+        if (weaponAbilityInfoBuilder_ == null) {
+          return weaponAbilityInfo_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
         } else {
-          return unk3300EMAGOKCPPKNBuilder_.getMessage();
+          return weaponAbilityInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public Builder setUnk3300EMAGOKCPPKN(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
+      public Builder setWeaponAbilityInfo(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
+        if (weaponAbilityInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          unk3300EMAGOKCPPKN_ = value;
+          weaponAbilityInfo_ = value;
           onChanged();
         } else {
-          unk3300EMAGOKCPPKNBuilder_.setMessage(value);
+          weaponAbilityInfoBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public Builder setUnk3300EMAGOKCPPKN(
+      public Builder setWeaponAbilityInfo(
           emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder builderForValue) {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          unk3300EMAGOKCPPKN_ = builderForValue.build();
+        if (weaponAbilityInfoBuilder_ == null) {
+          weaponAbilityInfo_ = builderForValue.build();
           onChanged();
         } else {
-          unk3300EMAGOKCPPKNBuilder_.setMessage(builderForValue.build());
+          weaponAbilityInfoBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public Builder mergeUnk3300EMAGOKCPPKN(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          if (unk3300EMAGOKCPPKN_ != null) {
-            unk3300EMAGOKCPPKN_ =
-              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.newBuilder(unk3300EMAGOKCPPKN_).mergeFrom(value).buildPartial();
+      public Builder mergeWeaponAbilityInfo(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
+        if (weaponAbilityInfoBuilder_ == null) {
+          if (weaponAbilityInfo_ != null) {
+            weaponAbilityInfo_ =
+              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.newBuilder(weaponAbilityInfo_).mergeFrom(value).buildPartial();
           } else {
-            unk3300EMAGOKCPPKN_ = value;
+            weaponAbilityInfo_ = value;
           }
           onChanged();
         } else {
-          unk3300EMAGOKCPPKNBuilder_.mergeFrom(value);
+          weaponAbilityInfoBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public Builder clearUnk3300EMAGOKCPPKN() {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          unk3300EMAGOKCPPKN_ = null;
+      public Builder clearWeaponAbilityInfo() {
+        if (weaponAbilityInfoBuilder_ == null) {
+          weaponAbilityInfo_ = null;
           onChanged();
         } else {
-          unk3300EMAGOKCPPKN_ = null;
-          unk3300EMAGOKCPPKNBuilder_ = null;
+          weaponAbilityInfo_ = null;
+          weaponAbilityInfoBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getUnk3300EMAGOKCPPKNBuilder() {
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getWeaponAbilityInfoBuilder() {
         
         onChanged();
-        return getUnk3300EMAGOKCPPKNFieldBuilder().getBuilder();
+        return getWeaponAbilityInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300EMAGOKCPPKNOrBuilder() {
-        if (unk3300EMAGOKCPPKNBuilder_ != null) {
-          return unk3300EMAGOKCPPKNBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getWeaponAbilityInfoOrBuilder() {
+        if (weaponAbilityInfoBuilder_ != null) {
+          return weaponAbilityInfoBuilder_.getMessageOrBuilder();
         } else {
-          return unk3300EMAGOKCPPKN_ == null ?
-              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300EMAGOKCPPKN_;
+          return weaponAbilityInfo_ == null ?
+              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : weaponAbilityInfo_;
         }
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_EMAGOKCPPKN = 6;</code>
+       * <code>.AbilitySyncStateInfo weapon_ability_info = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
-          getUnk3300EMAGOKCPPKNFieldBuilder() {
-        if (unk3300EMAGOKCPPKNBuilder_ == null) {
-          unk3300EMAGOKCPPKNBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getWeaponAbilityInfoFieldBuilder() {
+        if (weaponAbilityInfoBuilder_ == null) {
+          weaponAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>(
-                  getUnk3300EMAGOKCPPKN(),
+                  getWeaponAbilityInfo(),
                   getParentForChildren(),
                   isClean());
-          unk3300EMAGOKCPPKN_ = null;
+          weaponAbilityInfo_ = null;
         }
-        return unk3300EMAGOKCPPKNBuilder_;
+        return weaponAbilityInfoBuilder_;
       }
 
       private com.google.protobuf.Internal.IntList buffIdList_ = emptyIntList();
@@ -1438,123 +1438,123 @@ public final class AvatarEnterSceneInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo unk3300FCDDPFADNAI_;
+      private emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> unk3300FCDDPFADNAIBuilder_;
+          emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> avatarAbilityInfoBuilder_;
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-       * @return Whether the unk3300FCDDPFADNAI field is set.
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+       * @return Whether the avatarAbilityInfo field is set.
        */
-      public boolean hasUnk3300FCDDPFADNAI() {
-        return unk3300FCDDPFADNAIBuilder_ != null || unk3300FCDDPFADNAI_ != null;
+      public boolean hasAvatarAbilityInfo() {
+        return avatarAbilityInfoBuilder_ != null || avatarAbilityInfo_ != null;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
-       * @return The unk3300FCDDPFADNAI.
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
+       * @return The avatarAbilityInfo.
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getUnk3300FCDDPFADNAI() {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          return unk3300FCDDPFADNAI_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300FCDDPFADNAI_;
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo() {
+        if (avatarAbilityInfoBuilder_ == null) {
+          return avatarAbilityInfo_ == null ? emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
         } else {
-          return unk3300FCDDPFADNAIBuilder_.getMessage();
+          return avatarAbilityInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public Builder setUnk3300FCDDPFADNAI(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
+      public Builder setAvatarAbilityInfo(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
+        if (avatarAbilityInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          unk3300FCDDPFADNAI_ = value;
+          avatarAbilityInfo_ = value;
           onChanged();
         } else {
-          unk3300FCDDPFADNAIBuilder_.setMessage(value);
+          avatarAbilityInfoBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public Builder setUnk3300FCDDPFADNAI(
+      public Builder setAvatarAbilityInfo(
           emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder builderForValue) {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          unk3300FCDDPFADNAI_ = builderForValue.build();
+        if (avatarAbilityInfoBuilder_ == null) {
+          avatarAbilityInfo_ = builderForValue.build();
           onChanged();
         } else {
-          unk3300FCDDPFADNAIBuilder_.setMessage(builderForValue.build());
+          avatarAbilityInfoBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public Builder mergeUnk3300FCDDPFADNAI(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          if (unk3300FCDDPFADNAI_ != null) {
-            unk3300FCDDPFADNAI_ =
-              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.newBuilder(unk3300FCDDPFADNAI_).mergeFrom(value).buildPartial();
+      public Builder mergeAvatarAbilityInfo(emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
+        if (avatarAbilityInfoBuilder_ == null) {
+          if (avatarAbilityInfo_ != null) {
+            avatarAbilityInfo_ =
+              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.newBuilder(avatarAbilityInfo_).mergeFrom(value).buildPartial();
           } else {
-            unk3300FCDDPFADNAI_ = value;
+            avatarAbilityInfo_ = value;
           }
           onChanged();
         } else {
-          unk3300FCDDPFADNAIBuilder_.mergeFrom(value);
+          avatarAbilityInfoBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public Builder clearUnk3300FCDDPFADNAI() {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          unk3300FCDDPFADNAI_ = null;
+      public Builder clearAvatarAbilityInfo() {
+        if (avatarAbilityInfoBuilder_ == null) {
+          avatarAbilityInfo_ = null;
           onChanged();
         } else {
-          unk3300FCDDPFADNAI_ = null;
-          unk3300FCDDPFADNAIBuilder_ = null;
+          avatarAbilityInfo_ = null;
+          avatarAbilityInfoBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getUnk3300FCDDPFADNAIBuilder() {
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAvatarAbilityInfoBuilder() {
         
         onChanged();
-        return getUnk3300FCDDPFADNAIFieldBuilder().getBuilder();
+        return getAvatarAbilityInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
-      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getUnk3300FCDDPFADNAIOrBuilder() {
-        if (unk3300FCDDPFADNAIBuilder_ != null) {
-          return unk3300FCDDPFADNAIBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAvatarAbilityInfoOrBuilder() {
+        if (avatarAbilityInfoBuilder_ != null) {
+          return avatarAbilityInfoBuilder_.getMessageOrBuilder();
         } else {
-          return unk3300FCDDPFADNAI_ == null ?
-              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : unk3300FCDDPFADNAI_;
+          return avatarAbilityInfo_ == null ?
+              emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : avatarAbilityInfo_;
         }
       }
       /**
-       * <code>.AbilitySyncStateInfo Unk3300_FCDDPFADNAI = 1;</code>
+       * <code>.AbilitySyncStateInfo avatar_ability_info = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
-          getUnk3300FCDDPFADNAIFieldBuilder() {
-        if (unk3300FCDDPFADNAIBuilder_ == null) {
-          unk3300FCDDPFADNAIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getAvatarAbilityInfoFieldBuilder() {
+        if (avatarAbilityInfoBuilder_ == null) {
+          avatarAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>(
-                  getUnk3300FCDDPFADNAI(),
+                  getAvatarAbilityInfo(),
                   getParentForChildren(),
                   isClean());
-          unk3300FCDDPFADNAI_ = null;
+          avatarAbilityInfo_ = null;
         }
-        return unk3300FCDDPFADNAIBuilder_;
+        return avatarAbilityInfoBuilder_;
       }
 
       private long weaponGuid_ ;
@@ -1670,9 +1670,9 @@ public final class AvatarEnterSceneInfoOuterClass {
       "vatarEnterSceneInfo\022\030\n\020weapon_entity_id\030" +
       "\005 \001(\r\022\023\n\013avatar_guid\030\t \001(\004\022\030\n\020avatar_ent" +
       "ity_id\030\r \001(\r\022%\n\020server_buff_list\030\007 \003(\0132\013" +
-      ".ServerBuff\0222\n\023Unk3300_EMAGOKCPPKN\030\006 \001(\013" +
+      ".ServerBuff\0222\n\023weapon_ability_info\030\006 \001(\013" +
       "2\025.AbilitySyncStateInfo\022\024\n\014buff_id_list\030" +
-      "\010 \003(\r\0222\n\023Unk3300_FCDDPFADNAI\030\001 \001(\0132\025.Abi" +
+      "\010 \003(\r\0222\n\023avatar_ability_info\030\001 \001(\0132\025.Abi" +
       "litySyncStateInfo\022\023\n\013weapon_guid\030\017 \001(\004B\036" +
       "\n\034emu.grasscutter.net.newprotob\006proto3"
     };
@@ -1687,7 +1687,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     internal_static_AvatarEnterSceneInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarEnterSceneInfo_descriptor,
-        new java.lang.String[] { "WeaponEntityId", "AvatarGuid", "AvatarEntityId", "ServerBuffList", "Unk3300EMAGOKCPPKN", "BuffIdList", "Unk3300FCDDPFADNAI", "WeaponGuid", });
+        new java.lang.String[] { "WeaponEntityId", "AvatarGuid", "AvatarEntityId", "ServerBuffList", "WeaponAbilityInfo", "BuffIdList", "AvatarAbilityInfo", "WeaponGuid", });
     emu.grasscutter.net.newproto.AbilitySyncStateInfoOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.ServerBuffOuterClass.getDescriptor();
   }

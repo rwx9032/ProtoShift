@@ -19,10 +19,10 @@ public final class InferenceWordInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool Unk3300_BFOGKOHIEEJ = 12;</code>
-     * @return The unk3300BFOGKOHIEEJ.
+     * <code>bool is_submit = 12;</code>
+     * @return The isSubmit.
      */
-    boolean getUnk3300BFOGKOHIEEJ();
+    boolean getIsSubmit();
 
     /**
      * <code>uint32 unlock_by_word_id = 11;</code>
@@ -31,10 +31,10 @@ public final class InferenceWordInfoOuterClass {
     int getUnlockByWordId();
 
     /**
-     * <code>bool Unk3300_PKBCAOHGNLM = 10;</code>
-     * @return The unk3300PKBCAOHGNLM.
+     * <code>bool is_associate = 10;</code>
+     * @return The isAssociate.
      */
-    boolean getUnk3300PKBCAOHGNLM();
+    boolean getIsAssociate();
 
     /**
      * <code>uint32 word_id = 2;</code>
@@ -43,10 +43,10 @@ public final class InferenceWordInfoOuterClass {
     int getWordId();
 
     /**
-     * <code>bool Unk3300_JPHLECOIGKF = 3;</code>
-     * @return The unk3300JPHLECOIGKF.
+     * <code>bool is_interpret = 3;</code>
+     * @return The isInterpret.
      */
-    boolean getUnk3300JPHLECOIGKF();
+    boolean getIsInterpret();
   }
   /**
    * Protobuf type {@code InferenceWordInfo}
@@ -88,15 +88,15 @@ public final class InferenceWordInfoOuterClass {
               emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo.class, emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo.Builder.class);
     }
 
-    public static final int UNK3300_BFOGKOHIEEJ_FIELD_NUMBER = 12;
-    private boolean unk3300BFOGKOHIEEJ_;
+    public static final int IS_SUBMIT_FIELD_NUMBER = 12;
+    private boolean isSubmit_;
     /**
-     * <code>bool Unk3300_BFOGKOHIEEJ = 12;</code>
-     * @return The unk3300BFOGKOHIEEJ.
+     * <code>bool is_submit = 12;</code>
+     * @return The isSubmit.
      */
     @java.lang.Override
-    public boolean getUnk3300BFOGKOHIEEJ() {
-      return unk3300BFOGKOHIEEJ_;
+    public boolean getIsSubmit() {
+      return isSubmit_;
     }
 
     public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 11;
@@ -110,15 +110,15 @@ public final class InferenceWordInfoOuterClass {
       return unlockByWordId_;
     }
 
-    public static final int UNK3300_PKBCAOHGNLM_FIELD_NUMBER = 10;
-    private boolean unk3300PKBCAOHGNLM_;
+    public static final int IS_ASSOCIATE_FIELD_NUMBER = 10;
+    private boolean isAssociate_;
     /**
-     * <code>bool Unk3300_PKBCAOHGNLM = 10;</code>
-     * @return The unk3300PKBCAOHGNLM.
+     * <code>bool is_associate = 10;</code>
+     * @return The isAssociate.
      */
     @java.lang.Override
-    public boolean getUnk3300PKBCAOHGNLM() {
-      return unk3300PKBCAOHGNLM_;
+    public boolean getIsAssociate() {
+      return isAssociate_;
     }
 
     public static final int WORD_ID_FIELD_NUMBER = 2;
@@ -132,15 +132,15 @@ public final class InferenceWordInfoOuterClass {
       return wordId_;
     }
 
-    public static final int UNK3300_JPHLECOIGKF_FIELD_NUMBER = 3;
-    private boolean unk3300JPHLECOIGKF_;
+    public static final int IS_INTERPRET_FIELD_NUMBER = 3;
+    private boolean isInterpret_;
     /**
-     * <code>bool Unk3300_JPHLECOIGKF = 3;</code>
-     * @return The unk3300JPHLECOIGKF.
+     * <code>bool is_interpret = 3;</code>
+     * @return The isInterpret.
      */
     @java.lang.Override
-    public boolean getUnk3300JPHLECOIGKF() {
-      return unk3300JPHLECOIGKF_;
+    public boolean getIsInterpret() {
+      return isInterpret_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -160,17 +160,17 @@ public final class InferenceWordInfoOuterClass {
       if (wordId_ != 0) {
         output.writeUInt32(2, wordId_);
       }
-      if (unk3300JPHLECOIGKF_ != false) {
-        output.writeBool(3, unk3300JPHLECOIGKF_);
+      if (isInterpret_ != false) {
+        output.writeBool(3, isInterpret_);
       }
-      if (unk3300PKBCAOHGNLM_ != false) {
-        output.writeBool(10, unk3300PKBCAOHGNLM_);
+      if (isAssociate_ != false) {
+        output.writeBool(10, isAssociate_);
       }
       if (unlockByWordId_ != 0) {
         output.writeUInt32(11, unlockByWordId_);
       }
-      if (unk3300BFOGKOHIEEJ_ != false) {
-        output.writeBool(12, unk3300BFOGKOHIEEJ_);
+      if (isSubmit_ != false) {
+        output.writeBool(12, isSubmit_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -185,21 +185,21 @@ public final class InferenceWordInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, wordId_);
       }
-      if (unk3300JPHLECOIGKF_ != false) {
+      if (isInterpret_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, unk3300JPHLECOIGKF_);
+          .computeBoolSize(3, isInterpret_);
       }
-      if (unk3300PKBCAOHGNLM_ != false) {
+      if (isAssociate_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, unk3300PKBCAOHGNLM_);
+          .computeBoolSize(10, isAssociate_);
       }
       if (unlockByWordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, unlockByWordId_);
       }
-      if (unk3300BFOGKOHIEEJ_ != false) {
+      if (isSubmit_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, unk3300BFOGKOHIEEJ_);
+          .computeBoolSize(12, isSubmit_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -216,16 +216,16 @@ public final class InferenceWordInfoOuterClass {
       }
       emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo other = (emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo) obj;
 
-      if (getUnk3300BFOGKOHIEEJ()
-          != other.getUnk3300BFOGKOHIEEJ()) return false;
+      if (getIsSubmit()
+          != other.getIsSubmit()) return false;
       if (getUnlockByWordId()
           != other.getUnlockByWordId()) return false;
-      if (getUnk3300PKBCAOHGNLM()
-          != other.getUnk3300PKBCAOHGNLM()) return false;
+      if (getIsAssociate()
+          != other.getIsAssociate()) return false;
       if (getWordId()
           != other.getWordId()) return false;
-      if (getUnk3300JPHLECOIGKF()
-          != other.getUnk3300JPHLECOIGKF()) return false;
+      if (getIsInterpret()
+          != other.getIsInterpret()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -237,19 +237,19 @@ public final class InferenceWordInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_BFOGKOHIEEJ_FIELD_NUMBER;
+      hash = (37 * hash) + IS_SUBMIT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300BFOGKOHIEEJ());
+          getIsSubmit());
       hash = (37 * hash) + UNLOCK_BY_WORD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getUnlockByWordId();
-      hash = (37 * hash) + UNK3300_PKBCAOHGNLM_FIELD_NUMBER;
+      hash = (37 * hash) + IS_ASSOCIATE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300PKBCAOHGNLM());
+          getIsAssociate());
       hash = (37 * hash) + WORD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getWordId();
-      hash = (37 * hash) + UNK3300_JPHLECOIGKF_FIELD_NUMBER;
+      hash = (37 * hash) + IS_INTERPRET_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300JPHLECOIGKF());
+          getIsInterpret());
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -378,15 +378,15 @@ public final class InferenceWordInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300BFOGKOHIEEJ_ = false;
+        isSubmit_ = false;
 
         unlockByWordId_ = 0;
 
-        unk3300PKBCAOHGNLM_ = false;
+        isAssociate_ = false;
 
         wordId_ = 0;
 
-        unk3300JPHLECOIGKF_ = false;
+        isInterpret_ = false;
 
         return this;
       }
@@ -414,11 +414,11 @@ public final class InferenceWordInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo buildPartial() {
         emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo result = new emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo(this);
-        result.unk3300BFOGKOHIEEJ_ = unk3300BFOGKOHIEEJ_;
+        result.isSubmit_ = isSubmit_;
         result.unlockByWordId_ = unlockByWordId_;
-        result.unk3300PKBCAOHGNLM_ = unk3300PKBCAOHGNLM_;
+        result.isAssociate_ = isAssociate_;
         result.wordId_ = wordId_;
-        result.unk3300JPHLECOIGKF_ = unk3300JPHLECOIGKF_;
+        result.isInterpret_ = isInterpret_;
         onBuilt();
         return result;
       }
@@ -467,20 +467,20 @@ public final class InferenceWordInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo other) {
         if (other == emu.grasscutter.net.newproto.InferenceWordInfoOuterClass.InferenceWordInfo.getDefaultInstance()) return this;
-        if (other.getUnk3300BFOGKOHIEEJ() != false) {
-          setUnk3300BFOGKOHIEEJ(other.getUnk3300BFOGKOHIEEJ());
+        if (other.getIsSubmit() != false) {
+          setIsSubmit(other.getIsSubmit());
         }
         if (other.getUnlockByWordId() != 0) {
           setUnlockByWordId(other.getUnlockByWordId());
         }
-        if (other.getUnk3300PKBCAOHGNLM() != false) {
-          setUnk3300PKBCAOHGNLM(other.getUnk3300PKBCAOHGNLM());
+        if (other.getIsAssociate() != false) {
+          setIsAssociate(other.getIsAssociate());
         }
         if (other.getWordId() != 0) {
           setWordId(other.getWordId());
         }
-        if (other.getUnk3300JPHLECOIGKF() != false) {
-          setUnk3300JPHLECOIGKF(other.getUnk3300JPHLECOIGKF());
+        if (other.getIsInterpret() != false) {
+          setIsInterpret(other.getIsInterpret());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -514,12 +514,12 @@ public final class InferenceWordInfoOuterClass {
                 break;
               } // case 16
               case 24: {
-                unk3300JPHLECOIGKF_ = input.readBool();
+                isInterpret_ = input.readBool();
 
                 break;
               } // case 24
               case 80: {
-                unk3300PKBCAOHGNLM_ = input.readBool();
+                isAssociate_ = input.readBool();
 
                 break;
               } // case 80
@@ -529,7 +529,7 @@ public final class InferenceWordInfoOuterClass {
                 break;
               } // case 88
               case 96: {
-                unk3300BFOGKOHIEEJ_ = input.readBool();
+                isSubmit_ = input.readBool();
 
                 break;
               } // case 96
@@ -549,33 +549,33 @@ public final class InferenceWordInfoOuterClass {
         return this;
       }
 
-      private boolean unk3300BFOGKOHIEEJ_ ;
+      private boolean isSubmit_ ;
       /**
-       * <code>bool Unk3300_BFOGKOHIEEJ = 12;</code>
-       * @return The unk3300BFOGKOHIEEJ.
+       * <code>bool is_submit = 12;</code>
+       * @return The isSubmit.
        */
       @java.lang.Override
-      public boolean getUnk3300BFOGKOHIEEJ() {
-        return unk3300BFOGKOHIEEJ_;
+      public boolean getIsSubmit() {
+        return isSubmit_;
       }
       /**
-       * <code>bool Unk3300_BFOGKOHIEEJ = 12;</code>
-       * @param value The unk3300BFOGKOHIEEJ to set.
+       * <code>bool is_submit = 12;</code>
+       * @param value The isSubmit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BFOGKOHIEEJ(boolean value) {
+      public Builder setIsSubmit(boolean value) {
         
-        unk3300BFOGKOHIEEJ_ = value;
+        isSubmit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_BFOGKOHIEEJ = 12;</code>
+       * <code>bool is_submit = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BFOGKOHIEEJ() {
+      public Builder clearIsSubmit() {
         
-        unk3300BFOGKOHIEEJ_ = false;
+        isSubmit_ = false;
         onChanged();
         return this;
       }
@@ -611,33 +611,33 @@ public final class InferenceWordInfoOuterClass {
         return this;
       }
 
-      private boolean unk3300PKBCAOHGNLM_ ;
+      private boolean isAssociate_ ;
       /**
-       * <code>bool Unk3300_PKBCAOHGNLM = 10;</code>
-       * @return The unk3300PKBCAOHGNLM.
+       * <code>bool is_associate = 10;</code>
+       * @return The isAssociate.
        */
       @java.lang.Override
-      public boolean getUnk3300PKBCAOHGNLM() {
-        return unk3300PKBCAOHGNLM_;
+      public boolean getIsAssociate() {
+        return isAssociate_;
       }
       /**
-       * <code>bool Unk3300_PKBCAOHGNLM = 10;</code>
-       * @param value The unk3300PKBCAOHGNLM to set.
+       * <code>bool is_associate = 10;</code>
+       * @param value The isAssociate to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PKBCAOHGNLM(boolean value) {
+      public Builder setIsAssociate(boolean value) {
         
-        unk3300PKBCAOHGNLM_ = value;
+        isAssociate_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_PKBCAOHGNLM = 10;</code>
+       * <code>bool is_associate = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PKBCAOHGNLM() {
+      public Builder clearIsAssociate() {
         
-        unk3300PKBCAOHGNLM_ = false;
+        isAssociate_ = false;
         onChanged();
         return this;
       }
@@ -673,33 +673,33 @@ public final class InferenceWordInfoOuterClass {
         return this;
       }
 
-      private boolean unk3300JPHLECOIGKF_ ;
+      private boolean isInterpret_ ;
       /**
-       * <code>bool Unk3300_JPHLECOIGKF = 3;</code>
-       * @return The unk3300JPHLECOIGKF.
+       * <code>bool is_interpret = 3;</code>
+       * @return The isInterpret.
        */
       @java.lang.Override
-      public boolean getUnk3300JPHLECOIGKF() {
-        return unk3300JPHLECOIGKF_;
+      public boolean getIsInterpret() {
+        return isInterpret_;
       }
       /**
-       * <code>bool Unk3300_JPHLECOIGKF = 3;</code>
-       * @param value The unk3300JPHLECOIGKF to set.
+       * <code>bool is_interpret = 3;</code>
+       * @param value The isInterpret to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JPHLECOIGKF(boolean value) {
+      public Builder setIsInterpret(boolean value) {
         
-        unk3300JPHLECOIGKF_ = value;
+        isInterpret_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_JPHLECOIGKF = 3;</code>
+       * <code>bool is_interpret = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JPHLECOIGKF() {
+      public Builder clearIsInterpret() {
         
-        unk3300JPHLECOIGKF_ = false;
+        isInterpret_ = false;
         onChanged();
         return this;
       }
@@ -781,12 +781,11 @@ public final class InferenceWordInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027InferenceWordInfo.proto\"\226\001\n\021InferenceW" +
-      "ordInfo\022\033\n\023Unk3300_BFOGKOHIEEJ\030\014 \001(\010\022\031\n\021" +
-      "unlock_by_word_id\030\013 \001(\r\022\033\n\023Unk3300_PKBCA" +
-      "OHGNLM\030\n \001(\010\022\017\n\007word_id\030\002 \001(\r\022\033\n\023Unk3300" +
-      "_JPHLECOIGKF\030\003 \001(\010B\036\n\034emu.grasscutter.ne" +
-      "t.newprotob\006proto3"
+      "\n\027InferenceWordInfo.proto\"~\n\021InferenceWo" +
+      "rdInfo\022\021\n\tis_submit\030\014 \001(\010\022\031\n\021unlock_by_w" +
+      "ord_id\030\013 \001(\r\022\024\n\014is_associate\030\n \001(\010\022\017\n\007wo" +
+      "rd_id\030\002 \001(\r\022\024\n\014is_interpret\030\003 \001(\010B\036\n\034emu" +
+      ".grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -797,7 +796,7 @@ public final class InferenceWordInfoOuterClass {
     internal_static_InferenceWordInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_InferenceWordInfo_descriptor,
-        new java.lang.String[] { "Unk3300BFOGKOHIEEJ", "UnlockByWordId", "Unk3300PKBCAOHGNLM", "WordId", "Unk3300JPHLECOIGKF", });
+        new java.lang.String[] { "IsSubmit", "UnlockByWordId", "IsAssociate", "WordId", "IsInterpret", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

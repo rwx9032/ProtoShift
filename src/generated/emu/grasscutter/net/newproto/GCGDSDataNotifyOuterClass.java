@@ -49,21 +49,21 @@ public final class GCGDSDataNotifyOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-     * @return A list containing the unk3300GEBHJAGKEID.
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+     * @return A list containing the unlockCardBackIdList.
      */
-    java.util.List<java.lang.Integer> getUnk3300GEBHJAGKEIDList();
+    java.util.List<java.lang.Integer> getUnlockCardBackIdListList();
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-     * @return The count of unk3300GEBHJAGKEID.
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+     * @return The count of unlockCardBackIdList.
      */
-    int getUnk3300GEBHJAGKEIDCount();
+    int getUnlockCardBackIdListCount();
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
      * @param index The index of the element to return.
-     * @return The unk3300GEBHJAGKEID at the given index.
+     * @return The unlockCardBackIdList at the given index.
      */
-    int getUnk3300GEBHJAGKEID(int index);
+    int getUnlockCardBackIdList(int index);
 
     /**
      * <code>repeated .GCGDSCardData card_list = 9;</code>
@@ -90,38 +90,38 @@ public final class GCGDSDataNotifyOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-     * @return A list containing the unk3300AAEAECGPHBH.
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
+     * @return A list containing the unlockFieldIdList.
      */
-    java.util.List<java.lang.Integer> getUnk3300AAEAECGPHBHList();
+    java.util.List<java.lang.Integer> getUnlockFieldIdListList();
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-     * @return The count of unk3300AAEAECGPHBH.
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
+     * @return The count of unlockFieldIdList.
      */
-    int getUnk3300AAEAECGPHBHCount();
+    int getUnlockFieldIdListCount();
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300AAEAECGPHBH at the given index.
+     * @return The unlockFieldIdList at the given index.
      */
-    int getUnk3300AAEAECGPHBH(int index);
+    int getUnlockFieldIdList(int index);
 
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-     * @return A list containing the unk3300JJCEINFHKOG.
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+     * @return A list containing the unlockDeckIdList.
      */
-    java.util.List<java.lang.Integer> getUnk3300JJCEINFHKOGList();
+    java.util.List<java.lang.Integer> getUnlockDeckIdListList();
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-     * @return The count of unk3300JJCEINFHKOG.
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+     * @return The count of unlockDeckIdList.
      */
-    int getUnk3300JJCEINFHKOGCount();
+    int getUnlockDeckIdListCount();
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300JJCEINFHKOG at the given index.
+     * @return The unlockDeckIdList at the given index.
      */
-    int getUnk3300JJCEINFHKOG(int index);
+    int getUnlockDeckIdList(int index);
   }
   /**
    * <pre>
@@ -147,10 +147,10 @@ public final class GCGDSDataNotifyOuterClass {
     }
     private GCGDSDataNotify() {
       deckList_ = java.util.Collections.emptyList();
-      unk3300GEBHJAGKEID_ = emptyIntList();
+      unlockCardBackIdList_ = emptyIntList();
       cardList_ = java.util.Collections.emptyList();
-      unk3300AAEAECGPHBH_ = emptyIntList();
-      unk3300JJCEINFHKOG_ = emptyIntList();
+      unlockFieldIdList_ = emptyIntList();
+      unlockDeckIdList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -229,33 +229,33 @@ public final class GCGDSDataNotifyOuterClass {
       return deckList_.get(index);
     }
 
-    public static final int UNK3300_GEBHJAGKEID_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList unk3300GEBHJAGKEID_;
+    public static final int UNLOCK_CARD_BACK_ID_LIST_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList unlockCardBackIdList_;
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-     * @return A list containing the unk3300GEBHJAGKEID.
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+     * @return A list containing the unlockCardBackIdList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300GEBHJAGKEIDList() {
-      return unk3300GEBHJAGKEID_;
+        getUnlockCardBackIdListList() {
+      return unlockCardBackIdList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-     * @return The count of unk3300GEBHJAGKEID.
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+     * @return The count of unlockCardBackIdList.
      */
-    public int getUnk3300GEBHJAGKEIDCount() {
-      return unk3300GEBHJAGKEID_.size();
+    public int getUnlockCardBackIdListCount() {
+      return unlockCardBackIdList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
+     * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
      * @param index The index of the element to return.
-     * @return The unk3300GEBHJAGKEID at the given index.
+     * @return The unlockCardBackIdList at the given index.
      */
-    public int getUnk3300GEBHJAGKEID(int index) {
-      return unk3300GEBHJAGKEID_.getInt(index);
+    public int getUnlockCardBackIdList(int index) {
+      return unlockCardBackIdList_.getInt(index);
     }
-    private int unk3300GEBHJAGKEIDMemoizedSerializedSize = -1;
+    private int unlockCardBackIdListMemoizedSerializedSize = -1;
 
     public static final int CARD_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.newproto.GCGDSCardDataOuterClass.GCGDSCardData> cardList_;
@@ -297,61 +297,61 @@ public final class GCGDSDataNotifyOuterClass {
       return cardList_.get(index);
     }
 
-    public static final int UNK3300_AAEAECGPHBH_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList unk3300AAEAECGPHBH_;
+    public static final int UNLOCK_FIELD_ID_LIST_FIELD_NUMBER = 5;
+    private com.google.protobuf.Internal.IntList unlockFieldIdList_;
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-     * @return A list containing the unk3300AAEAECGPHBH.
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
+     * @return A list containing the unlockFieldIdList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300AAEAECGPHBHList() {
-      return unk3300AAEAECGPHBH_;
+        getUnlockFieldIdListList() {
+      return unlockFieldIdList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-     * @return The count of unk3300AAEAECGPHBH.
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
+     * @return The count of unlockFieldIdList.
      */
-    public int getUnk3300AAEAECGPHBHCount() {
-      return unk3300AAEAECGPHBH_.size();
+    public int getUnlockFieldIdListCount() {
+      return unlockFieldIdList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
+     * <code>repeated uint32 unlock_field_id_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300AAEAECGPHBH at the given index.
+     * @return The unlockFieldIdList at the given index.
      */
-    public int getUnk3300AAEAECGPHBH(int index) {
-      return unk3300AAEAECGPHBH_.getInt(index);
+    public int getUnlockFieldIdList(int index) {
+      return unlockFieldIdList_.getInt(index);
     }
-    private int unk3300AAEAECGPHBHMemoizedSerializedSize = -1;
+    private int unlockFieldIdListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_JJCEINFHKOG_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList unk3300JJCEINFHKOG_;
+    public static final int UNLOCK_DECK_ID_LIST_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList unlockDeckIdList_;
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-     * @return A list containing the unk3300JJCEINFHKOG.
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+     * @return A list containing the unlockDeckIdList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300JJCEINFHKOGList() {
-      return unk3300JJCEINFHKOG_;
+        getUnlockDeckIdListList() {
+      return unlockDeckIdList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-     * @return The count of unk3300JJCEINFHKOG.
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+     * @return The count of unlockDeckIdList.
      */
-    public int getUnk3300JJCEINFHKOGCount() {
-      return unk3300JJCEINFHKOG_.size();
+    public int getUnlockDeckIdListCount() {
+      return unlockDeckIdList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
+     * <code>repeated uint32 unlock_deck_id_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300JJCEINFHKOG at the given index.
+     * @return The unlockDeckIdList at the given index.
      */
-    public int getUnk3300JJCEINFHKOG(int index) {
-      return unk3300JJCEINFHKOG_.getInt(index);
+    public int getUnlockDeckIdList(int index) {
+      return unlockDeckIdList_.getInt(index);
     }
-    private int unk3300JJCEINFHKOGMemoizedSerializedSize = -1;
+    private int unlockDeckIdListMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -371,19 +371,19 @@ public final class GCGDSDataNotifyOuterClass {
       for (int i = 0; i < deckList_.size(); i++) {
         output.writeMessage(3, deckList_.get(i));
       }
-      if (getUnk3300AAEAECGPHBHList().size() > 0) {
+      if (getUnlockFieldIdListList().size() > 0) {
         output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(unk3300AAEAECGPHBHMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockFieldIdListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300AAEAECGPHBH_.size(); i++) {
-        output.writeUInt32NoTag(unk3300AAEAECGPHBH_.getInt(i));
+      for (int i = 0; i < unlockFieldIdList_.size(); i++) {
+        output.writeUInt32NoTag(unlockFieldIdList_.getInt(i));
       }
-      if (getUnk3300JJCEINFHKOGList().size() > 0) {
+      if (getUnlockDeckIdListList().size() > 0) {
         output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(unk3300JJCEINFHKOGMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockDeckIdListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300JJCEINFHKOG_.size(); i++) {
-        output.writeUInt32NoTag(unk3300JJCEINFHKOG_.getInt(i));
+      for (int i = 0; i < unlockDeckIdList_.size(); i++) {
+        output.writeUInt32NoTag(unlockDeckIdList_.getInt(i));
       }
       if (curDeckId_ != 0) {
         output.writeUInt32(8, curDeckId_);
@@ -391,12 +391,12 @@ public final class GCGDSDataNotifyOuterClass {
       for (int i = 0; i < cardList_.size(); i++) {
         output.writeMessage(9, cardList_.get(i));
       }
-      if (getUnk3300GEBHJAGKEIDList().size() > 0) {
+      if (getUnlockCardBackIdListList().size() > 0) {
         output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(unk3300GEBHJAGKEIDMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockCardBackIdListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300GEBHJAGKEID_.size(); i++) {
-        output.writeUInt32NoTag(unk3300GEBHJAGKEID_.getInt(i));
+      for (int i = 0; i < unlockCardBackIdList_.size(); i++) {
+        output.writeUInt32NoTag(unlockCardBackIdList_.getInt(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -413,31 +413,31 @@ public final class GCGDSDataNotifyOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300AAEAECGPHBH_.size(); i++) {
+        for (int i = 0; i < unlockFieldIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300AAEAECGPHBH_.getInt(i));
+            .computeUInt32SizeNoTag(unlockFieldIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300AAEAECGPHBHList().isEmpty()) {
+        if (!getUnlockFieldIdListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300AAEAECGPHBHMemoizedSerializedSize = dataSize;
+        unlockFieldIdListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300JJCEINFHKOG_.size(); i++) {
+        for (int i = 0; i < unlockDeckIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300JJCEINFHKOG_.getInt(i));
+            .computeUInt32SizeNoTag(unlockDeckIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300JJCEINFHKOGList().isEmpty()) {
+        if (!getUnlockDeckIdListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300JJCEINFHKOGMemoizedSerializedSize = dataSize;
+        unlockDeckIdListMemoizedSerializedSize = dataSize;
       }
       if (curDeckId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -449,17 +449,17 @@ public final class GCGDSDataNotifyOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300GEBHJAGKEID_.size(); i++) {
+        for (int i = 0; i < unlockCardBackIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300GEBHJAGKEID_.getInt(i));
+            .computeUInt32SizeNoTag(unlockCardBackIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300GEBHJAGKEIDList().isEmpty()) {
+        if (!getUnlockCardBackIdListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300GEBHJAGKEIDMemoizedSerializedSize = dataSize;
+        unlockCardBackIdListMemoizedSerializedSize = dataSize;
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -480,14 +480,14 @@ public final class GCGDSDataNotifyOuterClass {
           != other.getCurDeckId()) return false;
       if (!getDeckListList()
           .equals(other.getDeckListList())) return false;
-      if (!getUnk3300GEBHJAGKEIDList()
-          .equals(other.getUnk3300GEBHJAGKEIDList())) return false;
+      if (!getUnlockCardBackIdListList()
+          .equals(other.getUnlockCardBackIdListList())) return false;
       if (!getCardListList()
           .equals(other.getCardListList())) return false;
-      if (!getUnk3300AAEAECGPHBHList()
-          .equals(other.getUnk3300AAEAECGPHBHList())) return false;
-      if (!getUnk3300JJCEINFHKOGList()
-          .equals(other.getUnk3300JJCEINFHKOGList())) return false;
+      if (!getUnlockFieldIdListList()
+          .equals(other.getUnlockFieldIdListList())) return false;
+      if (!getUnlockDeckIdListList()
+          .equals(other.getUnlockDeckIdListList())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -505,21 +505,21 @@ public final class GCGDSDataNotifyOuterClass {
         hash = (37 * hash) + DECK_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getDeckListList().hashCode();
       }
-      if (getUnk3300GEBHJAGKEIDCount() > 0) {
-        hash = (37 * hash) + UNK3300_GEBHJAGKEID_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300GEBHJAGKEIDList().hashCode();
+      if (getUnlockCardBackIdListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_CARD_BACK_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockCardBackIdListList().hashCode();
       }
       if (getCardListCount() > 0) {
         hash = (37 * hash) + CARD_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getCardListList().hashCode();
       }
-      if (getUnk3300AAEAECGPHBHCount() > 0) {
-        hash = (37 * hash) + UNK3300_AAEAECGPHBH_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300AAEAECGPHBHList().hashCode();
+      if (getUnlockFieldIdListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_FIELD_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockFieldIdListList().hashCode();
       }
-      if (getUnk3300JJCEINFHKOGCount() > 0) {
-        hash = (37 * hash) + UNK3300_JJCEINFHKOG_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300JJCEINFHKOGList().hashCode();
+      if (getUnlockDeckIdListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_DECK_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockDeckIdListList().hashCode();
       }
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
@@ -668,7 +668,7 @@ public final class GCGDSDataNotifyOuterClass {
           deckListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300GEBHJAGKEID_ = emptyIntList();
+        unlockCardBackIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         if (cardListBuilder_ == null) {
           cardList_ = java.util.Collections.emptyList();
@@ -677,9 +677,9 @@ public final class GCGDSDataNotifyOuterClass {
           cardListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000004);
-        unk3300AAEAECGPHBH_ = emptyIntList();
+        unlockFieldIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
-        unk3300JJCEINFHKOG_ = emptyIntList();
+        unlockDeckIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         return this;
       }
@@ -719,10 +719,10 @@ public final class GCGDSDataNotifyOuterClass {
           result.deckList_ = deckListBuilder_.build();
         }
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300GEBHJAGKEID_.makeImmutable();
+          unlockCardBackIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300GEBHJAGKEID_ = unk3300GEBHJAGKEID_;
+        result.unlockCardBackIdList_ = unlockCardBackIdList_;
         if (cardListBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
             cardList_ = java.util.Collections.unmodifiableList(cardList_);
@@ -733,15 +733,15 @@ public final class GCGDSDataNotifyOuterClass {
           result.cardList_ = cardListBuilder_.build();
         }
         if (((bitField0_ & 0x00000008) != 0)) {
-          unk3300AAEAECGPHBH_.makeImmutable();
+          unlockFieldIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000008);
         }
-        result.unk3300AAEAECGPHBH_ = unk3300AAEAECGPHBH_;
+        result.unlockFieldIdList_ = unlockFieldIdList_;
         if (((bitField0_ & 0x00000010) != 0)) {
-          unk3300JJCEINFHKOG_.makeImmutable();
+          unlockDeckIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000010);
         }
-        result.unk3300JJCEINFHKOG_ = unk3300JJCEINFHKOG_;
+        result.unlockDeckIdList_ = unlockDeckIdList_;
         onBuilt();
         return result;
       }
@@ -819,13 +819,13 @@ public final class GCGDSDataNotifyOuterClass {
             }
           }
         }
-        if (!other.unk3300GEBHJAGKEID_.isEmpty()) {
-          if (unk3300GEBHJAGKEID_.isEmpty()) {
-            unk3300GEBHJAGKEID_ = other.unk3300GEBHJAGKEID_;
+        if (!other.unlockCardBackIdList_.isEmpty()) {
+          if (unlockCardBackIdList_.isEmpty()) {
+            unlockCardBackIdList_ = other.unlockCardBackIdList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300GEBHJAGKEIDIsMutable();
-            unk3300GEBHJAGKEID_.addAll(other.unk3300GEBHJAGKEID_);
+            ensureUnlockCardBackIdListIsMutable();
+            unlockCardBackIdList_.addAll(other.unlockCardBackIdList_);
           }
           onChanged();
         }
@@ -855,23 +855,23 @@ public final class GCGDSDataNotifyOuterClass {
             }
           }
         }
-        if (!other.unk3300AAEAECGPHBH_.isEmpty()) {
-          if (unk3300AAEAECGPHBH_.isEmpty()) {
-            unk3300AAEAECGPHBH_ = other.unk3300AAEAECGPHBH_;
+        if (!other.unlockFieldIdList_.isEmpty()) {
+          if (unlockFieldIdList_.isEmpty()) {
+            unlockFieldIdList_ = other.unlockFieldIdList_;
             bitField0_ = (bitField0_ & ~0x00000008);
           } else {
-            ensureUnk3300AAEAECGPHBHIsMutable();
-            unk3300AAEAECGPHBH_.addAll(other.unk3300AAEAECGPHBH_);
+            ensureUnlockFieldIdListIsMutable();
+            unlockFieldIdList_.addAll(other.unlockFieldIdList_);
           }
           onChanged();
         }
-        if (!other.unk3300JJCEINFHKOG_.isEmpty()) {
-          if (unk3300JJCEINFHKOG_.isEmpty()) {
-            unk3300JJCEINFHKOG_ = other.unk3300JJCEINFHKOG_;
+        if (!other.unlockDeckIdList_.isEmpty()) {
+          if (unlockDeckIdList_.isEmpty()) {
+            unlockDeckIdList_ = other.unlockDeckIdList_;
             bitField0_ = (bitField0_ & ~0x00000010);
           } else {
-            ensureUnk3300JJCEINFHKOGIsMutable();
-            unk3300JJCEINFHKOG_.addAll(other.unk3300JJCEINFHKOG_);
+            ensureUnlockDeckIdListIsMutable();
+            unlockDeckIdList_.addAll(other.unlockDeckIdList_);
           }
           onChanged();
         }
@@ -916,32 +916,32 @@ public final class GCGDSDataNotifyOuterClass {
               } // case 26
               case 40: {
                 int v = input.readUInt32();
-                ensureUnk3300AAEAECGPHBHIsMutable();
-                unk3300AAEAECGPHBH_.addInt(v);
+                ensureUnlockFieldIdListIsMutable();
+                unlockFieldIdList_.addInt(v);
                 break;
               } // case 40
               case 42: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300AAEAECGPHBHIsMutable();
+                ensureUnlockFieldIdListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300AAEAECGPHBH_.addInt(input.readUInt32());
+                  unlockFieldIdList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
               } // case 42
               case 48: {
                 int v = input.readUInt32();
-                ensureUnk3300JJCEINFHKOGIsMutable();
-                unk3300JJCEINFHKOG_.addInt(v);
+                ensureUnlockDeckIdListIsMutable();
+                unlockDeckIdList_.addInt(v);
                 break;
               } // case 48
               case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300JJCEINFHKOGIsMutable();
+                ensureUnlockDeckIdListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300JJCEINFHKOG_.addInt(input.readUInt32());
+                  unlockDeckIdList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -966,16 +966,16 @@ public final class GCGDSDataNotifyOuterClass {
               } // case 74
               case 80: {
                 int v = input.readUInt32();
-                ensureUnk3300GEBHJAGKEIDIsMutable();
-                unk3300GEBHJAGKEID_.addInt(v);
+                ensureUnlockCardBackIdListIsMutable();
+                unlockCardBackIdList_.addInt(v);
                 break;
               } // case 80
               case 82: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300GEBHJAGKEIDIsMutable();
+                ensureUnlockCardBackIdListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300GEBHJAGKEID_.addInt(input.readUInt32());
+                  unlockCardBackIdList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -1268,80 +1268,80 @@ public final class GCGDSDataNotifyOuterClass {
         return deckListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300GEBHJAGKEID_ = emptyIntList();
-      private void ensureUnk3300GEBHJAGKEIDIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockCardBackIdList_ = emptyIntList();
+      private void ensureUnlockCardBackIdListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300GEBHJAGKEID_ = mutableCopy(unk3300GEBHJAGKEID_);
+          unlockCardBackIdList_ = mutableCopy(unlockCardBackIdList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-       * @return A list containing the unk3300GEBHJAGKEID.
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+       * @return A list containing the unlockCardBackIdList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300GEBHJAGKEIDList() {
+          getUnlockCardBackIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300GEBHJAGKEID_) : unk3300GEBHJAGKEID_;
+                 java.util.Collections.unmodifiableList(unlockCardBackIdList_) : unlockCardBackIdList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-       * @return The count of unk3300GEBHJAGKEID.
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+       * @return The count of unlockCardBackIdList.
        */
-      public int getUnk3300GEBHJAGKEIDCount() {
-        return unk3300GEBHJAGKEID_.size();
+      public int getUnlockCardBackIdListCount() {
+        return unlockCardBackIdList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
        * @param index The index of the element to return.
-       * @return The unk3300GEBHJAGKEID at the given index.
+       * @return The unlockCardBackIdList at the given index.
        */
-      public int getUnk3300GEBHJAGKEID(int index) {
-        return unk3300GEBHJAGKEID_.getInt(index);
+      public int getUnlockCardBackIdList(int index) {
+        return unlockCardBackIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300GEBHJAGKEID to set.
+       * @param value The unlockCardBackIdList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GEBHJAGKEID(
+      public Builder setUnlockCardBackIdList(
           int index, int value) {
-        ensureUnk3300GEBHJAGKEIDIsMutable();
-        unk3300GEBHJAGKEID_.setInt(index, value);
+        ensureUnlockCardBackIdListIsMutable();
+        unlockCardBackIdList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-       * @param value The unk3300GEBHJAGKEID to add.
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+       * @param value The unlockCardBackIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300GEBHJAGKEID(int value) {
-        ensureUnk3300GEBHJAGKEIDIsMutable();
-        unk3300GEBHJAGKEID_.addInt(value);
+      public Builder addUnlockCardBackIdList(int value) {
+        ensureUnlockCardBackIdListIsMutable();
+        unlockCardBackIdList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
-       * @param values The unk3300GEBHJAGKEID to add.
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
+       * @param values The unlockCardBackIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300GEBHJAGKEID(
+      public Builder addAllUnlockCardBackIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300GEBHJAGKEIDIsMutable();
+        ensureUnlockCardBackIdListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300GEBHJAGKEID_);
+            values, unlockCardBackIdList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_GEBHJAGKEID = 10;</code>
+       * <code>repeated uint32 unlock_card_back_id_list = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GEBHJAGKEID() {
-        unk3300GEBHJAGKEID_ = emptyIntList();
+      public Builder clearUnlockCardBackIdList() {
+        unlockCardBackIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -1587,159 +1587,159 @@ public final class GCGDSDataNotifyOuterClass {
         return cardListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300AAEAECGPHBH_ = emptyIntList();
-      private void ensureUnk3300AAEAECGPHBHIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockFieldIdList_ = emptyIntList();
+      private void ensureUnlockFieldIdListIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          unk3300AAEAECGPHBH_ = mutableCopy(unk3300AAEAECGPHBH_);
+          unlockFieldIdList_ = mutableCopy(unlockFieldIdList_);
           bitField0_ |= 0x00000008;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-       * @return A list containing the unk3300AAEAECGPHBH.
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
+       * @return A list containing the unlockFieldIdList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300AAEAECGPHBHList() {
+          getUnlockFieldIdListList() {
         return ((bitField0_ & 0x00000008) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300AAEAECGPHBH_) : unk3300AAEAECGPHBH_;
+                 java.util.Collections.unmodifiableList(unlockFieldIdList_) : unlockFieldIdList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-       * @return The count of unk3300AAEAECGPHBH.
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
+       * @return The count of unlockFieldIdList.
        */
-      public int getUnk3300AAEAECGPHBHCount() {
-        return unk3300AAEAECGPHBH_.size();
+      public int getUnlockFieldIdListCount() {
+        return unlockFieldIdList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
        * @param index The index of the element to return.
-       * @return The unk3300AAEAECGPHBH at the given index.
+       * @return The unlockFieldIdList at the given index.
        */
-      public int getUnk3300AAEAECGPHBH(int index) {
-        return unk3300AAEAECGPHBH_.getInt(index);
+      public int getUnlockFieldIdList(int index) {
+        return unlockFieldIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300AAEAECGPHBH to set.
+       * @param value The unlockFieldIdList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300AAEAECGPHBH(
+      public Builder setUnlockFieldIdList(
           int index, int value) {
-        ensureUnk3300AAEAECGPHBHIsMutable();
-        unk3300AAEAECGPHBH_.setInt(index, value);
+        ensureUnlockFieldIdListIsMutable();
+        unlockFieldIdList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-       * @param value The unk3300AAEAECGPHBH to add.
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
+       * @param value The unlockFieldIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300AAEAECGPHBH(int value) {
-        ensureUnk3300AAEAECGPHBHIsMutable();
-        unk3300AAEAECGPHBH_.addInt(value);
+      public Builder addUnlockFieldIdList(int value) {
+        ensureUnlockFieldIdListIsMutable();
+        unlockFieldIdList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
-       * @param values The unk3300AAEAECGPHBH to add.
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
+       * @param values The unlockFieldIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300AAEAECGPHBH(
+      public Builder addAllUnlockFieldIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300AAEAECGPHBHIsMutable();
+        ensureUnlockFieldIdListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300AAEAECGPHBH_);
+            values, unlockFieldIdList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_AAEAECGPHBH = 5;</code>
+       * <code>repeated uint32 unlock_field_id_list = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300AAEAECGPHBH() {
-        unk3300AAEAECGPHBH_ = emptyIntList();
+      public Builder clearUnlockFieldIdList() {
+        unlockFieldIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300JJCEINFHKOG_ = emptyIntList();
-      private void ensureUnk3300JJCEINFHKOGIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockDeckIdList_ = emptyIntList();
+      private void ensureUnlockDeckIdListIsMutable() {
         if (!((bitField0_ & 0x00000010) != 0)) {
-          unk3300JJCEINFHKOG_ = mutableCopy(unk3300JJCEINFHKOG_);
+          unlockDeckIdList_ = mutableCopy(unlockDeckIdList_);
           bitField0_ |= 0x00000010;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-       * @return A list containing the unk3300JJCEINFHKOG.
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+       * @return A list containing the unlockDeckIdList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300JJCEINFHKOGList() {
+          getUnlockDeckIdListList() {
         return ((bitField0_ & 0x00000010) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300JJCEINFHKOG_) : unk3300JJCEINFHKOG_;
+                 java.util.Collections.unmodifiableList(unlockDeckIdList_) : unlockDeckIdList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-       * @return The count of unk3300JJCEINFHKOG.
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+       * @return The count of unlockDeckIdList.
        */
-      public int getUnk3300JJCEINFHKOGCount() {
-        return unk3300JJCEINFHKOG_.size();
+      public int getUnlockDeckIdListCount() {
+        return unlockDeckIdList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
        * @param index The index of the element to return.
-       * @return The unk3300JJCEINFHKOG at the given index.
+       * @return The unlockDeckIdList at the given index.
        */
-      public int getUnk3300JJCEINFHKOG(int index) {
-        return unk3300JJCEINFHKOG_.getInt(index);
+      public int getUnlockDeckIdList(int index) {
+        return unlockDeckIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300JJCEINFHKOG to set.
+       * @param value The unlockDeckIdList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JJCEINFHKOG(
+      public Builder setUnlockDeckIdList(
           int index, int value) {
-        ensureUnk3300JJCEINFHKOGIsMutable();
-        unk3300JJCEINFHKOG_.setInt(index, value);
+        ensureUnlockDeckIdListIsMutable();
+        unlockDeckIdList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-       * @param value The unk3300JJCEINFHKOG to add.
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+       * @param value The unlockDeckIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300JJCEINFHKOG(int value) {
-        ensureUnk3300JJCEINFHKOGIsMutable();
-        unk3300JJCEINFHKOG_.addInt(value);
+      public Builder addUnlockDeckIdList(int value) {
+        ensureUnlockDeckIdListIsMutable();
+        unlockDeckIdList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
-       * @param values The unk3300JJCEINFHKOG to add.
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
+       * @param values The unlockDeckIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300JJCEINFHKOG(
+      public Builder addAllUnlockDeckIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300JJCEINFHKOGIsMutable();
+        ensureUnlockDeckIdListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300JJCEINFHKOG_);
+            values, unlockDeckIdList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_JJCEINFHKOG = 6;</code>
+       * <code>repeated uint32 unlock_deck_id_list = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JJCEINFHKOG() {
-        unk3300JJCEINFHKOG_ = emptyIntList();
+      public Builder clearUnlockDeckIdList() {
+        unlockDeckIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         onChanged();
         return this;
@@ -1823,13 +1823,13 @@ public final class GCGDSDataNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025GCGDSDataNotify.proto\032\023GCGDSCardData.p" +
-      "roto\032\023GCGDSDeckData.proto\"\303\001\n\017GCGDSDataN" +
+      "roto\032\023GCGDSDeckData.proto\"\311\001\n\017GCGDSDataN" +
       "otify\022\023\n\013cur_deck_id\030\010 \001(\r\022!\n\tdeck_list\030" +
-      "\003 \003(\0132\016.GCGDSDeckData\022\033\n\023Unk3300_GEBHJAG" +
-      "KEID\030\n \003(\r\022!\n\tcard_list\030\t \003(\0132\016.GCGDSCar" +
-      "dData\022\033\n\023Unk3300_AAEAECGPHBH\030\005 \003(\r\022\033\n\023Un" +
-      "k3300_JJCEINFHKOG\030\006 \003(\rB\036\n\034emu.grasscutt" +
-      "er.net.newprotob\006proto3"
+      "\003 \003(\0132\016.GCGDSDeckData\022 \n\030unlock_card_bac" +
+      "k_id_list\030\n \003(\r\022!\n\tcard_list\030\t \003(\0132\016.GCG" +
+      "DSCardData\022\034\n\024unlock_field_id_list\030\005 \003(\r" +
+      "\022\033\n\023unlock_deck_id_list\030\006 \003(\rB\036\n\034emu.gra" +
+      "sscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1842,7 +1842,7 @@ public final class GCGDSDataNotifyOuterClass {
     internal_static_GCGDSDataNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGDSDataNotify_descriptor,
-        new java.lang.String[] { "CurDeckId", "DeckList", "Unk3300GEBHJAGKEID", "CardList", "Unk3300AAEAECGPHBH", "Unk3300JJCEINFHKOG", });
+        new java.lang.String[] { "CurDeckId", "DeckList", "UnlockCardBackIdList", "CardList", "UnlockFieldIdList", "UnlockDeckIdList", });
     emu.grasscutter.net.newproto.GCGDSCardDataOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.GCGDSDeckDataOuterClass.getDescriptor();
   }

@@ -25,10 +25,10 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
     float getFadeDuration();
 
     /**
-     * <code>uint32 Unk3300_BKBPGIAOBEL = 11;</code>
-     * @return The unk3300BKBPGIAOBEL.
+     * <code>uint32 to_state_hash = 11;</code>
+     * @return The toStateHash.
      */
-    int getUnk3300BKBPGIAOBEL();
+    int getToStateHash();
 
     /**
      * <code>uint32 Unk3300_NMCCLIKMOEN = 1;</code>
@@ -132,15 +132,15 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       return fadeDuration_;
     }
 
-    public static final int UNK3300_BKBPGIAOBEL_FIELD_NUMBER = 11;
-    private int unk3300BKBPGIAOBEL_;
+    public static final int TO_STATE_HASH_FIELD_NUMBER = 11;
+    private int toStateHash_;
     /**
-     * <code>uint32 Unk3300_BKBPGIAOBEL = 11;</code>
-     * @return The unk3300BKBPGIAOBEL.
+     * <code>uint32 to_state_hash = 11;</code>
+     * @return The toStateHash.
      */
     @java.lang.Override
-    public int getUnk3300BKBPGIAOBEL() {
-      return unk3300BKBPGIAOBEL_;
+    public int getToStateHash() {
+      return toStateHash_;
     }
 
     public static final int UNK3300_NMCCLIKMOEN_FIELD_NUMBER = 1;
@@ -270,8 +270,8 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       if (unk3300MEOPKEDJCIN_ != false) {
         output.writeBool(7, unk3300MEOPKEDJCIN_);
       }
-      if (unk3300BKBPGIAOBEL_ != 0) {
-        output.writeUInt32(11, unk3300BKBPGIAOBEL_);
+      if (toStateHash_ != 0) {
+        output.writeUInt32(11, toStateHash_);
       }
       if (faceAngleCompact_ != 0) {
         output.writeInt32(15, faceAngleCompact_);
@@ -313,9 +313,9 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, unk3300MEOPKEDJCIN_);
       }
-      if (unk3300BKBPGIAOBEL_ != 0) {
+      if (toStateHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, unk3300BKBPGIAOBEL_);
+          .computeUInt32Size(11, toStateHash_);
       }
       if (faceAngleCompact_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -339,8 +339,8 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       if (java.lang.Float.floatToIntBits(getFadeDuration())
           != java.lang.Float.floatToIntBits(
               other.getFadeDuration())) return false;
-      if (getUnk3300BKBPGIAOBEL()
-          != other.getUnk3300BKBPGIAOBEL()) return false;
+      if (getToStateHash()
+          != other.getToStateHash()) return false;
       if (getUnk3300NMCCLIKMOEN()
           != other.getUnk3300NMCCLIKMOEN()) return false;
       if (hasPos() != other.hasPos()) return false;
@@ -372,8 +372,8 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       hash = (37 * hash) + FADE_DURATION_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getFadeDuration());
-      hash = (37 * hash) + UNK3300_BKBPGIAOBEL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300BKBPGIAOBEL();
+      hash = (37 * hash) + TO_STATE_HASH_FIELD_NUMBER;
+      hash = (53 * hash) + getToStateHash();
       hash = (37 * hash) + UNK3300_NMCCLIKMOEN_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300NMCCLIKMOEN();
       if (hasPos()) {
@@ -522,7 +522,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
         super.clear();
         fadeDuration_ = 0F;
 
-        unk3300BKBPGIAOBEL_ = 0;
+        toStateHash_ = 0;
 
         unk3300NMCCLIKMOEN_ = 0;
 
@@ -569,7 +569,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
       public emu.grasscutter.net.newproto.EvtAnimatorStateChangedInfoOuterClass.EvtAnimatorStateChangedInfo buildPartial() {
         emu.grasscutter.net.newproto.EvtAnimatorStateChangedInfoOuterClass.EvtAnimatorStateChangedInfo result = new emu.grasscutter.net.newproto.EvtAnimatorStateChangedInfoOuterClass.EvtAnimatorStateChangedInfo(this);
         result.fadeDuration_ = fadeDuration_;
-        result.unk3300BKBPGIAOBEL_ = unk3300BKBPGIAOBEL_;
+        result.toStateHash_ = toStateHash_;
         result.unk3300NMCCLIKMOEN_ = unk3300NMCCLIKMOEN_;
         if (posBuilder_ == null) {
           result.pos_ = pos_;
@@ -632,8 +632,8 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
         if (other.getFadeDuration() != 0F) {
           setFadeDuration(other.getFadeDuration());
         }
-        if (other.getUnk3300BKBPGIAOBEL() != 0) {
-          setUnk3300BKBPGIAOBEL(other.getUnk3300BKBPGIAOBEL());
+        if (other.getToStateHash() != 0) {
+          setToStateHash(other.getToStateHash());
         }
         if (other.getUnk3300NMCCLIKMOEN() != 0) {
           setUnk3300NMCCLIKMOEN(other.getUnk3300NMCCLIKMOEN());
@@ -720,7 +720,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
                 break;
               } // case 56
               case 88: {
-                unk3300BKBPGIAOBEL_ = input.readUInt32();
+                toStateHash_ = input.readUInt32();
 
                 break;
               } // case 88
@@ -776,33 +776,33 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
         return this;
       }
 
-      private int unk3300BKBPGIAOBEL_ ;
+      private int toStateHash_ ;
       /**
-       * <code>uint32 Unk3300_BKBPGIAOBEL = 11;</code>
-       * @return The unk3300BKBPGIAOBEL.
+       * <code>uint32 to_state_hash = 11;</code>
+       * @return The toStateHash.
        */
       @java.lang.Override
-      public int getUnk3300BKBPGIAOBEL() {
-        return unk3300BKBPGIAOBEL_;
+      public int getToStateHash() {
+        return toStateHash_;
       }
       /**
-       * <code>uint32 Unk3300_BKBPGIAOBEL = 11;</code>
-       * @param value The unk3300BKBPGIAOBEL to set.
+       * <code>uint32 to_state_hash = 11;</code>
+       * @param value The toStateHash to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BKBPGIAOBEL(int value) {
+      public Builder setToStateHash(int value) {
         
-        unk3300BKBPGIAOBEL_ = value;
+        toStateHash_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_BKBPGIAOBEL = 11;</code>
+       * <code>uint32 to_state_hash = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BKBPGIAOBEL() {
+      public Builder clearToStateHash() {
         
-        unk3300BKBPGIAOBEL_ = 0;
+        toStateHash_ = 0;
         onChanged();
         return this;
       }
@@ -1190,15 +1190,14 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n!EvtAnimatorStateChangedInfo.proto\032\014Vec" +
-      "tor.proto\"\216\002\n\033EvtAnimatorStateChangedInf" +
-      "o\022\025\n\rfade_duration\030\004 \001(\002\022\033\n\023Unk3300_BKBP" +
-      "GIAOBEL\030\013 \001(\r\022\033\n\023Unk3300_NMCCLIKMOEN\030\001 \001" +
-      "(\r\022\024\n\003pos\030\005 \001(\0132\007.Vector\022\033\n\023Unk3300_KLME" +
-      "KMGFGPD\030\003 \001(\010\022\037\n\027normalized_time_compact" +
-      "\030\006 \001(\r\022\033\n\023Unk3300_MEOPKEDJCIN\030\007 \001(\010\022\032\n\022f" +
-      "ace_angle_compact\030\017 \001(\005\022\021\n\tentity_id\030\002 \001" +
-      "(\rB\036\n\034emu.grasscutter.net.newprotob\006prot" +
-      "o3"
+      "tor.proto\"\210\002\n\033EvtAnimatorStateChangedInf" +
+      "o\022\025\n\rfade_duration\030\004 \001(\002\022\025\n\rto_state_has" +
+      "h\030\013 \001(\r\022\033\n\023Unk3300_NMCCLIKMOEN\030\001 \001(\r\022\024\n\003" +
+      "pos\030\005 \001(\0132\007.Vector\022\033\n\023Unk3300_KLMEKMGFGP" +
+      "D\030\003 \001(\010\022\037\n\027normalized_time_compact\030\006 \001(\r" +
+      "\022\033\n\023Unk3300_MEOPKEDJCIN\030\007 \001(\010\022\032\n\022face_an" +
+      "gle_compact\030\017 \001(\005\022\021\n\tentity_id\030\002 \001(\rB\036\n\034" +
+      "emu.grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1210,7 +1209,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
     internal_static_EvtAnimatorStateChangedInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtAnimatorStateChangedInfo_descriptor,
-        new java.lang.String[] { "FadeDuration", "Unk3300BKBPGIAOBEL", "Unk3300NMCCLIKMOEN", "Pos", "Unk3300KLMEKMGFGPD", "NormalizedTimeCompact", "Unk3300MEOPKEDJCIN", "FaceAngleCompact", "EntityId", });
+        new java.lang.String[] { "FadeDuration", "ToStateHash", "Unk3300NMCCLIKMOEN", "Pos", "Unk3300KLMEKMGFGPD", "NormalizedTimeCompact", "Unk3300MEOPKEDJCIN", "FaceAngleCompact", "EntityId", });
     emu.grasscutter.net.newproto.VectorOuterClass.getDescriptor();
   }
 

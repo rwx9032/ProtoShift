@@ -25,16 +25,16 @@ public final class PlayerCookReqOuterClass {
     int getRecipeId();
 
     /**
-     * <code>uint32 Unk3300_NDPHNNOFEBL = 5;</code>
-     * @return The unk3300NDPHNNOFEBL.
+     * <code>uint32 qte_quality = 5;</code>
+     * @return The qteQuality.
      */
-    int getUnk3300NDPHNNOFEBL();
+    int getQteQuality();
 
     /**
-     * <code>uint32 Unk3300_JPICLIDLIEC = 7;</code>
-     * @return The unk3300JPICLIDLIEC.
+     * <code>uint32 cook_count = 7;</code>
+     * @return The cookCount.
      */
-    int getUnk3300JPICLIDLIEC();
+    int getCookCount();
 
     /**
      * <code>uint32 assist_avatar = 12;</code>
@@ -104,26 +104,26 @@ public final class PlayerCookReqOuterClass {
       return recipeId_;
     }
 
-    public static final int UNK3300_NDPHNNOFEBL_FIELD_NUMBER = 5;
-    private int unk3300NDPHNNOFEBL_;
+    public static final int QTE_QUALITY_FIELD_NUMBER = 5;
+    private int qteQuality_;
     /**
-     * <code>uint32 Unk3300_NDPHNNOFEBL = 5;</code>
-     * @return The unk3300NDPHNNOFEBL.
+     * <code>uint32 qte_quality = 5;</code>
+     * @return The qteQuality.
      */
     @java.lang.Override
-    public int getUnk3300NDPHNNOFEBL() {
-      return unk3300NDPHNNOFEBL_;
+    public int getQteQuality() {
+      return qteQuality_;
     }
 
-    public static final int UNK3300_JPICLIDLIEC_FIELD_NUMBER = 7;
-    private int unk3300JPICLIDLIEC_;
+    public static final int COOK_COUNT_FIELD_NUMBER = 7;
+    private int cookCount_;
     /**
-     * <code>uint32 Unk3300_JPICLIDLIEC = 7;</code>
-     * @return The unk3300JPICLIDLIEC.
+     * <code>uint32 cook_count = 7;</code>
+     * @return The cookCount.
      */
     @java.lang.Override
-    public int getUnk3300JPICLIDLIEC() {
-      return unk3300JPICLIDLIEC_;
+    public int getCookCount() {
+      return cookCount_;
     }
 
     public static final int ASSIST_AVATAR_FIELD_NUMBER = 12;
@@ -154,11 +154,11 @@ public final class PlayerCookReqOuterClass {
       if (recipeId_ != 0) {
         output.writeUInt32(1, recipeId_);
       }
-      if (unk3300NDPHNNOFEBL_ != 0) {
-        output.writeUInt32(5, unk3300NDPHNNOFEBL_);
+      if (qteQuality_ != 0) {
+        output.writeUInt32(5, qteQuality_);
       }
-      if (unk3300JPICLIDLIEC_ != 0) {
-        output.writeUInt32(7, unk3300JPICLIDLIEC_);
+      if (cookCount_ != 0) {
+        output.writeUInt32(7, cookCount_);
       }
       if (assistAvatar_ != 0) {
         output.writeUInt32(12, assistAvatar_);
@@ -176,13 +176,13 @@ public final class PlayerCookReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, recipeId_);
       }
-      if (unk3300NDPHNNOFEBL_ != 0) {
+      if (qteQuality_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, unk3300NDPHNNOFEBL_);
+          .computeUInt32Size(5, qteQuality_);
       }
-      if (unk3300JPICLIDLIEC_ != 0) {
+      if (cookCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300JPICLIDLIEC_);
+          .computeUInt32Size(7, cookCount_);
       }
       if (assistAvatar_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -205,10 +205,10 @@ public final class PlayerCookReqOuterClass {
 
       if (getRecipeId()
           != other.getRecipeId()) return false;
-      if (getUnk3300NDPHNNOFEBL()
-          != other.getUnk3300NDPHNNOFEBL()) return false;
-      if (getUnk3300JPICLIDLIEC()
-          != other.getUnk3300JPICLIDLIEC()) return false;
+      if (getQteQuality()
+          != other.getQteQuality()) return false;
+      if (getCookCount()
+          != other.getCookCount()) return false;
       if (getAssistAvatar()
           != other.getAssistAvatar()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -224,10 +224,10 @@ public final class PlayerCookReqOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + RECIPE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRecipeId();
-      hash = (37 * hash) + UNK3300_NDPHNNOFEBL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NDPHNNOFEBL();
-      hash = (37 * hash) + UNK3300_JPICLIDLIEC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300JPICLIDLIEC();
+      hash = (37 * hash) + QTE_QUALITY_FIELD_NUMBER;
+      hash = (53 * hash) + getQteQuality();
+      hash = (37 * hash) + COOK_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getCookCount();
       hash = (37 * hash) + ASSIST_AVATAR_FIELD_NUMBER;
       hash = (53 * hash) + getAssistAvatar();
       hash = (29 * hash) + getUnknownFields().hashCode();
@@ -371,9 +371,9 @@ public final class PlayerCookReqOuterClass {
         super.clear();
         recipeId_ = 0;
 
-        unk3300NDPHNNOFEBL_ = 0;
+        qteQuality_ = 0;
 
-        unk3300JPICLIDLIEC_ = 0;
+        cookCount_ = 0;
 
         assistAvatar_ = 0;
 
@@ -404,8 +404,8 @@ public final class PlayerCookReqOuterClass {
       public emu.grasscutter.net.newproto.PlayerCookReqOuterClass.PlayerCookReq buildPartial() {
         emu.grasscutter.net.newproto.PlayerCookReqOuterClass.PlayerCookReq result = new emu.grasscutter.net.newproto.PlayerCookReqOuterClass.PlayerCookReq(this);
         result.recipeId_ = recipeId_;
-        result.unk3300NDPHNNOFEBL_ = unk3300NDPHNNOFEBL_;
-        result.unk3300JPICLIDLIEC_ = unk3300JPICLIDLIEC_;
+        result.qteQuality_ = qteQuality_;
+        result.cookCount_ = cookCount_;
         result.assistAvatar_ = assistAvatar_;
         onBuilt();
         return result;
@@ -458,11 +458,11 @@ public final class PlayerCookReqOuterClass {
         if (other.getRecipeId() != 0) {
           setRecipeId(other.getRecipeId());
         }
-        if (other.getUnk3300NDPHNNOFEBL() != 0) {
-          setUnk3300NDPHNNOFEBL(other.getUnk3300NDPHNNOFEBL());
+        if (other.getQteQuality() != 0) {
+          setQteQuality(other.getQteQuality());
         }
-        if (other.getUnk3300JPICLIDLIEC() != 0) {
-          setUnk3300JPICLIDLIEC(other.getUnk3300JPICLIDLIEC());
+        if (other.getCookCount() != 0) {
+          setCookCount(other.getCookCount());
         }
         if (other.getAssistAvatar() != 0) {
           setAssistAvatar(other.getAssistAvatar());
@@ -499,12 +499,12 @@ public final class PlayerCookReqOuterClass {
                 break;
               } // case 8
               case 40: {
-                unk3300NDPHNNOFEBL_ = input.readUInt32();
+                qteQuality_ = input.readUInt32();
 
                 break;
               } // case 40
               case 56: {
-                unk3300JPICLIDLIEC_ = input.readUInt32();
+                cookCount_ = input.readUInt32();
 
                 break;
               } // case 56
@@ -560,64 +560,64 @@ public final class PlayerCookReqOuterClass {
         return this;
       }
 
-      private int unk3300NDPHNNOFEBL_ ;
+      private int qteQuality_ ;
       /**
-       * <code>uint32 Unk3300_NDPHNNOFEBL = 5;</code>
-       * @return The unk3300NDPHNNOFEBL.
+       * <code>uint32 qte_quality = 5;</code>
+       * @return The qteQuality.
        */
       @java.lang.Override
-      public int getUnk3300NDPHNNOFEBL() {
-        return unk3300NDPHNNOFEBL_;
+      public int getQteQuality() {
+        return qteQuality_;
       }
       /**
-       * <code>uint32 Unk3300_NDPHNNOFEBL = 5;</code>
-       * @param value The unk3300NDPHNNOFEBL to set.
+       * <code>uint32 qte_quality = 5;</code>
+       * @param value The qteQuality to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NDPHNNOFEBL(int value) {
+      public Builder setQteQuality(int value) {
         
-        unk3300NDPHNNOFEBL_ = value;
+        qteQuality_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_NDPHNNOFEBL = 5;</code>
+       * <code>uint32 qte_quality = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NDPHNNOFEBL() {
+      public Builder clearQteQuality() {
         
-        unk3300NDPHNNOFEBL_ = 0;
+        qteQuality_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300JPICLIDLIEC_ ;
+      private int cookCount_ ;
       /**
-       * <code>uint32 Unk3300_JPICLIDLIEC = 7;</code>
-       * @return The unk3300JPICLIDLIEC.
+       * <code>uint32 cook_count = 7;</code>
+       * @return The cookCount.
        */
       @java.lang.Override
-      public int getUnk3300JPICLIDLIEC() {
-        return unk3300JPICLIDLIEC_;
+      public int getCookCount() {
+        return cookCount_;
       }
       /**
-       * <code>uint32 Unk3300_JPICLIDLIEC = 7;</code>
-       * @param value The unk3300JPICLIDLIEC to set.
+       * <code>uint32 cook_count = 7;</code>
+       * @param value The cookCount to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JPICLIDLIEC(int value) {
+      public Builder setCookCount(int value) {
         
-        unk3300JPICLIDLIEC_ = value;
+        cookCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_JPICLIDLIEC = 7;</code>
+       * <code>uint32 cook_count = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JPICLIDLIEC() {
+      public Builder clearCookCount() {
         
-        unk3300JPICLIDLIEC_ = 0;
+        cookCount_ = 0;
         onChanged();
         return this;
       }
@@ -730,11 +730,11 @@ public final class PlayerCookReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023PlayerCookReq.proto\"s\n\rPlayerCookReq\022\021" +
-      "\n\trecipe_id\030\001 \001(\r\022\033\n\023Unk3300_NDPHNNOFEBL" +
-      "\030\005 \001(\r\022\033\n\023Unk3300_JPICLIDLIEC\030\007 \001(\r\022\025\n\ra" +
-      "ssist_avatar\030\014 \001(\rB\036\n\034emu.grasscutter.ne" +
-      "t.newprotob\006proto3"
+      "\n\023PlayerCookReq.proto\"b\n\rPlayerCookReq\022\021" +
+      "\n\trecipe_id\030\001 \001(\r\022\023\n\013qte_quality\030\005 \001(\r\022\022" +
+      "\n\ncook_count\030\007 \001(\r\022\025\n\rassist_avatar\030\014 \001(" +
+      "\rB\036\n\034emu.grasscutter.net.newprotob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -745,7 +745,7 @@ public final class PlayerCookReqOuterClass {
     internal_static_PlayerCookReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerCookReq_descriptor,
-        new java.lang.String[] { "RecipeId", "Unk3300NDPHNNOFEBL", "Unk3300JPICLIDLIEC", "AssistAvatar", });
+        new java.lang.String[] { "RecipeId", "QteQuality", "CookCount", "AssistAvatar", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

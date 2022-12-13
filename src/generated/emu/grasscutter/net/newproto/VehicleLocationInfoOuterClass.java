@@ -57,10 +57,10 @@ public final class VehicleLocationInfoOuterClass {
     int getUidList(int index);
 
     /**
-     * <code>float Unk3300_MLICEAKLOIH = 2;</code>
-     * @return The unk3300MLICEAKLOIH.
+     * <code>float cur_hp = 2;</code>
+     * @return The curHp.
      */
-    float getUnk3300MLICEAKLOIH();
+    float getCurHp();
 
     /**
      * <code>.Vector pos = 9;</code>
@@ -90,10 +90,10 @@ public final class VehicleLocationInfoOuterClass {
     int getEntityId();
 
     /**
-     * <code>float Unk3300_MNNMOCIIEAJ = 15;</code>
-     * @return The unk3300MNNMOCIIEAJ.
+     * <code>float max_hp = 15;</code>
+     * @return The maxHp.
      */
-    float getUnk3300MNNMOCIIEAJ();
+    float getMaxHp();
   }
   /**
    * Protobuf type {@code VehicleLocationInfo}
@@ -201,15 +201,15 @@ public final class VehicleLocationInfoOuterClass {
     }
     private int uidListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_MLICEAKLOIH_FIELD_NUMBER = 2;
-    private float unk3300MLICEAKLOIH_;
+    public static final int CUR_HP_FIELD_NUMBER = 2;
+    private float curHp_;
     /**
-     * <code>float Unk3300_MLICEAKLOIH = 2;</code>
-     * @return The unk3300MLICEAKLOIH.
+     * <code>float cur_hp = 2;</code>
+     * @return The curHp.
      */
     @java.lang.Override
-    public float getUnk3300MLICEAKLOIH() {
-      return unk3300MLICEAKLOIH_;
+    public float getCurHp() {
+      return curHp_;
     }
 
     public static final int POS_FIELD_NUMBER = 9;
@@ -260,15 +260,15 @@ public final class VehicleLocationInfoOuterClass {
       return entityId_;
     }
 
-    public static final int UNK3300_MNNMOCIIEAJ_FIELD_NUMBER = 15;
-    private float unk3300MNNMOCIIEAJ_;
+    public static final int MAX_HP_FIELD_NUMBER = 15;
+    private float maxHp_;
     /**
-     * <code>float Unk3300_MNNMOCIIEAJ = 15;</code>
-     * @return The unk3300MNNMOCIIEAJ.
+     * <code>float max_hp = 15;</code>
+     * @return The maxHp.
      */
     @java.lang.Override
-    public float getUnk3300MNNMOCIIEAJ() {
-      return unk3300MNNMOCIIEAJ_;
+    public float getMaxHp() {
+      return maxHp_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -289,8 +289,8 @@ public final class VehicleLocationInfoOuterClass {
       if (gadgetId_ != 0) {
         output.writeUInt32(1, gadgetId_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MLICEAKLOIH_) != 0) {
-        output.writeFloat(2, unk3300MLICEAKLOIH_);
+      if (java.lang.Float.floatToRawIntBits(curHp_) != 0) {
+        output.writeFloat(2, curHp_);
       }
       if (getUidListList().size() > 0) {
         output.writeUInt32NoTag(34);
@@ -311,8 +311,8 @@ public final class VehicleLocationInfoOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(14, entityId_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MNNMOCIIEAJ_) != 0) {
-        output.writeFloat(15, unk3300MNNMOCIIEAJ_);
+      if (java.lang.Float.floatToRawIntBits(maxHp_) != 0) {
+        output.writeFloat(15, maxHp_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -327,9 +327,9 @@ public final class VehicleLocationInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, gadgetId_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MLICEAKLOIH_) != 0) {
+      if (java.lang.Float.floatToRawIntBits(curHp_) != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, unk3300MLICEAKLOIH_);
+          .computeFloatSize(2, curHp_);
       }
       {
         int dataSize = 0;
@@ -361,9 +361,9 @@ public final class VehicleLocationInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, entityId_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MNNMOCIIEAJ_) != 0) {
+      if (java.lang.Float.floatToRawIntBits(maxHp_) != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(15, unk3300MNNMOCIIEAJ_);
+          .computeFloatSize(15, maxHp_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -389,9 +389,9 @@ public final class VehicleLocationInfoOuterClass {
           != other.getOwnerUid()) return false;
       if (!getUidListList()
           .equals(other.getUidListList())) return false;
-      if (java.lang.Float.floatToIntBits(getUnk3300MLICEAKLOIH())
+      if (java.lang.Float.floatToIntBits(getCurHp())
           != java.lang.Float.floatToIntBits(
-              other.getUnk3300MLICEAKLOIH())) return false;
+              other.getCurHp())) return false;
       if (hasPos() != other.hasPos()) return false;
       if (hasPos()) {
         if (!getPos()
@@ -401,9 +401,9 @@ public final class VehicleLocationInfoOuterClass {
           != other.getGadgetId()) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
-      if (java.lang.Float.floatToIntBits(getUnk3300MNNMOCIIEAJ())
+      if (java.lang.Float.floatToIntBits(getMaxHp())
           != java.lang.Float.floatToIntBits(
-              other.getUnk3300MNNMOCIIEAJ())) return false;
+              other.getMaxHp())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -425,9 +425,9 @@ public final class VehicleLocationInfoOuterClass {
         hash = (37 * hash) + UID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getUidListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_MLICEAKLOIH_FIELD_NUMBER;
+      hash = (37 * hash) + CUR_HP_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getUnk3300MLICEAKLOIH());
+          getCurHp());
       if (hasPos()) {
         hash = (37 * hash) + POS_FIELD_NUMBER;
         hash = (53 * hash) + getPos().hashCode();
@@ -436,9 +436,9 @@ public final class VehicleLocationInfoOuterClass {
       hash = (53 * hash) + getGadgetId();
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
-      hash = (37 * hash) + UNK3300_MNNMOCIIEAJ_FIELD_NUMBER;
+      hash = (37 * hash) + MAX_HP_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getUnk3300MNNMOCIIEAJ());
+          getMaxHp());
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -577,7 +577,7 @@ public final class VehicleLocationInfoOuterClass {
 
         uidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300MLICEAKLOIH_ = 0F;
+        curHp_ = 0F;
 
         if (posBuilder_ == null) {
           pos_ = null;
@@ -589,7 +589,7 @@ public final class VehicleLocationInfoOuterClass {
 
         entityId_ = 0;
 
-        unk3300MNNMOCIIEAJ_ = 0F;
+        maxHp_ = 0F;
 
         return this;
       }
@@ -629,7 +629,7 @@ public final class VehicleLocationInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.uidList_ = uidList_;
-        result.unk3300MLICEAKLOIH_ = unk3300MLICEAKLOIH_;
+        result.curHp_ = curHp_;
         if (posBuilder_ == null) {
           result.pos_ = pos_;
         } else {
@@ -637,7 +637,7 @@ public final class VehicleLocationInfoOuterClass {
         }
         result.gadgetId_ = gadgetId_;
         result.entityId_ = entityId_;
-        result.unk3300MNNMOCIIEAJ_ = unk3300MNNMOCIIEAJ_;
+        result.maxHp_ = maxHp_;
         onBuilt();
         return result;
       }
@@ -702,8 +702,8 @@ public final class VehicleLocationInfoOuterClass {
           }
           onChanged();
         }
-        if (other.getUnk3300MLICEAKLOIH() != 0F) {
-          setUnk3300MLICEAKLOIH(other.getUnk3300MLICEAKLOIH());
+        if (other.getCurHp() != 0F) {
+          setCurHp(other.getCurHp());
         }
         if (other.hasPos()) {
           mergePos(other.getPos());
@@ -714,8 +714,8 @@ public final class VehicleLocationInfoOuterClass {
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
         }
-        if (other.getUnk3300MNNMOCIIEAJ() != 0F) {
-          setUnk3300MNNMOCIIEAJ(other.getUnk3300MNNMOCIIEAJ());
+        if (other.getMaxHp() != 0F) {
+          setMaxHp(other.getMaxHp());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -749,7 +749,7 @@ public final class VehicleLocationInfoOuterClass {
                 break;
               } // case 8
               case 21: {
-                unk3300MLICEAKLOIH_ = input.readFloat();
+                curHp_ = input.readFloat();
 
                 break;
               } // case 21
@@ -794,7 +794,7 @@ public final class VehicleLocationInfoOuterClass {
                 break;
               } // case 112
               case 125: {
-                unk3300MNNMOCIIEAJ_ = input.readFloat();
+                maxHp_ = input.readFloat();
 
                 break;
               } // case 125
@@ -1044,33 +1044,33 @@ public final class VehicleLocationInfoOuterClass {
         return this;
       }
 
-      private float unk3300MLICEAKLOIH_ ;
+      private float curHp_ ;
       /**
-       * <code>float Unk3300_MLICEAKLOIH = 2;</code>
-       * @return The unk3300MLICEAKLOIH.
+       * <code>float cur_hp = 2;</code>
+       * @return The curHp.
        */
       @java.lang.Override
-      public float getUnk3300MLICEAKLOIH() {
-        return unk3300MLICEAKLOIH_;
+      public float getCurHp() {
+        return curHp_;
       }
       /**
-       * <code>float Unk3300_MLICEAKLOIH = 2;</code>
-       * @param value The unk3300MLICEAKLOIH to set.
+       * <code>float cur_hp = 2;</code>
+       * @param value The curHp to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MLICEAKLOIH(float value) {
+      public Builder setCurHp(float value) {
         
-        unk3300MLICEAKLOIH_ = value;
+        curHp_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float Unk3300_MLICEAKLOIH = 2;</code>
+       * <code>float cur_hp = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MLICEAKLOIH() {
+      public Builder clearCurHp() {
         
-        unk3300MLICEAKLOIH_ = 0F;
+        curHp_ = 0F;
         onChanged();
         return this;
       }
@@ -1256,33 +1256,33 @@ public final class VehicleLocationInfoOuterClass {
         return this;
       }
 
-      private float unk3300MNNMOCIIEAJ_ ;
+      private float maxHp_ ;
       /**
-       * <code>float Unk3300_MNNMOCIIEAJ = 15;</code>
-       * @return The unk3300MNNMOCIIEAJ.
+       * <code>float max_hp = 15;</code>
+       * @return The maxHp.
        */
       @java.lang.Override
-      public float getUnk3300MNNMOCIIEAJ() {
-        return unk3300MNNMOCIIEAJ_;
+      public float getMaxHp() {
+        return maxHp_;
       }
       /**
-       * <code>float Unk3300_MNNMOCIIEAJ = 15;</code>
-       * @param value The unk3300MNNMOCIIEAJ to set.
+       * <code>float max_hp = 15;</code>
+       * @param value The maxHp to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MNNMOCIIEAJ(float value) {
+      public Builder setMaxHp(float value) {
         
-        unk3300MNNMOCIIEAJ_ = value;
+        maxHp_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float Unk3300_MNNMOCIIEAJ = 15;</code>
+       * <code>float max_hp = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MNNMOCIIEAJ() {
+      public Builder clearMaxHp() {
         
-        unk3300MNNMOCIIEAJ_ = 0F;
+        maxHp_ = 0F;
         onChanged();
         return this;
       }
@@ -1365,13 +1365,12 @@ public final class VehicleLocationInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031VehicleLocationInfo.proto\032\014Vector.prot" +
-      "o\"\306\001\n\023VehicleLocationInfo\022\024\n\003rot\030\005 \001(\0132\007" +
+      "o\"\254\001\n\023VehicleLocationInfo\022\024\n\003rot\030\005 \001(\0132\007" +
       ".Vector\022\021\n\towner_uid\030\013 \001(\r\022\020\n\010uid_list\030\004" +
-      " \003(\r\022\033\n\023Unk3300_MLICEAKLOIH\030\002 \001(\002\022\024\n\003pos" +
-      "\030\t \001(\0132\007.Vector\022\021\n\tgadget_id\030\001 \001(\r\022\021\n\ten" +
-      "tity_id\030\016 \001(\r\022\033\n\023Unk3300_MNNMOCIIEAJ\030\017 \001" +
-      "(\002B\036\n\034emu.grasscutter.net.newprotob\006prot" +
-      "o3"
+      " \003(\r\022\016\n\006cur_hp\030\002 \001(\002\022\024\n\003pos\030\t \001(\0132\007.Vect" +
+      "or\022\021\n\tgadget_id\030\001 \001(\r\022\021\n\tentity_id\030\016 \001(\r" +
+      "\022\016\n\006max_hp\030\017 \001(\002B\036\n\034emu.grasscutter.net." +
+      "newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1383,7 +1382,7 @@ public final class VehicleLocationInfoOuterClass {
     internal_static_VehicleLocationInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_VehicleLocationInfo_descriptor,
-        new java.lang.String[] { "Rot", "OwnerUid", "UidList", "Unk3300MLICEAKLOIH", "Pos", "GadgetId", "EntityId", "Unk3300MNNMOCIIEAJ", });
+        new java.lang.String[] { "Rot", "OwnerUid", "UidList", "CurHp", "Pos", "GadgetId", "EntityId", "MaxHp", });
     emu.grasscutter.net.newproto.VectorOuterClass.getDescriptor();
   }
 

@@ -19,10 +19,10 @@ public final class AttackResultOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_CJFKCNCGJLB = 2;</code>
-     * @return The unk3300CJFKCNCGJLB.
+     * <code>uint32 defense_id = 2;</code>
+     * @return The defenseId.
      */
-    int getUnk3300CJFKCNCGJLB();
+    int getDefenseId();
 
     /**
      * <code>uint32 attacker_id = 1;</code>
@@ -31,10 +31,10 @@ public final class AttackResultOuterClass {
     int getAttackerId();
 
     /**
-     * <code>uint32 Unk3300_GGABJNLLEAJ = 1870;</code>
-     * @return The unk3300GGABJNLLEAJ.
+     * <code>uint32 target_type = 1870;</code>
+     * @return The targetType.
      */
-    int getUnk3300GGABJNLLEAJ();
+    int getTargetType();
 
     /**
      * <code>float Unk3300_HGJOKFPHMJJ = 803;</code>
@@ -139,10 +139,10 @@ public final class AttackResultOuterClass {
     int getUnk3300EBCNAAJAONF();
 
     /**
-     * <code>float Unk3300_MEFFADEPHBM = 1932;</code>
-     * @return The unk3300MEFFADEPHBM.
+     * <code>float damage_shield = 1932;</code>
+     * @return The damageShield.
      */
-    float getUnk3300MEFFADEPHBM();
+    float getDamageShield();
 
     /**
      * <code>uint32 Unk3300_PIGBELICMMD = 1484;</code>
@@ -151,10 +151,10 @@ public final class AttackResultOuterClass {
     int getUnk3300PIGBELICMMD();
 
     /**
-     * <code>bool Unk3300_PJPCBIACFJK = 633;</code>
-     * @return The unk3300PJPCBIACFJK.
+     * <code>bool is_resist_text = 633;</code>
+     * @return The isResistText.
      */
-    boolean getUnk3300PJPCBIACFJK();
+    boolean getIsResistText();
 
     /**
      * <code>int32 hit_retreat_angle_compat = 5;</code>
@@ -184,10 +184,10 @@ public final class AttackResultOuterClass {
     boolean getUnk3300MGIMJGMIPLD();
 
     /**
-     * <code>bool Unk3300_GBKCGDPAJIE = 6;</code>
-     * @return The unk3300GBKCGDPAJIE.
+     * <code>bool is_crit = 6;</code>
+     * @return The isCrit.
      */
-    boolean getUnk3300GBKCGDPAJIE();
+    boolean getIsCrit();
 
     /**
      * <code>.Vector resolved_dir = 11;</code>
@@ -235,10 +235,10 @@ public final class AttackResultOuterClass {
     int getUnk3300JMJHGJCAOBH();
 
     /**
-     * <code>float Unk3300_FJJLKJBOBAC = 775;</code>
-     * @return The unk3300FJJLKJBOBAC.
+     * <code>float element_durability_attenuation = 775;</code>
+     * @return The elementDurabilityAttenuation.
      */
-    float getUnk3300FJJLKJBOBAC();
+    float getElementDurabilityAttenuation();
   }
   /**
    * Protobuf type {@code AttackResult}
@@ -281,15 +281,15 @@ public final class AttackResultOuterClass {
               emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult.class, emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult.Builder.class);
     }
 
-    public static final int UNK3300_CJFKCNCGJLB_FIELD_NUMBER = 2;
-    private int unk3300CJFKCNCGJLB_;
+    public static final int DEFENSE_ID_FIELD_NUMBER = 2;
+    private int defenseId_;
     /**
-     * <code>uint32 Unk3300_CJFKCNCGJLB = 2;</code>
-     * @return The unk3300CJFKCNCGJLB.
+     * <code>uint32 defense_id = 2;</code>
+     * @return The defenseId.
      */
     @java.lang.Override
-    public int getUnk3300CJFKCNCGJLB() {
-      return unk3300CJFKCNCGJLB_;
+    public int getDefenseId() {
+      return defenseId_;
     }
 
     public static final int ATTACKER_ID_FIELD_NUMBER = 1;
@@ -303,15 +303,15 @@ public final class AttackResultOuterClass {
       return attackerId_;
     }
 
-    public static final int UNK3300_GGABJNLLEAJ_FIELD_NUMBER = 1870;
-    private int unk3300GGABJNLLEAJ_;
+    public static final int TARGET_TYPE_FIELD_NUMBER = 1870;
+    private int targetType_;
     /**
-     * <code>uint32 Unk3300_GGABJNLLEAJ = 1870;</code>
-     * @return The unk3300GGABJNLLEAJ.
+     * <code>uint32 target_type = 1870;</code>
+     * @return The targetType.
      */
     @java.lang.Override
-    public int getUnk3300GGABJNLLEAJ() {
-      return unk3300GGABJNLLEAJ_;
+    public int getTargetType() {
+      return targetType_;
     }
 
     public static final int UNK3300_HGJOKFPHMJJ_FIELD_NUMBER = 803;
@@ -498,15 +498,15 @@ public final class AttackResultOuterClass {
       return unk3300EBCNAAJAONF_;
     }
 
-    public static final int UNK3300_MEFFADEPHBM_FIELD_NUMBER = 1932;
-    private float unk3300MEFFADEPHBM_;
+    public static final int DAMAGE_SHIELD_FIELD_NUMBER = 1932;
+    private float damageShield_;
     /**
-     * <code>float Unk3300_MEFFADEPHBM = 1932;</code>
-     * @return The unk3300MEFFADEPHBM.
+     * <code>float damage_shield = 1932;</code>
+     * @return The damageShield.
      */
     @java.lang.Override
-    public float getUnk3300MEFFADEPHBM() {
-      return unk3300MEFFADEPHBM_;
+    public float getDamageShield() {
+      return damageShield_;
     }
 
     public static final int UNK3300_PIGBELICMMD_FIELD_NUMBER = 1484;
@@ -520,15 +520,15 @@ public final class AttackResultOuterClass {
       return unk3300PIGBELICMMD_;
     }
 
-    public static final int UNK3300_PJPCBIACFJK_FIELD_NUMBER = 633;
-    private boolean unk3300PJPCBIACFJK_;
+    public static final int IS_RESIST_TEXT_FIELD_NUMBER = 633;
+    private boolean isResistText_;
     /**
-     * <code>bool Unk3300_PJPCBIACFJK = 633;</code>
-     * @return The unk3300PJPCBIACFJK.
+     * <code>bool is_resist_text = 633;</code>
+     * @return The isResistText.
      */
     @java.lang.Override
-    public boolean getUnk3300PJPCBIACFJK() {
-      return unk3300PJPCBIACFJK_;
+    public boolean getIsResistText() {
+      return isResistText_;
     }
 
     public static final int HIT_RETREAT_ANGLE_COMPAT_FIELD_NUMBER = 5;
@@ -579,15 +579,15 @@ public final class AttackResultOuterClass {
       return unk3300MGIMJGMIPLD_;
     }
 
-    public static final int UNK3300_GBKCGDPAJIE_FIELD_NUMBER = 6;
-    private boolean unk3300GBKCGDPAJIE_;
+    public static final int IS_CRIT_FIELD_NUMBER = 6;
+    private boolean isCrit_;
     /**
-     * <code>bool Unk3300_GBKCGDPAJIE = 6;</code>
-     * @return The unk3300GBKCGDPAJIE.
+     * <code>bool is_crit = 6;</code>
+     * @return The isCrit.
      */
     @java.lang.Override
-    public boolean getUnk3300GBKCGDPAJIE() {
-      return unk3300GBKCGDPAJIE_;
+    public boolean getIsCrit() {
+      return isCrit_;
     }
 
     public static final int RESOLVED_DIR_FIELD_NUMBER = 11;
@@ -687,15 +687,15 @@ public final class AttackResultOuterClass {
       return unk3300JMJHGJCAOBH_;
     }
 
-    public static final int UNK3300_FJJLKJBOBAC_FIELD_NUMBER = 775;
-    private float unk3300FJJLKJBOBAC_;
+    public static final int ELEMENT_DURABILITY_ATTENUATION_FIELD_NUMBER = 775;
+    private float elementDurabilityAttenuation_;
     /**
-     * <code>float Unk3300_FJJLKJBOBAC = 775;</code>
-     * @return The unk3300FJJLKJBOBAC.
+     * <code>float element_durability_attenuation = 775;</code>
+     * @return The elementDurabilityAttenuation.
      */
     @java.lang.Override
-    public float getUnk3300FJJLKJBOBAC() {
-      return unk3300FJJLKJBOBAC_;
+    public float getElementDurabilityAttenuation() {
+      return elementDurabilityAttenuation_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -715,8 +715,8 @@ public final class AttackResultOuterClass {
       if (attackerId_ != 0) {
         output.writeUInt32(1, attackerId_);
       }
-      if (unk3300CJFKCNCGJLB_ != 0) {
-        output.writeUInt32(2, unk3300CJFKCNCGJLB_);
+      if (defenseId_ != 0) {
+        output.writeUInt32(2, defenseId_);
       }
       if (unk3300IPPHJMMELIG_ != 0) {
         output.writeUInt32(3, unk3300IPPHJMMELIG_);
@@ -727,8 +727,8 @@ public final class AttackResultOuterClass {
       if (hitRetreatAngleCompat_ != 0) {
         output.writeInt32(5, hitRetreatAngleCompat_);
       }
-      if (unk3300GBKCGDPAJIE_ != false) {
-        output.writeBool(6, unk3300GBKCGDPAJIE_);
+      if (isCrit_ != false) {
+        output.writeBool(6, isCrit_);
       }
       if (abilityIdentifier_ != null) {
         output.writeMessage(7, getAbilityIdentifier());
@@ -757,8 +757,8 @@ public final class AttackResultOuterClass {
       if (unk3300DOMAOPGPHMD_ != false) {
         output.writeBool(454, unk3300DOMAOPGPHMD_);
       }
-      if (unk3300PJPCBIACFJK_ != false) {
-        output.writeBool(633, unk3300PJPCBIACFJK_);
+      if (isResistText_ != false) {
+        output.writeBool(633, isResistText_);
       }
       if (unk3300HNKLIODEJAB_ != 0) {
         output.writeUInt32(645, unk3300HNKLIODEJAB_);
@@ -766,8 +766,8 @@ public final class AttackResultOuterClass {
       if (unk3300MGIMJGMIPLD_ != false) {
         output.writeBool(732, unk3300MGIMJGMIPLD_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300FJJLKJBOBAC_) != 0) {
-        output.writeFloat(775, unk3300FJJLKJBOBAC_);
+      if (java.lang.Float.floatToRawIntBits(elementDurabilityAttenuation_) != 0) {
+        output.writeFloat(775, elementDurabilityAttenuation_);
       }
       if (java.lang.Float.floatToRawIntBits(unk3300HGJOKFPHMJJ_) != 0) {
         output.writeFloat(803, unk3300HGJOKFPHMJJ_);
@@ -793,11 +793,11 @@ public final class AttackResultOuterClass {
       if (unk3300GBPJCELJKJA_ != 0) {
         output.writeUInt32(1844, unk3300GBPJCELJKJA_);
       }
-      if (unk3300GGABJNLLEAJ_ != 0) {
-        output.writeUInt32(1870, unk3300GGABJNLLEAJ_);
+      if (targetType_ != 0) {
+        output.writeUInt32(1870, targetType_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MEFFADEPHBM_) != 0) {
-        output.writeFloat(1932, unk3300MEFFADEPHBM_);
+      if (java.lang.Float.floatToRawIntBits(damageShield_) != 0) {
+        output.writeFloat(1932, damageShield_);
       }
       if (unk3300KPKAECBFABP_ != 0) {
         output.writeUInt32(2012, unk3300KPKAECBFABP_);
@@ -815,9 +815,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, attackerId_);
       }
-      if (unk3300CJFKCNCGJLB_ != 0) {
+      if (defenseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300CJFKCNCGJLB_);
+          .computeUInt32Size(2, defenseId_);
       }
       if (unk3300IPPHJMMELIG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -830,9 +830,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(5, hitRetreatAngleCompat_);
       }
-      if (unk3300GBKCGDPAJIE_ != false) {
+      if (isCrit_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, unk3300GBKCGDPAJIE_);
+          .computeBoolSize(6, isCrit_);
       }
       if (abilityIdentifier_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -870,9 +870,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(454, unk3300DOMAOPGPHMD_);
       }
-      if (unk3300PJPCBIACFJK_ != false) {
+      if (isResistText_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(633, unk3300PJPCBIACFJK_);
+          .computeBoolSize(633, isResistText_);
       }
       if (unk3300HNKLIODEJAB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -882,9 +882,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(732, unk3300MGIMJGMIPLD_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300FJJLKJBOBAC_) != 0) {
+      if (java.lang.Float.floatToRawIntBits(elementDurabilityAttenuation_) != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(775, unk3300FJJLKJBOBAC_);
+          .computeFloatSize(775, elementDurabilityAttenuation_);
       }
       if (java.lang.Float.floatToRawIntBits(unk3300HGJOKFPHMJJ_) != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -918,13 +918,13 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1844, unk3300GBPJCELJKJA_);
       }
-      if (unk3300GGABJNLLEAJ_ != 0) {
+      if (targetType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1870, unk3300GGABJNLLEAJ_);
+          .computeUInt32Size(1870, targetType_);
       }
-      if (java.lang.Float.floatToRawIntBits(unk3300MEFFADEPHBM_) != 0) {
+      if (java.lang.Float.floatToRawIntBits(damageShield_) != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1932, unk3300MEFFADEPHBM_);
+          .computeFloatSize(1932, damageShield_);
       }
       if (unk3300KPKAECBFABP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -945,12 +945,12 @@ public final class AttackResultOuterClass {
       }
       emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult other = (emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult) obj;
 
-      if (getUnk3300CJFKCNCGJLB()
-          != other.getUnk3300CJFKCNCGJLB()) return false;
+      if (getDefenseId()
+          != other.getDefenseId()) return false;
       if (getAttackerId()
           != other.getAttackerId()) return false;
-      if (getUnk3300GGABJNLLEAJ()
-          != other.getUnk3300GGABJNLLEAJ()) return false;
+      if (getTargetType()
+          != other.getTargetType()) return false;
       if (java.lang.Float.floatToIntBits(getUnk3300HGJOKFPHMJJ())
           != java.lang.Float.floatToIntBits(
               other.getUnk3300HGJOKFPHMJJ())) return false;
@@ -987,13 +987,13 @@ public final class AttackResultOuterClass {
           != other.getUnk3300IPPHJMMELIG()) return false;
       if (getUnk3300EBCNAAJAONF()
           != other.getUnk3300EBCNAAJAONF()) return false;
-      if (java.lang.Float.floatToIntBits(getUnk3300MEFFADEPHBM())
+      if (java.lang.Float.floatToIntBits(getDamageShield())
           != java.lang.Float.floatToIntBits(
-              other.getUnk3300MEFFADEPHBM())) return false;
+              other.getDamageShield())) return false;
       if (getUnk3300PIGBELICMMD()
           != other.getUnk3300PIGBELICMMD()) return false;
-      if (getUnk3300PJPCBIACFJK()
-          != other.getUnk3300PJPCBIACFJK()) return false;
+      if (getIsResistText()
+          != other.getIsResistText()) return false;
       if (getHitRetreatAngleCompat()
           != other.getHitRetreatAngleCompat()) return false;
       if (hasHitCollision() != other.hasHitCollision()) return false;
@@ -1003,8 +1003,8 @@ public final class AttackResultOuterClass {
       }
       if (getUnk3300MGIMJGMIPLD()
           != other.getUnk3300MGIMJGMIPLD()) return false;
-      if (getUnk3300GBKCGDPAJIE()
-          != other.getUnk3300GBKCGDPAJIE()) return false;
+      if (getIsCrit()
+          != other.getIsCrit()) return false;
       if (hasResolvedDir() != other.hasResolvedDir()) return false;
       if (hasResolvedDir()) {
         if (!getResolvedDir()
@@ -1019,9 +1019,9 @@ public final class AttackResultOuterClass {
           != other.getUnk3300GBPJCELJKJA()) return false;
       if (getUnk3300JMJHGJCAOBH()
           != other.getUnk3300JMJHGJCAOBH()) return false;
-      if (java.lang.Float.floatToIntBits(getUnk3300FJJLKJBOBAC())
+      if (java.lang.Float.floatToIntBits(getElementDurabilityAttenuation())
           != java.lang.Float.floatToIntBits(
-              other.getUnk3300FJJLKJBOBAC())) return false;
+              other.getElementDurabilityAttenuation())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -1033,12 +1033,12 @@ public final class AttackResultOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_CJFKCNCGJLB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300CJFKCNCGJLB();
+      hash = (37 * hash) + DEFENSE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getDefenseId();
       hash = (37 * hash) + ATTACKER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAttackerId();
-      hash = (37 * hash) + UNK3300_GGABJNLLEAJ_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GGABJNLLEAJ();
+      hash = (37 * hash) + TARGET_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getTargetType();
       hash = (37 * hash) + UNK3300_HGJOKFPHMJJ_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getUnk3300HGJOKFPHMJJ());
@@ -1074,14 +1074,14 @@ public final class AttackResultOuterClass {
       hash = (53 * hash) + getUnk3300IPPHJMMELIG();
       hash = (37 * hash) + UNK3300_EBCNAAJAONF_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300EBCNAAJAONF();
-      hash = (37 * hash) + UNK3300_MEFFADEPHBM_FIELD_NUMBER;
+      hash = (37 * hash) + DAMAGE_SHIELD_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getUnk3300MEFFADEPHBM());
+          getDamageShield());
       hash = (37 * hash) + UNK3300_PIGBELICMMD_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300PIGBELICMMD();
-      hash = (37 * hash) + UNK3300_PJPCBIACFJK_FIELD_NUMBER;
+      hash = (37 * hash) + IS_RESIST_TEXT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300PJPCBIACFJK());
+          getIsResistText());
       hash = (37 * hash) + HIT_RETREAT_ANGLE_COMPAT_FIELD_NUMBER;
       hash = (53 * hash) + getHitRetreatAngleCompat();
       if (hasHitCollision()) {
@@ -1091,9 +1091,9 @@ public final class AttackResultOuterClass {
       hash = (37 * hash) + UNK3300_MGIMJGMIPLD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300MGIMJGMIPLD());
-      hash = (37 * hash) + UNK3300_GBKCGDPAJIE_FIELD_NUMBER;
+      hash = (37 * hash) + IS_CRIT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300GBKCGDPAJIE());
+          getIsCrit());
       if (hasResolvedDir()) {
         hash = (37 * hash) + RESOLVED_DIR_FIELD_NUMBER;
         hash = (53 * hash) + getResolvedDir().hashCode();
@@ -1107,9 +1107,9 @@ public final class AttackResultOuterClass {
       hash = (53 * hash) + getUnk3300GBPJCELJKJA();
       hash = (37 * hash) + UNK3300_JMJHGJCAOBH_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300JMJHGJCAOBH();
-      hash = (37 * hash) + UNK3300_FJJLKJBOBAC_FIELD_NUMBER;
+      hash = (37 * hash) + ELEMENT_DURABILITY_ATTENUATION_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getUnk3300FJJLKJBOBAC());
+          getElementDurabilityAttenuation());
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1238,11 +1238,11 @@ public final class AttackResultOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300CJFKCNCGJLB_ = 0;
+        defenseId_ = 0;
 
         attackerId_ = 0;
 
-        unk3300GGABJNLLEAJ_ = 0;
+        targetType_ = 0;
 
         unk3300HGJOKFPHMJJ_ = 0F;
 
@@ -1280,11 +1280,11 @@ public final class AttackResultOuterClass {
 
         unk3300EBCNAAJAONF_ = 0;
 
-        unk3300MEFFADEPHBM_ = 0F;
+        damageShield_ = 0F;
 
         unk3300PIGBELICMMD_ = 0;
 
-        unk3300PJPCBIACFJK_ = false;
+        isResistText_ = false;
 
         hitRetreatAngleCompat_ = 0;
 
@@ -1296,7 +1296,7 @@ public final class AttackResultOuterClass {
         }
         unk3300MGIMJGMIPLD_ = false;
 
-        unk3300GBKCGDPAJIE_ = false;
+        isCrit_ = false;
 
         if (resolvedDirBuilder_ == null) {
           resolvedDir_ = null;
@@ -1312,7 +1312,7 @@ public final class AttackResultOuterClass {
 
         unk3300JMJHGJCAOBH_ = 0;
 
-        unk3300FJJLKJBOBAC_ = 0F;
+        elementDurabilityAttenuation_ = 0F;
 
         return this;
       }
@@ -1340,9 +1340,9 @@ public final class AttackResultOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult buildPartial() {
         emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult result = new emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult(this);
-        result.unk3300CJFKCNCGJLB_ = unk3300CJFKCNCGJLB_;
+        result.defenseId_ = defenseId_;
         result.attackerId_ = attackerId_;
-        result.unk3300GGABJNLLEAJ_ = unk3300GGABJNLLEAJ_;
+        result.targetType_ = targetType_;
         result.unk3300HGJOKFPHMJJ_ = unk3300HGJOKFPHMJJ_;
         result.unk3300DOMAOPGPHMD_ = unk3300DOMAOPGPHMD_;
         result.elementType_ = elementType_;
@@ -1365,9 +1365,9 @@ public final class AttackResultOuterClass {
         }
         result.unk3300IPPHJMMELIG_ = unk3300IPPHJMMELIG_;
         result.unk3300EBCNAAJAONF_ = unk3300EBCNAAJAONF_;
-        result.unk3300MEFFADEPHBM_ = unk3300MEFFADEPHBM_;
+        result.damageShield_ = damageShield_;
         result.unk3300PIGBELICMMD_ = unk3300PIGBELICMMD_;
-        result.unk3300PJPCBIACFJK_ = unk3300PJPCBIACFJK_;
+        result.isResistText_ = isResistText_;
         result.hitRetreatAngleCompat_ = hitRetreatAngleCompat_;
         if (hitCollisionBuilder_ == null) {
           result.hitCollision_ = hitCollision_;
@@ -1375,7 +1375,7 @@ public final class AttackResultOuterClass {
           result.hitCollision_ = hitCollisionBuilder_.build();
         }
         result.unk3300MGIMJGMIPLD_ = unk3300MGIMJGMIPLD_;
-        result.unk3300GBKCGDPAJIE_ = unk3300GBKCGDPAJIE_;
+        result.isCrit_ = isCrit_;
         if (resolvedDirBuilder_ == null) {
           result.resolvedDir_ = resolvedDir_;
         } else {
@@ -1385,7 +1385,7 @@ public final class AttackResultOuterClass {
         result.animEventId_ = animEventId_;
         result.unk3300GBPJCELJKJA_ = unk3300GBPJCELJKJA_;
         result.unk3300JMJHGJCAOBH_ = unk3300JMJHGJCAOBH_;
-        result.unk3300FJJLKJBOBAC_ = unk3300FJJLKJBOBAC_;
+        result.elementDurabilityAttenuation_ = elementDurabilityAttenuation_;
         onBuilt();
         return result;
       }
@@ -1434,14 +1434,14 @@ public final class AttackResultOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult other) {
         if (other == emu.grasscutter.net.newproto.AttackResultOuterClass.AttackResult.getDefaultInstance()) return this;
-        if (other.getUnk3300CJFKCNCGJLB() != 0) {
-          setUnk3300CJFKCNCGJLB(other.getUnk3300CJFKCNCGJLB());
+        if (other.getDefenseId() != 0) {
+          setDefenseId(other.getDefenseId());
         }
         if (other.getAttackerId() != 0) {
           setAttackerId(other.getAttackerId());
         }
-        if (other.getUnk3300GGABJNLLEAJ() != 0) {
-          setUnk3300GGABJNLLEAJ(other.getUnk3300GGABJNLLEAJ());
+        if (other.getTargetType() != 0) {
+          setTargetType(other.getTargetType());
         }
         if (other.getUnk3300HGJOKFPHMJJ() != 0F) {
           setUnk3300HGJOKFPHMJJ(other.getUnk3300HGJOKFPHMJJ());
@@ -1485,14 +1485,14 @@ public final class AttackResultOuterClass {
         if (other.getUnk3300EBCNAAJAONF() != 0) {
           setUnk3300EBCNAAJAONF(other.getUnk3300EBCNAAJAONF());
         }
-        if (other.getUnk3300MEFFADEPHBM() != 0F) {
-          setUnk3300MEFFADEPHBM(other.getUnk3300MEFFADEPHBM());
+        if (other.getDamageShield() != 0F) {
+          setDamageShield(other.getDamageShield());
         }
         if (other.getUnk3300PIGBELICMMD() != 0) {
           setUnk3300PIGBELICMMD(other.getUnk3300PIGBELICMMD());
         }
-        if (other.getUnk3300PJPCBIACFJK() != false) {
-          setUnk3300PJPCBIACFJK(other.getUnk3300PJPCBIACFJK());
+        if (other.getIsResistText() != false) {
+          setIsResistText(other.getIsResistText());
         }
         if (other.getHitRetreatAngleCompat() != 0) {
           setHitRetreatAngleCompat(other.getHitRetreatAngleCompat());
@@ -1503,8 +1503,8 @@ public final class AttackResultOuterClass {
         if (other.getUnk3300MGIMJGMIPLD() != false) {
           setUnk3300MGIMJGMIPLD(other.getUnk3300MGIMJGMIPLD());
         }
-        if (other.getUnk3300GBKCGDPAJIE() != false) {
-          setUnk3300GBKCGDPAJIE(other.getUnk3300GBKCGDPAJIE());
+        if (other.getIsCrit() != false) {
+          setIsCrit(other.getIsCrit());
         }
         if (other.hasResolvedDir()) {
           mergeResolvedDir(other.getResolvedDir());
@@ -1522,8 +1522,8 @@ public final class AttackResultOuterClass {
         if (other.getUnk3300JMJHGJCAOBH() != 0) {
           setUnk3300JMJHGJCAOBH(other.getUnk3300JMJHGJCAOBH());
         }
-        if (other.getUnk3300FJJLKJBOBAC() != 0F) {
-          setUnk3300FJJLKJBOBAC(other.getUnk3300FJJLKJBOBAC());
+        if (other.getElementDurabilityAttenuation() != 0F) {
+          setElementDurabilityAttenuation(other.getElementDurabilityAttenuation());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -1557,7 +1557,7 @@ public final class AttackResultOuterClass {
                 break;
               } // case 8
               case 16: {
-                unk3300CJFKCNCGJLB_ = input.readUInt32();
+                defenseId_ = input.readUInt32();
 
                 break;
               } // case 16
@@ -1577,7 +1577,7 @@ public final class AttackResultOuterClass {
                 break;
               } // case 40
               case 48: {
-                unk3300GBKCGDPAJIE_ = input.readBool();
+                isCrit_ = input.readBool();
 
                 break;
               } // case 48
@@ -1635,7 +1635,7 @@ public final class AttackResultOuterClass {
                 break;
               } // case 3632
               case 5064: {
-                unk3300PJPCBIACFJK_ = input.readBool();
+                isResistText_ = input.readBool();
 
                 break;
               } // case 5064
@@ -1650,7 +1650,7 @@ public final class AttackResultOuterClass {
                 break;
               } // case 5856
               case 6205: {
-                unk3300FJJLKJBOBAC_ = input.readFloat();
+                elementDurabilityAttenuation_ = input.readFloat();
 
                 break;
               } // case 6205
@@ -1695,12 +1695,12 @@ public final class AttackResultOuterClass {
                 break;
               } // case 14752
               case 14960: {
-                unk3300GGABJNLLEAJ_ = input.readUInt32();
+                targetType_ = input.readUInt32();
 
                 break;
               } // case 14960
               case 15461: {
-                unk3300MEFFADEPHBM_ = input.readFloat();
+                damageShield_ = input.readFloat();
 
                 break;
               } // case 15461
@@ -1725,33 +1725,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private int unk3300CJFKCNCGJLB_ ;
+      private int defenseId_ ;
       /**
-       * <code>uint32 Unk3300_CJFKCNCGJLB = 2;</code>
-       * @return The unk3300CJFKCNCGJLB.
+       * <code>uint32 defense_id = 2;</code>
+       * @return The defenseId.
        */
       @java.lang.Override
-      public int getUnk3300CJFKCNCGJLB() {
-        return unk3300CJFKCNCGJLB_;
+      public int getDefenseId() {
+        return defenseId_;
       }
       /**
-       * <code>uint32 Unk3300_CJFKCNCGJLB = 2;</code>
-       * @param value The unk3300CJFKCNCGJLB to set.
+       * <code>uint32 defense_id = 2;</code>
+       * @param value The defenseId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CJFKCNCGJLB(int value) {
+      public Builder setDefenseId(int value) {
         
-        unk3300CJFKCNCGJLB_ = value;
+        defenseId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_CJFKCNCGJLB = 2;</code>
+       * <code>uint32 defense_id = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CJFKCNCGJLB() {
+      public Builder clearDefenseId() {
         
-        unk3300CJFKCNCGJLB_ = 0;
+        defenseId_ = 0;
         onChanged();
         return this;
       }
@@ -1787,33 +1787,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private int unk3300GGABJNLLEAJ_ ;
+      private int targetType_ ;
       /**
-       * <code>uint32 Unk3300_GGABJNLLEAJ = 1870;</code>
-       * @return The unk3300GGABJNLLEAJ.
+       * <code>uint32 target_type = 1870;</code>
+       * @return The targetType.
        */
       @java.lang.Override
-      public int getUnk3300GGABJNLLEAJ() {
-        return unk3300GGABJNLLEAJ_;
+      public int getTargetType() {
+        return targetType_;
       }
       /**
-       * <code>uint32 Unk3300_GGABJNLLEAJ = 1870;</code>
-       * @param value The unk3300GGABJNLLEAJ to set.
+       * <code>uint32 target_type = 1870;</code>
+       * @param value The targetType to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GGABJNLLEAJ(int value) {
+      public Builder setTargetType(int value) {
         
-        unk3300GGABJNLLEAJ_ = value;
+        targetType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GGABJNLLEAJ = 1870;</code>
+       * <code>uint32 target_type = 1870;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GGABJNLLEAJ() {
+      public Builder clearTargetType() {
         
-        unk3300GGABJNLLEAJ_ = 0;
+        targetType_ = 0;
         onChanged();
         return this;
       }
@@ -2428,33 +2428,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private float unk3300MEFFADEPHBM_ ;
+      private float damageShield_ ;
       /**
-       * <code>float Unk3300_MEFFADEPHBM = 1932;</code>
-       * @return The unk3300MEFFADEPHBM.
+       * <code>float damage_shield = 1932;</code>
+       * @return The damageShield.
        */
       @java.lang.Override
-      public float getUnk3300MEFFADEPHBM() {
-        return unk3300MEFFADEPHBM_;
+      public float getDamageShield() {
+        return damageShield_;
       }
       /**
-       * <code>float Unk3300_MEFFADEPHBM = 1932;</code>
-       * @param value The unk3300MEFFADEPHBM to set.
+       * <code>float damage_shield = 1932;</code>
+       * @param value The damageShield to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MEFFADEPHBM(float value) {
+      public Builder setDamageShield(float value) {
         
-        unk3300MEFFADEPHBM_ = value;
+        damageShield_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float Unk3300_MEFFADEPHBM = 1932;</code>
+       * <code>float damage_shield = 1932;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MEFFADEPHBM() {
+      public Builder clearDamageShield() {
         
-        unk3300MEFFADEPHBM_ = 0F;
+        damageShield_ = 0F;
         onChanged();
         return this;
       }
@@ -2490,33 +2490,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private boolean unk3300PJPCBIACFJK_ ;
+      private boolean isResistText_ ;
       /**
-       * <code>bool Unk3300_PJPCBIACFJK = 633;</code>
-       * @return The unk3300PJPCBIACFJK.
+       * <code>bool is_resist_text = 633;</code>
+       * @return The isResistText.
        */
       @java.lang.Override
-      public boolean getUnk3300PJPCBIACFJK() {
-        return unk3300PJPCBIACFJK_;
+      public boolean getIsResistText() {
+        return isResistText_;
       }
       /**
-       * <code>bool Unk3300_PJPCBIACFJK = 633;</code>
-       * @param value The unk3300PJPCBIACFJK to set.
+       * <code>bool is_resist_text = 633;</code>
+       * @param value The isResistText to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PJPCBIACFJK(boolean value) {
+      public Builder setIsResistText(boolean value) {
         
-        unk3300PJPCBIACFJK_ = value;
+        isResistText_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_PJPCBIACFJK = 633;</code>
+       * <code>bool is_resist_text = 633;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PJPCBIACFJK() {
+      public Builder clearIsResistText() {
         
-        unk3300PJPCBIACFJK_ = false;
+        isResistText_ = false;
         onChanged();
         return this;
       }
@@ -2702,33 +2702,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private boolean unk3300GBKCGDPAJIE_ ;
+      private boolean isCrit_ ;
       /**
-       * <code>bool Unk3300_GBKCGDPAJIE = 6;</code>
-       * @return The unk3300GBKCGDPAJIE.
+       * <code>bool is_crit = 6;</code>
+       * @return The isCrit.
        */
       @java.lang.Override
-      public boolean getUnk3300GBKCGDPAJIE() {
-        return unk3300GBKCGDPAJIE_;
+      public boolean getIsCrit() {
+        return isCrit_;
       }
       /**
-       * <code>bool Unk3300_GBKCGDPAJIE = 6;</code>
-       * @param value The unk3300GBKCGDPAJIE to set.
+       * <code>bool is_crit = 6;</code>
+       * @param value The isCrit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GBKCGDPAJIE(boolean value) {
+      public Builder setIsCrit(boolean value) {
         
-        unk3300GBKCGDPAJIE_ = value;
+        isCrit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_GBKCGDPAJIE = 6;</code>
+       * <code>bool is_crit = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GBKCGDPAJIE() {
+      public Builder clearIsCrit() {
         
-        unk3300GBKCGDPAJIE_ = false;
+        isCrit_ = false;
         onChanged();
         return this;
       }
@@ -3021,33 +3021,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private float unk3300FJJLKJBOBAC_ ;
+      private float elementDurabilityAttenuation_ ;
       /**
-       * <code>float Unk3300_FJJLKJBOBAC = 775;</code>
-       * @return The unk3300FJJLKJBOBAC.
+       * <code>float element_durability_attenuation = 775;</code>
+       * @return The elementDurabilityAttenuation.
        */
       @java.lang.Override
-      public float getUnk3300FJJLKJBOBAC() {
-        return unk3300FJJLKJBOBAC_;
+      public float getElementDurabilityAttenuation() {
+        return elementDurabilityAttenuation_;
       }
       /**
-       * <code>float Unk3300_FJJLKJBOBAC = 775;</code>
-       * @param value The unk3300FJJLKJBOBAC to set.
+       * <code>float element_durability_attenuation = 775;</code>
+       * @param value The elementDurabilityAttenuation to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300FJJLKJBOBAC(float value) {
+      public Builder setElementDurabilityAttenuation(float value) {
         
-        unk3300FJJLKJBOBAC_ = value;
+        elementDurabilityAttenuation_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float Unk3300_FJJLKJBOBAC = 775;</code>
+       * <code>float element_durability_attenuation = 775;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300FJJLKJBOBAC() {
+      public Builder clearElementDurabilityAttenuation() {
         
-        unk3300FJJLKJBOBAC_ = 0F;
+        elementDurabilityAttenuation_ = 0F;
         onChanged();
         return this;
       }
@@ -3131,31 +3131,31 @@ public final class AttackResultOuterClass {
     java.lang.String[] descriptorData = {
       "\n\022AttackResult.proto\032\027AbilityIdentifier." +
       "proto\032\033AttackHitEffectResult.proto\032\022HitC" +
-      "ollision.proto\032\014Vector.proto\"\230\007\n\014AttackR" +
-      "esult\022\033\n\023Unk3300_CJFKCNCGJLB\030\002 \001(\r\022\023\n\013at" +
-      "tacker_id\030\001 \001(\r\022\034\n\023Unk3300_GGABJNLLEAJ\030\316" +
-      "\016 \001(\r\022\034\n\023Unk3300_HGJOKFPHMJJ\030\243\006 \001(\002\022\034\n\023U" +
-      "nk3300_DOMAOPGPHMD\030\306\003 \001(\010\022\024\n\014element_typ" +
-      "e\030\014 \001(\r\022\034\n\023Unk3300_BALCPHMFIBC\030\236\013 \001(\r\022\016\n" +
-      "\006damage\030\n \001(\002\022\034\n\023Unk3300_HEIMDHBPFNF\030\333\010 " +
-      "\001(\r\022\034\n\023Unk3300_HNKLIODEJAB\030\205\005 \001(\r\022\034\n\023Unk" +
-      "3300_ABJJNNNKGBB\030\316\r \001(\r\022\034\n\023Unk3300_KPKAE" +
-      "CBFABP\030\334\017 \001(\r\022.\n\016hit_eff_result\030\010 \001(\0132\026." +
-      "AttackHitEffectResult\022\033\n\023Unk3300_EIGMFDM" +
-      "KADE\030\016 \001(\r\022.\n\022ability_identifier\030\007 \001(\0132\022" +
-      ".AbilityIdentifier\022\033\n\023Unk3300_IPPHJMMELI" +
-      "G\030\003 \001(\r\022\034\n\023Unk3300_EBCNAAJAONF\030\366\r \001(\r\022\034\n" +
-      "\023Unk3300_MEFFADEPHBM\030\214\017 \001(\002\022\034\n\023Unk3300_P" +
-      "IGBELICMMD\030\314\013 \001(\r\022\034\n\023Unk3300_PJPCBIACFJK" +
-      "\030\371\004 \001(\010\022 \n\030hit_retreat_angle_compat\030\005 \001(" +
-      "\005\022$\n\rhit_collision\030\017 \001(\0132\r.HitCollision\022" +
-      "\034\n\023Unk3300_MGIMJGMIPLD\030\334\005 \001(\010\022\033\n\023Unk3300" +
-      "_GBKCGDPAJIE\030\006 \001(\010\022\035\n\014resolved_dir\030\013 \001(\013" +
+      "ollision.proto\032\014Vector.proto\"\373\006\n\014AttackR" +
+      "esult\022\022\n\ndefense_id\030\002 \001(\r\022\023\n\013attacker_id" +
+      "\030\001 \001(\r\022\024\n\013target_type\030\316\016 \001(\r\022\034\n\023Unk3300_" +
+      "HGJOKFPHMJJ\030\243\006 \001(\002\022\034\n\023Unk3300_DOMAOPGPHM" +
+      "D\030\306\003 \001(\010\022\024\n\014element_type\030\014 \001(\r\022\034\n\023Unk330" +
+      "0_BALCPHMFIBC\030\236\013 \001(\r\022\016\n\006damage\030\n \001(\002\022\034\n\023" +
+      "Unk3300_HEIMDHBPFNF\030\333\010 \001(\r\022\034\n\023Unk3300_HN" +
+      "KLIODEJAB\030\205\005 \001(\r\022\034\n\023Unk3300_ABJJNNNKGBB\030" +
+      "\316\r \001(\r\022\034\n\023Unk3300_KPKAECBFABP\030\334\017 \001(\r\022.\n\016" +
+      "hit_eff_result\030\010 \001(\0132\026.AttackHitEffectRe" +
+      "sult\022\033\n\023Unk3300_EIGMFDMKADE\030\016 \001(\r\022.\n\022abi" +
+      "lity_identifier\030\007 \001(\0132\022.AbilityIdentifie" +
+      "r\022\033\n\023Unk3300_IPPHJMMELIG\030\003 \001(\r\022\034\n\023Unk330" +
+      "0_EBCNAAJAONF\030\366\r \001(\r\022\026\n\rdamage_shield\030\214\017" +
+      " \001(\002\022\034\n\023Unk3300_PIGBELICMMD\030\314\013 \001(\r\022\027\n\016is" +
+      "_resist_text\030\371\004 \001(\010\022 \n\030hit_retreat_angle" +
+      "_compat\030\005 \001(\005\022$\n\rhit_collision\030\017 \001(\0132\r.H" +
+      "itCollision\022\034\n\023Unk3300_MGIMJGMIPLD\030\334\005 \001(" +
+      "\010\022\017\n\007is_crit\030\006 \001(\010\022\035\n\014resolved_dir\030\013 \001(\013" +
       "2\007.Vector\022\033\n\023Unk3300_MPKAMIMDKOE\030\034 \001(\002\022\025" +
       "\n\ranim_event_id\030\004 \001(\t\022\034\n\023Unk3300_GBPJCEL" +
       "JKJA\030\264\016 \001(\r\022\034\n\023Unk3300_JMJHGJCAOBH\030\222\007 \001(" +
-      "\r\022\034\n\023Unk3300_FJJLKJBOBAC\030\207\006 \001(\002B\036\n\034emu.g" +
-      "rasscutter.net.newprotob\006proto3"
+      "\r\022\'\n\036element_durability_attenuation\030\207\006 \001" +
+      "(\002B\036\n\034emu.grasscutter.net.newprotob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3170,7 +3170,7 @@ public final class AttackResultOuterClass {
     internal_static_AttackResult_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AttackResult_descriptor,
-        new java.lang.String[] { "Unk3300CJFKCNCGJLB", "AttackerId", "Unk3300GGABJNLLEAJ", "Unk3300HGJOKFPHMJJ", "Unk3300DOMAOPGPHMD", "ElementType", "Unk3300BALCPHMFIBC", "Damage", "Unk3300HEIMDHBPFNF", "Unk3300HNKLIODEJAB", "Unk3300ABJJNNNKGBB", "Unk3300KPKAECBFABP", "HitEffResult", "Unk3300EIGMFDMKADE", "AbilityIdentifier", "Unk3300IPPHJMMELIG", "Unk3300EBCNAAJAONF", "Unk3300MEFFADEPHBM", "Unk3300PIGBELICMMD", "Unk3300PJPCBIACFJK", "HitRetreatAngleCompat", "HitCollision", "Unk3300MGIMJGMIPLD", "Unk3300GBKCGDPAJIE", "ResolvedDir", "Unk3300MPKAMIMDKOE", "AnimEventId", "Unk3300GBPJCELJKJA", "Unk3300JMJHGJCAOBH", "Unk3300FJJLKJBOBAC", });
+        new java.lang.String[] { "DefenseId", "AttackerId", "TargetType", "Unk3300HGJOKFPHMJJ", "Unk3300DOMAOPGPHMD", "ElementType", "Unk3300BALCPHMFIBC", "Damage", "Unk3300HEIMDHBPFNF", "Unk3300HNKLIODEJAB", "Unk3300ABJJNNNKGBB", "Unk3300KPKAECBFABP", "HitEffResult", "Unk3300EIGMFDMKADE", "AbilityIdentifier", "Unk3300IPPHJMMELIG", "Unk3300EBCNAAJAONF", "DamageShield", "Unk3300PIGBELICMMD", "IsResistText", "HitRetreatAngleCompat", "HitCollision", "Unk3300MGIMJGMIPLD", "IsCrit", "ResolvedDir", "Unk3300MPKAMIMDKOE", "AnimEventId", "Unk3300GBPJCELJKJA", "Unk3300JMJHGJCAOBH", "ElementDurabilityAttenuation", });
     emu.grasscutter.net.newproto.AbilityIdentifierOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.AttackHitEffectResultOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.HitCollisionOuterClass.getDescriptor();

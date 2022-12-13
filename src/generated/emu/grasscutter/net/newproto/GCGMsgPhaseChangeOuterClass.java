@@ -19,26 +19,26 @@ public final class GCGMsgPhaseChangeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-     * @return The enum numeric value on the wire for unk3300JDPADLFFFDK.
+     * <code>.GCGPhaseType before_phase = 15;</code>
+     * @return The enum numeric value on the wire for beforePhase.
      */
-    int getUnk3300JDPADLFFFDKValue();
+    int getBeforePhaseValue();
     /**
-     * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-     * @return The unk3300JDPADLFFFDK.
+     * <code>.GCGPhaseType before_phase = 15;</code>
+     * @return The beforePhase.
      */
-    emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300JDPADLFFFDK();
+    emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getBeforePhase();
 
     /**
-     * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-     * @return The enum numeric value on the wire for unk3300GNAIDDMDEBN.
+     * <code>.GCGPhaseType after_phase = 3;</code>
+     * @return The enum numeric value on the wire for afterPhase.
      */
-    int getUnk3300GNAIDDMDEBNValue();
+    int getAfterPhaseValue();
     /**
-     * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-     * @return The unk3300GNAIDDMDEBN.
+     * <code>.GCGPhaseType after_phase = 3;</code>
+     * @return The afterPhase.
      */
-    emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300GNAIDDMDEBN();
+    emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getAfterPhase();
 
     /**
      * <code>repeated .Uint32Pair allow_controller_map = 11;</code>
@@ -77,8 +77,8 @@ public final class GCGMsgPhaseChangeOuterClass {
       super(builder);
     }
     private GCGMsgPhaseChange() {
-      unk3300JDPADLFFFDK_ = 0;
-      unk3300GNAIDDMDEBN_ = 0;
+      beforePhase_ = 0;
+      afterPhase_ = 0;
       allowControllerMap_ = java.util.Collections.emptyList();
     }
 
@@ -107,41 +107,41 @@ public final class GCGMsgPhaseChangeOuterClass {
               emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange.class, emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange.Builder.class);
     }
 
-    public static final int UNK3300_JDPADLFFFDK_FIELD_NUMBER = 15;
-    private int unk3300JDPADLFFFDK_;
+    public static final int BEFORE_PHASE_FIELD_NUMBER = 15;
+    private int beforePhase_;
     /**
-     * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-     * @return The enum numeric value on the wire for unk3300JDPADLFFFDK.
+     * <code>.GCGPhaseType before_phase = 15;</code>
+     * @return The enum numeric value on the wire for beforePhase.
      */
-    @java.lang.Override public int getUnk3300JDPADLFFFDKValue() {
-      return unk3300JDPADLFFFDK_;
+    @java.lang.Override public int getBeforePhaseValue() {
+      return beforePhase_;
     }
     /**
-     * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-     * @return The unk3300JDPADLFFFDK.
+     * <code>.GCGPhaseType before_phase = 15;</code>
+     * @return The beforePhase.
      */
-    @java.lang.Override public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300JDPADLFFFDK() {
+    @java.lang.Override public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getBeforePhase() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(unk3300JDPADLFFFDK_);
+      emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(beforePhase_);
       return result == null ? emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.UNRECOGNIZED : result;
     }
 
-    public static final int UNK3300_GNAIDDMDEBN_FIELD_NUMBER = 3;
-    private int unk3300GNAIDDMDEBN_;
+    public static final int AFTER_PHASE_FIELD_NUMBER = 3;
+    private int afterPhase_;
     /**
-     * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-     * @return The enum numeric value on the wire for unk3300GNAIDDMDEBN.
+     * <code>.GCGPhaseType after_phase = 3;</code>
+     * @return The enum numeric value on the wire for afterPhase.
      */
-    @java.lang.Override public int getUnk3300GNAIDDMDEBNValue() {
-      return unk3300GNAIDDMDEBN_;
+    @java.lang.Override public int getAfterPhaseValue() {
+      return afterPhase_;
     }
     /**
-     * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-     * @return The unk3300GNAIDDMDEBN.
+     * <code>.GCGPhaseType after_phase = 3;</code>
+     * @return The afterPhase.
      */
-    @java.lang.Override public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300GNAIDDMDEBN() {
+    @java.lang.Override public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getAfterPhase() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(unk3300GNAIDDMDEBN_);
+      emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(afterPhase_);
       return result == null ? emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.UNRECOGNIZED : result;
     }
 
@@ -199,14 +199,14 @@ public final class GCGMsgPhaseChangeOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300GNAIDDMDEBN_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
-        output.writeEnum(3, unk3300GNAIDDMDEBN_);
+      if (afterPhase_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
+        output.writeEnum(3, afterPhase_);
       }
       for (int i = 0; i < allowControllerMap_.size(); i++) {
         output.writeMessage(11, allowControllerMap_.get(i));
       }
-      if (unk3300JDPADLFFFDK_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
-        output.writeEnum(15, unk3300JDPADLFFFDK_);
+      if (beforePhase_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
+        output.writeEnum(15, beforePhase_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -217,17 +217,17 @@ public final class GCGMsgPhaseChangeOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300GNAIDDMDEBN_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
+      if (afterPhase_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, unk3300GNAIDDMDEBN_);
+          .computeEnumSize(3, afterPhase_);
       }
       for (int i = 0; i < allowControllerMap_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(11, allowControllerMap_.get(i));
       }
-      if (unk3300JDPADLFFFDK_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
+      if (beforePhase_ != emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.GCG_PHASE_TYPE_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, unk3300JDPADLFFFDK_);
+          .computeEnumSize(15, beforePhase_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -244,8 +244,8 @@ public final class GCGMsgPhaseChangeOuterClass {
       }
       emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange other = (emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange) obj;
 
-      if (unk3300JDPADLFFFDK_ != other.unk3300JDPADLFFFDK_) return false;
-      if (unk3300GNAIDDMDEBN_ != other.unk3300GNAIDDMDEBN_) return false;
+      if (beforePhase_ != other.beforePhase_) return false;
+      if (afterPhase_ != other.afterPhase_) return false;
       if (!getAllowControllerMapList()
           .equals(other.getAllowControllerMapList())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -259,10 +259,10 @@ public final class GCGMsgPhaseChangeOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_JDPADLFFFDK_FIELD_NUMBER;
-      hash = (53 * hash) + unk3300JDPADLFFFDK_;
-      hash = (37 * hash) + UNK3300_GNAIDDMDEBN_FIELD_NUMBER;
-      hash = (53 * hash) + unk3300GNAIDDMDEBN_;
+      hash = (37 * hash) + BEFORE_PHASE_FIELD_NUMBER;
+      hash = (53 * hash) + beforePhase_;
+      hash = (37 * hash) + AFTER_PHASE_FIELD_NUMBER;
+      hash = (53 * hash) + afterPhase_;
       if (getAllowControllerMapCount() > 0) {
         hash = (37 * hash) + ALLOW_CONTROLLER_MAP_FIELD_NUMBER;
         hash = (53 * hash) + getAllowControllerMapList().hashCode();
@@ -395,9 +395,9 @@ public final class GCGMsgPhaseChangeOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300JDPADLFFFDK_ = 0;
+        beforePhase_ = 0;
 
-        unk3300GNAIDDMDEBN_ = 0;
+        afterPhase_ = 0;
 
         if (allowControllerMapBuilder_ == null) {
           allowControllerMap_ = java.util.Collections.emptyList();
@@ -433,8 +433,8 @@ public final class GCGMsgPhaseChangeOuterClass {
       public emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange buildPartial() {
         emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange result = new emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300JDPADLFFFDK_ = unk3300JDPADLFFFDK_;
-        result.unk3300GNAIDDMDEBN_ = unk3300GNAIDDMDEBN_;
+        result.beforePhase_ = beforePhase_;
+        result.afterPhase_ = afterPhase_;
         if (allowControllerMapBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             allowControllerMap_ = java.util.Collections.unmodifiableList(allowControllerMap_);
@@ -492,11 +492,11 @@ public final class GCGMsgPhaseChangeOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange other) {
         if (other == emu.grasscutter.net.newproto.GCGMsgPhaseChangeOuterClass.GCGMsgPhaseChange.getDefaultInstance()) return this;
-        if (other.unk3300JDPADLFFFDK_ != 0) {
-          setUnk3300JDPADLFFFDKValue(other.getUnk3300JDPADLFFFDKValue());
+        if (other.beforePhase_ != 0) {
+          setBeforePhaseValue(other.getBeforePhaseValue());
         }
-        if (other.unk3300GNAIDDMDEBN_ != 0) {
-          setUnk3300GNAIDDMDEBNValue(other.getUnk3300GNAIDDMDEBNValue());
+        if (other.afterPhase_ != 0) {
+          setAfterPhaseValue(other.getAfterPhaseValue());
         }
         if (allowControllerMapBuilder_ == null) {
           if (!other.allowControllerMap_.isEmpty()) {
@@ -551,7 +551,7 @@ public final class GCGMsgPhaseChangeOuterClass {
                 done = true;
                 break;
               case 24: {
-                unk3300GNAIDDMDEBN_ = input.readEnum();
+                afterPhase_ = input.readEnum();
 
                 break;
               } // case 24
@@ -569,7 +569,7 @@ public final class GCGMsgPhaseChangeOuterClass {
                 break;
               } // case 90
               case 120: {
-                unk3300JDPADLFFFDK_ = input.readEnum();
+                beforePhase_ = input.readEnum();
 
                 break;
               } // case 120
@@ -590,110 +590,110 @@ public final class GCGMsgPhaseChangeOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300JDPADLFFFDK_ = 0;
+      private int beforePhase_ = 0;
       /**
-       * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-       * @return The enum numeric value on the wire for unk3300JDPADLFFFDK.
+       * <code>.GCGPhaseType before_phase = 15;</code>
+       * @return The enum numeric value on the wire for beforePhase.
        */
-      @java.lang.Override public int getUnk3300JDPADLFFFDKValue() {
-        return unk3300JDPADLFFFDK_;
+      @java.lang.Override public int getBeforePhaseValue() {
+        return beforePhase_;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-       * @param value The enum numeric value on the wire for unk3300JDPADLFFFDK to set.
+       * <code>.GCGPhaseType before_phase = 15;</code>
+       * @param value The enum numeric value on the wire for beforePhase to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JDPADLFFFDKValue(int value) {
+      public Builder setBeforePhaseValue(int value) {
         
-        unk3300JDPADLFFFDK_ = value;
+        beforePhase_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-       * @return The unk3300JDPADLFFFDK.
+       * <code>.GCGPhaseType before_phase = 15;</code>
+       * @return The beforePhase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300JDPADLFFFDK() {
+      public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getBeforePhase() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(unk3300JDPADLFFFDK_);
+        emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(beforePhase_);
         return result == null ? emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
-       * @param value The unk3300JDPADLFFFDK to set.
+       * <code>.GCGPhaseType before_phase = 15;</code>
+       * @param value The beforePhase to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JDPADLFFFDK(emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType value) {
+      public Builder setBeforePhase(emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        unk3300JDPADLFFFDK_ = value.getNumber();
+        beforePhase_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_JDPADLFFFDK = 15;</code>
+       * <code>.GCGPhaseType before_phase = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JDPADLFFFDK() {
+      public Builder clearBeforePhase() {
         
-        unk3300JDPADLFFFDK_ = 0;
+        beforePhase_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300GNAIDDMDEBN_ = 0;
+      private int afterPhase_ = 0;
       /**
-       * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-       * @return The enum numeric value on the wire for unk3300GNAIDDMDEBN.
+       * <code>.GCGPhaseType after_phase = 3;</code>
+       * @return The enum numeric value on the wire for afterPhase.
        */
-      @java.lang.Override public int getUnk3300GNAIDDMDEBNValue() {
-        return unk3300GNAIDDMDEBN_;
+      @java.lang.Override public int getAfterPhaseValue() {
+        return afterPhase_;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-       * @param value The enum numeric value on the wire for unk3300GNAIDDMDEBN to set.
+       * <code>.GCGPhaseType after_phase = 3;</code>
+       * @param value The enum numeric value on the wire for afterPhase to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GNAIDDMDEBNValue(int value) {
+      public Builder setAfterPhaseValue(int value) {
         
-        unk3300GNAIDDMDEBN_ = value;
+        afterPhase_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-       * @return The unk3300GNAIDDMDEBN.
+       * <code>.GCGPhaseType after_phase = 3;</code>
+       * @return The afterPhase.
        */
       @java.lang.Override
-      public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getUnk3300GNAIDDMDEBN() {
+      public emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType getAfterPhase() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(unk3300GNAIDDMDEBN_);
+        emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType result = emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.valueOf(afterPhase_);
         return result == null ? emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
-       * @param value The unk3300GNAIDDMDEBN to set.
+       * <code>.GCGPhaseType after_phase = 3;</code>
+       * @param value The afterPhase to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GNAIDDMDEBN(emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType value) {
+      public Builder setAfterPhase(emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.GCGPhaseType value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        unk3300GNAIDDMDEBN_ = value.getNumber();
+        afterPhase_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGPhaseType Unk3300_GNAIDDMDEBN = 3;</code>
+       * <code>.GCGPhaseType after_phase = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GNAIDDMDEBN() {
+      public Builder clearAfterPhase() {
         
-        unk3300GNAIDDMDEBN_ = 0;
+        afterPhase_ = 0;
         onChanged();
         return this;
       }
@@ -1016,12 +1016,12 @@ public final class GCGMsgPhaseChangeOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GCGMsgPhaseChange.proto\032\022GCGPhaseType." +
-      "proto\032\020Uint32Pair.proto\"\226\001\n\021GCGMsgPhaseC" +
-      "hange\022*\n\023Unk3300_JDPADLFFFDK\030\017 \001(\0162\r.GCG" +
-      "PhaseType\022*\n\023Unk3300_GNAIDDMDEBN\030\003 \001(\0162\r" +
-      ".GCGPhaseType\022)\n\024allow_controller_map\030\013 " +
-      "\003(\0132\013.Uint32PairB\036\n\034emu.grasscutter.net." +
-      "newprotob\006proto3"
+      "proto\032\020Uint32Pair.proto\"\207\001\n\021GCGMsgPhaseC" +
+      "hange\022#\n\014before_phase\030\017 \001(\0162\r.GCGPhaseTy" +
+      "pe\022\"\n\013after_phase\030\003 \001(\0162\r.GCGPhaseType\022)" +
+      "\n\024allow_controller_map\030\013 \003(\0132\013.Uint32Pai" +
+      "rB\036\n\034emu.grasscutter.net.newprotob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1034,7 +1034,7 @@ public final class GCGMsgPhaseChangeOuterClass {
     internal_static_GCGMsgPhaseChange_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGMsgPhaseChange_descriptor,
-        new java.lang.String[] { "Unk3300JDPADLFFFDK", "Unk3300GNAIDDMDEBN", "AllowControllerMap", });
+        new java.lang.String[] { "BeforePhase", "AfterPhase", "AllowControllerMap", });
     emu.grasscutter.net.newproto.GCGPhaseTypeOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.Uint32PairOuterClass.getDescriptor();
   }

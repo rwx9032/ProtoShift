@@ -30,10 +30,10 @@ public final class HomePlantSubFieldDataOuterClass {
     emu.grasscutter.net.newproto.HomePlantFieldStatusOuterClass.HomePlantFieldStatus getFieldStatus();
 
     /**
-     * <code>uint32 Unk3300_IELHEAAMAKG = 7;</code>
-     * @return The unk3300IELHEAAMAKG.
+     * <code>uint32 home_gather_id = 7;</code>
+     * @return The homeGatherId.
      */
-    int getUnk3300IELHEAAMAKG();
+    int getHomeGatherId();
 
     /**
      * <code>repeated uint32 entity_id_list = 12;</code>
@@ -59,10 +59,10 @@ public final class HomePlantSubFieldDataOuterClass {
     int getEndTime();
 
     /**
-     * <code>uint32 Unk3300_GAJHLGKLBBK = 9;</code>
-     * @return The unk3300GAJHLGKLBBK.
+     * <code>uint32 seed_id = 9;</code>
+     * @return The seedId.
      */
-    int getUnk3300GAJHLGKLBBK();
+    int getSeedId();
   }
   /**
    * Protobuf type {@code HomePlantSubFieldData}
@@ -125,15 +125,15 @@ public final class HomePlantSubFieldDataOuterClass {
       return result == null ? emu.grasscutter.net.newproto.HomePlantFieldStatusOuterClass.HomePlantFieldStatus.UNRECOGNIZED : result;
     }
 
-    public static final int UNK3300_IELHEAAMAKG_FIELD_NUMBER = 7;
-    private int unk3300IELHEAAMAKG_;
+    public static final int HOME_GATHER_ID_FIELD_NUMBER = 7;
+    private int homeGatherId_;
     /**
-     * <code>uint32 Unk3300_IELHEAAMAKG = 7;</code>
-     * @return The unk3300IELHEAAMAKG.
+     * <code>uint32 home_gather_id = 7;</code>
+     * @return The homeGatherId.
      */
     @java.lang.Override
-    public int getUnk3300IELHEAAMAKG() {
-      return unk3300IELHEAAMAKG_;
+    public int getHomeGatherId() {
+      return homeGatherId_;
     }
 
     public static final int ENTITY_ID_LIST_FIELD_NUMBER = 12;
@@ -175,15 +175,15 @@ public final class HomePlantSubFieldDataOuterClass {
       return endTime_;
     }
 
-    public static final int UNK3300_GAJHLGKLBBK_FIELD_NUMBER = 9;
-    private int unk3300GAJHLGKLBBK_;
+    public static final int SEED_ID_FIELD_NUMBER = 9;
+    private int seedId_;
     /**
-     * <code>uint32 Unk3300_GAJHLGKLBBK = 9;</code>
-     * @return The unk3300GAJHLGKLBBK.
+     * <code>uint32 seed_id = 9;</code>
+     * @return The seedId.
      */
     @java.lang.Override
-    public int getUnk3300GAJHLGKLBBK() {
-      return unk3300GAJHLGKLBBK_;
+    public int getSeedId() {
+      return seedId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -207,11 +207,11 @@ public final class HomePlantSubFieldDataOuterClass {
       if (endTime_ != 0) {
         output.writeFixed32(6, endTime_);
       }
-      if (unk3300IELHEAAMAKG_ != 0) {
-        output.writeUInt32(7, unk3300IELHEAAMAKG_);
+      if (homeGatherId_ != 0) {
+        output.writeUInt32(7, homeGatherId_);
       }
-      if (unk3300GAJHLGKLBBK_ != 0) {
-        output.writeUInt32(9, unk3300GAJHLGKLBBK_);
+      if (seedId_ != 0) {
+        output.writeUInt32(9, seedId_);
       }
       if (getEntityIdListList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -237,13 +237,13 @@ public final class HomePlantSubFieldDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeFixed32Size(6, endTime_);
       }
-      if (unk3300IELHEAAMAKG_ != 0) {
+      if (homeGatherId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300IELHEAAMAKG_);
+          .computeUInt32Size(7, homeGatherId_);
       }
-      if (unk3300GAJHLGKLBBK_ != 0) {
+      if (seedId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300GAJHLGKLBBK_);
+          .computeUInt32Size(9, seedId_);
       }
       {
         int dataSize = 0;
@@ -275,14 +275,14 @@ public final class HomePlantSubFieldDataOuterClass {
       emu.grasscutter.net.newproto.HomePlantSubFieldDataOuterClass.HomePlantSubFieldData other = (emu.grasscutter.net.newproto.HomePlantSubFieldDataOuterClass.HomePlantSubFieldData) obj;
 
       if (fieldStatus_ != other.fieldStatus_) return false;
-      if (getUnk3300IELHEAAMAKG()
-          != other.getUnk3300IELHEAAMAKG()) return false;
+      if (getHomeGatherId()
+          != other.getHomeGatherId()) return false;
       if (!getEntityIdListList()
           .equals(other.getEntityIdListList())) return false;
       if (getEndTime()
           != other.getEndTime()) return false;
-      if (getUnk3300GAJHLGKLBBK()
-          != other.getUnk3300GAJHLGKLBBK()) return false;
+      if (getSeedId()
+          != other.getSeedId()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -296,16 +296,16 @@ public final class HomePlantSubFieldDataOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FIELD_STATUS_FIELD_NUMBER;
       hash = (53 * hash) + fieldStatus_;
-      hash = (37 * hash) + UNK3300_IELHEAAMAKG_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300IELHEAAMAKG();
+      hash = (37 * hash) + HOME_GATHER_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getHomeGatherId();
       if (getEntityIdListCount() > 0) {
         hash = (37 * hash) + ENTITY_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getEntityIdListList().hashCode();
       }
       hash = (37 * hash) + END_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getEndTime();
-      hash = (37 * hash) + UNK3300_GAJHLGKLBBK_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GAJHLGKLBBK();
+      hash = (37 * hash) + SEED_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSeedId();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -436,13 +436,13 @@ public final class HomePlantSubFieldDataOuterClass {
         super.clear();
         fieldStatus_ = 0;
 
-        unk3300IELHEAAMAKG_ = 0;
+        homeGatherId_ = 0;
 
         entityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         endTime_ = 0;
 
-        unk3300GAJHLGKLBBK_ = 0;
+        seedId_ = 0;
 
         return this;
       }
@@ -472,14 +472,14 @@ public final class HomePlantSubFieldDataOuterClass {
         emu.grasscutter.net.newproto.HomePlantSubFieldDataOuterClass.HomePlantSubFieldData result = new emu.grasscutter.net.newproto.HomePlantSubFieldDataOuterClass.HomePlantSubFieldData(this);
         int from_bitField0_ = bitField0_;
         result.fieldStatus_ = fieldStatus_;
-        result.unk3300IELHEAAMAKG_ = unk3300IELHEAAMAKG_;
+        result.homeGatherId_ = homeGatherId_;
         if (((bitField0_ & 0x00000001) != 0)) {
           entityIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.entityIdList_ = entityIdList_;
         result.endTime_ = endTime_;
-        result.unk3300GAJHLGKLBBK_ = unk3300GAJHLGKLBBK_;
+        result.seedId_ = seedId_;
         onBuilt();
         return result;
       }
@@ -531,8 +531,8 @@ public final class HomePlantSubFieldDataOuterClass {
         if (other.fieldStatus_ != 0) {
           setFieldStatusValue(other.getFieldStatusValue());
         }
-        if (other.getUnk3300IELHEAAMAKG() != 0) {
-          setUnk3300IELHEAAMAKG(other.getUnk3300IELHEAAMAKG());
+        if (other.getHomeGatherId() != 0) {
+          setHomeGatherId(other.getHomeGatherId());
         }
         if (!other.entityIdList_.isEmpty()) {
           if (entityIdList_.isEmpty()) {
@@ -547,8 +547,8 @@ public final class HomePlantSubFieldDataOuterClass {
         if (other.getEndTime() != 0) {
           setEndTime(other.getEndTime());
         }
-        if (other.getUnk3300GAJHLGKLBBK() != 0) {
-          setUnk3300GAJHLGKLBBK(other.getUnk3300GAJHLGKLBBK());
+        if (other.getSeedId() != 0) {
+          setSeedId(other.getSeedId());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -587,12 +587,12 @@ public final class HomePlantSubFieldDataOuterClass {
                 break;
               } // case 53
               case 56: {
-                unk3300IELHEAAMAKG_ = input.readUInt32();
+                homeGatherId_ = input.readUInt32();
 
                 break;
               } // case 56
               case 72: {
-                unk3300GAJHLGKLBBK_ = input.readUInt32();
+                seedId_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -683,33 +683,33 @@ public final class HomePlantSubFieldDataOuterClass {
         return this;
       }
 
-      private int unk3300IELHEAAMAKG_ ;
+      private int homeGatherId_ ;
       /**
-       * <code>uint32 Unk3300_IELHEAAMAKG = 7;</code>
-       * @return The unk3300IELHEAAMAKG.
+       * <code>uint32 home_gather_id = 7;</code>
+       * @return The homeGatherId.
        */
       @java.lang.Override
-      public int getUnk3300IELHEAAMAKG() {
-        return unk3300IELHEAAMAKG_;
+      public int getHomeGatherId() {
+        return homeGatherId_;
       }
       /**
-       * <code>uint32 Unk3300_IELHEAAMAKG = 7;</code>
-       * @param value The unk3300IELHEAAMAKG to set.
+       * <code>uint32 home_gather_id = 7;</code>
+       * @param value The homeGatherId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300IELHEAAMAKG(int value) {
+      public Builder setHomeGatherId(int value) {
         
-        unk3300IELHEAAMAKG_ = value;
+        homeGatherId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_IELHEAAMAKG = 7;</code>
+       * <code>uint32 home_gather_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300IELHEAAMAKG() {
+      public Builder clearHomeGatherId() {
         
-        unk3300IELHEAAMAKG_ = 0;
+        homeGatherId_ = 0;
         onChanged();
         return this;
       }
@@ -824,33 +824,33 @@ public final class HomePlantSubFieldDataOuterClass {
         return this;
       }
 
-      private int unk3300GAJHLGKLBBK_ ;
+      private int seedId_ ;
       /**
-       * <code>uint32 Unk3300_GAJHLGKLBBK = 9;</code>
-       * @return The unk3300GAJHLGKLBBK.
+       * <code>uint32 seed_id = 9;</code>
+       * @return The seedId.
        */
       @java.lang.Override
-      public int getUnk3300GAJHLGKLBBK() {
-        return unk3300GAJHLGKLBBK_;
+      public int getSeedId() {
+        return seedId_;
       }
       /**
-       * <code>uint32 Unk3300_GAJHLGKLBBK = 9;</code>
-       * @param value The unk3300GAJHLGKLBBK to set.
+       * <code>uint32 seed_id = 9;</code>
+       * @param value The seedId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GAJHLGKLBBK(int value) {
+      public Builder setSeedId(int value) {
         
-        unk3300GAJHLGKLBBK_ = value;
+        seedId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GAJHLGKLBBK = 9;</code>
+       * <code>uint32 seed_id = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GAJHLGKLBBK() {
+      public Builder clearSeedId() {
         
-        unk3300GAJHLGKLBBK_ = 0;
+        seedId_ = 0;
         onChanged();
         return this;
       }
@@ -933,12 +933,12 @@ public final class HomePlantSubFieldDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033HomePlantSubFieldData.proto\032\032HomePlant" +
-      "FieldStatus.proto\"\250\001\n\025HomePlantSubFieldD" +
+      "FieldStatus.proto\"\227\001\n\025HomePlantSubFieldD" +
       "ata\022+\n\014field_status\030\005 \001(\0162\025.HomePlantFie" +
-      "ldStatus\022\033\n\023Unk3300_IELHEAAMAKG\030\007 \001(\r\022\026\n" +
-      "\016entity_id_list\030\014 \003(\r\022\020\n\010end_time\030\006 \001(\007\022" +
-      "\033\n\023Unk3300_GAJHLGKLBBK\030\t \001(\rB\036\n\034emu.gras" +
-      "scutter.net.newprotob\006proto3"
+      "ldStatus\022\026\n\016home_gather_id\030\007 \001(\r\022\026\n\016enti" +
+      "ty_id_list\030\014 \003(\r\022\020\n\010end_time\030\006 \001(\007\022\017\n\007se" +
+      "ed_id\030\t \001(\rB\036\n\034emu.grasscutter.net.newpr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -950,7 +950,7 @@ public final class HomePlantSubFieldDataOuterClass {
     internal_static_HomePlantSubFieldData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomePlantSubFieldData_descriptor,
-        new java.lang.String[] { "FieldStatus", "Unk3300IELHEAAMAKG", "EntityIdList", "EndTime", "Unk3300GAJHLGKLBBK", });
+        new java.lang.String[] { "FieldStatus", "HomeGatherId", "EntityIdList", "EndTime", "SeedId", });
     emu.grasscutter.net.newproto.HomePlantFieldStatusOuterClass.getDescriptor();
   }
 

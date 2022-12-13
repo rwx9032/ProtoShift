@@ -19,10 +19,10 @@ public final class TowerLevelEndNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_BOPIBKGAMID = 2;</code>
-     * @return The unk3300BOPIBKGAMID.
+     * <code>uint32 continue_state = 2;</code>
+     * @return The continueState.
      */
-    int getUnk3300BOPIBKGAMID();
+    int getContinueState();
 
     /**
      * <code>repeated uint32 finished_star_cond_list = 6;</code>
@@ -42,10 +42,10 @@ public final class TowerLevelEndNotifyOuterClass {
     int getFinishedStarCondList(int index);
 
     /**
-     * <code>uint32 Unk3300_AHBGPMBHPMO = 4;</code>
-     * @return The unk3300AHBGPMBHPMO.
+     * <code>uint32 next_floor_id = 4;</code>
+     * @return The nextFloorId.
      */
-    int getUnk3300AHBGPMBHPMO();
+    int getNextFloorId();
 
     /**
      * <code>bool is_success = 15;</code>
@@ -246,15 +246,15 @@ public final class TowerLevelEndNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:TowerLevelEndNotify.ContinueStateType)
     }
 
-    public static final int UNK3300_BOPIBKGAMID_FIELD_NUMBER = 2;
-    private int unk3300BOPIBKGAMID_;
+    public static final int CONTINUE_STATE_FIELD_NUMBER = 2;
+    private int continueState_;
     /**
-     * <code>uint32 Unk3300_BOPIBKGAMID = 2;</code>
-     * @return The unk3300BOPIBKGAMID.
+     * <code>uint32 continue_state = 2;</code>
+     * @return The continueState.
      */
     @java.lang.Override
-    public int getUnk3300BOPIBKGAMID() {
-      return unk3300BOPIBKGAMID_;
+    public int getContinueState() {
+      return continueState_;
     }
 
     public static final int FINISHED_STAR_COND_LIST_FIELD_NUMBER = 6;
@@ -285,15 +285,15 @@ public final class TowerLevelEndNotifyOuterClass {
     }
     private int finishedStarCondListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_AHBGPMBHPMO_FIELD_NUMBER = 4;
-    private int unk3300AHBGPMBHPMO_;
+    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 4;
+    private int nextFloorId_;
     /**
-     * <code>uint32 Unk3300_AHBGPMBHPMO = 4;</code>
-     * @return The unk3300AHBGPMBHPMO.
+     * <code>uint32 next_floor_id = 4;</code>
+     * @return The nextFloorId.
      */
     @java.lang.Override
-    public int getUnk3300AHBGPMBHPMO() {
-      return unk3300AHBGPMBHPMO_;
+    public int getNextFloorId() {
+      return nextFloorId_;
     }
 
     public static final int IS_SUCCESS_FIELD_NUMBER = 15;
@@ -362,11 +362,11 @@ public final class TowerLevelEndNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (unk3300BOPIBKGAMID_ != 0) {
-        output.writeUInt32(2, unk3300BOPIBKGAMID_);
+      if (continueState_ != 0) {
+        output.writeUInt32(2, continueState_);
       }
-      if (unk3300AHBGPMBHPMO_ != 0) {
-        output.writeUInt32(4, unk3300AHBGPMBHPMO_);
+      if (nextFloorId_ != 0) {
+        output.writeUInt32(4, nextFloorId_);
       }
       if (getFinishedStarCondListList().size() > 0) {
         output.writeUInt32NoTag(50);
@@ -390,13 +390,13 @@ public final class TowerLevelEndNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300BOPIBKGAMID_ != 0) {
+      if (continueState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300BOPIBKGAMID_);
+          .computeUInt32Size(2, continueState_);
       }
-      if (unk3300AHBGPMBHPMO_ != 0) {
+      if (nextFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300AHBGPMBHPMO_);
+          .computeUInt32Size(4, nextFloorId_);
       }
       {
         int dataSize = 0;
@@ -435,12 +435,12 @@ public final class TowerLevelEndNotifyOuterClass {
       }
       emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify other = (emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify) obj;
 
-      if (getUnk3300BOPIBKGAMID()
-          != other.getUnk3300BOPIBKGAMID()) return false;
+      if (getContinueState()
+          != other.getContinueState()) return false;
       if (!getFinishedStarCondListList()
           .equals(other.getFinishedStarCondListList())) return false;
-      if (getUnk3300AHBGPMBHPMO()
-          != other.getUnk3300AHBGPMBHPMO()) return false;
+      if (getNextFloorId()
+          != other.getNextFloorId()) return false;
       if (getIsSuccess()
           != other.getIsSuccess()) return false;
       if (!getRewardItemListList()
@@ -456,14 +456,14 @@ public final class TowerLevelEndNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_BOPIBKGAMID_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300BOPIBKGAMID();
+      hash = (37 * hash) + CONTINUE_STATE_FIELD_NUMBER;
+      hash = (53 * hash) + getContinueState();
       if (getFinishedStarCondListCount() > 0) {
         hash = (37 * hash) + FINISHED_STAR_COND_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFinishedStarCondListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_AHBGPMBHPMO_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300AHBGPMBHPMO();
+      hash = (37 * hash) + NEXT_FLOOR_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getNextFloorId();
       hash = (37 * hash) + IS_SUCCESS_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsSuccess());
@@ -609,11 +609,11 @@ public final class TowerLevelEndNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300BOPIBKGAMID_ = 0;
+        continueState_ = 0;
 
         finishedStarCondList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300AHBGPMBHPMO_ = 0;
+        nextFloorId_ = 0;
 
         isSuccess_ = false;
 
@@ -651,13 +651,13 @@ public final class TowerLevelEndNotifyOuterClass {
       public emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify buildPartial() {
         emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify result = new emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300BOPIBKGAMID_ = unk3300BOPIBKGAMID_;
+        result.continueState_ = continueState_;
         if (((bitField0_ & 0x00000001) != 0)) {
           finishedStarCondList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.finishedStarCondList_ = finishedStarCondList_;
-        result.unk3300AHBGPMBHPMO_ = unk3300AHBGPMBHPMO_;
+        result.nextFloorId_ = nextFloorId_;
         result.isSuccess_ = isSuccess_;
         if (rewardItemListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
@@ -716,8 +716,8 @@ public final class TowerLevelEndNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify other) {
         if (other == emu.grasscutter.net.newproto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.getDefaultInstance()) return this;
-        if (other.getUnk3300BOPIBKGAMID() != 0) {
-          setUnk3300BOPIBKGAMID(other.getUnk3300BOPIBKGAMID());
+        if (other.getContinueState() != 0) {
+          setContinueState(other.getContinueState());
         }
         if (!other.finishedStarCondList_.isEmpty()) {
           if (finishedStarCondList_.isEmpty()) {
@@ -729,8 +729,8 @@ public final class TowerLevelEndNotifyOuterClass {
           }
           onChanged();
         }
-        if (other.getUnk3300AHBGPMBHPMO() != 0) {
-          setUnk3300AHBGPMBHPMO(other.getUnk3300AHBGPMBHPMO());
+        if (other.getNextFloorId() != 0) {
+          setNextFloorId(other.getNextFloorId());
         }
         if (other.getIsSuccess() != false) {
           setIsSuccess(other.getIsSuccess());
@@ -788,12 +788,12 @@ public final class TowerLevelEndNotifyOuterClass {
                 done = true;
                 break;
               case 16: {
-                unk3300BOPIBKGAMID_ = input.readUInt32();
+                continueState_ = input.readUInt32();
 
                 break;
               } // case 16
               case 32: {
-                unk3300AHBGPMBHPMO_ = input.readUInt32();
+                nextFloorId_ = input.readUInt32();
 
                 break;
               } // case 32
@@ -848,33 +848,33 @@ public final class TowerLevelEndNotifyOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300BOPIBKGAMID_ ;
+      private int continueState_ ;
       /**
-       * <code>uint32 Unk3300_BOPIBKGAMID = 2;</code>
-       * @return The unk3300BOPIBKGAMID.
+       * <code>uint32 continue_state = 2;</code>
+       * @return The continueState.
        */
       @java.lang.Override
-      public int getUnk3300BOPIBKGAMID() {
-        return unk3300BOPIBKGAMID_;
+      public int getContinueState() {
+        return continueState_;
       }
       /**
-       * <code>uint32 Unk3300_BOPIBKGAMID = 2;</code>
-       * @param value The unk3300BOPIBKGAMID to set.
+       * <code>uint32 continue_state = 2;</code>
+       * @param value The continueState to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BOPIBKGAMID(int value) {
+      public Builder setContinueState(int value) {
         
-        unk3300BOPIBKGAMID_ = value;
+        continueState_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_BOPIBKGAMID = 2;</code>
+       * <code>uint32 continue_state = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BOPIBKGAMID() {
+      public Builder clearContinueState() {
         
-        unk3300BOPIBKGAMID_ = 0;
+        continueState_ = 0;
         onChanged();
         return this;
       }
@@ -958,33 +958,33 @@ public final class TowerLevelEndNotifyOuterClass {
         return this;
       }
 
-      private int unk3300AHBGPMBHPMO_ ;
+      private int nextFloorId_ ;
       /**
-       * <code>uint32 Unk3300_AHBGPMBHPMO = 4;</code>
-       * @return The unk3300AHBGPMBHPMO.
+       * <code>uint32 next_floor_id = 4;</code>
+       * @return The nextFloorId.
        */
       @java.lang.Override
-      public int getUnk3300AHBGPMBHPMO() {
-        return unk3300AHBGPMBHPMO_;
+      public int getNextFloorId() {
+        return nextFloorId_;
       }
       /**
-       * <code>uint32 Unk3300_AHBGPMBHPMO = 4;</code>
-       * @param value The unk3300AHBGPMBHPMO to set.
+       * <code>uint32 next_floor_id = 4;</code>
+       * @param value The nextFloorId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300AHBGPMBHPMO(int value) {
+      public Builder setNextFloorId(int value) {
         
-        unk3300AHBGPMBHPMO_ = value;
+        nextFloorId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_AHBGPMBHPMO = 4;</code>
+       * <code>uint32 next_floor_id = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300AHBGPMBHPMO() {
+      public Builder clearNextFloorId() {
         
-        unk3300AHBGPMBHPMO_ = 0;
+        nextFloorId_ = 0;
         onChanged();
         return this;
       }
@@ -1338,16 +1338,16 @@ public final class TowerLevelEndNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031TowerLevelEndNotify.proto\032\017ItemParam.p" +
-      "roto\"\306\002\n\023TowerLevelEndNotify\022\033\n\023Unk3300_" +
-      "BOPIBKGAMID\030\002 \001(\r\022\037\n\027finished_star_cond_" +
-      "list\030\006 \003(\r\022\033\n\023Unk3300_AHBGPMBHPMO\030\004 \001(\r\022" +
-      "\022\n\nis_success\030\017 \001(\010\022$\n\020reward_item_list\030" +
-      "\n \003(\0132\n.ItemParam\"\231\001\n\021ContinueStateType\022" +
-      "(\n$CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE\020" +
-      "\000\022,\n(CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_" +
-      "LEVEL\020\001\022,\n(CONTINUE_STATE_TYPE_CAN_ENTER" +
-      "_NEXT_FLOOR\020\002B\036\n\034emu.grasscutter.net.new" +
-      "protob\006proto3"
+      "roto\"\273\002\n\023TowerLevelEndNotify\022\026\n\016continue" +
+      "_state\030\002 \001(\r\022\037\n\027finished_star_cond_list\030" +
+      "\006 \003(\r\022\025\n\rnext_floor_id\030\004 \001(\r\022\022\n\nis_succe" +
+      "ss\030\017 \001(\010\022$\n\020reward_item_list\030\n \003(\0132\n.Ite" +
+      "mParam\"\231\001\n\021ContinueStateType\022(\n$CONTINUE" +
+      "_STATE_TYPE_CAN_NOT_CONTINUE\020\000\022,\n(CONTIN" +
+      "UE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL\020\001\022,\n(" +
+      "CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR" +
+      "\020\002B\036\n\034emu.grasscutter.net.newprotob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1359,7 +1359,7 @@ public final class TowerLevelEndNotifyOuterClass {
     internal_static_TowerLevelEndNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerLevelEndNotify_descriptor,
-        new java.lang.String[] { "Unk3300BOPIBKGAMID", "FinishedStarCondList", "Unk3300AHBGPMBHPMO", "IsSuccess", "RewardItemList", });
+        new java.lang.String[] { "ContinueState", "FinishedStarCondList", "NextFloorId", "IsSuccess", "RewardItemList", });
     emu.grasscutter.net.newproto.ItemParamOuterClass.getDescriptor();
   }
 

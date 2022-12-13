@@ -25,22 +25,22 @@ public final class PlayerLoginRspOuterClass {
     long getLoginRand();
 
     /**
-     * <code>bytes Unk3300_DHCMDHHDLFF = 2;</code>
-     * @return The unk3300DHCMDHHDLFF.
+     * <code>bytes player_data = 2;</code>
+     * @return The playerData.
      */
-    com.google.protobuf.ByteString getUnk3300DHCMDHHDLFF();
+    com.google.protobuf.ByteString getPlayerData();
 
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-     * @return The unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 16;</code>
+     * @return The clientSilenceMd5.
      */
-    java.lang.String getUnk3300HMGCPAGLDHB();
+    java.lang.String getClientSilenceMd5();
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-     * @return The bytes for unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 16;</code>
+     * @return The bytes for clientSilenceMd5.
      */
     com.google.protobuf.ByteString
-        getUnk3300HMGCPAGLDHBBytes();
+        getClientSilenceMd5Bytes();
 
     /**
      * <code>double total_tick_time = 530;</code>
@@ -49,10 +49,10 @@ public final class PlayerLoginRspOuterClass {
     double getTotalTickTime();
 
     /**
-     * <code>bool Unk3300_LLIJKLDBHNN = 5;</code>
-     * @return The unk3300LLIJKLDBHNN.
+     * <code>bool is_use_ability_hash = 5;</code>
+     * @return The isUseAbilityHash.
      */
-    boolean getUnk3300LLIJKLDBHNN();
+    boolean getIsUseAbilityHash();
 
     /**
      * <code>bool is_audit = 930;</code>
@@ -178,22 +178,22 @@ public final class PlayerLoginRspOuterClass {
     int getTargetUid();
 
     /**
-     * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-     * @return The unk3300NEICPFBPNPD.
+     * <code>string register_cps = 99;</code>
+     * @return The registerCps.
      */
-    java.lang.String getUnk3300NEICPFBPNPD();
+    java.lang.String getRegisterCps();
     /**
-     * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-     * @return The bytes for unk3300NEICPFBPNPD.
+     * <code>string register_cps = 99;</code>
+     * @return The bytes for registerCps.
      */
     com.google.protobuf.ByteString
-        getUnk3300NEICPFBPNPDBytes();
+        getRegisterCpsBytes();
 
     /**
-     * <code>bool Unk3300_CANONIPHMDI = 1522;</code>
-     * @return The unk3300CANONIPHMDI.
+     * <code>bool is_sc_open = 1522;</code>
+     * @return The isScOpen.
      */
-    boolean getUnk3300CANONIPHMDI();
+    boolean getIsScOpen();
 
     /**
      * <code>bool Unk3300_IIHDKKNJPGD = 8;</code>
@@ -208,10 +208,10 @@ public final class PlayerLoginRspOuterClass {
     int getPlayerDataVersion();
 
     /**
-     * <code>bytes Unk3300_MOPDDGHMKBD = 1888;</code>
-     * @return The unk3300MOPDDGHMKBD.
+     * <code>bytes sc_info = 1888;</code>
+     * @return The scInfo.
      */
-    com.google.protobuf.ByteString getUnk3300MOPDDGHMKBD();
+    com.google.protobuf.ByteString getScInfo();
 
     /**
      * <code>string country_code = 360;</code>
@@ -353,16 +353,16 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
     int getClientDataVersion();
 
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-     * @return The unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 1299;</code>
+     * @return The clientMd5.
      */
-    java.lang.String getUnk3300OPGDBOLKLJA();
+    java.lang.String getClientMd5();
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-     * @return The bytes for unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 1299;</code>
+     * @return The bytes for clientMd5.
      */
     com.google.protobuf.ByteString
-        getUnk3300OPGDBOLKLJABytes();
+        getClientMd5Bytes();
 
     /**
      * <code>int32 retcode = 7;</code>
@@ -417,18 +417,18 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       super(builder);
     }
     private PlayerLoginRsp() {
-      unk3300DHCMDHHDLFF_ = com.google.protobuf.ByteString.EMPTY;
-      unk3300HMGCPAGLDHB_ = "";
+      playerData_ = com.google.protobuf.ByteString.EMPTY;
+      clientSilenceMd5_ = "";
       birthday_ = "";
       clientSilenceVersionSuffix_ = "";
       clientVersionSuffix_ = "";
       nextResourceUrl_ = "";
       shortAbilityHashMap_ = java.util.Collections.emptyList();
-      unk3300NEICPFBPNPD_ = "";
-      unk3300MOPDDGHMKBD_ = com.google.protobuf.ByteString.EMPTY;
+      registerCps_ = "";
+      scInfo_ = com.google.protobuf.ByteString.EMPTY;
       countryCode_ = "";
       gameBiz_ = "";
-      unk3300OPGDBOLKLJA_ = "";
+      clientMd5_ = "";
       featureBlockInfoList_ = java.util.Collections.emptyList();
     }
 
@@ -482,49 +482,49 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       return loginRand_;
     }
 
-    public static final int UNK3300_DHCMDHHDLFF_FIELD_NUMBER = 2;
-    private com.google.protobuf.ByteString unk3300DHCMDHHDLFF_;
+    public static final int PLAYER_DATA_FIELD_NUMBER = 2;
+    private com.google.protobuf.ByteString playerData_;
     /**
-     * <code>bytes Unk3300_DHCMDHHDLFF = 2;</code>
-     * @return The unk3300DHCMDHHDLFF.
+     * <code>bytes player_data = 2;</code>
+     * @return The playerData.
      */
     @java.lang.Override
-    public com.google.protobuf.ByteString getUnk3300DHCMDHHDLFF() {
-      return unk3300DHCMDHHDLFF_;
+    public com.google.protobuf.ByteString getPlayerData() {
+      return playerData_;
     }
 
-    public static final int UNK3300_HMGCPAGLDHB_FIELD_NUMBER = 16;
-    private volatile java.lang.Object unk3300HMGCPAGLDHB_;
+    public static final int CLIENT_SILENCE_MD5_FIELD_NUMBER = 16;
+    private volatile java.lang.Object clientSilenceMd5_;
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-     * @return The unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 16;</code>
+     * @return The clientSilenceMd5.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300HMGCPAGLDHB() {
-      java.lang.Object ref = unk3300HMGCPAGLDHB_;
+    public java.lang.String getClientSilenceMd5() {
+      java.lang.Object ref = clientSilenceMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300HMGCPAGLDHB_ = s;
+        clientSilenceMd5_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-     * @return The bytes for unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 16;</code>
+     * @return The bytes for clientSilenceMd5.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300HMGCPAGLDHBBytes() {
-      java.lang.Object ref = unk3300HMGCPAGLDHB_;
+        getClientSilenceMd5Bytes() {
+      java.lang.Object ref = clientSilenceMd5_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300HMGCPAGLDHB_ = b;
+        clientSilenceMd5_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -542,15 +542,15 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       return totalTickTime_;
     }
 
-    public static final int UNK3300_LLIJKLDBHNN_FIELD_NUMBER = 5;
-    private boolean unk3300LLIJKLDBHNN_;
+    public static final int IS_USE_ABILITY_HASH_FIELD_NUMBER = 5;
+    private boolean isUseAbilityHash_;
     /**
-     * <code>bool Unk3300_LLIJKLDBHNN = 5;</code>
-     * @return The unk3300LLIJKLDBHNN.
+     * <code>bool is_use_ability_hash = 5;</code>
+     * @return The isUseAbilityHash.
      */
     @java.lang.Override
-    public boolean getUnk3300LLIJKLDBHNN() {
-      return unk3300LLIJKLDBHNN_;
+    public boolean getIsUseAbilityHash() {
+      return isUseAbilityHash_;
     }
 
     public static final int IS_AUDIT_FIELD_NUMBER = 930;
@@ -837,53 +837,53 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       return targetUid_;
     }
 
-    public static final int UNK3300_NEICPFBPNPD_FIELD_NUMBER = 99;
-    private volatile java.lang.Object unk3300NEICPFBPNPD_;
+    public static final int REGISTER_CPS_FIELD_NUMBER = 99;
+    private volatile java.lang.Object registerCps_;
     /**
-     * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-     * @return The unk3300NEICPFBPNPD.
+     * <code>string register_cps = 99;</code>
+     * @return The registerCps.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300NEICPFBPNPD() {
-      java.lang.Object ref = unk3300NEICPFBPNPD_;
+    public java.lang.String getRegisterCps() {
+      java.lang.Object ref = registerCps_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300NEICPFBPNPD_ = s;
+        registerCps_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-     * @return The bytes for unk3300NEICPFBPNPD.
+     * <code>string register_cps = 99;</code>
+     * @return The bytes for registerCps.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300NEICPFBPNPDBytes() {
-      java.lang.Object ref = unk3300NEICPFBPNPD_;
+        getRegisterCpsBytes() {
+      java.lang.Object ref = registerCps_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300NEICPFBPNPD_ = b;
+        registerCps_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int UNK3300_CANONIPHMDI_FIELD_NUMBER = 1522;
-    private boolean unk3300CANONIPHMDI_;
+    public static final int IS_SC_OPEN_FIELD_NUMBER = 1522;
+    private boolean isScOpen_;
     /**
-     * <code>bool Unk3300_CANONIPHMDI = 1522;</code>
-     * @return The unk3300CANONIPHMDI.
+     * <code>bool is_sc_open = 1522;</code>
+     * @return The isScOpen.
      */
     @java.lang.Override
-    public boolean getUnk3300CANONIPHMDI() {
-      return unk3300CANONIPHMDI_;
+    public boolean getIsScOpen() {
+      return isScOpen_;
     }
 
     public static final int UNK3300_IIHDKKNJPGD_FIELD_NUMBER = 8;
@@ -908,15 +908,15 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       return playerDataVersion_;
     }
 
-    public static final int UNK3300_MOPDDGHMKBD_FIELD_NUMBER = 1888;
-    private com.google.protobuf.ByteString unk3300MOPDDGHMKBD_;
+    public static final int SC_INFO_FIELD_NUMBER = 1888;
+    private com.google.protobuf.ByteString scInfo_;
     /**
-     * <code>bytes Unk3300_MOPDDGHMKBD = 1888;</code>
-     * @return The unk3300MOPDDGHMKBD.
+     * <code>bytes sc_info = 1888;</code>
+     * @return The scInfo.
      */
     @java.lang.Override
-    public com.google.protobuf.ByteString getUnk3300MOPDDGHMKBD() {
-      return unk3300MOPDDGHMKBD_;
+    public com.google.protobuf.ByteString getScInfo() {
+      return scInfo_;
     }
 
     public static final int COUNTRY_CODE_FIELD_NUMBER = 360;
@@ -1238,38 +1238,38 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       return clientDataVersion_;
     }
 
-    public static final int UNK3300_OPGDBOLKLJA_FIELD_NUMBER = 1299;
-    private volatile java.lang.Object unk3300OPGDBOLKLJA_;
+    public static final int CLIENT_MD5_FIELD_NUMBER = 1299;
+    private volatile java.lang.Object clientMd5_;
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-     * @return The unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 1299;</code>
+     * @return The clientMd5.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300OPGDBOLKLJA() {
-      java.lang.Object ref = unk3300OPGDBOLKLJA_;
+    public java.lang.String getClientMd5() {
+      java.lang.Object ref = clientMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300OPGDBOLKLJA_ = s;
+        clientMd5_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-     * @return The bytes for unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 1299;</code>
+     * @return The bytes for clientMd5.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300OPGDBOLKLJABytes() {
-      java.lang.Object ref = unk3300OPGDBOLKLJA_;
+        getClientMd5Bytes() {
+      java.lang.Object ref = clientMd5_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300OPGDBOLKLJA_ = b;
+        clientMd5_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1344,8 +1344,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (clientSilenceDataVersion_ != 0) {
         output.writeUInt32(1, clientSilenceDataVersion_);
       }
-      if (!unk3300DHCMDHHDLFF_.isEmpty()) {
-        output.writeBytes(2, unk3300DHCMDHHDLFF_);
+      if (!playerData_.isEmpty()) {
+        output.writeBytes(2, playerData_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeStringMapTo(
@@ -1356,8 +1356,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, gameBiz_);
       }
-      if (unk3300LLIJKLDBHNN_ != false) {
-        output.writeBool(5, unk3300LLIJKLDBHNN_);
+      if (isUseAbilityHash_ != false) {
+        output.writeBool(5, isUseAbilityHash_);
       }
       if (retcode_ != 0) {
         output.writeInt32(7, retcode_);
@@ -1383,14 +1383,14 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (targetUid_ != 0) {
         output.writeUInt32(15, targetUid_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300HMGCPAGLDHB_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 16, unk3300HMGCPAGLDHB_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 16, clientSilenceMd5_);
       }
       if (unk3300IADLIIMGDMC_ != false) {
         output.writeBool(17, unk3300IADLIIMGDMC_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NEICPFBPNPD_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 99, unk3300NEICPFBPNPD_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 99, registerCps_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
         output.writeMessage(138, featureBlockInfoList_.get(i));
@@ -1422,8 +1422,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (isDataNeedRelogin_ != false) {
         output.writeBool(1119, isDataNeedRelogin_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300OPGDBOLKLJA_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1299, unk3300OPGDBOLKLJA_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1299, clientMd5_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1324, nextResourceUrl_);
@@ -1434,8 +1434,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1387, birthday_);
       }
-      if (unk3300CANONIPHMDI_ != false) {
-        output.writeBool(1522, unk3300CANONIPHMDI_);
+      if (isScOpen_ != false) {
+        output.writeBool(1522, isScOpen_);
       }
       if (nextResVersionConfig_ != null) {
         output.writeMessage(1688, getNextResVersionConfig());
@@ -1443,8 +1443,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1845, clientVersionSuffix_);
       }
-      if (!unk3300MOPDDGHMKBD_.isEmpty()) {
-        output.writeBytes(1888, unk3300MOPDDGHMKBD_);
+      if (!scInfo_.isEmpty()) {
+        output.writeBytes(1888, scInfo_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -1465,9 +1465,9 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, clientSilenceDataVersion_);
       }
-      if (!unk3300DHCMDHHDLFF_.isEmpty()) {
+      if (!playerData_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(2, unk3300DHCMDHHDLFF_);
+          .computeBytesSize(2, playerData_);
       }
       for (java.util.Map.Entry<java.lang.String, java.lang.Integer> entry
            : internalGetAbilityHashMap().getMap().entrySet()) {
@@ -1482,9 +1482,9 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, gameBiz_);
       }
-      if (unk3300LLIJKLDBHNN_ != false) {
+      if (isUseAbilityHash_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, unk3300LLIJKLDBHNN_);
+          .computeBoolSize(5, isUseAbilityHash_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1518,15 +1518,15 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(15, targetUid_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300HMGCPAGLDHB_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(16, unk3300HMGCPAGLDHB_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(16, clientSilenceMd5_);
       }
       if (unk3300IADLIIMGDMC_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(17, unk3300IADLIIMGDMC_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NEICPFBPNPD_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(99, unk3300NEICPFBPNPD_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(99, registerCps_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -1566,8 +1566,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1119, isDataNeedRelogin_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300OPGDBOLKLJA_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1299, unk3300OPGDBOLKLJA_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1299, clientMd5_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1324, nextResourceUrl_);
@@ -1579,9 +1579,9 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1387, birthday_);
       }
-      if (unk3300CANONIPHMDI_ != false) {
+      if (isScOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1522, unk3300CANONIPHMDI_);
+          .computeBoolSize(1522, isScOpen_);
       }
       if (nextResVersionConfig_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -1590,9 +1590,9 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1845, clientVersionSuffix_);
       }
-      if (!unk3300MOPDDGHMKBD_.isEmpty()) {
+      if (!scInfo_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1888, unk3300MOPDDGHMKBD_);
+          .computeBytesSize(1888, scInfo_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo> entry
            : internalGetBlockInfoMap().getMap().entrySet()) {
@@ -1621,15 +1621,15 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
 
       if (getLoginRand()
           != other.getLoginRand()) return false;
-      if (!getUnk3300DHCMDHHDLFF()
-          .equals(other.getUnk3300DHCMDHHDLFF())) return false;
-      if (!getUnk3300HMGCPAGLDHB()
-          .equals(other.getUnk3300HMGCPAGLDHB())) return false;
+      if (!getPlayerData()
+          .equals(other.getPlayerData())) return false;
+      if (!getClientSilenceMd5()
+          .equals(other.getClientSilenceMd5())) return false;
       if (java.lang.Double.doubleToLongBits(getTotalTickTime())
           != java.lang.Double.doubleToLongBits(
               other.getTotalTickTime())) return false;
-      if (getUnk3300LLIJKLDBHNN()
-          != other.getUnk3300LLIJKLDBHNN()) return false;
+      if (getIsUseAbilityHash()
+          != other.getIsUseAbilityHash()) return false;
       if (getIsAudit()
           != other.getIsAudit()) return false;
       if (!getBirthday()
@@ -1657,16 +1657,16 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
           != other.getClientSilenceDataVersion()) return false;
       if (getTargetUid()
           != other.getTargetUid()) return false;
-      if (!getUnk3300NEICPFBPNPD()
-          .equals(other.getUnk3300NEICPFBPNPD())) return false;
-      if (getUnk3300CANONIPHMDI()
-          != other.getUnk3300CANONIPHMDI()) return false;
+      if (!getRegisterCps()
+          .equals(other.getRegisterCps())) return false;
+      if (getIsScOpen()
+          != other.getIsScOpen()) return false;
       if (getUnk3300IIHDKKNJPGD()
           != other.getUnk3300IIHDKKNJPGD()) return false;
       if (getPlayerDataVersion()
           != other.getPlayerDataVersion()) return false;
-      if (!getUnk3300MOPDDGHMKBD()
-          .equals(other.getUnk3300MOPDDGHMKBD())) return false;
+      if (!getScInfo()
+          .equals(other.getScInfo())) return false;
       if (!getCountryCode()
           .equals(other.getCountryCode())) return false;
       if (hasNextResVersionConfig() != other.hasNextResVersionConfig()) return false;
@@ -1690,8 +1690,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
           != other.getAbilityHashCode()) return false;
       if (getClientDataVersion()
           != other.getClientDataVersion()) return false;
-      if (!getUnk3300OPGDBOLKLJA()
-          .equals(other.getUnk3300OPGDBOLKLJA())) return false;
+      if (!getClientMd5()
+          .equals(other.getClientMd5())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (!getFeatureBlockInfoListList()
@@ -1710,16 +1710,16 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       hash = (37 * hash) + LOGIN_RAND_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getLoginRand());
-      hash = (37 * hash) + UNK3300_DHCMDHHDLFF_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DHCMDHHDLFF().hashCode();
-      hash = (37 * hash) + UNK3300_HMGCPAGLDHB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300HMGCPAGLDHB().hashCode();
+      hash = (37 * hash) + PLAYER_DATA_FIELD_NUMBER;
+      hash = (53 * hash) + getPlayerData().hashCode();
+      hash = (37 * hash) + CLIENT_SILENCE_MD5_FIELD_NUMBER;
+      hash = (53 * hash) + getClientSilenceMd5().hashCode();
       hash = (37 * hash) + TOTAL_TICK_TIME_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           java.lang.Double.doubleToLongBits(getTotalTickTime()));
-      hash = (37 * hash) + UNK3300_LLIJKLDBHNN_FIELD_NUMBER;
+      hash = (37 * hash) + IS_USE_ABILITY_HASH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300LLIJKLDBHNN());
+          getIsUseAbilityHash());
       hash = (37 * hash) + IS_AUDIT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsAudit());
@@ -1752,18 +1752,18 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       hash = (53 * hash) + getClientSilenceDataVersion();
       hash = (37 * hash) + TARGET_UID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetUid();
-      hash = (37 * hash) + UNK3300_NEICPFBPNPD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NEICPFBPNPD().hashCode();
-      hash = (37 * hash) + UNK3300_CANONIPHMDI_FIELD_NUMBER;
+      hash = (37 * hash) + REGISTER_CPS_FIELD_NUMBER;
+      hash = (53 * hash) + getRegisterCps().hashCode();
+      hash = (37 * hash) + IS_SC_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300CANONIPHMDI());
+          getIsScOpen());
       hash = (37 * hash) + UNK3300_IIHDKKNJPGD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300IIHDKKNJPGD());
       hash = (37 * hash) + PLAYER_DATA_VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getPlayerDataVersion();
-      hash = (37 * hash) + UNK3300_MOPDDGHMKBD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MOPDDGHMKBD().hashCode();
+      hash = (37 * hash) + SC_INFO_FIELD_NUMBER;
+      hash = (53 * hash) + getScInfo().hashCode();
       hash = (37 * hash) + COUNTRY_CODE_FIELD_NUMBER;
       hash = (53 * hash) + getCountryCode().hashCode();
       if (hasNextResVersionConfig()) {
@@ -1792,8 +1792,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
       hash = (53 * hash) + getAbilityHashCode();
       hash = (37 * hash) + CLIENT_DATA_VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getClientDataVersion();
-      hash = (37 * hash) + UNK3300_OPGDBOLKLJA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OPGDBOLKLJA().hashCode();
+      hash = (37 * hash) + CLIENT_MD5_FIELD_NUMBER;
+      hash = (53 * hash) + getClientMd5().hashCode();
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
       if (getFeatureBlockInfoListCount() > 0) {
@@ -1966,13 +1966,13 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         super.clear();
         loginRand_ = 0L;
 
-        unk3300DHCMDHHDLFF_ = com.google.protobuf.ByteString.EMPTY;
+        playerData_ = com.google.protobuf.ByteString.EMPTY;
 
-        unk3300HMGCPAGLDHB_ = "";
+        clientSilenceMd5_ = "";
 
         totalTickTime_ = 0D;
 
-        unk3300LLIJKLDBHNN_ = false;
+        isUseAbilityHash_ = false;
 
         isAudit_ = false;
 
@@ -2007,15 +2007,15 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
 
         targetUid_ = 0;
 
-        unk3300NEICPFBPNPD_ = "";
+        registerCps_ = "";
 
-        unk3300CANONIPHMDI_ = false;
+        isScOpen_ = false;
 
         unk3300IIHDKKNJPGD_ = false;
 
         playerDataVersion_ = 0;
 
-        unk3300MOPDDGHMKBD_ = com.google.protobuf.ByteString.EMPTY;
+        scInfo_ = com.google.protobuf.ByteString.EMPTY;
 
         countryCode_ = "";
 
@@ -2039,7 +2039,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
 
         clientDataVersion_ = 0;
 
-        unk3300OPGDBOLKLJA_ = "";
+        clientMd5_ = "";
 
         retcode_ = 0;
 
@@ -2078,10 +2078,10 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         emu.grasscutter.net.newproto.PlayerLoginRspOuterClass.PlayerLoginRsp result = new emu.grasscutter.net.newproto.PlayerLoginRspOuterClass.PlayerLoginRsp(this);
         int from_bitField0_ = bitField0_;
         result.loginRand_ = loginRand_;
-        result.unk3300DHCMDHHDLFF_ = unk3300DHCMDHHDLFF_;
-        result.unk3300HMGCPAGLDHB_ = unk3300HMGCPAGLDHB_;
+        result.playerData_ = playerData_;
+        result.clientSilenceMd5_ = clientSilenceMd5_;
         result.totalTickTime_ = totalTickTime_;
-        result.unk3300LLIJKLDBHNN_ = unk3300LLIJKLDBHNN_;
+        result.isUseAbilityHash_ = isUseAbilityHash_;
         result.isAudit_ = isAudit_;
         result.birthday_ = birthday_;
         result.unk3300HGFNECIJDLN_ = unk3300HGFNECIJDLN_;
@@ -2106,11 +2106,11 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         }
         result.clientSilenceDataVersion_ = clientSilenceDataVersion_;
         result.targetUid_ = targetUid_;
-        result.unk3300NEICPFBPNPD_ = unk3300NEICPFBPNPD_;
-        result.unk3300CANONIPHMDI_ = unk3300CANONIPHMDI_;
+        result.registerCps_ = registerCps_;
+        result.isScOpen_ = isScOpen_;
         result.unk3300IIHDKKNJPGD_ = unk3300IIHDKKNJPGD_;
         result.playerDataVersion_ = playerDataVersion_;
-        result.unk3300MOPDDGHMKBD_ = unk3300MOPDDGHMKBD_;
+        result.scInfo_ = scInfo_;
         result.countryCode_ = countryCode_;
         if (nextResVersionConfigBuilder_ == null) {
           result.nextResVersionConfig_ = nextResVersionConfig_;
@@ -2127,7 +2127,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         result.abilityHashMap_.makeImmutable();
         result.abilityHashCode_ = abilityHashCode_;
         result.clientDataVersion_ = clientDataVersion_;
-        result.unk3300OPGDBOLKLJA_ = unk3300OPGDBOLKLJA_;
+        result.clientMd5_ = clientMd5_;
         result.retcode_ = retcode_;
         if (featureBlockInfoListBuilder_ == null) {
           if (((bitField0_ & 0x00000008) != 0)) {
@@ -2189,18 +2189,18 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         if (other.getLoginRand() != 0L) {
           setLoginRand(other.getLoginRand());
         }
-        if (other.getUnk3300DHCMDHHDLFF() != com.google.protobuf.ByteString.EMPTY) {
-          setUnk3300DHCMDHHDLFF(other.getUnk3300DHCMDHHDLFF());
+        if (other.getPlayerData() != com.google.protobuf.ByteString.EMPTY) {
+          setPlayerData(other.getPlayerData());
         }
-        if (!other.getUnk3300HMGCPAGLDHB().isEmpty()) {
-          unk3300HMGCPAGLDHB_ = other.unk3300HMGCPAGLDHB_;
+        if (!other.getClientSilenceMd5().isEmpty()) {
+          clientSilenceMd5_ = other.clientSilenceMd5_;
           onChanged();
         }
         if (other.getTotalTickTime() != 0D) {
           setTotalTickTime(other.getTotalTickTime());
         }
-        if (other.getUnk3300LLIJKLDBHNN() != false) {
-          setUnk3300LLIJKLDBHNN(other.getUnk3300LLIJKLDBHNN());
+        if (other.getIsUseAbilityHash() != false) {
+          setIsUseAbilityHash(other.getIsUseAbilityHash());
         }
         if (other.getIsAudit() != false) {
           setIsAudit(other.getIsAudit());
@@ -2265,12 +2265,12 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         if (other.getTargetUid() != 0) {
           setTargetUid(other.getTargetUid());
         }
-        if (!other.getUnk3300NEICPFBPNPD().isEmpty()) {
-          unk3300NEICPFBPNPD_ = other.unk3300NEICPFBPNPD_;
+        if (!other.getRegisterCps().isEmpty()) {
+          registerCps_ = other.registerCps_;
           onChanged();
         }
-        if (other.getUnk3300CANONIPHMDI() != false) {
-          setUnk3300CANONIPHMDI(other.getUnk3300CANONIPHMDI());
+        if (other.getIsScOpen() != false) {
+          setIsScOpen(other.getIsScOpen());
         }
         if (other.getUnk3300IIHDKKNJPGD() != false) {
           setUnk3300IIHDKKNJPGD(other.getUnk3300IIHDKKNJPGD());
@@ -2278,8 +2278,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         if (other.getPlayerDataVersion() != 0) {
           setPlayerDataVersion(other.getPlayerDataVersion());
         }
-        if (other.getUnk3300MOPDDGHMKBD() != com.google.protobuf.ByteString.EMPTY) {
-          setUnk3300MOPDDGHMKBD(other.getUnk3300MOPDDGHMKBD());
+        if (other.getScInfo() != com.google.protobuf.ByteString.EMPTY) {
+          setScInfo(other.getScInfo());
         }
         if (!other.getCountryCode().isEmpty()) {
           countryCode_ = other.countryCode_;
@@ -2311,8 +2311,8 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         if (other.getClientDataVersion() != 0) {
           setClientDataVersion(other.getClientDataVersion());
         }
-        if (!other.getUnk3300OPGDBOLKLJA().isEmpty()) {
-          unk3300OPGDBOLKLJA_ = other.unk3300OPGDBOLKLJA_;
+        if (!other.getClientMd5().isEmpty()) {
+          clientMd5_ = other.clientMd5_;
           onChanged();
         }
         if (other.getRetcode() != 0) {
@@ -2376,7 +2376,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 8
               case 18: {
-                unk3300DHCMDHHDLFF_ = input.readBytes();
+                playerData_ = input.readBytes();
 
                 break;
               } // case 18
@@ -2394,7 +2394,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 34
               case 40: {
-                unk3300LLIJKLDBHNN_ = input.readBool();
+                isUseAbilityHash_ = input.readBool();
 
                 break;
               } // case 40
@@ -2439,7 +2439,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 120
               case 130: {
-                unk3300HMGCPAGLDHB_ = input.readStringRequireUtf8();
+                clientSilenceMd5_ = input.readStringRequireUtf8();
 
                 break;
               } // case 130
@@ -2449,7 +2449,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 136
               case 794: {
-                unk3300NEICPFBPNPD_ = input.readStringRequireUtf8();
+                registerCps_ = input.readStringRequireUtf8();
 
                 break;
               } // case 794
@@ -2514,7 +2514,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 8952
               case 10394: {
-                unk3300OPGDBOLKLJA_ = input.readStringRequireUtf8();
+                clientMd5_ = input.readStringRequireUtf8();
 
                 break;
               } // case 10394
@@ -2542,7 +2542,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 11098
               case 12176: {
-                unk3300CANONIPHMDI_ = input.readBool();
+                isScOpen_ = input.readBool();
 
                 break;
               } // case 12176
@@ -2559,7 +2559,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
                 break;
               } // case 14762
               case 15106: {
-                unk3300MOPDDGHMKBD_ = input.readBytes();
+                scInfo_ = input.readBytes();
 
                 break;
               } // case 15106
@@ -2619,112 +2619,112 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         return this;
       }
 
-      private com.google.protobuf.ByteString unk3300DHCMDHHDLFF_ = com.google.protobuf.ByteString.EMPTY;
+      private com.google.protobuf.ByteString playerData_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes Unk3300_DHCMDHHDLFF = 2;</code>
-       * @return The unk3300DHCMDHHDLFF.
+       * <code>bytes player_data = 2;</code>
+       * @return The playerData.
        */
       @java.lang.Override
-      public com.google.protobuf.ByteString getUnk3300DHCMDHHDLFF() {
-        return unk3300DHCMDHHDLFF_;
+      public com.google.protobuf.ByteString getPlayerData() {
+        return playerData_;
       }
       /**
-       * <code>bytes Unk3300_DHCMDHHDLFF = 2;</code>
-       * @param value The unk3300DHCMDHHDLFF to set.
+       * <code>bytes player_data = 2;</code>
+       * @param value The playerData to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DHCMDHHDLFF(com.google.protobuf.ByteString value) {
+      public Builder setPlayerData(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300DHCMDHHDLFF_ = value;
+        playerData_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bytes Unk3300_DHCMDHHDLFF = 2;</code>
+       * <code>bytes player_data = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DHCMDHHDLFF() {
+      public Builder clearPlayerData() {
         
-        unk3300DHCMDHHDLFF_ = getDefaultInstance().getUnk3300DHCMDHHDLFF();
+        playerData_ = getDefaultInstance().getPlayerData();
         onChanged();
         return this;
       }
 
-      private java.lang.Object unk3300HMGCPAGLDHB_ = "";
+      private java.lang.Object clientSilenceMd5_ = "";
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-       * @return The unk3300HMGCPAGLDHB.
+       * <code>string client_silence_md5 = 16;</code>
+       * @return The clientSilenceMd5.
        */
-      public java.lang.String getUnk3300HMGCPAGLDHB() {
-        java.lang.Object ref = unk3300HMGCPAGLDHB_;
+      public java.lang.String getClientSilenceMd5() {
+        java.lang.Object ref = clientSilenceMd5_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300HMGCPAGLDHB_ = s;
+          clientSilenceMd5_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-       * @return The bytes for unk3300HMGCPAGLDHB.
+       * <code>string client_silence_md5 = 16;</code>
+       * @return The bytes for clientSilenceMd5.
        */
       public com.google.protobuf.ByteString
-          getUnk3300HMGCPAGLDHBBytes() {
-        java.lang.Object ref = unk3300HMGCPAGLDHB_;
+          getClientSilenceMd5Bytes() {
+        java.lang.Object ref = clientSilenceMd5_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300HMGCPAGLDHB_ = b;
+          clientSilenceMd5_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-       * @param value The unk3300HMGCPAGLDHB to set.
+       * <code>string client_silence_md5 = 16;</code>
+       * @param value The clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HMGCPAGLDHB(
+      public Builder setClientSilenceMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300HMGCPAGLDHB_ = value;
+        clientSilenceMd5_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
+       * <code>string client_silence_md5 = 16;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300HMGCPAGLDHB() {
+      public Builder clearClientSilenceMd5() {
         
-        unk3300HMGCPAGLDHB_ = getDefaultInstance().getUnk3300HMGCPAGLDHB();
+        clientSilenceMd5_ = getDefaultInstance().getClientSilenceMd5();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 16;</code>
-       * @param value The bytes for unk3300HMGCPAGLDHB to set.
+       * <code>string client_silence_md5 = 16;</code>
+       * @param value The bytes for clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HMGCPAGLDHBBytes(
+      public Builder setClientSilenceMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300HMGCPAGLDHB_ = value;
+        clientSilenceMd5_ = value;
         onChanged();
         return this;
       }
@@ -2760,33 +2760,33 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         return this;
       }
 
-      private boolean unk3300LLIJKLDBHNN_ ;
+      private boolean isUseAbilityHash_ ;
       /**
-       * <code>bool Unk3300_LLIJKLDBHNN = 5;</code>
-       * @return The unk3300LLIJKLDBHNN.
+       * <code>bool is_use_ability_hash = 5;</code>
+       * @return The isUseAbilityHash.
        */
       @java.lang.Override
-      public boolean getUnk3300LLIJKLDBHNN() {
-        return unk3300LLIJKLDBHNN_;
+      public boolean getIsUseAbilityHash() {
+        return isUseAbilityHash_;
       }
       /**
-       * <code>bool Unk3300_LLIJKLDBHNN = 5;</code>
-       * @param value The unk3300LLIJKLDBHNN to set.
+       * <code>bool is_use_ability_hash = 5;</code>
+       * @param value The isUseAbilityHash to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300LLIJKLDBHNN(boolean value) {
+      public Builder setIsUseAbilityHash(boolean value) {
         
-        unk3300LLIJKLDBHNN_ = value;
+        isUseAbilityHash_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_LLIJKLDBHNN = 5;</code>
+       * <code>bool is_use_ability_hash = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300LLIJKLDBHNN() {
+      public Builder clearIsUseAbilityHash() {
         
-        unk3300LLIJKLDBHNN_ = false;
+        isUseAbilityHash_ = false;
         onChanged();
         return this;
       }
@@ -3640,109 +3640,109 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         return this;
       }
 
-      private java.lang.Object unk3300NEICPFBPNPD_ = "";
+      private java.lang.Object registerCps_ = "";
       /**
-       * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-       * @return The unk3300NEICPFBPNPD.
+       * <code>string register_cps = 99;</code>
+       * @return The registerCps.
        */
-      public java.lang.String getUnk3300NEICPFBPNPD() {
-        java.lang.Object ref = unk3300NEICPFBPNPD_;
+      public java.lang.String getRegisterCps() {
+        java.lang.Object ref = registerCps_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300NEICPFBPNPD_ = s;
+          registerCps_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-       * @return The bytes for unk3300NEICPFBPNPD.
+       * <code>string register_cps = 99;</code>
+       * @return The bytes for registerCps.
        */
       public com.google.protobuf.ByteString
-          getUnk3300NEICPFBPNPDBytes() {
-        java.lang.Object ref = unk3300NEICPFBPNPD_;
+          getRegisterCpsBytes() {
+        java.lang.Object ref = registerCps_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300NEICPFBPNPD_ = b;
+          registerCps_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-       * @param value The unk3300NEICPFBPNPD to set.
+       * <code>string register_cps = 99;</code>
+       * @param value The registerCps to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NEICPFBPNPD(
+      public Builder setRegisterCps(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300NEICPFBPNPD_ = value;
+        registerCps_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NEICPFBPNPD = 99;</code>
+       * <code>string register_cps = 99;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NEICPFBPNPD() {
+      public Builder clearRegisterCps() {
         
-        unk3300NEICPFBPNPD_ = getDefaultInstance().getUnk3300NEICPFBPNPD();
+        registerCps_ = getDefaultInstance().getRegisterCps();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NEICPFBPNPD = 99;</code>
-       * @param value The bytes for unk3300NEICPFBPNPD to set.
+       * <code>string register_cps = 99;</code>
+       * @param value The bytes for registerCps to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NEICPFBPNPDBytes(
+      public Builder setRegisterCpsBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300NEICPFBPNPD_ = value;
+        registerCps_ = value;
         onChanged();
         return this;
       }
 
-      private boolean unk3300CANONIPHMDI_ ;
+      private boolean isScOpen_ ;
       /**
-       * <code>bool Unk3300_CANONIPHMDI = 1522;</code>
-       * @return The unk3300CANONIPHMDI.
+       * <code>bool is_sc_open = 1522;</code>
+       * @return The isScOpen.
        */
       @java.lang.Override
-      public boolean getUnk3300CANONIPHMDI() {
-        return unk3300CANONIPHMDI_;
+      public boolean getIsScOpen() {
+        return isScOpen_;
       }
       /**
-       * <code>bool Unk3300_CANONIPHMDI = 1522;</code>
-       * @param value The unk3300CANONIPHMDI to set.
+       * <code>bool is_sc_open = 1522;</code>
+       * @param value The isScOpen to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CANONIPHMDI(boolean value) {
+      public Builder setIsScOpen(boolean value) {
         
-        unk3300CANONIPHMDI_ = value;
+        isScOpen_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_CANONIPHMDI = 1522;</code>
+       * <code>bool is_sc_open = 1522;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CANONIPHMDI() {
+      public Builder clearIsScOpen() {
         
-        unk3300CANONIPHMDI_ = false;
+        isScOpen_ = false;
         onChanged();
         return this;
       }
@@ -3809,36 +3809,36 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         return this;
       }
 
-      private com.google.protobuf.ByteString unk3300MOPDDGHMKBD_ = com.google.protobuf.ByteString.EMPTY;
+      private com.google.protobuf.ByteString scInfo_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes Unk3300_MOPDDGHMKBD = 1888;</code>
-       * @return The unk3300MOPDDGHMKBD.
+       * <code>bytes sc_info = 1888;</code>
+       * @return The scInfo.
        */
       @java.lang.Override
-      public com.google.protobuf.ByteString getUnk3300MOPDDGHMKBD() {
-        return unk3300MOPDDGHMKBD_;
+      public com.google.protobuf.ByteString getScInfo() {
+        return scInfo_;
       }
       /**
-       * <code>bytes Unk3300_MOPDDGHMKBD = 1888;</code>
-       * @param value The unk3300MOPDDGHMKBD to set.
+       * <code>bytes sc_info = 1888;</code>
+       * @param value The scInfo to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MOPDDGHMKBD(com.google.protobuf.ByteString value) {
+      public Builder setScInfo(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300MOPDDGHMKBD_ = value;
+        scInfo_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bytes Unk3300_MOPDDGHMKBD = 1888;</code>
+       * <code>bytes sc_info = 1888;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MOPDDGHMKBD() {
+      public Builder clearScInfo() {
         
-        unk3300MOPDDGHMKBD_ = getDefaultInstance().getUnk3300MOPDDGHMKBD();
+        scInfo_ = getDefaultInstance().getScInfo();
         onChanged();
         return this;
       }
@@ -4528,78 +4528,78 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
         return this;
       }
 
-      private java.lang.Object unk3300OPGDBOLKLJA_ = "";
+      private java.lang.Object clientMd5_ = "";
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-       * @return The unk3300OPGDBOLKLJA.
+       * <code>string client_md5 = 1299;</code>
+       * @return The clientMd5.
        */
-      public java.lang.String getUnk3300OPGDBOLKLJA() {
-        java.lang.Object ref = unk3300OPGDBOLKLJA_;
+      public java.lang.String getClientMd5() {
+        java.lang.Object ref = clientMd5_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300OPGDBOLKLJA_ = s;
+          clientMd5_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-       * @return The bytes for unk3300OPGDBOLKLJA.
+       * <code>string client_md5 = 1299;</code>
+       * @return The bytes for clientMd5.
        */
       public com.google.protobuf.ByteString
-          getUnk3300OPGDBOLKLJABytes() {
-        java.lang.Object ref = unk3300OPGDBOLKLJA_;
+          getClientMd5Bytes() {
+        java.lang.Object ref = clientMd5_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300OPGDBOLKLJA_ = b;
+          clientMd5_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-       * @param value The unk3300OPGDBOLKLJA to set.
+       * <code>string client_md5 = 1299;</code>
+       * @param value The clientMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OPGDBOLKLJA(
+      public Builder setClientMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300OPGDBOLKLJA_ = value;
+        clientMd5_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
+       * <code>string client_md5 = 1299;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OPGDBOLKLJA() {
+      public Builder clearClientMd5() {
         
-        unk3300OPGDBOLKLJA_ = getDefaultInstance().getUnk3300OPGDBOLKLJA();
+        clientMd5_ = getDefaultInstance().getClientMd5();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 1299;</code>
-       * @param value The bytes for unk3300OPGDBOLKLJA to set.
+       * <code>string client_md5 = 1299;</code>
+       * @param value The bytes for clientMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OPGDBOLKLJABytes(
+      public Builder setClientMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300OPGDBOLKLJA_ = value;
+        clientMd5_ = value;
         onChanged();
         return this;
       }
@@ -4964,40 +4964,39 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
     java.lang.String[] descriptorData = {
       "\n\024PlayerLoginRsp.proto\032\017BlockInfo.proto\032" +
       "\026FeatureBlockInfo.proto\032\026ResVersionConfi" +
-      "g.proto\032\032ShortAbilityHashPair.proto\"\355\t\n\016" +
-      "PlayerLoginRsp\022\022\n\nlogin_rand\030\t \001(\004\022\033\n\023Un" +
-      "k3300_DHCMDHHDLFF\030\002 \001(\014\022\033\n\023Unk3300_HMGCP" +
-      "AGLDHB\030\020 \001(\t\022\030\n\017total_tick_time\030\222\004 \001(\001\022\033" +
-      "\n\023Unk3300_LLIJKLDBHNN\030\005 \001(\010\022\021\n\010is_audit\030" +
-      "\242\007 \001(\010\022\021\n\010birthday\030\353\n \001(\t\022\033\n\023Unk3300_HGF" +
-      "NECIJDLN\030\r \001(\010\022&\n\035client_silence_version" +
-      "_suffix\030\214\007 \001(\t\022\036\n\025client_version_suffix\030" +
-      "\265\016 \001(\t\022\032\n\021next_resource_url\030\254\n \001(\t\022\034\n\023Un" +
-      "k3300_EJKCNNDFAAI\030\304\001 \001(\010\0226\n\026short_abilit" +
-      "y_hash_map\030\335\n \003(\0132\025.ShortAbilityHashPair" +
-      "\022\035\n\024is_data_need_relogin\030\337\010 \001(\010\022.\n\022res_v" +
-      "ersion_config\030\250\006 \001(\0132\021.ResVersionConfig\022" +
-      "#\n\033client_silence_data_version\030\001 \001(\r\022\022\n\n" +
-      "target_uid\030\017 \001(\r\022\033\n\023Unk3300_NEICPFBPNPD\030" +
-      "c \001(\t\022\034\n\023Unk3300_CANONIPHMDI\030\362\013 \001(\010\022\033\n\023U" +
-      "nk3300_IIHDKKNJPGD\030\010 \001(\010\022\033\n\023player_data_" +
-      "version\030\016 \001(\r\022\034\n\023Unk3300_MOPDDGHMKBD\030\340\016 " +
-      "\001(\014\022\025\n\014country_code\030\350\002 \001(\t\0223\n\027next_res_v" +
-      "ersion_config\030\230\r \001(\0132\021.ResVersionConfig\022" +
-      "\033\n\023Unk3300_IADLIIMGDMC\030\021 \001(\010\022:\n\016block_in" +
-      "fo_map\030\342\017 \003(\0132!.PlayerLoginRsp.BlockInfo" +
-      "MapEntry\022\024\n\013is_transfer\030\247\002 \001(\010\022\036\n\025target" +
-      "_home_owner_uid\030\276\003 \001(\r\022\020\n\010game_biz\030\004 \001(\t" +
-      "\022=\n\020ability_hash_map\030\003 \003(\0132#.PlayerLogin" +
-      "Rsp.AbilityHashMapEntry\022\031\n\021ability_hash_" +
-      "code\030\014 \001(\005\022\033\n\023client_data_version\030\n \001(\r\022" +
-      "\034\n\023Unk3300_OPGDBOLKLJA\030\223\n \001(\t\022\017\n\007retcode" +
-      "\030\007 \001(\005\0223\n\027feature_block_info_list\030\212\001 \003(\013" +
-      "2\021.FeatureBlockInfo\032?\n\021BlockInfoMapEntry" +
-      "\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.BlockInfo" +
-      ":\0028\001\0325\n\023AbilityHashMapEntry\022\013\n\003key\030\001 \001(\t" +
-      "\022\r\n\005value\030\002 \001(\005:\0028\001B\036\n\034emu.grasscutter.n" +
-      "et.newprotob\006proto3"
+      "g.proto\032\032ShortAbilityHashPair.proto\"\277\t\n\016" +
+      "PlayerLoginRsp\022\022\n\nlogin_rand\030\t \001(\004\022\023\n\013pl" +
+      "ayer_data\030\002 \001(\014\022\032\n\022client_silence_md5\030\020 " +
+      "\001(\t\022\030\n\017total_tick_time\030\222\004 \001(\001\022\033\n\023is_use_" +
+      "ability_hash\030\005 \001(\010\022\021\n\010is_audit\030\242\007 \001(\010\022\021\n" +
+      "\010birthday\030\353\n \001(\t\022\033\n\023Unk3300_HGFNECIJDLN\030" +
+      "\r \001(\010\022&\n\035client_silence_version_suffix\030\214" +
+      "\007 \001(\t\022\036\n\025client_version_suffix\030\265\016 \001(\t\022\032\n" +
+      "\021next_resource_url\030\254\n \001(\t\022\034\n\023Unk3300_EJK" +
+      "CNNDFAAI\030\304\001 \001(\010\0226\n\026short_ability_hash_ma" +
+      "p\030\335\n \003(\0132\025.ShortAbilityHashPair\022\035\n\024is_da" +
+      "ta_need_relogin\030\337\010 \001(\010\022.\n\022res_version_co" +
+      "nfig\030\250\006 \001(\0132\021.ResVersionConfig\022#\n\033client" +
+      "_silence_data_version\030\001 \001(\r\022\022\n\ntarget_ui" +
+      "d\030\017 \001(\r\022\024\n\014register_cps\030c \001(\t\022\023\n\nis_sc_o" +
+      "pen\030\362\013 \001(\010\022\033\n\023Unk3300_IIHDKKNJPGD\030\010 \001(\010\022" +
+      "\033\n\023player_data_version\030\016 \001(\r\022\020\n\007sc_info\030" +
+      "\340\016 \001(\014\022\025\n\014country_code\030\350\002 \001(\t\0223\n\027next_re" +
+      "s_version_config\030\230\r \001(\0132\021.ResVersionConf" +
+      "ig\022\033\n\023Unk3300_IADLIIMGDMC\030\021 \001(\010\022:\n\016block" +
+      "_info_map\030\342\017 \003(\0132!.PlayerLoginRsp.BlockI" +
+      "nfoMapEntry\022\024\n\013is_transfer\030\247\002 \001(\010\022\036\n\025tar" +
+      "get_home_owner_uid\030\276\003 \001(\r\022\020\n\010game_biz\030\004 " +
+      "\001(\t\022=\n\020ability_hash_map\030\003 \003(\0132#.PlayerLo" +
+      "ginRsp.AbilityHashMapEntry\022\031\n\021ability_ha" +
+      "sh_code\030\014 \001(\005\022\033\n\023client_data_version\030\n \001" +
+      "(\r\022\023\n\nclient_md5\030\223\n \001(\t\022\017\n\007retcode\030\007 \001(\005" +
+      "\0223\n\027feature_block_info_list\030\212\001 \003(\0132\021.Fea" +
+      "tureBlockInfo\032?\n\021BlockInfoMapEntry\022\013\n\003ke" +
+      "y\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.BlockInfo:\0028\001\0325" +
+      "\n\023AbilityHashMapEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005va" +
+      "lue\030\002 \001(\005:\0028\001B\036\n\034emu.grasscutter.net.new" +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5012,7 +5011,7 @@ emu.grasscutter.net.newproto.BlockInfoOuterClass.BlockInfo defaultValue);
     internal_static_PlayerLoginRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLoginRsp_descriptor,
-        new java.lang.String[] { "LoginRand", "Unk3300DHCMDHHDLFF", "Unk3300HMGCPAGLDHB", "TotalTickTime", "Unk3300LLIJKLDBHNN", "IsAudit", "Birthday", "Unk3300HGFNECIJDLN", "ClientSilenceVersionSuffix", "ClientVersionSuffix", "NextResourceUrl", "Unk3300EJKCNNDFAAI", "ShortAbilityHashMap", "IsDataNeedRelogin", "ResVersionConfig", "ClientSilenceDataVersion", "TargetUid", "Unk3300NEICPFBPNPD", "Unk3300CANONIPHMDI", "Unk3300IIHDKKNJPGD", "PlayerDataVersion", "Unk3300MOPDDGHMKBD", "CountryCode", "NextResVersionConfig", "Unk3300IADLIIMGDMC", "BlockInfoMap", "IsTransfer", "TargetHomeOwnerUid", "GameBiz", "AbilityHashMap", "AbilityHashCode", "ClientDataVersion", "Unk3300OPGDBOLKLJA", "Retcode", "FeatureBlockInfoList", });
+        new java.lang.String[] { "LoginRand", "PlayerData", "ClientSilenceMd5", "TotalTickTime", "IsUseAbilityHash", "IsAudit", "Birthday", "Unk3300HGFNECIJDLN", "ClientSilenceVersionSuffix", "ClientVersionSuffix", "NextResourceUrl", "Unk3300EJKCNNDFAAI", "ShortAbilityHashMap", "IsDataNeedRelogin", "ResVersionConfig", "ClientSilenceDataVersion", "TargetUid", "RegisterCps", "IsScOpen", "Unk3300IIHDKKNJPGD", "PlayerDataVersion", "ScInfo", "CountryCode", "NextResVersionConfig", "Unk3300IADLIIMGDMC", "BlockInfoMap", "IsTransfer", "TargetHomeOwnerUid", "GameBiz", "AbilityHashMap", "AbilityHashCode", "ClientDataVersion", "ClientMd5", "Retcode", "FeatureBlockInfoList", });
     internal_static_PlayerLoginRsp_BlockInfoMapEntry_descriptor =
       internal_static_PlayerLoginRsp_descriptor.getNestedTypes().get(0);
     internal_static_PlayerLoginRsp_BlockInfoMapEntry_fieldAccessorTable = new

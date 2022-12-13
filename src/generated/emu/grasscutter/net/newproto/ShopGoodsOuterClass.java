@@ -87,16 +87,16 @@ public final class ShopGoodsOuterClass {
     int getPreGoodsIdList(int index);
 
     /**
-     * <code>uint32 Unk3300_DFEDKIOCOBL = 5;</code>
-     * @return The unk3300DFEDKIOCOBL.
+     * <code>uint32 min_level = 5;</code>
+     * @return The minLevel.
      */
-    int getUnk3300DFEDKIOCOBL();
+    int getMinLevel();
 
     /**
-     * <code>uint32 Unk3300_NMOPAGJFHOO = 11;</code>
-     * @return The unk3300NMOPAGJFHOO.
+     * <code>uint32 mcoin = 11;</code>
+     * @return The mcoin.
      */
-    int getUnk3300NMOPAGJFHOO();
+    int getMcoin();
 
     /**
      * <code>uint32 hcoin = 6;</code>
@@ -117,10 +117,10 @@ public final class ShopGoodsOuterClass {
     int getNextRefreshTime();
 
     /**
-     * <code>uint32 Unk3300_DBJCMMBHBNI = 13;</code>
-     * @return The unk3300DBJCMMBHBNI.
+     * <code>uint32 goods_id = 13;</code>
+     * @return The goodsId.
      */
-    int getUnk3300DBJCMMBHBNI();
+    int getGoodsId();
 
     /**
      * <code>uint32 Unk3300_OMKIFIMDGDN = 1037;</code>
@@ -129,10 +129,10 @@ public final class ShopGoodsOuterClass {
     int getUnk3300OMKIFIMDGDN();
 
     /**
-     * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-     * @return The unk3300EHKFICBACKC.
+     * <code>uint32 buy_limit = 8;</code>
+     * @return The buyLimit.
      */
-    int getUnk3300EHKFICBACKC();
+    int getBuyLimit();
 
     /**
      * <code>uint32 Unk3300_MBGOMHNBHMG = 777;</code>
@@ -141,22 +141,22 @@ public final class ShopGoodsOuterClass {
     int getUnk3300MBGOMHNBHMG();
 
     /**
-     * <code>uint32 Unk3300_KKKNKNOLICI = 2;</code>
-     * @return The unk3300KKKNKNOLICI.
+     * <code>uint32 scoin = 2;</code>
+     * @return The scoin.
      */
-    int getUnk3300KKKNKNOLICI();
+    int getScoin();
 
     /**
-     * <code>uint32 Unk3300_CEOMHBNDAOP = 1;</code>
-     * @return The unk3300CEOMHBNDAOP.
+     * <code>uint32 max_level = 1;</code>
+     * @return The maxLevel.
      */
-    int getUnk3300CEOMHBNDAOP();
+    int getMaxLevel();
 
     /**
-     * <code>uint32 Unk3300_MICPGJCIAPE = 1770;</code>
-     * @return The unk3300MICPGJCIAPE.
+     * <code>uint32 single_limit = 1770;</code>
+     * @return The singleLimit.
      */
-    int getUnk3300MICPGJCIAPE();
+    int getSingleLimit();
 
     /**
      * <code>uint32 Unk3300_NJCPAJBCEPH = 505;</code>
@@ -171,10 +171,10 @@ public final class ShopGoodsOuterClass {
     int getBeginTime();
 
     /**
-     * <code>uint32 Unk3300_OODCCOAIGHI = 4;</code>
-     * @return The unk3300OODCCOAIGHI.
+     * <code>uint32 disable_type = 4;</code>
+     * @return The disableType.
      */
-    int getUnk3300OODCCOAIGHI();
+    int getDisableType();
   }
   /**
    * Protobuf type {@code ShopGoods}
@@ -334,26 +334,26 @@ public final class ShopGoodsOuterClass {
     }
     private int preGoodsIdListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_DFEDKIOCOBL_FIELD_NUMBER = 5;
-    private int unk3300DFEDKIOCOBL_;
+    public static final int MIN_LEVEL_FIELD_NUMBER = 5;
+    private int minLevel_;
     /**
-     * <code>uint32 Unk3300_DFEDKIOCOBL = 5;</code>
-     * @return The unk3300DFEDKIOCOBL.
+     * <code>uint32 min_level = 5;</code>
+     * @return The minLevel.
      */
     @java.lang.Override
-    public int getUnk3300DFEDKIOCOBL() {
-      return unk3300DFEDKIOCOBL_;
+    public int getMinLevel() {
+      return minLevel_;
     }
 
-    public static final int UNK3300_NMOPAGJFHOO_FIELD_NUMBER = 11;
-    private int unk3300NMOPAGJFHOO_;
+    public static final int MCOIN_FIELD_NUMBER = 11;
+    private int mcoin_;
     /**
-     * <code>uint32 Unk3300_NMOPAGJFHOO = 11;</code>
-     * @return The unk3300NMOPAGJFHOO.
+     * <code>uint32 mcoin = 11;</code>
+     * @return The mcoin.
      */
     @java.lang.Override
-    public int getUnk3300NMOPAGJFHOO() {
-      return unk3300NMOPAGJFHOO_;
+    public int getMcoin() {
+      return mcoin_;
     }
 
     public static final int HCOIN_FIELD_NUMBER = 6;
@@ -389,15 +389,15 @@ public final class ShopGoodsOuterClass {
       return nextRefreshTime_;
     }
 
-    public static final int UNK3300_DBJCMMBHBNI_FIELD_NUMBER = 13;
-    private int unk3300DBJCMMBHBNI_;
+    public static final int GOODS_ID_FIELD_NUMBER = 13;
+    private int goodsId_;
     /**
-     * <code>uint32 Unk3300_DBJCMMBHBNI = 13;</code>
-     * @return The unk3300DBJCMMBHBNI.
+     * <code>uint32 goods_id = 13;</code>
+     * @return The goodsId.
      */
     @java.lang.Override
-    public int getUnk3300DBJCMMBHBNI() {
-      return unk3300DBJCMMBHBNI_;
+    public int getGoodsId() {
+      return goodsId_;
     }
 
     public static final int UNK3300_OMKIFIMDGDN_FIELD_NUMBER = 1037;
@@ -411,15 +411,15 @@ public final class ShopGoodsOuterClass {
       return unk3300OMKIFIMDGDN_;
     }
 
-    public static final int UNK3300_EHKFICBACKC_FIELD_NUMBER = 8;
-    private int unk3300EHKFICBACKC_;
+    public static final int BUY_LIMIT_FIELD_NUMBER = 8;
+    private int buyLimit_;
     /**
-     * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-     * @return The unk3300EHKFICBACKC.
+     * <code>uint32 buy_limit = 8;</code>
+     * @return The buyLimit.
      */
     @java.lang.Override
-    public int getUnk3300EHKFICBACKC() {
-      return unk3300EHKFICBACKC_;
+    public int getBuyLimit() {
+      return buyLimit_;
     }
 
     public static final int UNK3300_MBGOMHNBHMG_FIELD_NUMBER = 777;
@@ -433,37 +433,37 @@ public final class ShopGoodsOuterClass {
       return unk3300MBGOMHNBHMG_;
     }
 
-    public static final int UNK3300_KKKNKNOLICI_FIELD_NUMBER = 2;
-    private int unk3300KKKNKNOLICI_;
+    public static final int SCOIN_FIELD_NUMBER = 2;
+    private int scoin_;
     /**
-     * <code>uint32 Unk3300_KKKNKNOLICI = 2;</code>
-     * @return The unk3300KKKNKNOLICI.
+     * <code>uint32 scoin = 2;</code>
+     * @return The scoin.
      */
     @java.lang.Override
-    public int getUnk3300KKKNKNOLICI() {
-      return unk3300KKKNKNOLICI_;
+    public int getScoin() {
+      return scoin_;
     }
 
-    public static final int UNK3300_CEOMHBNDAOP_FIELD_NUMBER = 1;
-    private int unk3300CEOMHBNDAOP_;
+    public static final int MAX_LEVEL_FIELD_NUMBER = 1;
+    private int maxLevel_;
     /**
-     * <code>uint32 Unk3300_CEOMHBNDAOP = 1;</code>
-     * @return The unk3300CEOMHBNDAOP.
+     * <code>uint32 max_level = 1;</code>
+     * @return The maxLevel.
      */
     @java.lang.Override
-    public int getUnk3300CEOMHBNDAOP() {
-      return unk3300CEOMHBNDAOP_;
+    public int getMaxLevel() {
+      return maxLevel_;
     }
 
-    public static final int UNK3300_MICPGJCIAPE_FIELD_NUMBER = 1770;
-    private int unk3300MICPGJCIAPE_;
+    public static final int SINGLE_LIMIT_FIELD_NUMBER = 1770;
+    private int singleLimit_;
     /**
-     * <code>uint32 Unk3300_MICPGJCIAPE = 1770;</code>
-     * @return The unk3300MICPGJCIAPE.
+     * <code>uint32 single_limit = 1770;</code>
+     * @return The singleLimit.
      */
     @java.lang.Override
-    public int getUnk3300MICPGJCIAPE() {
-      return unk3300MICPGJCIAPE_;
+    public int getSingleLimit() {
+      return singleLimit_;
     }
 
     public static final int UNK3300_NJCPAJBCEPH_FIELD_NUMBER = 505;
@@ -488,15 +488,15 @@ public final class ShopGoodsOuterClass {
       return beginTime_;
     }
 
-    public static final int UNK3300_OODCCOAIGHI_FIELD_NUMBER = 4;
-    private int unk3300OODCCOAIGHI_;
+    public static final int DISABLE_TYPE_FIELD_NUMBER = 4;
+    private int disableType_;
     /**
-     * <code>uint32 Unk3300_OODCCOAIGHI = 4;</code>
-     * @return The unk3300OODCCOAIGHI.
+     * <code>uint32 disable_type = 4;</code>
+     * @return The disableType.
      */
     @java.lang.Override
-    public int getUnk3300OODCCOAIGHI() {
-      return unk3300OODCCOAIGHI_;
+    public int getDisableType() {
+      return disableType_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -514,20 +514,20 @@ public final class ShopGoodsOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (unk3300CEOMHBNDAOP_ != 0) {
-        output.writeUInt32(1, unk3300CEOMHBNDAOP_);
+      if (maxLevel_ != 0) {
+        output.writeUInt32(1, maxLevel_);
       }
-      if (unk3300KKKNKNOLICI_ != 0) {
-        output.writeUInt32(2, unk3300KKKNKNOLICI_);
+      if (scoin_ != 0) {
+        output.writeUInt32(2, scoin_);
       }
       if (endTime_ != 0) {
         output.writeUInt32(3, endTime_);
       }
-      if (unk3300OODCCOAIGHI_ != 0) {
-        output.writeUInt32(4, unk3300OODCCOAIGHI_);
+      if (disableType_ != 0) {
+        output.writeUInt32(4, disableType_);
       }
-      if (unk3300DFEDKIOCOBL_ != 0) {
-        output.writeUInt32(5, unk3300DFEDKIOCOBL_);
+      if (minLevel_ != 0) {
+        output.writeUInt32(5, minLevel_);
       }
       if (hcoin_ != 0) {
         output.writeUInt32(6, hcoin_);
@@ -535,8 +535,8 @@ public final class ShopGoodsOuterClass {
       for (int i = 0; i < costItemList_.size(); i++) {
         output.writeMessage(7, costItemList_.get(i));
       }
-      if (unk3300EHKFICBACKC_ != 0) {
-        output.writeUInt32(8, unk3300EHKFICBACKC_);
+      if (buyLimit_ != 0) {
+        output.writeUInt32(8, buyLimit_);
       }
       if (getPreGoodsIdListList().size() > 0) {
         output.writeUInt32NoTag(74);
@@ -548,14 +548,14 @@ public final class ShopGoodsOuterClass {
       if (nextRefreshTime_ != 0) {
         output.writeUInt32(10, nextRefreshTime_);
       }
-      if (unk3300NMOPAGJFHOO_ != 0) {
-        output.writeUInt32(11, unk3300NMOPAGJFHOO_);
+      if (mcoin_ != 0) {
+        output.writeUInt32(11, mcoin_);
       }
       if (beginTime_ != 0) {
         output.writeUInt32(12, beginTime_);
       }
-      if (unk3300DBJCMMBHBNI_ != 0) {
-        output.writeUInt32(13, unk3300DBJCMMBHBNI_);
+      if (goodsId_ != 0) {
+        output.writeUInt32(13, goodsId_);
       }
       if (boughtNum_ != 0) {
         output.writeUInt32(14, boughtNum_);
@@ -575,8 +575,8 @@ public final class ShopGoodsOuterClass {
       if (unk3300OMKIFIMDGDN_ != 0) {
         output.writeUInt32(1037, unk3300OMKIFIMDGDN_);
       }
-      if (unk3300MICPGJCIAPE_ != 0) {
-        output.writeUInt32(1770, unk3300MICPGJCIAPE_);
+      if (singleLimit_ != 0) {
+        output.writeUInt32(1770, singleLimit_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -587,25 +587,25 @@ public final class ShopGoodsOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300CEOMHBNDAOP_ != 0) {
+      if (maxLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, unk3300CEOMHBNDAOP_);
+          .computeUInt32Size(1, maxLevel_);
       }
-      if (unk3300KKKNKNOLICI_ != 0) {
+      if (scoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300KKKNKNOLICI_);
+          .computeUInt32Size(2, scoin_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, endTime_);
       }
-      if (unk3300OODCCOAIGHI_ != 0) {
+      if (disableType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300OODCCOAIGHI_);
+          .computeUInt32Size(4, disableType_);
       }
-      if (unk3300DFEDKIOCOBL_ != 0) {
+      if (minLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, unk3300DFEDKIOCOBL_);
+          .computeUInt32Size(5, minLevel_);
       }
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -615,9 +615,9 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, costItemList_.get(i));
       }
-      if (unk3300EHKFICBACKC_ != 0) {
+      if (buyLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300EHKFICBACKC_);
+          .computeUInt32Size(8, buyLimit_);
       }
       {
         int dataSize = 0;
@@ -637,17 +637,17 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, nextRefreshTime_);
       }
-      if (unk3300NMOPAGJFHOO_ != 0) {
+      if (mcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, unk3300NMOPAGJFHOO_);
+          .computeUInt32Size(11, mcoin_);
       }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, beginTime_);
       }
-      if (unk3300DBJCMMBHBNI_ != 0) {
+      if (goodsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unk3300DBJCMMBHBNI_);
+          .computeUInt32Size(13, goodsId_);
       }
       if (boughtNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -673,9 +673,9 @@ public final class ShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1037, unk3300OMKIFIMDGDN_);
       }
-      if (unk3300MICPGJCIAPE_ != 0) {
+      if (singleLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1770, unk3300MICPGJCIAPE_);
+          .computeUInt32Size(1770, singleLimit_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -705,36 +705,36 @@ public final class ShopGoodsOuterClass {
           != other.getBoughtNum()) return false;
       if (!getPreGoodsIdListList()
           .equals(other.getPreGoodsIdListList())) return false;
-      if (getUnk3300DFEDKIOCOBL()
-          != other.getUnk3300DFEDKIOCOBL()) return false;
-      if (getUnk3300NMOPAGJFHOO()
-          != other.getUnk3300NMOPAGJFHOO()) return false;
+      if (getMinLevel()
+          != other.getMinLevel()) return false;
+      if (getMcoin()
+          != other.getMcoin()) return false;
       if (getHcoin()
           != other.getHcoin()) return false;
       if (getEndTime()
           != other.getEndTime()) return false;
       if (getNextRefreshTime()
           != other.getNextRefreshTime()) return false;
-      if (getUnk3300DBJCMMBHBNI()
-          != other.getUnk3300DBJCMMBHBNI()) return false;
+      if (getGoodsId()
+          != other.getGoodsId()) return false;
       if (getUnk3300OMKIFIMDGDN()
           != other.getUnk3300OMKIFIMDGDN()) return false;
-      if (getUnk3300EHKFICBACKC()
-          != other.getUnk3300EHKFICBACKC()) return false;
+      if (getBuyLimit()
+          != other.getBuyLimit()) return false;
       if (getUnk3300MBGOMHNBHMG()
           != other.getUnk3300MBGOMHNBHMG()) return false;
-      if (getUnk3300KKKNKNOLICI()
-          != other.getUnk3300KKKNKNOLICI()) return false;
-      if (getUnk3300CEOMHBNDAOP()
-          != other.getUnk3300CEOMHBNDAOP()) return false;
-      if (getUnk3300MICPGJCIAPE()
-          != other.getUnk3300MICPGJCIAPE()) return false;
+      if (getScoin()
+          != other.getScoin()) return false;
+      if (getMaxLevel()
+          != other.getMaxLevel()) return false;
+      if (getSingleLimit()
+          != other.getSingleLimit()) return false;
       if (getUnk3300NJCPAJBCEPH()
           != other.getUnk3300NJCPAJBCEPH()) return false;
       if (getBeginTime()
           != other.getBeginTime()) return false;
-      if (getUnk3300OODCCOAIGHI()
-          != other.getUnk3300OODCCOAIGHI()) return false;
+      if (getDisableType()
+          != other.getDisableType()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -762,36 +762,36 @@ public final class ShopGoodsOuterClass {
         hash = (37 * hash) + PRE_GOODS_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getPreGoodsIdListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_DFEDKIOCOBL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DFEDKIOCOBL();
-      hash = (37 * hash) + UNK3300_NMOPAGJFHOO_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NMOPAGJFHOO();
+      hash = (37 * hash) + MIN_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getMinLevel();
+      hash = (37 * hash) + MCOIN_FIELD_NUMBER;
+      hash = (53 * hash) + getMcoin();
       hash = (37 * hash) + HCOIN_FIELD_NUMBER;
       hash = (53 * hash) + getHcoin();
       hash = (37 * hash) + END_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getEndTime();
       hash = (37 * hash) + NEXT_REFRESH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getNextRefreshTime();
-      hash = (37 * hash) + UNK3300_DBJCMMBHBNI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DBJCMMBHBNI();
+      hash = (37 * hash) + GOODS_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGoodsId();
       hash = (37 * hash) + UNK3300_OMKIFIMDGDN_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300OMKIFIMDGDN();
-      hash = (37 * hash) + UNK3300_EHKFICBACKC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300EHKFICBACKC();
+      hash = (37 * hash) + BUY_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getBuyLimit();
       hash = (37 * hash) + UNK3300_MBGOMHNBHMG_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300MBGOMHNBHMG();
-      hash = (37 * hash) + UNK3300_KKKNKNOLICI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KKKNKNOLICI();
-      hash = (37 * hash) + UNK3300_CEOMHBNDAOP_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300CEOMHBNDAOP();
-      hash = (37 * hash) + UNK3300_MICPGJCIAPE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MICPGJCIAPE();
+      hash = (37 * hash) + SCOIN_FIELD_NUMBER;
+      hash = (53 * hash) + getScoin();
+      hash = (37 * hash) + MAX_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxLevel();
+      hash = (37 * hash) + SINGLE_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getSingleLimit();
       hash = (37 * hash) + UNK3300_NJCPAJBCEPH_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300NJCPAJBCEPH();
       hash = (37 * hash) + BEGIN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getBeginTime();
-      hash = (37 * hash) + UNK3300_OODCCOAIGHI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OODCCOAIGHI();
+      hash = (37 * hash) + DISABLE_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getDisableType();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -939,9 +939,9 @@ public final class ShopGoodsOuterClass {
 
         preGoodsIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        unk3300DFEDKIOCOBL_ = 0;
+        minLevel_ = 0;
 
-        unk3300NMOPAGJFHOO_ = 0;
+        mcoin_ = 0;
 
         hcoin_ = 0;
 
@@ -949,25 +949,25 @@ public final class ShopGoodsOuterClass {
 
         nextRefreshTime_ = 0;
 
-        unk3300DBJCMMBHBNI_ = 0;
+        goodsId_ = 0;
 
         unk3300OMKIFIMDGDN_ = 0;
 
-        unk3300EHKFICBACKC_ = 0;
+        buyLimit_ = 0;
 
         unk3300MBGOMHNBHMG_ = 0;
 
-        unk3300KKKNKNOLICI_ = 0;
+        scoin_ = 0;
 
-        unk3300CEOMHBNDAOP_ = 0;
+        maxLevel_ = 0;
 
-        unk3300MICPGJCIAPE_ = 0;
+        singleLimit_ = 0;
 
         unk3300NJCPAJBCEPH_ = 0;
 
         beginTime_ = 0;
 
-        unk3300OODCCOAIGHI_ = 0;
+        disableType_ = 0;
 
         return this;
       }
@@ -1017,21 +1017,21 @@ public final class ShopGoodsOuterClass {
           bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.preGoodsIdList_ = preGoodsIdList_;
-        result.unk3300DFEDKIOCOBL_ = unk3300DFEDKIOCOBL_;
-        result.unk3300NMOPAGJFHOO_ = unk3300NMOPAGJFHOO_;
+        result.minLevel_ = minLevel_;
+        result.mcoin_ = mcoin_;
         result.hcoin_ = hcoin_;
         result.endTime_ = endTime_;
         result.nextRefreshTime_ = nextRefreshTime_;
-        result.unk3300DBJCMMBHBNI_ = unk3300DBJCMMBHBNI_;
+        result.goodsId_ = goodsId_;
         result.unk3300OMKIFIMDGDN_ = unk3300OMKIFIMDGDN_;
-        result.unk3300EHKFICBACKC_ = unk3300EHKFICBACKC_;
+        result.buyLimit_ = buyLimit_;
         result.unk3300MBGOMHNBHMG_ = unk3300MBGOMHNBHMG_;
-        result.unk3300KKKNKNOLICI_ = unk3300KKKNKNOLICI_;
-        result.unk3300CEOMHBNDAOP_ = unk3300CEOMHBNDAOP_;
-        result.unk3300MICPGJCIAPE_ = unk3300MICPGJCIAPE_;
+        result.scoin_ = scoin_;
+        result.maxLevel_ = maxLevel_;
+        result.singleLimit_ = singleLimit_;
         result.unk3300NJCPAJBCEPH_ = unk3300NJCPAJBCEPH_;
         result.beginTime_ = beginTime_;
-        result.unk3300OODCCOAIGHI_ = unk3300OODCCOAIGHI_;
+        result.disableType_ = disableType_;
         onBuilt();
         return result;
       }
@@ -1125,11 +1125,11 @@ public final class ShopGoodsOuterClass {
           }
           onChanged();
         }
-        if (other.getUnk3300DFEDKIOCOBL() != 0) {
-          setUnk3300DFEDKIOCOBL(other.getUnk3300DFEDKIOCOBL());
+        if (other.getMinLevel() != 0) {
+          setMinLevel(other.getMinLevel());
         }
-        if (other.getUnk3300NMOPAGJFHOO() != 0) {
-          setUnk3300NMOPAGJFHOO(other.getUnk3300NMOPAGJFHOO());
+        if (other.getMcoin() != 0) {
+          setMcoin(other.getMcoin());
         }
         if (other.getHcoin() != 0) {
           setHcoin(other.getHcoin());
@@ -1140,26 +1140,26 @@ public final class ShopGoodsOuterClass {
         if (other.getNextRefreshTime() != 0) {
           setNextRefreshTime(other.getNextRefreshTime());
         }
-        if (other.getUnk3300DBJCMMBHBNI() != 0) {
-          setUnk3300DBJCMMBHBNI(other.getUnk3300DBJCMMBHBNI());
+        if (other.getGoodsId() != 0) {
+          setGoodsId(other.getGoodsId());
         }
         if (other.getUnk3300OMKIFIMDGDN() != 0) {
           setUnk3300OMKIFIMDGDN(other.getUnk3300OMKIFIMDGDN());
         }
-        if (other.getUnk3300EHKFICBACKC() != 0) {
-          setUnk3300EHKFICBACKC(other.getUnk3300EHKFICBACKC());
+        if (other.getBuyLimit() != 0) {
+          setBuyLimit(other.getBuyLimit());
         }
         if (other.getUnk3300MBGOMHNBHMG() != 0) {
           setUnk3300MBGOMHNBHMG(other.getUnk3300MBGOMHNBHMG());
         }
-        if (other.getUnk3300KKKNKNOLICI() != 0) {
-          setUnk3300KKKNKNOLICI(other.getUnk3300KKKNKNOLICI());
+        if (other.getScoin() != 0) {
+          setScoin(other.getScoin());
         }
-        if (other.getUnk3300CEOMHBNDAOP() != 0) {
-          setUnk3300CEOMHBNDAOP(other.getUnk3300CEOMHBNDAOP());
+        if (other.getMaxLevel() != 0) {
+          setMaxLevel(other.getMaxLevel());
         }
-        if (other.getUnk3300MICPGJCIAPE() != 0) {
-          setUnk3300MICPGJCIAPE(other.getUnk3300MICPGJCIAPE());
+        if (other.getSingleLimit() != 0) {
+          setSingleLimit(other.getSingleLimit());
         }
         if (other.getUnk3300NJCPAJBCEPH() != 0) {
           setUnk3300NJCPAJBCEPH(other.getUnk3300NJCPAJBCEPH());
@@ -1167,8 +1167,8 @@ public final class ShopGoodsOuterClass {
         if (other.getBeginTime() != 0) {
           setBeginTime(other.getBeginTime());
         }
-        if (other.getUnk3300OODCCOAIGHI() != 0) {
-          setUnk3300OODCCOAIGHI(other.getUnk3300OODCCOAIGHI());
+        if (other.getDisableType() != 0) {
+          setDisableType(other.getDisableType());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -1197,12 +1197,12 @@ public final class ShopGoodsOuterClass {
                 done = true;
                 break;
               case 8: {
-                unk3300CEOMHBNDAOP_ = input.readUInt32();
+                maxLevel_ = input.readUInt32();
 
                 break;
               } // case 8
               case 16: {
-                unk3300KKKNKNOLICI_ = input.readUInt32();
+                scoin_ = input.readUInt32();
 
                 break;
               } // case 16
@@ -1212,12 +1212,12 @@ public final class ShopGoodsOuterClass {
                 break;
               } // case 24
               case 32: {
-                unk3300OODCCOAIGHI_ = input.readUInt32();
+                disableType_ = input.readUInt32();
 
                 break;
               } // case 32
               case 40: {
-                unk3300DFEDKIOCOBL_ = input.readUInt32();
+                minLevel_ = input.readUInt32();
 
                 break;
               } // case 40
@@ -1240,7 +1240,7 @@ public final class ShopGoodsOuterClass {
                 break;
               } // case 58
               case 64: {
-                unk3300EHKFICBACKC_ = input.readUInt32();
+                buyLimit_ = input.readUInt32();
 
                 break;
               } // case 64
@@ -1266,7 +1266,7 @@ public final class ShopGoodsOuterClass {
                 break;
               } // case 80
               case 88: {
-                unk3300NMOPAGJFHOO_ = input.readUInt32();
+                mcoin_ = input.readUInt32();
 
                 break;
               } // case 88
@@ -1276,7 +1276,7 @@ public final class ShopGoodsOuterClass {
                 break;
               } // case 96
               case 104: {
-                unk3300DBJCMMBHBNI_ = input.readUInt32();
+                goodsId_ = input.readUInt32();
 
                 break;
               } // case 104
@@ -1313,7 +1313,7 @@ public final class ShopGoodsOuterClass {
                 break;
               } // case 8296
               case 14160: {
-                unk3300MICPGJCIAPE_ = input.readUInt32();
+                singleLimit_ = input.readUInt32();
 
                 break;
               } // case 14160
@@ -1834,64 +1834,64 @@ public final class ShopGoodsOuterClass {
         return this;
       }
 
-      private int unk3300DFEDKIOCOBL_ ;
+      private int minLevel_ ;
       /**
-       * <code>uint32 Unk3300_DFEDKIOCOBL = 5;</code>
-       * @return The unk3300DFEDKIOCOBL.
+       * <code>uint32 min_level = 5;</code>
+       * @return The minLevel.
        */
       @java.lang.Override
-      public int getUnk3300DFEDKIOCOBL() {
-        return unk3300DFEDKIOCOBL_;
+      public int getMinLevel() {
+        return minLevel_;
       }
       /**
-       * <code>uint32 Unk3300_DFEDKIOCOBL = 5;</code>
-       * @param value The unk3300DFEDKIOCOBL to set.
+       * <code>uint32 min_level = 5;</code>
+       * @param value The minLevel to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DFEDKIOCOBL(int value) {
+      public Builder setMinLevel(int value) {
         
-        unk3300DFEDKIOCOBL_ = value;
+        minLevel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DFEDKIOCOBL = 5;</code>
+       * <code>uint32 min_level = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DFEDKIOCOBL() {
+      public Builder clearMinLevel() {
         
-        unk3300DFEDKIOCOBL_ = 0;
+        minLevel_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300NMOPAGJFHOO_ ;
+      private int mcoin_ ;
       /**
-       * <code>uint32 Unk3300_NMOPAGJFHOO = 11;</code>
-       * @return The unk3300NMOPAGJFHOO.
+       * <code>uint32 mcoin = 11;</code>
+       * @return The mcoin.
        */
       @java.lang.Override
-      public int getUnk3300NMOPAGJFHOO() {
-        return unk3300NMOPAGJFHOO_;
+      public int getMcoin() {
+        return mcoin_;
       }
       /**
-       * <code>uint32 Unk3300_NMOPAGJFHOO = 11;</code>
-       * @param value The unk3300NMOPAGJFHOO to set.
+       * <code>uint32 mcoin = 11;</code>
+       * @param value The mcoin to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NMOPAGJFHOO(int value) {
+      public Builder setMcoin(int value) {
         
-        unk3300NMOPAGJFHOO_ = value;
+        mcoin_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_NMOPAGJFHOO = 11;</code>
+       * <code>uint32 mcoin = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NMOPAGJFHOO() {
+      public Builder clearMcoin() {
         
-        unk3300NMOPAGJFHOO_ = 0;
+        mcoin_ = 0;
         onChanged();
         return this;
       }
@@ -1989,33 +1989,33 @@ public final class ShopGoodsOuterClass {
         return this;
       }
 
-      private int unk3300DBJCMMBHBNI_ ;
+      private int goodsId_ ;
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 13;</code>
-       * @return The unk3300DBJCMMBHBNI.
+       * <code>uint32 goods_id = 13;</code>
+       * @return The goodsId.
        */
       @java.lang.Override
-      public int getUnk3300DBJCMMBHBNI() {
-        return unk3300DBJCMMBHBNI_;
+      public int getGoodsId() {
+        return goodsId_;
       }
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 13;</code>
-       * @param value The unk3300DBJCMMBHBNI to set.
+       * <code>uint32 goods_id = 13;</code>
+       * @param value The goodsId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DBJCMMBHBNI(int value) {
+      public Builder setGoodsId(int value) {
         
-        unk3300DBJCMMBHBNI_ = value;
+        goodsId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 13;</code>
+       * <code>uint32 goods_id = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DBJCMMBHBNI() {
+      public Builder clearGoodsId() {
         
-        unk3300DBJCMMBHBNI_ = 0;
+        goodsId_ = 0;
         onChanged();
         return this;
       }
@@ -2051,33 +2051,33 @@ public final class ShopGoodsOuterClass {
         return this;
       }
 
-      private int unk3300EHKFICBACKC_ ;
+      private int buyLimit_ ;
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-       * @return The unk3300EHKFICBACKC.
+       * <code>uint32 buy_limit = 8;</code>
+       * @return The buyLimit.
        */
       @java.lang.Override
-      public int getUnk3300EHKFICBACKC() {
-        return unk3300EHKFICBACKC_;
+      public int getBuyLimit() {
+        return buyLimit_;
       }
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-       * @param value The unk3300EHKFICBACKC to set.
+       * <code>uint32 buy_limit = 8;</code>
+       * @param value The buyLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300EHKFICBACKC(int value) {
+      public Builder setBuyLimit(int value) {
         
-        unk3300EHKFICBACKC_ = value;
+        buyLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
+       * <code>uint32 buy_limit = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300EHKFICBACKC() {
+      public Builder clearBuyLimit() {
         
-        unk3300EHKFICBACKC_ = 0;
+        buyLimit_ = 0;
         onChanged();
         return this;
       }
@@ -2113,95 +2113,95 @@ public final class ShopGoodsOuterClass {
         return this;
       }
 
-      private int unk3300KKKNKNOLICI_ ;
+      private int scoin_ ;
       /**
-       * <code>uint32 Unk3300_KKKNKNOLICI = 2;</code>
-       * @return The unk3300KKKNKNOLICI.
+       * <code>uint32 scoin = 2;</code>
+       * @return The scoin.
        */
       @java.lang.Override
-      public int getUnk3300KKKNKNOLICI() {
-        return unk3300KKKNKNOLICI_;
+      public int getScoin() {
+        return scoin_;
       }
       /**
-       * <code>uint32 Unk3300_KKKNKNOLICI = 2;</code>
-       * @param value The unk3300KKKNKNOLICI to set.
+       * <code>uint32 scoin = 2;</code>
+       * @param value The scoin to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KKKNKNOLICI(int value) {
+      public Builder setScoin(int value) {
         
-        unk3300KKKNKNOLICI_ = value;
+        scoin_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KKKNKNOLICI = 2;</code>
+       * <code>uint32 scoin = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KKKNKNOLICI() {
+      public Builder clearScoin() {
         
-        unk3300KKKNKNOLICI_ = 0;
+        scoin_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300CEOMHBNDAOP_ ;
+      private int maxLevel_ ;
       /**
-       * <code>uint32 Unk3300_CEOMHBNDAOP = 1;</code>
-       * @return The unk3300CEOMHBNDAOP.
+       * <code>uint32 max_level = 1;</code>
+       * @return The maxLevel.
        */
       @java.lang.Override
-      public int getUnk3300CEOMHBNDAOP() {
-        return unk3300CEOMHBNDAOP_;
+      public int getMaxLevel() {
+        return maxLevel_;
       }
       /**
-       * <code>uint32 Unk3300_CEOMHBNDAOP = 1;</code>
-       * @param value The unk3300CEOMHBNDAOP to set.
+       * <code>uint32 max_level = 1;</code>
+       * @param value The maxLevel to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CEOMHBNDAOP(int value) {
+      public Builder setMaxLevel(int value) {
         
-        unk3300CEOMHBNDAOP_ = value;
+        maxLevel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_CEOMHBNDAOP = 1;</code>
+       * <code>uint32 max_level = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CEOMHBNDAOP() {
+      public Builder clearMaxLevel() {
         
-        unk3300CEOMHBNDAOP_ = 0;
+        maxLevel_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300MICPGJCIAPE_ ;
+      private int singleLimit_ ;
       /**
-       * <code>uint32 Unk3300_MICPGJCIAPE = 1770;</code>
-       * @return The unk3300MICPGJCIAPE.
+       * <code>uint32 single_limit = 1770;</code>
+       * @return The singleLimit.
        */
       @java.lang.Override
-      public int getUnk3300MICPGJCIAPE() {
-        return unk3300MICPGJCIAPE_;
+      public int getSingleLimit() {
+        return singleLimit_;
       }
       /**
-       * <code>uint32 Unk3300_MICPGJCIAPE = 1770;</code>
-       * @param value The unk3300MICPGJCIAPE to set.
+       * <code>uint32 single_limit = 1770;</code>
+       * @param value The singleLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MICPGJCIAPE(int value) {
+      public Builder setSingleLimit(int value) {
         
-        unk3300MICPGJCIAPE_ = value;
+        singleLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_MICPGJCIAPE = 1770;</code>
+       * <code>uint32 single_limit = 1770;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MICPGJCIAPE() {
+      public Builder clearSingleLimit() {
         
-        unk3300MICPGJCIAPE_ = 0;
+        singleLimit_ = 0;
         onChanged();
         return this;
       }
@@ -2268,33 +2268,33 @@ public final class ShopGoodsOuterClass {
         return this;
       }
 
-      private int unk3300OODCCOAIGHI_ ;
+      private int disableType_ ;
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 4;</code>
-       * @return The unk3300OODCCOAIGHI.
+       * <code>uint32 disable_type = 4;</code>
+       * @return The disableType.
        */
       @java.lang.Override
-      public int getUnk3300OODCCOAIGHI() {
-        return unk3300OODCCOAIGHI_;
+      public int getDisableType() {
+        return disableType_;
       }
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 4;</code>
-       * @param value The unk3300OODCCOAIGHI to set.
+       * <code>uint32 disable_type = 4;</code>
+       * @param value The disableType to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OODCCOAIGHI(int value) {
+      public Builder setDisableType(int value) {
         
-        unk3300OODCCOAIGHI_ = value;
+        disableType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 4;</code>
+       * <code>uint32 disable_type = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OODCCOAIGHI() {
+      public Builder clearDisableType() {
         
-        unk3300OODCCOAIGHI_ = 0;
+        disableType_ = 0;
         onChanged();
         return this;
       }
@@ -2376,22 +2376,20 @@ public final class ShopGoodsOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017ShopGoods.proto\032\017ItemParam.proto\"\257\004\n\tS" +
+      "\n\017ShopGoods.proto\032\017ItemParam.proto\"\334\003\n\tS" +
       "hopGoods\022\034\n\023Unk3300_PBMKNPCNBCK\030\353\007 \001(\r\022\036" +
       "\n\ngoods_item\030\017 \001(\0132\n.ItemParam\022\"\n\016cost_i" +
       "tem_list\030\007 \003(\0132\n.ItemParam\022\022\n\nbought_num" +
-      "\030\016 \001(\r\022\031\n\021pre_goods_id_list\030\t \003(\r\022\033\n\023Unk" +
-      "3300_DFEDKIOCOBL\030\005 \001(\r\022\033\n\023Unk3300_NMOPAG" +
-      "JFHOO\030\013 \001(\r\022\r\n\005hcoin\030\006 \001(\r\022\020\n\010end_time\030\003" +
-      " \001(\r\022\031\n\021next_refresh_time\030\n \001(\r\022\033\n\023Unk33" +
-      "00_DBJCMMBHBNI\030\r \001(\r\022\034\n\023Unk3300_OMKIFIMD" +
-      "GDN\030\215\010 \001(\r\022\033\n\023Unk3300_EHKFICBACKC\030\010 \001(\r\022" +
-      "\034\n\023Unk3300_MBGOMHNBHMG\030\211\006 \001(\r\022\033\n\023Unk3300" +
-      "_KKKNKNOLICI\030\002 \001(\r\022\033\n\023Unk3300_CEOMHBNDAO" +
-      "P\030\001 \001(\r\022\034\n\023Unk3300_MICPGJCIAPE\030\352\r \001(\r\022\034\n" +
-      "\023Unk3300_NJCPAJBCEPH\030\371\003 \001(\r\022\022\n\nbegin_tim" +
-      "e\030\014 \001(\r\022\033\n\023Unk3300_OODCCOAIGHI\030\004 \001(\rB\036\n\034" +
-      "emu.grasscutter.net.newprotob\006proto3"
+      "\030\016 \001(\r\022\031\n\021pre_goods_id_list\030\t \003(\r\022\021\n\tmin" +
+      "_level\030\005 \001(\r\022\r\n\005mcoin\030\013 \001(\r\022\r\n\005hcoin\030\006 \001" +
+      "(\r\022\020\n\010end_time\030\003 \001(\r\022\031\n\021next_refresh_tim" +
+      "e\030\n \001(\r\022\020\n\010goods_id\030\r \001(\r\022\034\n\023Unk3300_OMK" +
+      "IFIMDGDN\030\215\010 \001(\r\022\021\n\tbuy_limit\030\010 \001(\r\022\034\n\023Un" +
+      "k3300_MBGOMHNBHMG\030\211\006 \001(\r\022\r\n\005scoin\030\002 \001(\r\022" +
+      "\021\n\tmax_level\030\001 \001(\r\022\025\n\014single_limit\030\352\r \001(" +
+      "\r\022\034\n\023Unk3300_NJCPAJBCEPH\030\371\003 \001(\r\022\022\n\nbegin" +
+      "_time\030\014 \001(\r\022\024\n\014disable_type\030\004 \001(\rB\036\n\034emu" +
+      ".grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2403,7 +2401,7 @@ public final class ShopGoodsOuterClass {
     internal_static_ShopGoods_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShopGoods_descriptor,
-        new java.lang.String[] { "Unk3300PBMKNPCNBCK", "GoodsItem", "CostItemList", "BoughtNum", "PreGoodsIdList", "Unk3300DFEDKIOCOBL", "Unk3300NMOPAGJFHOO", "Hcoin", "EndTime", "NextRefreshTime", "Unk3300DBJCMMBHBNI", "Unk3300OMKIFIMDGDN", "Unk3300EHKFICBACKC", "Unk3300MBGOMHNBHMG", "Unk3300KKKNKNOLICI", "Unk3300CEOMHBNDAOP", "Unk3300MICPGJCIAPE", "Unk3300NJCPAJBCEPH", "BeginTime", "Unk3300OODCCOAIGHI", });
+        new java.lang.String[] { "Unk3300PBMKNPCNBCK", "GoodsItem", "CostItemList", "BoughtNum", "PreGoodsIdList", "MinLevel", "Mcoin", "Hcoin", "EndTime", "NextRefreshTime", "GoodsId", "Unk3300OMKIFIMDGDN", "BuyLimit", "Unk3300MBGOMHNBHMG", "Scoin", "MaxLevel", "SingleLimit", "Unk3300NJCPAJBCEPH", "BeginTime", "DisableType", });
     emu.grasscutter.net.newproto.ItemParamOuterClass.getDescriptor();
   }
 

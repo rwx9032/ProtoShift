@@ -43,16 +43,16 @@ public final class FurnitureMakeDataOuterClass {
     int getIndex();
 
     /**
-     * <code>uint32 Unk3300_GDIBLADMJIC = 8;</code>
-     * @return The unk3300GDIBLADMJIC.
+     * <code>uint32 dur_time = 8;</code>
+     * @return The durTime.
      */
-    int getUnk3300GDIBLADMJIC();
+    int getDurTime();
 
     /**
-     * <code>uint32 Unk3300_GBDHFLEFJLG = 7;</code>
-     * @return The unk3300GBDHFLEFJLG.
+     * <code>uint32 accelerate_time = 7;</code>
+     * @return The accelerateTime.
      */
-    int getUnk3300GBDHFLEFJLG();
+    int getAccelerateTime();
   }
   /**
    * Protobuf type {@code FurnitureMakeData}
@@ -138,26 +138,26 @@ public final class FurnitureMakeDataOuterClass {
       return index_;
     }
 
-    public static final int UNK3300_GDIBLADMJIC_FIELD_NUMBER = 8;
-    private int unk3300GDIBLADMJIC_;
+    public static final int DUR_TIME_FIELD_NUMBER = 8;
+    private int durTime_;
     /**
-     * <code>uint32 Unk3300_GDIBLADMJIC = 8;</code>
-     * @return The unk3300GDIBLADMJIC.
+     * <code>uint32 dur_time = 8;</code>
+     * @return The durTime.
      */
     @java.lang.Override
-    public int getUnk3300GDIBLADMJIC() {
-      return unk3300GDIBLADMJIC_;
+    public int getDurTime() {
+      return durTime_;
     }
 
-    public static final int UNK3300_GBDHFLEFJLG_FIELD_NUMBER = 7;
-    private int unk3300GBDHFLEFJLG_;
+    public static final int ACCELERATE_TIME_FIELD_NUMBER = 7;
+    private int accelerateTime_;
     /**
-     * <code>uint32 Unk3300_GBDHFLEFJLG = 7;</code>
-     * @return The unk3300GBDHFLEFJLG.
+     * <code>uint32 accelerate_time = 7;</code>
+     * @return The accelerateTime.
      */
     @java.lang.Override
-    public int getUnk3300GBDHFLEFJLG() {
-      return unk3300GBDHFLEFJLG_;
+    public int getAccelerateTime() {
+      return accelerateTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -183,11 +183,11 @@ public final class FurnitureMakeDataOuterClass {
       if (index_ != 0) {
         output.writeUInt32(6, index_);
       }
-      if (unk3300GBDHFLEFJLG_ != 0) {
-        output.writeUInt32(7, unk3300GBDHFLEFJLG_);
+      if (accelerateTime_ != 0) {
+        output.writeUInt32(7, accelerateTime_);
       }
-      if (unk3300GDIBLADMJIC_ != 0) {
-        output.writeUInt32(8, unk3300GDIBLADMJIC_);
+      if (durTime_ != 0) {
+        output.writeUInt32(8, durTime_);
       }
       if (makeId_ != 0) {
         output.writeUInt32(10, makeId_);
@@ -213,13 +213,13 @@ public final class FurnitureMakeDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, index_);
       }
-      if (unk3300GBDHFLEFJLG_ != 0) {
+      if (accelerateTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300GBDHFLEFJLG_);
+          .computeUInt32Size(7, accelerateTime_);
       }
-      if (unk3300GDIBLADMJIC_ != 0) {
+      if (durTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300GDIBLADMJIC_);
+          .computeUInt32Size(8, durTime_);
       }
       if (makeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -248,10 +248,10 @@ public final class FurnitureMakeDataOuterClass {
           != other.getMakeId()) return false;
       if (getIndex()
           != other.getIndex()) return false;
-      if (getUnk3300GDIBLADMJIC()
-          != other.getUnk3300GDIBLADMJIC()) return false;
-      if (getUnk3300GBDHFLEFJLG()
-          != other.getUnk3300GBDHFLEFJLG()) return false;
+      if (getDurTime()
+          != other.getDurTime()) return false;
+      if (getAccelerateTime()
+          != other.getAccelerateTime()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -271,10 +271,10 @@ public final class FurnitureMakeDataOuterClass {
       hash = (53 * hash) + getMakeId();
       hash = (37 * hash) + INDEX_FIELD_NUMBER;
       hash = (53 * hash) + getIndex();
-      hash = (37 * hash) + UNK3300_GDIBLADMJIC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GDIBLADMJIC();
-      hash = (37 * hash) + UNK3300_GBDHFLEFJLG_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GBDHFLEFJLG();
+      hash = (37 * hash) + DUR_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getDurTime();
+      hash = (37 * hash) + ACCELERATE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getAccelerateTime();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -411,9 +411,9 @@ public final class FurnitureMakeDataOuterClass {
 
         index_ = 0;
 
-        unk3300GDIBLADMJIC_ = 0;
+        durTime_ = 0;
 
-        unk3300GBDHFLEFJLG_ = 0;
+        accelerateTime_ = 0;
 
         return this;
       }
@@ -445,8 +445,8 @@ public final class FurnitureMakeDataOuterClass {
         result.avatarId_ = avatarId_;
         result.makeId_ = makeId_;
         result.index_ = index_;
-        result.unk3300GDIBLADMJIC_ = unk3300GDIBLADMJIC_;
-        result.unk3300GBDHFLEFJLG_ = unk3300GBDHFLEFJLG_;
+        result.durTime_ = durTime_;
+        result.accelerateTime_ = accelerateTime_;
         onBuilt();
         return result;
       }
@@ -507,11 +507,11 @@ public final class FurnitureMakeDataOuterClass {
         if (other.getIndex() != 0) {
           setIndex(other.getIndex());
         }
-        if (other.getUnk3300GDIBLADMJIC() != 0) {
-          setUnk3300GDIBLADMJIC(other.getUnk3300GDIBLADMJIC());
+        if (other.getDurTime() != 0) {
+          setDurTime(other.getDurTime());
         }
-        if (other.getUnk3300GBDHFLEFJLG() != 0) {
-          setUnk3300GBDHFLEFJLG(other.getUnk3300GBDHFLEFJLG());
+        if (other.getAccelerateTime() != 0) {
+          setAccelerateTime(other.getAccelerateTime());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -555,12 +555,12 @@ public final class FurnitureMakeDataOuterClass {
                 break;
               } // case 48
               case 56: {
-                unk3300GBDHFLEFJLG_ = input.readUInt32();
+                accelerateTime_ = input.readUInt32();
 
                 break;
               } // case 56
               case 64: {
-                unk3300GDIBLADMJIC_ = input.readUInt32();
+                durTime_ = input.readUInt32();
 
                 break;
               } // case 64
@@ -709,64 +709,64 @@ public final class FurnitureMakeDataOuterClass {
         return this;
       }
 
-      private int unk3300GDIBLADMJIC_ ;
+      private int durTime_ ;
       /**
-       * <code>uint32 Unk3300_GDIBLADMJIC = 8;</code>
-       * @return The unk3300GDIBLADMJIC.
+       * <code>uint32 dur_time = 8;</code>
+       * @return The durTime.
        */
       @java.lang.Override
-      public int getUnk3300GDIBLADMJIC() {
-        return unk3300GDIBLADMJIC_;
+      public int getDurTime() {
+        return durTime_;
       }
       /**
-       * <code>uint32 Unk3300_GDIBLADMJIC = 8;</code>
-       * @param value The unk3300GDIBLADMJIC to set.
+       * <code>uint32 dur_time = 8;</code>
+       * @param value The durTime to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GDIBLADMJIC(int value) {
+      public Builder setDurTime(int value) {
         
-        unk3300GDIBLADMJIC_ = value;
+        durTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GDIBLADMJIC = 8;</code>
+       * <code>uint32 dur_time = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GDIBLADMJIC() {
+      public Builder clearDurTime() {
         
-        unk3300GDIBLADMJIC_ = 0;
+        durTime_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300GBDHFLEFJLG_ ;
+      private int accelerateTime_ ;
       /**
-       * <code>uint32 Unk3300_GBDHFLEFJLG = 7;</code>
-       * @return The unk3300GBDHFLEFJLG.
+       * <code>uint32 accelerate_time = 7;</code>
+       * @return The accelerateTime.
        */
       @java.lang.Override
-      public int getUnk3300GBDHFLEFJLG() {
-        return unk3300GBDHFLEFJLG_;
+      public int getAccelerateTime() {
+        return accelerateTime_;
       }
       /**
-       * <code>uint32 Unk3300_GBDHFLEFJLG = 7;</code>
-       * @param value The unk3300GBDHFLEFJLG to set.
+       * <code>uint32 accelerate_time = 7;</code>
+       * @param value The accelerateTime to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GBDHFLEFJLG(int value) {
+      public Builder setAccelerateTime(int value) {
         
-        unk3300GBDHFLEFJLG_ = value;
+        accelerateTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GBDHFLEFJLG = 7;</code>
+       * <code>uint32 accelerate_time = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GBDHFLEFJLG() {
+      public Builder clearAccelerateTime() {
         
-        unk3300GBDHFLEFJLG_ = 0;
+        accelerateTime_ = 0;
         onChanged();
         return this;
       }
@@ -848,12 +848,12 @@ public final class FurnitureMakeDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027FurnitureMakeData.proto\"\224\001\n\021FurnitureM" +
+      "\n\027FurnitureMakeData.proto\"\205\001\n\021FurnitureM" +
       "akeData\022\022\n\nbegin_time\030\001 \001(\007\022\021\n\tavatar_id" +
-      "\030\005 \001(\r\022\017\n\007make_id\030\n \001(\r\022\r\n\005index\030\006 \001(\r\022\033" +
-      "\n\023Unk3300_GDIBLADMJIC\030\010 \001(\r\022\033\n\023Unk3300_G" +
-      "BDHFLEFJLG\030\007 \001(\rB\036\n\034emu.grasscutter.net." +
-      "newprotob\006proto3"
+      "\030\005 \001(\r\022\017\n\007make_id\030\n \001(\r\022\r\n\005index\030\006 \001(\r\022\020" +
+      "\n\010dur_time\030\010 \001(\r\022\027\n\017accelerate_time\030\007 \001(" +
+      "\rB\036\n\034emu.grasscutter.net.newprotob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -864,7 +864,7 @@ public final class FurnitureMakeDataOuterClass {
     internal_static_FurnitureMakeData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FurnitureMakeData_descriptor,
-        new java.lang.String[] { "BeginTime", "AvatarId", "MakeId", "Index", "Unk3300GDIBLADMJIC", "Unk3300GBDHFLEFJLG", });
+        new java.lang.String[] { "BeginTime", "AvatarId", "MakeId", "Index", "DurTime", "AccelerateTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

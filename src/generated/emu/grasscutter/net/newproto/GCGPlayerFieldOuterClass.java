@@ -243,10 +243,10 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
     int getDiceSideListValue(int index);
 
     /**
-     * <code>uint32 Unk3300_FJNPFBIHFGD = 3;</code>
-     * @return The unk3300FJNPFBIHFGD.
+     * <code>uint32 deck_card_num = 3;</code>
+     * @return The deckCardNum.
      */
-    int getUnk3300FJNPFBIHFGD();
+    int getDeckCardNum();
 
     /**
      * <code>uint32 Unk3300_GLNIFLOKBPM = 14;</code>
@@ -724,15 +724,15 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
     }
     private int diceSideListMemoizedSerializedSize;
 
-    public static final int UNK3300_FJNPFBIHFGD_FIELD_NUMBER = 3;
-    private int unk3300FJNPFBIHFGD_;
+    public static final int DECK_CARD_NUM_FIELD_NUMBER = 3;
+    private int deckCardNum_;
     /**
-     * <code>uint32 Unk3300_FJNPFBIHFGD = 3;</code>
-     * @return The unk3300FJNPFBIHFGD.
+     * <code>uint32 deck_card_num = 3;</code>
+     * @return The deckCardNum.
      */
     @java.lang.Override
-    public int getUnk3300FJNPFBIHFGD() {
-      return unk3300FJNPFBIHFGD_;
+    public int getDeckCardNum() {
+      return deckCardNum_;
     }
 
     public static final int UNK3300_GLNIFLOKBPM_FIELD_NUMBER = 14;
@@ -767,8 +767,8 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
       for (int i = 0; i < waitingList_.size(); i++) {
         output.writeMessage(2, waitingList_.get(i));
       }
-      if (unk3300FJNPFBIHFGD_ != 0) {
-        output.writeUInt32(3, unk3300FJNPFBIHFGD_);
+      if (deckCardNum_ != 0) {
+        output.writeUInt32(3, deckCardNum_);
       }
       if (unk3300EFNAEFBECHD_ != null) {
         output.writeMessage(4, getUnk3300EFNAEFBECHD());
@@ -836,9 +836,9 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, waitingList_.get(i));
       }
-      if (unk3300FJNPFBIHFGD_ != 0) {
+      if (deckCardNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300FJNPFBIHFGD_);
+          .computeUInt32Size(3, deckCardNum_);
       }
       if (unk3300EFNAEFBECHD_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -969,8 +969,8 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
       if (!getIntentionListList()
           .equals(other.getIntentionListList())) return false;
       if (!diceSideList_.equals(other.diceSideList_)) return false;
-      if (getUnk3300FJNPFBIHFGD()
-          != other.getUnk3300FJNPFBIHFGD()) return false;
+      if (getDeckCardNum()
+          != other.getDeckCardNum()) return false;
       if (getUnk3300GLNIFLOKBPM()
           != other.getUnk3300GLNIFLOKBPM()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -1033,8 +1033,8 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
         hash = (37 * hash) + DICE_SIDE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + diceSideList_.hashCode();
       }
-      hash = (37 * hash) + UNK3300_FJNPFBIHFGD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300FJNPFBIHFGD();
+      hash = (37 * hash) + DECK_CARD_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getDeckCardNum();
       hash = (37 * hash) + UNK3300_GLNIFLOKBPM_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300GLNIFLOKBPM();
       hash = (29 * hash) + getUnknownFields().hashCode();
@@ -1246,7 +1246,7 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
         bitField0_ = (bitField0_ & ~0x00000004);
         diceSideList_ = java.util.Collections.emptyList();
         bitField0_ = (bitField0_ & ~0x00000008);
-        unk3300FJNPFBIHFGD_ = 0;
+        deckCardNum_ = 0;
 
         unk3300GLNIFLOKBPM_ = 0;
 
@@ -1333,7 +1333,7 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
           bitField0_ = (bitField0_ & ~0x00000008);
         }
         result.diceSideList_ = diceSideList_;
-        result.unk3300FJNPFBIHFGD_ = unk3300FJNPFBIHFGD_;
+        result.deckCardNum_ = deckCardNum_;
         result.unk3300GLNIFLOKBPM_ = unk3300GLNIFLOKBPM_;
         onBuilt();
         return result;
@@ -1480,8 +1480,8 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
           }
           onChanged();
         }
-        if (other.getUnk3300FJNPFBIHFGD() != 0) {
-          setUnk3300FJNPFBIHFGD(other.getUnk3300FJNPFBIHFGD());
+        if (other.getDeckCardNum() != 0) {
+          setDeckCardNum(other.getDeckCardNum());
         }
         if (other.getUnk3300GLNIFLOKBPM() != 0) {
           setUnk3300GLNIFLOKBPM(other.getUnk3300GLNIFLOKBPM());
@@ -1533,7 +1533,7 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
                 break;
               } // case 18
               case 24: {
-                unk3300FJNPFBIHFGD_ = input.readUInt32();
+                deckCardNum_ = input.readUInt32();
 
                 break;
               } // case 24
@@ -3187,33 +3187,33 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
         return this;
       }
 
-      private int unk3300FJNPFBIHFGD_ ;
+      private int deckCardNum_ ;
       /**
-       * <code>uint32 Unk3300_FJNPFBIHFGD = 3;</code>
-       * @return The unk3300FJNPFBIHFGD.
+       * <code>uint32 deck_card_num = 3;</code>
+       * @return The deckCardNum.
        */
       @java.lang.Override
-      public int getUnk3300FJNPFBIHFGD() {
-        return unk3300FJNPFBIHFGD_;
+      public int getDeckCardNum() {
+        return deckCardNum_;
       }
       /**
-       * <code>uint32 Unk3300_FJNPFBIHFGD = 3;</code>
-       * @param value The unk3300FJNPFBIHFGD to set.
+       * <code>uint32 deck_card_num = 3;</code>
+       * @param value The deckCardNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300FJNPFBIHFGD(int value) {
+      public Builder setDeckCardNum(int value) {
         
-        unk3300FJNPFBIHFGD_ = value;
+        deckCardNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_FJNPFBIHFGD = 3;</code>
+       * <code>uint32 deck_card_num = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300FJNPFBIHFGD() {
+      public Builder clearDeckCardNum() {
         
-        unk3300FJNPFBIHFGD_ = 0;
+        deckCardNum_ = 0;
         onChanged();
         return this;
       }
@@ -3333,7 +3333,7 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
     java.lang.String[] descriptorData = {
       "\n\024GCGPlayerField.proto\032\025GCGDiceSideType." +
       "proto\032\025GCGPVEIntention.proto\032\031GCGWaiting" +
-      "Character.proto\032\rGCGZone.proto\"\252\005\n\016GCGPl" +
+      "Character.proto\032\rGCGZone.proto\"\244\005\n\016GCGPl" +
       "ayerField\022\033\n\023Unk3300_IKJMGAHCFPM\030\005 \001(\r\022;" +
       "\n\017modify_zone_map\030\007 \003(\0132\".GCGPlayerField" +
       ".ModifyZoneMapEntry\022\034\n\023Unk3300_GGHKFFADE" +
@@ -3347,11 +3347,11 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
       "2\010.GCGZone\022%\n\023Unk3300_EFNAEFBECHD\030\004 \001(\0132" +
       "\010.GCGZone\022\021\n\tis_passed\030\010 \001(\010\022)\n\016intentio" +
       "n_list\030\260\002 \003(\0132\020.GCGPVEIntention\022(\n\016dice_" +
-      "side_list\030\r \003(\0162\020.GCGDiceSideType\022\033\n\023Unk" +
-      "3300_FJNPFBIHFGD\030\003 \001(\r\022\033\n\023Unk3300_GLNIFL" +
-      "OKBPM\030\016 \001(\r\032>\n\022ModifyZoneMapEntry\022\013\n\003key" +
-      "\030\001 \001(\r\022\027\n\005value\030\002 \001(\0132\010.GCGZone:\0028\001B\036\n\034e" +
-      "mu.grasscutter.net.newprotob\006proto3"
+      "side_list\030\r \003(\0162\020.GCGDiceSideType\022\025\n\rdec" +
+      "k_card_num\030\003 \001(\r\022\033\n\023Unk3300_GLNIFLOKBPM\030" +
+      "\016 \001(\r\032>\n\022ModifyZoneMapEntry\022\013\n\003key\030\001 \001(\r" +
+      "\022\027\n\005value\030\002 \001(\0132\010.GCGZone:\0028\001B\036\n\034emu.gra" +
+      "sscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3366,7 +3366,7 @@ emu.grasscutter.net.newproto.GCGZoneOuterClass.GCGZone defaultValue);
     internal_static_GCGPlayerField_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGPlayerField_descriptor,
-        new java.lang.String[] { "Unk3300IKJMGAHCFPM", "ModifyZoneMap", "Unk3300GGHKFFADEAL", "Unk3300AOPJIOHMPOF", "Unk3300FDFPHNDOJML", "Unk3300IPLMHKCNDLE", "Unk3300EIHOMDLENMK", "WaitingList", "Unk3300PBECINKKHND", "ControllerId", "Unk3300INDJNJJJNKL", "Unk3300EFNAEFBECHD", "IsPassed", "IntentionList", "DiceSideList", "Unk3300FJNPFBIHFGD", "Unk3300GLNIFLOKBPM", });
+        new java.lang.String[] { "Unk3300IKJMGAHCFPM", "ModifyZoneMap", "Unk3300GGHKFFADEAL", "Unk3300AOPJIOHMPOF", "Unk3300FDFPHNDOJML", "Unk3300IPLMHKCNDLE", "Unk3300EIHOMDLENMK", "WaitingList", "Unk3300PBECINKKHND", "ControllerId", "Unk3300INDJNJJJNKL", "Unk3300EFNAEFBECHD", "IsPassed", "IntentionList", "DiceSideList", "DeckCardNum", "Unk3300GLNIFLOKBPM", });
     internal_static_GCGPlayerField_ModifyZoneMapEntry_descriptor =
       internal_static_GCGPlayerField_descriptor.getNestedTypes().get(0);
     internal_static_GCGPlayerField_ModifyZoneMapEntry_fieldAccessorTable = new

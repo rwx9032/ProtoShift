@@ -157,10 +157,10 @@ public final class GetPlayerTokenRspOuterClass {
         getClientIpStrBytes();
 
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 1038;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 1038;</code>
+     * @return The subChannelId.
      */
-    int getUnk3300IADFJHNFKIB();
+    int getSubChannelId();
 
     /**
      * <code>int32 retcode = 2;</code>
@@ -193,10 +193,10 @@ public final class GetPlayerTokenRspOuterClass {
         getPsnIdBytes();
 
     /**
-     * <code>bool Unk3300_PPGJMLBGJED = 9;</code>
-     * @return The unk3300PPGJMLBGJED.
+     * <code>bool is_proficient_player = 9;</code>
+     * @return The isProficientPlayer.
      */
-    boolean getUnk3300PPGJMLBGJED();
+    boolean getIsProficientPlayer();
 
     /**
      * <code>uint32 platform_type = 10;</code>
@@ -709,15 +709,15 @@ public final class GetPlayerTokenRspOuterClass {
       }
     }
 
-    public static final int UNK3300_IADFJHNFKIB_FIELD_NUMBER = 1038;
-    private int unk3300IADFJHNFKIB_;
+    public static final int SUB_CHANNEL_ID_FIELD_NUMBER = 1038;
+    private int subChannelId_;
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 1038;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 1038;</code>
+     * @return The subChannelId.
      */
     @java.lang.Override
-    public int getUnk3300IADFJHNFKIB() {
-      return unk3300IADFJHNFKIB_;
+    public int getSubChannelId() {
+      return subChannelId_;
     }
 
     public static final int RETCODE_FIELD_NUMBER = 2;
@@ -807,15 +807,15 @@ public final class GetPlayerTokenRspOuterClass {
       }
     }
 
-    public static final int UNK3300_PPGJMLBGJED_FIELD_NUMBER = 9;
-    private boolean unk3300PPGJMLBGJED_;
+    public static final int IS_PROFICIENT_PLAYER_FIELD_NUMBER = 9;
+    private boolean isProficientPlayer_;
     /**
-     * <code>bool Unk3300_PPGJMLBGJED = 9;</code>
-     * @return The unk3300PPGJMLBGJED.
+     * <code>bool is_proficient_player = 9;</code>
+     * @return The isProficientPlayer.
      */
     @java.lang.Override
-    public boolean getUnk3300PPGJMLBGJED() {
-      return unk3300PPGJMLBGJED_;
+    public boolean getIsProficientPlayer() {
+      return isProficientPlayer_;
     }
 
     public static final int PLATFORM_TYPE_FIELD_NUMBER = 10;
@@ -1080,8 +1080,8 @@ public final class GetPlayerTokenRspOuterClass {
       if (accountType_ != 0) {
         output.writeUInt32(8, accountType_);
       }
-      if (unk3300PPGJMLBGJED_ != false) {
-        output.writeBool(9, unk3300PPGJMLBGJED_);
+      if (isProficientPlayer_ != false) {
+        output.writeBool(9, isProficientPlayer_);
       }
       if (platformType_ != 0) {
         output.writeUInt32(10, platformType_);
@@ -1122,8 +1122,8 @@ public final class GetPlayerTokenRspOuterClass {
       if (unk3300CFBHAHOHDKC_ != false) {
         output.writeBool(746, unk3300CFBHAHOHDKC_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
-        output.writeUInt32(1038, unk3300IADFJHNFKIB_);
+      if (subChannelId_ != 0) {
+        output.writeUInt32(1038, subChannelId_);
       }
       if (tag_ != 0) {
         output.writeUInt32(1099, tag_);
@@ -1195,9 +1195,9 @@ public final class GetPlayerTokenRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, accountType_);
       }
-      if (unk3300PPGJMLBGJED_ != false) {
+      if (isProficientPlayer_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, unk3300PPGJMLBGJED_);
+          .computeBoolSize(9, isProficientPlayer_);
       }
       if (platformType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1247,9 +1247,9 @@ public final class GetPlayerTokenRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(746, unk3300CFBHAHOHDKC_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
+      if (subChannelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1038, unk3300IADFJHNFKIB_);
+          .computeUInt32Size(1038, subChannelId_);
       }
       if (tag_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1341,16 +1341,16 @@ public final class GetPlayerTokenRspOuterClass {
           != other.getTag()) return false;
       if (!getClientIpStr()
           .equals(other.getClientIpStr())) return false;
-      if (getUnk3300IADFJHNFKIB()
-          != other.getUnk3300IADFJHNFKIB()) return false;
+      if (getSubChannelId()
+          != other.getSubChannelId()) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (!getClientVersionRandomKey()
           .equals(other.getClientVersionRandomKey())) return false;
       if (!getPsnId()
           .equals(other.getPsnId())) return false;
-      if (getUnk3300PPGJMLBGJED()
-          != other.getUnk3300PPGJMLBGJED()) return false;
+      if (getIsProficientPlayer()
+          != other.getIsProficientPlayer()) return false;
       if (getPlatformType()
           != other.getPlatformType()) return false;
       if (getRegPlatform()
@@ -1422,17 +1422,17 @@ public final class GetPlayerTokenRspOuterClass {
       hash = (53 * hash) + getTag();
       hash = (37 * hash) + CLIENT_IP_STR_FIELD_NUMBER;
       hash = (53 * hash) + getClientIpStr().hashCode();
-      hash = (37 * hash) + UNK3300_IADFJHNFKIB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300IADFJHNFKIB();
+      hash = (37 * hash) + SUB_CHANNEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSubChannelId();
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + CLIENT_VERSION_RANDOM_KEY_FIELD_NUMBER;
       hash = (53 * hash) + getClientVersionRandomKey().hashCode();
       hash = (37 * hash) + PSN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getPsnId().hashCode();
-      hash = (37 * hash) + UNK3300_PPGJMLBGJED_FIELD_NUMBER;
+      hash = (37 * hash) + IS_PROFICIENT_PLAYER_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300PPGJMLBGJED());
+          getIsProficientPlayer());
       hash = (37 * hash) + PLATFORM_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getPlatformType();
       hash = (37 * hash) + REG_PLATFORM_FIELD_NUMBER;
@@ -1630,7 +1630,7 @@ public final class GetPlayerTokenRspOuterClass {
 
         clientIpStr_ = "";
 
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
 
         retcode_ = 0;
 
@@ -1638,7 +1638,7 @@ public final class GetPlayerTokenRspOuterClass {
 
         psnId_ = "";
 
-        unk3300PPGJMLBGJED_ = false;
+        isProficientPlayer_ = false;
 
         platformType_ = 0;
 
@@ -1708,11 +1708,11 @@ public final class GetPlayerTokenRspOuterClass {
         result.birthday_ = birthday_;
         result.tag_ = tag_;
         result.clientIpStr_ = clientIpStr_;
-        result.unk3300IADFJHNFKIB_ = unk3300IADFJHNFKIB_;
+        result.subChannelId_ = subChannelId_;
         result.retcode_ = retcode_;
         result.clientVersionRandomKey_ = clientVersionRandomKey_;
         result.psnId_ = psnId_;
-        result.unk3300PPGJMLBGJED_ = unk3300PPGJMLBGJED_;
+        result.isProficientPlayer_ = isProficientPlayer_;
         result.platformType_ = platformType_;
         result.regPlatform_ = regPlatform_;
         if (stopServerBuilder_ == null) {
@@ -1836,8 +1836,8 @@ public final class GetPlayerTokenRspOuterClass {
           clientIpStr_ = other.clientIpStr_;
           onChanged();
         }
-        if (other.getUnk3300IADFJHNFKIB() != 0) {
-          setUnk3300IADFJHNFKIB(other.getUnk3300IADFJHNFKIB());
+        if (other.getSubChannelId() != 0) {
+          setSubChannelId(other.getSubChannelId());
         }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
@@ -1850,8 +1850,8 @@ public final class GetPlayerTokenRspOuterClass {
           psnId_ = other.psnId_;
           onChanged();
         }
-        if (other.getUnk3300PPGJMLBGJED() != false) {
-          setUnk3300PPGJMLBGJED(other.getUnk3300PPGJMLBGJED());
+        if (other.getIsProficientPlayer() != false) {
+          setIsProficientPlayer(other.getIsProficientPlayer());
         }
         if (other.getPlatformType() != 0) {
           setPlatformType(other.getPlatformType());
@@ -1960,7 +1960,7 @@ public final class GetPlayerTokenRspOuterClass {
                 break;
               } // case 64
               case 72: {
-                unk3300PPGJMLBGJED_ = input.readBool();
+                isProficientPlayer_ = input.readBool();
 
                 break;
               } // case 72
@@ -2030,7 +2030,7 @@ public final class GetPlayerTokenRspOuterClass {
                 break;
               } // case 5968
               case 8304: {
-                unk3300IADFJHNFKIB_ = input.readUInt32();
+                subChannelId_ = input.readUInt32();
 
                 break;
               } // case 8304
@@ -2912,33 +2912,33 @@ public final class GetPlayerTokenRspOuterClass {
         return this;
       }
 
-      private int unk3300IADFJHNFKIB_ ;
+      private int subChannelId_ ;
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1038;</code>
-       * @return The unk3300IADFJHNFKIB.
+       * <code>uint32 sub_channel_id = 1038;</code>
+       * @return The subChannelId.
        */
       @java.lang.Override
-      public int getUnk3300IADFJHNFKIB() {
-        return unk3300IADFJHNFKIB_;
+      public int getSubChannelId() {
+        return subChannelId_;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1038;</code>
-       * @param value The unk3300IADFJHNFKIB to set.
+       * <code>uint32 sub_channel_id = 1038;</code>
+       * @param value The subChannelId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300IADFJHNFKIB(int value) {
+      public Builder setSubChannelId(int value) {
         
-        unk3300IADFJHNFKIB_ = value;
+        subChannelId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1038;</code>
+       * <code>uint32 sub_channel_id = 1038;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300IADFJHNFKIB() {
+      public Builder clearSubChannelId() {
         
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
         onChanged();
         return this;
       }
@@ -3126,33 +3126,33 @@ public final class GetPlayerTokenRspOuterClass {
         return this;
       }
 
-      private boolean unk3300PPGJMLBGJED_ ;
+      private boolean isProficientPlayer_ ;
       /**
-       * <code>bool Unk3300_PPGJMLBGJED = 9;</code>
-       * @return The unk3300PPGJMLBGJED.
+       * <code>bool is_proficient_player = 9;</code>
+       * @return The isProficientPlayer.
        */
       @java.lang.Override
-      public boolean getUnk3300PPGJMLBGJED() {
-        return unk3300PPGJMLBGJED_;
+      public boolean getIsProficientPlayer() {
+        return isProficientPlayer_;
       }
       /**
-       * <code>bool Unk3300_PPGJMLBGJED = 9;</code>
-       * @param value The unk3300PPGJMLBGJED to set.
+       * <code>bool is_proficient_player = 9;</code>
+       * @param value The isProficientPlayer to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PPGJMLBGJED(boolean value) {
+      public Builder setIsProficientPlayer(boolean value) {
         
-        unk3300PPGJMLBGJED_ = value;
+        isProficientPlayer_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_PPGJMLBGJED = 9;</code>
+       * <code>bool is_proficient_player = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PPGJMLBGJED() {
+      public Builder clearIsProficientPlayer() {
         
-        unk3300PPGJMLBGJED_ = false;
+        isProficientPlayer_ = false;
         onChanged();
         return this;
       }
@@ -3816,7 +3816,7 @@ public final class GetPlayerTokenRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GetPlayerTokenRsp.proto\032\024StopServerInf" +
-      "o.proto\"\207\006\n\021GetPlayerTokenRsp\022\033\n\023securit" +
+      "o.proto\"\203\006\n\021GetPlayerTokenRsp\022\033\n\023securit" +
       "y_cmd_buffer\030\006 \001(\014\022\033\n\023Unk3300_PIPLDEAPMM" +
       "N\030\007 \001(\r\022\020\n\010is_guest\030\013 \001(\010\022\033\n\023Unk3300_AJB" +
       "BIPFMBEL\030~ \001(\010\022\017\n\006key_id\030\206\001 \001(\r\022\r\n\004sign\030" +
@@ -3826,17 +3826,17 @@ public final class GetPlayerTokenRspOuterClass {
       "\n\005token\030\r \001(\t\022\030\n\017server_rand_key\030\244\t \001(\t\022" +
       "\034\n\023Unk3300_DILMOPPLPEM\030\206\r \001(\r\022\021\n\010birthda" +
       "y\030\267\016 \001(\t\022\014\n\003tag\030\313\010 \001(\r\022\026\n\rclient_ip_str\030" +
-      "\346\n \001(\t\022\034\n\023Unk3300_IADFJHNFKIB\030\216\010 \001(\r\022\017\n\007" +
-      "retcode\030\002 \001(\005\022\"\n\031client_version_random_k" +
-      "ey\030\200\t \001(\t\022\017\n\006psn_id\030\362\001 \001(\t\022\033\n\023Unk3300_PP" +
-      "GJMLBGJED\030\t \001(\010\022\025\n\rplatform_type\030\n \001(\r\022\025" +
-      "\n\014reg_platform\030\206\005 \001(\r\022%\n\013stop_server\030\351\016 " +
-      "\001(\0132\017.StopServerInfo\022\033\n\023Unk3300_FHPCJMII" +
-      "LPA\030\014 \001(\r\022\034\n\023Unk3300_CFBHAHOHDKC\030\352\005 \001(\010\022" +
-      "\023\n\013account_uid\030\001 \001(\t\022\"\n\031finish_collectio" +
-      "n_id_list\030\346\r \003(\r\022\013\n\003msg\030\004 \001(\t\022\025\n\014country" +
-      "_code\030\365\001 \001(\t\022\013\n\003uid\030\016 \001(\rB\036\n\034emu.grasscu" +
-      "tter.net.newprotob\006proto3"
+      "\346\n \001(\t\022\027\n\016sub_channel_id\030\216\010 \001(\r\022\017\n\007retco" +
+      "de\030\002 \001(\005\022\"\n\031client_version_random_key\030\200\t" +
+      " \001(\t\022\017\n\006psn_id\030\362\001 \001(\t\022\034\n\024is_proficient_p" +
+      "layer\030\t \001(\010\022\025\n\rplatform_type\030\n \001(\r\022\025\n\014re" +
+      "g_platform\030\206\005 \001(\r\022%\n\013stop_server\030\351\016 \001(\0132" +
+      "\017.StopServerInfo\022\033\n\023Unk3300_FHPCJMIILPA\030" +
+      "\014 \001(\r\022\034\n\023Unk3300_CFBHAHOHDKC\030\352\005 \001(\010\022\023\n\013a" +
+      "ccount_uid\030\001 \001(\t\022\"\n\031finish_collection_id" +
+      "_list\030\346\r \003(\r\022\013\n\003msg\030\004 \001(\t\022\025\n\014country_cod" +
+      "e\030\365\001 \001(\t\022\013\n\003uid\030\016 \001(\rB\036\n\034emu.grasscutter" +
+      ".net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3848,7 +3848,7 @@ public final class GetPlayerTokenRspOuterClass {
     internal_static_GetPlayerTokenRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetPlayerTokenRsp_descriptor,
-        new java.lang.String[] { "SecurityCmdBuffer", "Unk3300PIPLDEAPMMN", "IsGuest", "Unk3300AJBBIPFMBEL", "KeyId", "Sign", "SecretKey", "AccountType", "ChannelId", "ExtraBinData", "SecretKeySeed", "Token", "ServerRandKey", "Unk3300DILMOPPLPEM", "Birthday", "Tag", "ClientIpStr", "Unk3300IADFJHNFKIB", "Retcode", "ClientVersionRandomKey", "PsnId", "Unk3300PPGJMLBGJED", "PlatformType", "RegPlatform", "StopServer", "Unk3300FHPCJMIILPA", "Unk3300CFBHAHOHDKC", "AccountUid", "FinishCollectionIdList", "Msg", "CountryCode", "Uid", });
+        new java.lang.String[] { "SecurityCmdBuffer", "Unk3300PIPLDEAPMMN", "IsGuest", "Unk3300AJBBIPFMBEL", "KeyId", "Sign", "SecretKey", "AccountType", "ChannelId", "ExtraBinData", "SecretKeySeed", "Token", "ServerRandKey", "Unk3300DILMOPPLPEM", "Birthday", "Tag", "ClientIpStr", "SubChannelId", "Retcode", "ClientVersionRandomKey", "PsnId", "IsProficientPlayer", "PlatformType", "RegPlatform", "StopServer", "Unk3300FHPCJMIILPA", "Unk3300CFBHAHOHDKC", "AccountUid", "FinishCollectionIdList", "Msg", "CountryCode", "Uid", });
     emu.grasscutter.net.newproto.StopServerInfoOuterClass.getDescriptor();
   }
 

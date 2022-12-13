@@ -42,21 +42,21 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     int getLevelId();
 
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-     * @return A list containing the unk3300PKJMEJKAPBI.
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
+     * @return A list containing the exceededItemList.
      */
-    java.util.List<java.lang.Integer> getUnk3300PKJMEJKAPBIList();
+    java.util.List<java.lang.Integer> getExceededItemListList();
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-     * @return The count of unk3300PKJMEJKAPBI.
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
+     * @return The count of exceededItemList.
      */
-    int getUnk3300PKJMEJKAPBICount();
+    int getExceededItemListCount();
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
      * @param index The index of the element to return.
-     * @return The unk3300PKJMEJKAPBI at the given index.
+     * @return The exceededItemList at the given index.
      */
-    int getUnk3300PKJMEJKAPBI(int index);
+    int getExceededItemList(int index);
 
     /**
      * <code>.GCGLevelType level_type = 2;</code>
@@ -105,7 +105,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     }
     private GCGStartChallengeByCheckRewardRsp() {
       unk3300GPDPCJLHBDE_ = emptyIntList();
-      unk3300PKJMEJKAPBI_ = emptyIntList();
+      exceededItemList_ = emptyIntList();
       levelType_ = 0;
     }
 
@@ -173,33 +173,33 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       return levelId_;
     }
 
-    public static final int UNK3300_PKJMEJKAPBI_FIELD_NUMBER = 8;
-    private com.google.protobuf.Internal.IntList unk3300PKJMEJKAPBI_;
+    public static final int EXCEEDED_ITEM_LIST_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList exceededItemList_;
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-     * @return A list containing the unk3300PKJMEJKAPBI.
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
+     * @return A list containing the exceededItemList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300PKJMEJKAPBIList() {
-      return unk3300PKJMEJKAPBI_;
+        getExceededItemListList() {
+      return exceededItemList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-     * @return The count of unk3300PKJMEJKAPBI.
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
+     * @return The count of exceededItemList.
      */
-    public int getUnk3300PKJMEJKAPBICount() {
-      return unk3300PKJMEJKAPBI_.size();
+    public int getExceededItemListCount() {
+      return exceededItemList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
+     * <code>repeated uint32 exceeded_item_list = 8;</code>
      * @param index The index of the element to return.
-     * @return The unk3300PKJMEJKAPBI at the given index.
+     * @return The exceededItemList at the given index.
      */
-    public int getUnk3300PKJMEJKAPBI(int index) {
-      return unk3300PKJMEJKAPBI_.getInt(index);
+    public int getExceededItemList(int index) {
+      return exceededItemList_.getInt(index);
     }
-    private int unk3300PKJMEJKAPBIMemoizedSerializedSize = -1;
+    private int exceededItemListMemoizedSerializedSize = -1;
 
     public static final int LEVEL_TYPE_FIELD_NUMBER = 2;
     private int levelType_;
@@ -270,12 +270,12 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       if (levelId_ != 0) {
         output.writeUInt32(5, levelId_);
       }
-      if (getUnk3300PKJMEJKAPBIList().size() > 0) {
+      if (getExceededItemListList().size() > 0) {
         output.writeUInt32NoTag(66);
-        output.writeUInt32NoTag(unk3300PKJMEJKAPBIMemoizedSerializedSize);
+        output.writeUInt32NoTag(exceededItemListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300PKJMEJKAPBI_.size(); i++) {
-        output.writeUInt32NoTag(unk3300PKJMEJKAPBI_.getInt(i));
+      for (int i = 0; i < exceededItemList_.size(); i++) {
+        output.writeUInt32NoTag(exceededItemList_.getInt(i));
       }
       if (configId_ != 0) {
         output.writeUInt32(9, configId_);
@@ -316,17 +316,17 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300PKJMEJKAPBI_.size(); i++) {
+        for (int i = 0; i < exceededItemList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300PKJMEJKAPBI_.getInt(i));
+            .computeUInt32SizeNoTag(exceededItemList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300PKJMEJKAPBIList().isEmpty()) {
+        if (!getExceededItemListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300PKJMEJKAPBIMemoizedSerializedSize = dataSize;
+        exceededItemListMemoizedSerializedSize = dataSize;
       }
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -355,8 +355,8 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
           .equals(other.getUnk3300GPDPCJLHBDEList())) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (!getUnk3300PKJMEJKAPBIList()
-          .equals(other.getUnk3300PKJMEJKAPBIList())) return false;
+      if (!getExceededItemListList()
+          .equals(other.getExceededItemListList())) return false;
       if (levelType_ != other.levelType_) return false;
       if (getConfigId()
           != other.getConfigId()) return false;
@@ -379,9 +379,9 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      if (getUnk3300PKJMEJKAPBICount() > 0) {
-        hash = (37 * hash) + UNK3300_PKJMEJKAPBI_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300PKJMEJKAPBIList().hashCode();
+      if (getExceededItemListCount() > 0) {
+        hash = (37 * hash) + EXCEEDED_ITEM_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getExceededItemListList().hashCode();
       }
       hash = (37 * hash) + LEVEL_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + levelType_;
@@ -531,7 +531,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         levelId_ = 0;
 
-        unk3300PKJMEJKAPBI_ = emptyIntList();
+        exceededItemList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         levelType_ = 0;
 
@@ -573,10 +573,10 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         result.unk3300GPDPCJLHBDE_ = unk3300GPDPCJLHBDE_;
         result.levelId_ = levelId_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300PKJMEJKAPBI_.makeImmutable();
+          exceededItemList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300PKJMEJKAPBI_ = unk3300PKJMEJKAPBI_;
+        result.exceededItemList_ = exceededItemList_;
         result.levelType_ = levelType_;
         result.configId_ = configId_;
         result.retcode_ = retcode_;
@@ -641,13 +641,13 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (!other.unk3300PKJMEJKAPBI_.isEmpty()) {
-          if (unk3300PKJMEJKAPBI_.isEmpty()) {
-            unk3300PKJMEJKAPBI_ = other.unk3300PKJMEJKAPBI_;
+        if (!other.exceededItemList_.isEmpty()) {
+          if (exceededItemList_.isEmpty()) {
+            exceededItemList_ = other.exceededItemList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300PKJMEJKAPBIIsMutable();
-            unk3300PKJMEJKAPBI_.addAll(other.unk3300PKJMEJKAPBI_);
+            ensureExceededItemListIsMutable();
+            exceededItemList_.addAll(other.exceededItemList_);
           }
           onChanged();
         }
@@ -714,16 +714,16 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
               } // case 40
               case 64: {
                 int v = input.readUInt32();
-                ensureUnk3300PKJMEJKAPBIIsMutable();
-                unk3300PKJMEJKAPBI_.addInt(v);
+                ensureExceededItemListIsMutable();
+                exceededItemList_.addInt(v);
                 break;
               } // case 64
               case 66: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300PKJMEJKAPBIIsMutable();
+                ensureExceededItemListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300PKJMEJKAPBI_.addInt(input.readUInt32());
+                  exceededItemList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -865,80 +865,80 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300PKJMEJKAPBI_ = emptyIntList();
-      private void ensureUnk3300PKJMEJKAPBIIsMutable() {
+      private com.google.protobuf.Internal.IntList exceededItemList_ = emptyIntList();
+      private void ensureExceededItemListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300PKJMEJKAPBI_ = mutableCopy(unk3300PKJMEJKAPBI_);
+          exceededItemList_ = mutableCopy(exceededItemList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-       * @return A list containing the unk3300PKJMEJKAPBI.
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
+       * @return A list containing the exceededItemList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300PKJMEJKAPBIList() {
+          getExceededItemListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300PKJMEJKAPBI_) : unk3300PKJMEJKAPBI_;
+                 java.util.Collections.unmodifiableList(exceededItemList_) : exceededItemList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-       * @return The count of unk3300PKJMEJKAPBI.
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
+       * @return The count of exceededItemList.
        */
-      public int getUnk3300PKJMEJKAPBICount() {
-        return unk3300PKJMEJKAPBI_.size();
+      public int getExceededItemListCount() {
+        return exceededItemList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
        * @param index The index of the element to return.
-       * @return The unk3300PKJMEJKAPBI at the given index.
+       * @return The exceededItemList at the given index.
        */
-      public int getUnk3300PKJMEJKAPBI(int index) {
-        return unk3300PKJMEJKAPBI_.getInt(index);
+      public int getExceededItemList(int index) {
+        return exceededItemList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300PKJMEJKAPBI to set.
+       * @param value The exceededItemList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PKJMEJKAPBI(
+      public Builder setExceededItemList(
           int index, int value) {
-        ensureUnk3300PKJMEJKAPBIIsMutable();
-        unk3300PKJMEJKAPBI_.setInt(index, value);
+        ensureExceededItemListIsMutable();
+        exceededItemList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-       * @param value The unk3300PKJMEJKAPBI to add.
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
+       * @param value The exceededItemList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300PKJMEJKAPBI(int value) {
-        ensureUnk3300PKJMEJKAPBIIsMutable();
-        unk3300PKJMEJKAPBI_.addInt(value);
+      public Builder addExceededItemList(int value) {
+        ensureExceededItemListIsMutable();
+        exceededItemList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
-       * @param values The unk3300PKJMEJKAPBI to add.
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
+       * @param values The exceededItemList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300PKJMEJKAPBI(
+      public Builder addAllExceededItemList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300PKJMEJKAPBIIsMutable();
+        ensureExceededItemListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300PKJMEJKAPBI_);
+            values, exceededItemList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_PKJMEJKAPBI = 8;</code>
+       * <code>repeated uint32 exceeded_item_list = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PKJMEJKAPBI() {
-        unk3300PKJMEJKAPBI_ = emptyIntList();
+      public Builder clearExceededItemList() {
+        exceededItemList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -1138,13 +1138,13 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\'GCGStartChallengeByCheckRewardRsp.prot" +
-      "o\032\022GCGLevelType.proto\"\266\001\n!GCGStartChalle" +
+      "o\032\022GCGLevelType.proto\"\265\001\n!GCGStartChalle" +
       "ngeByCheckRewardRsp\022\033\n\023Unk3300_GPDPCJLHB" +
-      "DE\030\003 \003(\r\022\020\n\010level_id\030\005 \001(\r\022\033\n\023Unk3300_PK" +
-      "JMEJKAPBI\030\010 \003(\r\022!\n\nlevel_type\030\002 \001(\0162\r.GC" +
-      "GLevelType\022\021\n\tconfig_id\030\t \001(\r\022\017\n\007retcode" +
-      "\030\014 \001(\005B\036\n\034emu.grasscutter.net.newprotob\006" +
-      "proto3"
+      "DE\030\003 \003(\r\022\020\n\010level_id\030\005 \001(\r\022\032\n\022exceeded_i" +
+      "tem_list\030\010 \003(\r\022!\n\nlevel_type\030\002 \001(\0162\r.GCG" +
+      "LevelType\022\021\n\tconfig_id\030\t \001(\r\022\017\n\007retcode\030" +
+      "\014 \001(\005B\036\n\034emu.grasscutter.net.newprotob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1156,7 +1156,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     internal_static_GCGStartChallengeByCheckRewardRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGStartChallengeByCheckRewardRsp_descriptor,
-        new java.lang.String[] { "Unk3300GPDPCJLHBDE", "LevelId", "Unk3300PKJMEJKAPBI", "LevelType", "ConfigId", "Retcode", });
+        new java.lang.String[] { "Unk3300GPDPCJLHBDE", "LevelId", "ExceededItemList", "LevelType", "ConfigId", "Retcode", });
     emu.grasscutter.net.newproto.GCGLevelTypeOuterClass.getDescriptor();
   }
 

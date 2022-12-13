@@ -42,10 +42,10 @@ public final class TowerCurLevelRecordOuterClass {
     boolean getIsUpperPart();
 
     /**
-     * <code>uint32 Unk3300_KPGBPDIJJJJ = 6;</code>
-     * @return The unk3300KPGBPDIJJJJ.
+     * <code>uint32 cur_level_index = 6;</code>
+     * @return The curLevelIndex.
      */
-    int getUnk3300KPGBPDIJJJJ();
+    int getCurLevelIndex();
 
     /**
      * <code>bool is_empty = 1;</code>
@@ -78,10 +78,10 @@ public final class TowerCurLevelRecordOuterClass {
         int index);
 
     /**
-     * <code>uint32 Unk3300_PMHCLPFPHBJ = 9;</code>
-     * @return The unk3300PMHCLPFPHBJ.
+     * <code>uint32 cur_floor_id = 9;</code>
+     * @return The curFloorId.
      */
-    int getUnk3300PMHCLPFPHBJ();
+    int getCurFloorId();
   }
   /**
    * Protobuf type {@code TowerCurLevelRecord}
@@ -164,15 +164,15 @@ public final class TowerCurLevelRecordOuterClass {
       return isUpperPart_;
     }
 
-    public static final int UNK3300_KPGBPDIJJJJ_FIELD_NUMBER = 6;
-    private int unk3300KPGBPDIJJJJ_;
+    public static final int CUR_LEVEL_INDEX_FIELD_NUMBER = 6;
+    private int curLevelIndex_;
     /**
-     * <code>uint32 Unk3300_KPGBPDIJJJJ = 6;</code>
-     * @return The unk3300KPGBPDIJJJJ.
+     * <code>uint32 cur_level_index = 6;</code>
+     * @return The curLevelIndex.
      */
     @java.lang.Override
-    public int getUnk3300KPGBPDIJJJJ() {
-      return unk3300KPGBPDIJJJJ_;
+    public int getCurLevelIndex() {
+      return curLevelIndex_;
     }
 
     public static final int IS_EMPTY_FIELD_NUMBER = 1;
@@ -226,15 +226,15 @@ public final class TowerCurLevelRecordOuterClass {
       return towerTeamList_.get(index);
     }
 
-    public static final int UNK3300_PMHCLPFPHBJ_FIELD_NUMBER = 9;
-    private int unk3300PMHCLPFPHBJ_;
+    public static final int CUR_FLOOR_ID_FIELD_NUMBER = 9;
+    private int curFloorId_;
     /**
-     * <code>uint32 Unk3300_PMHCLPFPHBJ = 9;</code>
-     * @return The unk3300PMHCLPFPHBJ.
+     * <code>uint32 cur_floor_id = 9;</code>
+     * @return The curFloorId.
      */
     @java.lang.Override
-    public int getUnk3300PMHCLPFPHBJ() {
-      return unk3300PMHCLPFPHBJ_;
+    public int getCurFloorId() {
+      return curFloorId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -258,14 +258,14 @@ public final class TowerCurLevelRecordOuterClass {
       if (isUpperPart_ != false) {
         output.writeBool(4, isUpperPart_);
       }
-      if (unk3300KPGBPDIJJJJ_ != 0) {
-        output.writeUInt32(6, unk3300KPGBPDIJJJJ_);
+      if (curLevelIndex_ != 0) {
+        output.writeUInt32(6, curLevelIndex_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
         output.writeMessage(8, towerTeamList_.get(i));
       }
-      if (unk3300PMHCLPFPHBJ_ != 0) {
-        output.writeUInt32(9, unk3300PMHCLPFPHBJ_);
+      if (curFloorId_ != 0) {
+        output.writeUInt32(9, curFloorId_);
       }
       if (getBuffIdListList().size() > 0) {
         output.writeUInt32NoTag(114);
@@ -291,17 +291,17 @@ public final class TowerCurLevelRecordOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(4, isUpperPart_);
       }
-      if (unk3300KPGBPDIJJJJ_ != 0) {
+      if (curLevelIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, unk3300KPGBPDIJJJJ_);
+          .computeUInt32Size(6, curLevelIndex_);
       }
       for (int i = 0; i < towerTeamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(8, towerTeamList_.get(i));
       }
-      if (unk3300PMHCLPFPHBJ_ != 0) {
+      if (curFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300PMHCLPFPHBJ_);
+          .computeUInt32Size(9, curFloorId_);
       }
       {
         int dataSize = 0;
@@ -336,14 +336,14 @@ public final class TowerCurLevelRecordOuterClass {
           .equals(other.getBuffIdListList())) return false;
       if (getIsUpperPart()
           != other.getIsUpperPart()) return false;
-      if (getUnk3300KPGBPDIJJJJ()
-          != other.getUnk3300KPGBPDIJJJJ()) return false;
+      if (getCurLevelIndex()
+          != other.getCurLevelIndex()) return false;
       if (getIsEmpty()
           != other.getIsEmpty()) return false;
       if (!getTowerTeamListList()
           .equals(other.getTowerTeamListList())) return false;
-      if (getUnk3300PMHCLPFPHBJ()
-          != other.getUnk3300PMHCLPFPHBJ()) return false;
+      if (getCurFloorId()
+          != other.getCurFloorId()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -362,8 +362,8 @@ public final class TowerCurLevelRecordOuterClass {
       hash = (37 * hash) + IS_UPPER_PART_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsUpperPart());
-      hash = (37 * hash) + UNK3300_KPGBPDIJJJJ_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KPGBPDIJJJJ();
+      hash = (37 * hash) + CUR_LEVEL_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getCurLevelIndex();
       hash = (37 * hash) + IS_EMPTY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsEmpty());
@@ -371,8 +371,8 @@ public final class TowerCurLevelRecordOuterClass {
         hash = (37 * hash) + TOWER_TEAM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTowerTeamListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_PMHCLPFPHBJ_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300PMHCLPFPHBJ();
+      hash = (37 * hash) + CUR_FLOOR_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCurFloorId();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -505,7 +505,7 @@ public final class TowerCurLevelRecordOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         isUpperPart_ = false;
 
-        unk3300KPGBPDIJJJJ_ = 0;
+        curLevelIndex_ = 0;
 
         isEmpty_ = false;
 
@@ -516,7 +516,7 @@ public final class TowerCurLevelRecordOuterClass {
           towerTeamListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000002);
-        unk3300PMHCLPFPHBJ_ = 0;
+        curFloorId_ = 0;
 
         return this;
       }
@@ -551,7 +551,7 @@ public final class TowerCurLevelRecordOuterClass {
         }
         result.buffIdList_ = buffIdList_;
         result.isUpperPart_ = isUpperPart_;
-        result.unk3300KPGBPDIJJJJ_ = unk3300KPGBPDIJJJJ_;
+        result.curLevelIndex_ = curLevelIndex_;
         result.isEmpty_ = isEmpty_;
         if (towerTeamListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
@@ -562,7 +562,7 @@ public final class TowerCurLevelRecordOuterClass {
         } else {
           result.towerTeamList_ = towerTeamListBuilder_.build();
         }
-        result.unk3300PMHCLPFPHBJ_ = unk3300PMHCLPFPHBJ_;
+        result.curFloorId_ = curFloorId_;
         onBuilt();
         return result;
       }
@@ -624,8 +624,8 @@ public final class TowerCurLevelRecordOuterClass {
         if (other.getIsUpperPart() != false) {
           setIsUpperPart(other.getIsUpperPart());
         }
-        if (other.getUnk3300KPGBPDIJJJJ() != 0) {
-          setUnk3300KPGBPDIJJJJ(other.getUnk3300KPGBPDIJJJJ());
+        if (other.getCurLevelIndex() != 0) {
+          setCurLevelIndex(other.getCurLevelIndex());
         }
         if (other.getIsEmpty() != false) {
           setIsEmpty(other.getIsEmpty());
@@ -656,8 +656,8 @@ public final class TowerCurLevelRecordOuterClass {
             }
           }
         }
-        if (other.getUnk3300PMHCLPFPHBJ() != 0) {
-          setUnk3300PMHCLPFPHBJ(other.getUnk3300PMHCLPFPHBJ());
+        if (other.getCurFloorId() != 0) {
+          setCurFloorId(other.getCurFloorId());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -696,7 +696,7 @@ public final class TowerCurLevelRecordOuterClass {
                 break;
               } // case 32
               case 48: {
-                unk3300KPGBPDIJJJJ_ = input.readUInt32();
+                curLevelIndex_ = input.readUInt32();
 
                 break;
               } // case 48
@@ -714,7 +714,7 @@ public final class TowerCurLevelRecordOuterClass {
                 break;
               } // case 66
               case 72: {
-                unk3300PMHCLPFPHBJ_ = input.readUInt32();
+                curFloorId_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -861,33 +861,33 @@ public final class TowerCurLevelRecordOuterClass {
         return this;
       }
 
-      private int unk3300KPGBPDIJJJJ_ ;
+      private int curLevelIndex_ ;
       /**
-       * <code>uint32 Unk3300_KPGBPDIJJJJ = 6;</code>
-       * @return The unk3300KPGBPDIJJJJ.
+       * <code>uint32 cur_level_index = 6;</code>
+       * @return The curLevelIndex.
        */
       @java.lang.Override
-      public int getUnk3300KPGBPDIJJJJ() {
-        return unk3300KPGBPDIJJJJ_;
+      public int getCurLevelIndex() {
+        return curLevelIndex_;
       }
       /**
-       * <code>uint32 Unk3300_KPGBPDIJJJJ = 6;</code>
-       * @param value The unk3300KPGBPDIJJJJ to set.
+       * <code>uint32 cur_level_index = 6;</code>
+       * @param value The curLevelIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KPGBPDIJJJJ(int value) {
+      public Builder setCurLevelIndex(int value) {
         
-        unk3300KPGBPDIJJJJ_ = value;
+        curLevelIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KPGBPDIJJJJ = 6;</code>
+       * <code>uint32 cur_level_index = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KPGBPDIJJJJ() {
+      public Builder clearCurLevelIndex() {
         
-        unk3300KPGBPDIJJJJ_ = 0;
+        curLevelIndex_ = 0;
         onChanged();
         return this;
       }
@@ -1163,33 +1163,33 @@ public final class TowerCurLevelRecordOuterClass {
         return towerTeamListBuilder_;
       }
 
-      private int unk3300PMHCLPFPHBJ_ ;
+      private int curFloorId_ ;
       /**
-       * <code>uint32 Unk3300_PMHCLPFPHBJ = 9;</code>
-       * @return The unk3300PMHCLPFPHBJ.
+       * <code>uint32 cur_floor_id = 9;</code>
+       * @return The curFloorId.
        */
       @java.lang.Override
-      public int getUnk3300PMHCLPFPHBJ() {
-        return unk3300PMHCLPFPHBJ_;
+      public int getCurFloorId() {
+        return curFloorId_;
       }
       /**
-       * <code>uint32 Unk3300_PMHCLPFPHBJ = 9;</code>
-       * @param value The unk3300PMHCLPFPHBJ to set.
+       * <code>uint32 cur_floor_id = 9;</code>
+       * @param value The curFloorId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PMHCLPFPHBJ(int value) {
+      public Builder setCurFloorId(int value) {
         
-        unk3300PMHCLPFPHBJ_ = value;
+        curFloorId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_PMHCLPFPHBJ = 9;</code>
+       * <code>uint32 cur_floor_id = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PMHCLPFPHBJ() {
+      public Builder clearCurFloorId() {
         
-        unk3300PMHCLPFPHBJ_ = 0;
+        curFloorId_ = 0;
         onChanged();
         return this;
       }
@@ -1272,12 +1272,12 @@ public final class TowerCurLevelRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031TowerCurLevelRecord.proto\032\017TowerTeam.p" +
-      "roto\"\263\001\n\023TowerCurLevelRecord\022\024\n\014buff_id_" +
-      "list\030\016 \003(\r\022\025\n\ris_upper_part\030\004 \001(\010\022\033\n\023Unk" +
-      "3300_KPGBPDIJJJJ\030\006 \001(\r\022\020\n\010is_empty\030\001 \001(\010" +
-      "\022#\n\017tower_team_list\030\010 \003(\0132\n.TowerTeam\022\033\n" +
-      "\023Unk3300_PMHCLPFPHBJ\030\t \001(\rB\036\n\034emu.grassc" +
-      "utter.net.newprotob\006proto3"
+      "roto\"\250\001\n\023TowerCurLevelRecord\022\024\n\014buff_id_" +
+      "list\030\016 \003(\r\022\025\n\ris_upper_part\030\004 \001(\010\022\027\n\017cur" +
+      "_level_index\030\006 \001(\r\022\020\n\010is_empty\030\001 \001(\010\022#\n\017" +
+      "tower_team_list\030\010 \003(\0132\n.TowerTeam\022\024\n\014cur" +
+      "_floor_id\030\t \001(\rB\036\n\034emu.grasscutter.net.n" +
+      "ewprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1289,7 +1289,7 @@ public final class TowerCurLevelRecordOuterClass {
     internal_static_TowerCurLevelRecord_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerCurLevelRecord_descriptor,
-        new java.lang.String[] { "BuffIdList", "IsUpperPart", "Unk3300KPGBPDIJJJJ", "IsEmpty", "TowerTeamList", "Unk3300PMHCLPFPHBJ", });
+        new java.lang.String[] { "BuffIdList", "IsUpperPart", "CurLevelIndex", "IsEmpty", "TowerTeamList", "CurFloorId", });
     emu.grasscutter.net.newproto.TowerTeamOuterClass.getDescriptor();
   }
 

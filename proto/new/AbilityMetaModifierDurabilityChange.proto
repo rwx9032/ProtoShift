@@ -19,6 +19,6 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.newproto";
 
 message AbilityMetaModifierDurabilityChange {
-  float Unk3300_LDHNFNOGOGF = 13;
+  float remain_durability = 13;
   float Unk3300_IFHFHEHDOIO = 1;
 }

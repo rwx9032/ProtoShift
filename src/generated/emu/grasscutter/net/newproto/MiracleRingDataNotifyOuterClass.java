@@ -31,10 +31,10 @@ public final class MiracleRingDataNotifyOuterClass {
     int getGadgetEntityId();
 
     /**
-     * <code>uint32 Unk3300_OONPDLMPLNC = 9;</code>
-     * @return The unk3300OONPDLMPLNC.
+     * <code>uint32 miracle_ring_cd = 9;</code>
+     * @return The miracleRingCd.
      */
-    int getUnk3300OONPDLMPLNC();
+    int getMiracleRingCd();
 
     /**
      * <code>uint32 Unk3300_POIAEGJNEKP = 8;</code>
@@ -120,15 +120,15 @@ public final class MiracleRingDataNotifyOuterClass {
       return gadgetEntityId_;
     }
 
-    public static final int UNK3300_OONPDLMPLNC_FIELD_NUMBER = 9;
-    private int unk3300OONPDLMPLNC_;
+    public static final int MIRACLE_RING_CD_FIELD_NUMBER = 9;
+    private int miracleRingCd_;
     /**
-     * <code>uint32 Unk3300_OONPDLMPLNC = 9;</code>
-     * @return The unk3300OONPDLMPLNC.
+     * <code>uint32 miracle_ring_cd = 9;</code>
+     * @return The miracleRingCd.
      */
     @java.lang.Override
-    public int getUnk3300OONPDLMPLNC() {
-      return unk3300OONPDLMPLNC_;
+    public int getMiracleRingCd() {
+      return miracleRingCd_;
     }
 
     public static final int UNK3300_POIAEGJNEKP_FIELD_NUMBER = 8;
@@ -173,8 +173,8 @@ public final class MiracleRingDataNotifyOuterClass {
       if (unk3300POIAEGJNEKP_ != 0) {
         output.writeUInt32(8, unk3300POIAEGJNEKP_);
       }
-      if (unk3300OONPDLMPLNC_ != 0) {
-        output.writeUInt32(9, unk3300OONPDLMPLNC_);
+      if (miracleRingCd_ != 0) {
+        output.writeUInt32(9, miracleRingCd_);
       }
       if (lastTakeRewardTime_ != 0) {
         output.writeUInt32(12, lastTakeRewardTime_);
@@ -199,9 +199,9 @@ public final class MiracleRingDataNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, unk3300POIAEGJNEKP_);
       }
-      if (unk3300OONPDLMPLNC_ != 0) {
+      if (miracleRingCd_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300OONPDLMPLNC_);
+          .computeUInt32Size(9, miracleRingCd_);
       }
       if (lastTakeRewardTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -230,8 +230,8 @@ public final class MiracleRingDataNotifyOuterClass {
           != other.getIsGadgetCreated()) return false;
       if (getGadgetEntityId()
           != other.getGadgetEntityId()) return false;
-      if (getUnk3300OONPDLMPLNC()
-          != other.getUnk3300OONPDLMPLNC()) return false;
+      if (getMiracleRingCd()
+          != other.getMiracleRingCd()) return false;
       if (getUnk3300POIAEGJNEKP()
           != other.getUnk3300POIAEGJNEKP()) return false;
       if (getLastTakeRewardTime()
@@ -252,8 +252,8 @@ public final class MiracleRingDataNotifyOuterClass {
           getIsGadgetCreated());
       hash = (37 * hash) + GADGET_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getGadgetEntityId();
-      hash = (37 * hash) + UNK3300_OONPDLMPLNC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OONPDLMPLNC();
+      hash = (37 * hash) + MIRACLE_RING_CD_FIELD_NUMBER;
+      hash = (53 * hash) + getMiracleRingCd();
       hash = (37 * hash) + UNK3300_POIAEGJNEKP_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300POIAEGJNEKP();
       hash = (37 * hash) + LAST_TAKE_REWARD_TIME_FIELD_NUMBER;
@@ -400,7 +400,7 @@ public final class MiracleRingDataNotifyOuterClass {
 
         gadgetEntityId_ = 0;
 
-        unk3300OONPDLMPLNC_ = 0;
+        miracleRingCd_ = 0;
 
         unk3300POIAEGJNEKP_ = 0;
 
@@ -434,7 +434,7 @@ public final class MiracleRingDataNotifyOuterClass {
         emu.grasscutter.net.newproto.MiracleRingDataNotifyOuterClass.MiracleRingDataNotify result = new emu.grasscutter.net.newproto.MiracleRingDataNotifyOuterClass.MiracleRingDataNotify(this);
         result.isGadgetCreated_ = isGadgetCreated_;
         result.gadgetEntityId_ = gadgetEntityId_;
-        result.unk3300OONPDLMPLNC_ = unk3300OONPDLMPLNC_;
+        result.miracleRingCd_ = miracleRingCd_;
         result.unk3300POIAEGJNEKP_ = unk3300POIAEGJNEKP_;
         result.lastTakeRewardTime_ = lastTakeRewardTime_;
         onBuilt();
@@ -491,8 +491,8 @@ public final class MiracleRingDataNotifyOuterClass {
         if (other.getGadgetEntityId() != 0) {
           setGadgetEntityId(other.getGadgetEntityId());
         }
-        if (other.getUnk3300OONPDLMPLNC() != 0) {
-          setUnk3300OONPDLMPLNC(other.getUnk3300OONPDLMPLNC());
+        if (other.getMiracleRingCd() != 0) {
+          setMiracleRingCd(other.getMiracleRingCd());
         }
         if (other.getUnk3300POIAEGJNEKP() != 0) {
           setUnk3300POIAEGJNEKP(other.getUnk3300POIAEGJNEKP());
@@ -537,7 +537,7 @@ public final class MiracleRingDataNotifyOuterClass {
                 break;
               } // case 64
               case 72: {
-                unk3300OONPDLMPLNC_ = input.readUInt32();
+                miracleRingCd_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -629,33 +629,33 @@ public final class MiracleRingDataNotifyOuterClass {
         return this;
       }
 
-      private int unk3300OONPDLMPLNC_ ;
+      private int miracleRingCd_ ;
       /**
-       * <code>uint32 Unk3300_OONPDLMPLNC = 9;</code>
-       * @return The unk3300OONPDLMPLNC.
+       * <code>uint32 miracle_ring_cd = 9;</code>
+       * @return The miracleRingCd.
        */
       @java.lang.Override
-      public int getUnk3300OONPDLMPLNC() {
-        return unk3300OONPDLMPLNC_;
+      public int getMiracleRingCd() {
+        return miracleRingCd_;
       }
       /**
-       * <code>uint32 Unk3300_OONPDLMPLNC = 9;</code>
-       * @param value The unk3300OONPDLMPLNC to set.
+       * <code>uint32 miracle_ring_cd = 9;</code>
+       * @param value The miracleRingCd to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OONPDLMPLNC(int value) {
+      public Builder setMiracleRingCd(int value) {
         
-        unk3300OONPDLMPLNC_ = value;
+        miracleRingCd_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_OONPDLMPLNC = 9;</code>
+       * <code>uint32 miracle_ring_cd = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OONPDLMPLNC() {
+      public Builder clearMiracleRingCd() {
         
-        unk3300OONPDLMPLNC_ = 0;
+        miracleRingCd_ = 0;
         onChanged();
         return this;
       }
@@ -799,12 +799,12 @@ public final class MiracleRingDataNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033MiracleRingDataNotify.proto\"\245\001\n\025Miracl" +
+      "\n\033MiracleRingDataNotify.proto\"\241\001\n\025Miracl" +
       "eRingDataNotify\022\031\n\021is_gadget_created\030\017 \001" +
-      "(\010\022\030\n\020gadget_entity_id\030\007 \001(\r\022\033\n\023Unk3300_" +
-      "OONPDLMPLNC\030\t \001(\r\022\033\n\023Unk3300_POIAEGJNEKP" +
-      "\030\010 \001(\r\022\035\n\025last_take_reward_time\030\014 \001(\rB\036\n" +
-      "\034emu.grasscutter.net.newprotob\006proto3"
+      "(\010\022\030\n\020gadget_entity_id\030\007 \001(\r\022\027\n\017miracle_" +
+      "ring_cd\030\t \001(\r\022\033\n\023Unk3300_POIAEGJNEKP\030\010 \001" +
+      "(\r\022\035\n\025last_take_reward_time\030\014 \001(\rB\036\n\034emu" +
+      ".grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -815,7 +815,7 @@ public final class MiracleRingDataNotifyOuterClass {
     internal_static_MiracleRingDataNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MiracleRingDataNotify_descriptor,
-        new java.lang.String[] { "IsGadgetCreated", "GadgetEntityId", "Unk3300OONPDLMPLNC", "Unk3300POIAEGJNEKP", "LastTakeRewardTime", });
+        new java.lang.String[] { "IsGadgetCreated", "GadgetEntityId", "MiracleRingCd", "Unk3300POIAEGJNEKP", "LastTakeRewardTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,22 +19,22 @@ public final class HomeLimitedShopGoodsOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-     * @return The unk3300EHKFICBACKC.
+     * <code>uint32 buy_limit = 8;</code>
+     * @return The buyLimit.
      */
-    int getUnk3300EHKFICBACKC();
+    int getBuyLimit();
 
     /**
-     * <code>uint32 Unk3300_OODCCOAIGHI = 10;</code>
-     * @return The unk3300OODCCOAIGHI.
+     * <code>uint32 disable_type = 10;</code>
+     * @return The disableType.
      */
-    int getUnk3300OODCCOAIGHI();
+    int getDisableType();
 
     /**
-     * <code>uint32 Unk3300_DBJCMMBHBNI = 12;</code>
-     * @return The unk3300DBJCMMBHBNI.
+     * <code>uint32 goods_id = 12;</code>
+     * @return The goodsId.
      */
-    int getUnk3300DBJCMMBHBNI();
+    int getGoodsId();
 
     /**
      * <code>uint32 bought_num = 5;</code>
@@ -122,37 +122,37 @@ public final class HomeLimitedShopGoodsOuterClass {
               emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods.class, emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods.Builder.class);
     }
 
-    public static final int UNK3300_EHKFICBACKC_FIELD_NUMBER = 8;
-    private int unk3300EHKFICBACKC_;
+    public static final int BUY_LIMIT_FIELD_NUMBER = 8;
+    private int buyLimit_;
     /**
-     * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-     * @return The unk3300EHKFICBACKC.
+     * <code>uint32 buy_limit = 8;</code>
+     * @return The buyLimit.
      */
     @java.lang.Override
-    public int getUnk3300EHKFICBACKC() {
-      return unk3300EHKFICBACKC_;
+    public int getBuyLimit() {
+      return buyLimit_;
     }
 
-    public static final int UNK3300_OODCCOAIGHI_FIELD_NUMBER = 10;
-    private int unk3300OODCCOAIGHI_;
+    public static final int DISABLE_TYPE_FIELD_NUMBER = 10;
+    private int disableType_;
     /**
-     * <code>uint32 Unk3300_OODCCOAIGHI = 10;</code>
-     * @return The unk3300OODCCOAIGHI.
+     * <code>uint32 disable_type = 10;</code>
+     * @return The disableType.
      */
     @java.lang.Override
-    public int getUnk3300OODCCOAIGHI() {
-      return unk3300OODCCOAIGHI_;
+    public int getDisableType() {
+      return disableType_;
     }
 
-    public static final int UNK3300_DBJCMMBHBNI_FIELD_NUMBER = 12;
-    private int unk3300DBJCMMBHBNI_;
+    public static final int GOODS_ID_FIELD_NUMBER = 12;
+    private int goodsId_;
     /**
-     * <code>uint32 Unk3300_DBJCMMBHBNI = 12;</code>
-     * @return The unk3300DBJCMMBHBNI.
+     * <code>uint32 goods_id = 12;</code>
+     * @return The goodsId.
      */
     @java.lang.Override
-    public int getUnk3300DBJCMMBHBNI() {
-      return unk3300DBJCMMBHBNI_;
+    public int getGoodsId() {
+      return goodsId_;
     }
 
     public static final int BOUGHT_NUM_FIELD_NUMBER = 5;
@@ -255,14 +255,14 @@ public final class HomeLimitedShopGoodsOuterClass {
       if (boughtNum_ != 0) {
         output.writeUInt32(5, boughtNum_);
       }
-      if (unk3300EHKFICBACKC_ != 0) {
-        output.writeUInt32(8, unk3300EHKFICBACKC_);
+      if (buyLimit_ != 0) {
+        output.writeUInt32(8, buyLimit_);
       }
-      if (unk3300OODCCOAIGHI_ != 0) {
-        output.writeUInt32(10, unk3300OODCCOAIGHI_);
+      if (disableType_ != 0) {
+        output.writeUInt32(10, disableType_);
       }
-      if (unk3300DBJCMMBHBNI_ != 0) {
-        output.writeUInt32(12, unk3300DBJCMMBHBNI_);
+      if (goodsId_ != 0) {
+        output.writeUInt32(12, goodsId_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -285,17 +285,17 @@ public final class HomeLimitedShopGoodsOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, boughtNum_);
       }
-      if (unk3300EHKFICBACKC_ != 0) {
+      if (buyLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300EHKFICBACKC_);
+          .computeUInt32Size(8, buyLimit_);
       }
-      if (unk3300OODCCOAIGHI_ != 0) {
+      if (disableType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, unk3300OODCCOAIGHI_);
+          .computeUInt32Size(10, disableType_);
       }
-      if (unk3300DBJCMMBHBNI_ != 0) {
+      if (goodsId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, unk3300DBJCMMBHBNI_);
+          .computeUInt32Size(12, goodsId_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -312,12 +312,12 @@ public final class HomeLimitedShopGoodsOuterClass {
       }
       emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods other = (emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods) obj;
 
-      if (getUnk3300EHKFICBACKC()
-          != other.getUnk3300EHKFICBACKC()) return false;
-      if (getUnk3300OODCCOAIGHI()
-          != other.getUnk3300OODCCOAIGHI()) return false;
-      if (getUnk3300DBJCMMBHBNI()
-          != other.getUnk3300DBJCMMBHBNI()) return false;
+      if (getBuyLimit()
+          != other.getBuyLimit()) return false;
+      if (getDisableType()
+          != other.getDisableType()) return false;
+      if (getGoodsId()
+          != other.getGoodsId()) return false;
       if (getBoughtNum()
           != other.getBoughtNum()) return false;
       if (hasGoodsItem() != other.hasGoodsItem()) return false;
@@ -338,12 +338,12 @@ public final class HomeLimitedShopGoodsOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_EHKFICBACKC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300EHKFICBACKC();
-      hash = (37 * hash) + UNK3300_OODCCOAIGHI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OODCCOAIGHI();
-      hash = (37 * hash) + UNK3300_DBJCMMBHBNI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DBJCMMBHBNI();
+      hash = (37 * hash) + BUY_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getBuyLimit();
+      hash = (37 * hash) + DISABLE_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getDisableType();
+      hash = (37 * hash) + GOODS_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGoodsId();
       hash = (37 * hash) + BOUGHT_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getBoughtNum();
       if (hasGoodsItem()) {
@@ -482,11 +482,11 @@ public final class HomeLimitedShopGoodsOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300EHKFICBACKC_ = 0;
+        buyLimit_ = 0;
 
-        unk3300OODCCOAIGHI_ = 0;
+        disableType_ = 0;
 
-        unk3300DBJCMMBHBNI_ = 0;
+        goodsId_ = 0;
 
         boughtNum_ = 0;
 
@@ -530,9 +530,9 @@ public final class HomeLimitedShopGoodsOuterClass {
       public emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods buildPartial() {
         emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods result = new emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300EHKFICBACKC_ = unk3300EHKFICBACKC_;
-        result.unk3300OODCCOAIGHI_ = unk3300OODCCOAIGHI_;
-        result.unk3300DBJCMMBHBNI_ = unk3300DBJCMMBHBNI_;
+        result.buyLimit_ = buyLimit_;
+        result.disableType_ = disableType_;
+        result.goodsId_ = goodsId_;
         result.boughtNum_ = boughtNum_;
         if (goodsItemBuilder_ == null) {
           result.goodsItem_ = goodsItem_;
@@ -596,14 +596,14 @@ public final class HomeLimitedShopGoodsOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods other) {
         if (other == emu.grasscutter.net.newproto.HomeLimitedShopGoodsOuterClass.HomeLimitedShopGoods.getDefaultInstance()) return this;
-        if (other.getUnk3300EHKFICBACKC() != 0) {
-          setUnk3300EHKFICBACKC(other.getUnk3300EHKFICBACKC());
+        if (other.getBuyLimit() != 0) {
+          setBuyLimit(other.getBuyLimit());
         }
-        if (other.getUnk3300OODCCOAIGHI() != 0) {
-          setUnk3300OODCCOAIGHI(other.getUnk3300OODCCOAIGHI());
+        if (other.getDisableType() != 0) {
+          setDisableType(other.getDisableType());
         }
-        if (other.getUnk3300DBJCMMBHBNI() != 0) {
-          setUnk3300DBJCMMBHBNI(other.getUnk3300DBJCMMBHBNI());
+        if (other.getGoodsId() != 0) {
+          setGoodsId(other.getGoodsId());
         }
         if (other.getBoughtNum() != 0) {
           setBoughtNum(other.getBoughtNum());
@@ -689,17 +689,17 @@ public final class HomeLimitedShopGoodsOuterClass {
                 break;
               } // case 40
               case 64: {
-                unk3300EHKFICBACKC_ = input.readUInt32();
+                buyLimit_ = input.readUInt32();
 
                 break;
               } // case 64
               case 80: {
-                unk3300OODCCOAIGHI_ = input.readUInt32();
+                disableType_ = input.readUInt32();
 
                 break;
               } // case 80
               case 96: {
-                unk3300DBJCMMBHBNI_ = input.readUInt32();
+                goodsId_ = input.readUInt32();
 
                 break;
               } // case 96
@@ -720,95 +720,95 @@ public final class HomeLimitedShopGoodsOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300EHKFICBACKC_ ;
+      private int buyLimit_ ;
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-       * @return The unk3300EHKFICBACKC.
+       * <code>uint32 buy_limit = 8;</code>
+       * @return The buyLimit.
        */
       @java.lang.Override
-      public int getUnk3300EHKFICBACKC() {
-        return unk3300EHKFICBACKC_;
+      public int getBuyLimit() {
+        return buyLimit_;
       }
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
-       * @param value The unk3300EHKFICBACKC to set.
+       * <code>uint32 buy_limit = 8;</code>
+       * @param value The buyLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300EHKFICBACKC(int value) {
+      public Builder setBuyLimit(int value) {
         
-        unk3300EHKFICBACKC_ = value;
+        buyLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_EHKFICBACKC = 8;</code>
+       * <code>uint32 buy_limit = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300EHKFICBACKC() {
+      public Builder clearBuyLimit() {
         
-        unk3300EHKFICBACKC_ = 0;
+        buyLimit_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300OODCCOAIGHI_ ;
+      private int disableType_ ;
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 10;</code>
-       * @return The unk3300OODCCOAIGHI.
+       * <code>uint32 disable_type = 10;</code>
+       * @return The disableType.
        */
       @java.lang.Override
-      public int getUnk3300OODCCOAIGHI() {
-        return unk3300OODCCOAIGHI_;
+      public int getDisableType() {
+        return disableType_;
       }
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 10;</code>
-       * @param value The unk3300OODCCOAIGHI to set.
+       * <code>uint32 disable_type = 10;</code>
+       * @param value The disableType to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OODCCOAIGHI(int value) {
+      public Builder setDisableType(int value) {
         
-        unk3300OODCCOAIGHI_ = value;
+        disableType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_OODCCOAIGHI = 10;</code>
+       * <code>uint32 disable_type = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OODCCOAIGHI() {
+      public Builder clearDisableType() {
         
-        unk3300OODCCOAIGHI_ = 0;
+        disableType_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300DBJCMMBHBNI_ ;
+      private int goodsId_ ;
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 12;</code>
-       * @return The unk3300DBJCMMBHBNI.
+       * <code>uint32 goods_id = 12;</code>
+       * @return The goodsId.
        */
       @java.lang.Override
-      public int getUnk3300DBJCMMBHBNI() {
-        return unk3300DBJCMMBHBNI_;
+      public int getGoodsId() {
+        return goodsId_;
       }
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 12;</code>
-       * @param value The unk3300DBJCMMBHBNI to set.
+       * <code>uint32 goods_id = 12;</code>
+       * @param value The goodsId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DBJCMMBHBNI(int value) {
+      public Builder setGoodsId(int value) {
         
-        unk3300DBJCMMBHBNI_ = value;
+        goodsId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DBJCMMBHBNI = 12;</code>
+       * <code>uint32 goods_id = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DBJCMMBHBNI() {
+      public Builder clearGoodsId() {
         
-        unk3300DBJCMMBHBNI_ = 0;
+        goodsId_ = 0;
         onChanged();
         return this;
       }
@@ -1281,13 +1281,12 @@ public final class HomeLimitedShopGoodsOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032HomeLimitedShopGoods.proto\032\017ItemParam." +
-      "proto\"\305\001\n\024HomeLimitedShopGoods\022\033\n\023Unk330" +
-      "0_EHKFICBACKC\030\010 \001(\r\022\033\n\023Unk3300_OODCCOAIG" +
-      "HI\030\n \001(\r\022\033\n\023Unk3300_DBJCMMBHBNI\030\014 \001(\r\022\022\n" +
-      "\nbought_num\030\005 \001(\r\022\036\n\ngoods_item\030\002 \001(\0132\n." +
-      "ItemParam\022\"\n\016cost_item_list\030\004 \003(\0132\n.Item" +
-      "ParamB\036\n\034emu.grasscutter.net.newprotob\006p" +
-      "roto3"
+      "proto\"\251\001\n\024HomeLimitedShopGoods\022\021\n\tbuy_li" +
+      "mit\030\010 \001(\r\022\024\n\014disable_type\030\n \001(\r\022\020\n\010goods" +
+      "_id\030\014 \001(\r\022\022\n\nbought_num\030\005 \001(\r\022\036\n\ngoods_i" +
+      "tem\030\002 \001(\0132\n.ItemParam\022\"\n\016cost_item_list\030" +
+      "\004 \003(\0132\n.ItemParamB\036\n\034emu.grasscutter.net" +
+      ".newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1299,7 +1298,7 @@ public final class HomeLimitedShopGoodsOuterClass {
     internal_static_HomeLimitedShopGoods_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeLimitedShopGoods_descriptor,
-        new java.lang.String[] { "Unk3300EHKFICBACKC", "Unk3300OODCCOAIGHI", "Unk3300DBJCMMBHBNI", "BoughtNum", "GoodsItem", "CostItemList", });
+        new java.lang.String[] { "BuyLimit", "DisableType", "GoodsId", "BoughtNum", "GoodsItem", "CostItemList", });
     emu.grasscutter.net.newproto.ItemParamOuterClass.getDescriptor();
   }
 

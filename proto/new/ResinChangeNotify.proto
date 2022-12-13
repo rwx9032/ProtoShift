@@ -28,6 +28,6 @@ message ResinChangeNotify {
   // }
 
   uint32 Unk3300_KGLIHGLNAJK = 11;
-  uint32 Unk3300_DADMLCPIHKJ = 13;
+  uint32 next_add_timestamp = 13;
   uint32 cur_value = 10;
 }

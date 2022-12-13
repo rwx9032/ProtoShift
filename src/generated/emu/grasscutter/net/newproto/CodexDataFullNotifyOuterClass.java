@@ -43,16 +43,16 @@ public final class CodexDataFullNotifyOuterClass {
         int index);
 
     /**
-     * <code>uint32 Unk3300_ODPDLGEKIEM = 4;</code>
-     * @return The unk3300ODPDLGEKIEM.
+     * <code>uint32 last_read_pushtips_codex_id = 4;</code>
+     * @return The lastReadPushtipsCodexId.
      */
-    int getUnk3300ODPDLGEKIEM();
+    int getLastReadPushtipsCodexId();
 
     /**
-     * <code>uint32 Unk3300_DCMJLCIFCEH = 13;</code>
-     * @return The unk3300DCMJLCIFCEH.
+     * <code>uint32 last_read_pushtips_type_id = 13;</code>
+     * @return The lastReadPushtipsTypeId.
      */
-    int getUnk3300DCMJLCIFCEH();
+    int getLastReadPushtipsTypeId();
 
     /**
      * <code>repeated uint32 recent_viewed_pushtips_list = 1;</code>
@@ -163,26 +163,26 @@ public final class CodexDataFullNotifyOuterClass {
       return typeDataList_.get(index);
     }
 
-    public static final int UNK3300_ODPDLGEKIEM_FIELD_NUMBER = 4;
-    private int unk3300ODPDLGEKIEM_;
+    public static final int LAST_READ_PUSHTIPS_CODEX_ID_FIELD_NUMBER = 4;
+    private int lastReadPushtipsCodexId_;
     /**
-     * <code>uint32 Unk3300_ODPDLGEKIEM = 4;</code>
-     * @return The unk3300ODPDLGEKIEM.
+     * <code>uint32 last_read_pushtips_codex_id = 4;</code>
+     * @return The lastReadPushtipsCodexId.
      */
     @java.lang.Override
-    public int getUnk3300ODPDLGEKIEM() {
-      return unk3300ODPDLGEKIEM_;
+    public int getLastReadPushtipsCodexId() {
+      return lastReadPushtipsCodexId_;
     }
 
-    public static final int UNK3300_DCMJLCIFCEH_FIELD_NUMBER = 13;
-    private int unk3300DCMJLCIFCEH_;
+    public static final int LAST_READ_PUSHTIPS_TYPE_ID_FIELD_NUMBER = 13;
+    private int lastReadPushtipsTypeId_;
     /**
-     * <code>uint32 Unk3300_DCMJLCIFCEH = 13;</code>
-     * @return The unk3300DCMJLCIFCEH.
+     * <code>uint32 last_read_pushtips_type_id = 13;</code>
+     * @return The lastReadPushtipsTypeId.
      */
     @java.lang.Override
-    public int getUnk3300DCMJLCIFCEH() {
-      return unk3300DCMJLCIFCEH_;
+    public int getLastReadPushtipsTypeId() {
+      return lastReadPushtipsTypeId_;
     }
 
     public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 1;
@@ -235,11 +235,11 @@ public final class CodexDataFullNotifyOuterClass {
       for (int i = 0; i < recentViewedPushtipsList_.size(); i++) {
         output.writeUInt32NoTag(recentViewedPushtipsList_.getInt(i));
       }
-      if (unk3300ODPDLGEKIEM_ != 0) {
-        output.writeUInt32(4, unk3300ODPDLGEKIEM_);
+      if (lastReadPushtipsCodexId_ != 0) {
+        output.writeUInt32(4, lastReadPushtipsCodexId_);
       }
-      if (unk3300DCMJLCIFCEH_ != 0) {
-        output.writeUInt32(13, unk3300DCMJLCIFCEH_);
+      if (lastReadPushtipsTypeId_ != 0) {
+        output.writeUInt32(13, lastReadPushtipsTypeId_);
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
         output.writeMessage(14, typeDataList_.get(i));
@@ -267,13 +267,13 @@ public final class CodexDataFullNotifyOuterClass {
         }
         recentViewedPushtipsListMemoizedSerializedSize = dataSize;
       }
-      if (unk3300ODPDLGEKIEM_ != 0) {
+      if (lastReadPushtipsCodexId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300ODPDLGEKIEM_);
+          .computeUInt32Size(4, lastReadPushtipsCodexId_);
       }
-      if (unk3300DCMJLCIFCEH_ != 0) {
+      if (lastReadPushtipsTypeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unk3300DCMJLCIFCEH_);
+          .computeUInt32Size(13, lastReadPushtipsTypeId_);
       }
       for (int i = 0; i < typeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -296,10 +296,10 @@ public final class CodexDataFullNotifyOuterClass {
 
       if (!getTypeDataListList()
           .equals(other.getTypeDataListList())) return false;
-      if (getUnk3300ODPDLGEKIEM()
-          != other.getUnk3300ODPDLGEKIEM()) return false;
-      if (getUnk3300DCMJLCIFCEH()
-          != other.getUnk3300DCMJLCIFCEH()) return false;
+      if (getLastReadPushtipsCodexId()
+          != other.getLastReadPushtipsCodexId()) return false;
+      if (getLastReadPushtipsTypeId()
+          != other.getLastReadPushtipsTypeId()) return false;
       if (!getRecentViewedPushtipsListList()
           .equals(other.getRecentViewedPushtipsListList())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -317,10 +317,10 @@ public final class CodexDataFullNotifyOuterClass {
         hash = (37 * hash) + TYPE_DATA_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTypeDataListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_ODPDLGEKIEM_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300ODPDLGEKIEM();
-      hash = (37 * hash) + UNK3300_DCMJLCIFCEH_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DCMJLCIFCEH();
+      hash = (37 * hash) + LAST_READ_PUSHTIPS_CODEX_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLastReadPushtipsCodexId();
+      hash = (37 * hash) + LAST_READ_PUSHTIPS_TYPE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLastReadPushtipsTypeId();
       if (getRecentViewedPushtipsListCount() > 0) {
         hash = (37 * hash) + RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRecentViewedPushtipsListList().hashCode();
@@ -470,9 +470,9 @@ public final class CodexDataFullNotifyOuterClass {
           typeDataListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300ODPDLGEKIEM_ = 0;
+        lastReadPushtipsCodexId_ = 0;
 
-        unk3300DCMJLCIFCEH_ = 0;
+        lastReadPushtipsTypeId_ = 0;
 
         recentViewedPushtipsList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -512,8 +512,8 @@ public final class CodexDataFullNotifyOuterClass {
         } else {
           result.typeDataList_ = typeDataListBuilder_.build();
         }
-        result.unk3300ODPDLGEKIEM_ = unk3300ODPDLGEKIEM_;
-        result.unk3300DCMJLCIFCEH_ = unk3300DCMJLCIFCEH_;
+        result.lastReadPushtipsCodexId_ = lastReadPushtipsCodexId_;
+        result.lastReadPushtipsTypeId_ = lastReadPushtipsTypeId_;
         if (((bitField0_ & 0x00000002) != 0)) {
           recentViewedPushtipsList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
@@ -593,11 +593,11 @@ public final class CodexDataFullNotifyOuterClass {
             }
           }
         }
-        if (other.getUnk3300ODPDLGEKIEM() != 0) {
-          setUnk3300ODPDLGEKIEM(other.getUnk3300ODPDLGEKIEM());
+        if (other.getLastReadPushtipsCodexId() != 0) {
+          setLastReadPushtipsCodexId(other.getLastReadPushtipsCodexId());
         }
-        if (other.getUnk3300DCMJLCIFCEH() != 0) {
-          setUnk3300DCMJLCIFCEH(other.getUnk3300DCMJLCIFCEH());
+        if (other.getLastReadPushtipsTypeId() != 0) {
+          setLastReadPushtipsTypeId(other.getLastReadPushtipsTypeId());
         }
         if (!other.recentViewedPushtipsList_.isEmpty()) {
           if (recentViewedPushtipsList_.isEmpty()) {
@@ -652,12 +652,12 @@ public final class CodexDataFullNotifyOuterClass {
                 break;
               } // case 10
               case 32: {
-                unk3300ODPDLGEKIEM_ = input.readUInt32();
+                lastReadPushtipsCodexId_ = input.readUInt32();
 
                 break;
               } // case 32
               case 104: {
-                unk3300DCMJLCIFCEH_ = input.readUInt32();
+                lastReadPushtipsTypeId_ = input.readUInt32();
 
                 break;
               } // case 104
@@ -931,64 +931,64 @@ public final class CodexDataFullNotifyOuterClass {
         return typeDataListBuilder_;
       }
 
-      private int unk3300ODPDLGEKIEM_ ;
+      private int lastReadPushtipsCodexId_ ;
       /**
-       * <code>uint32 Unk3300_ODPDLGEKIEM = 4;</code>
-       * @return The unk3300ODPDLGEKIEM.
+       * <code>uint32 last_read_pushtips_codex_id = 4;</code>
+       * @return The lastReadPushtipsCodexId.
        */
       @java.lang.Override
-      public int getUnk3300ODPDLGEKIEM() {
-        return unk3300ODPDLGEKIEM_;
+      public int getLastReadPushtipsCodexId() {
+        return lastReadPushtipsCodexId_;
       }
       /**
-       * <code>uint32 Unk3300_ODPDLGEKIEM = 4;</code>
-       * @param value The unk3300ODPDLGEKIEM to set.
+       * <code>uint32 last_read_pushtips_codex_id = 4;</code>
+       * @param value The lastReadPushtipsCodexId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300ODPDLGEKIEM(int value) {
+      public Builder setLastReadPushtipsCodexId(int value) {
         
-        unk3300ODPDLGEKIEM_ = value;
+        lastReadPushtipsCodexId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_ODPDLGEKIEM = 4;</code>
+       * <code>uint32 last_read_pushtips_codex_id = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300ODPDLGEKIEM() {
+      public Builder clearLastReadPushtipsCodexId() {
         
-        unk3300ODPDLGEKIEM_ = 0;
+        lastReadPushtipsCodexId_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300DCMJLCIFCEH_ ;
+      private int lastReadPushtipsTypeId_ ;
       /**
-       * <code>uint32 Unk3300_DCMJLCIFCEH = 13;</code>
-       * @return The unk3300DCMJLCIFCEH.
+       * <code>uint32 last_read_pushtips_type_id = 13;</code>
+       * @return The lastReadPushtipsTypeId.
        */
       @java.lang.Override
-      public int getUnk3300DCMJLCIFCEH() {
-        return unk3300DCMJLCIFCEH_;
+      public int getLastReadPushtipsTypeId() {
+        return lastReadPushtipsTypeId_;
       }
       /**
-       * <code>uint32 Unk3300_DCMJLCIFCEH = 13;</code>
-       * @param value The unk3300DCMJLCIFCEH to set.
+       * <code>uint32 last_read_pushtips_type_id = 13;</code>
+       * @param value The lastReadPushtipsTypeId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DCMJLCIFCEH(int value) {
+      public Builder setLastReadPushtipsTypeId(int value) {
         
-        unk3300DCMJLCIFCEH_ = value;
+        lastReadPushtipsTypeId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DCMJLCIFCEH = 13;</code>
+       * <code>uint32 last_read_pushtips_type_id = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DCMJLCIFCEH() {
+      public Builder clearLastReadPushtipsTypeId() {
         
-        unk3300DCMJLCIFCEH_ = 0;
+        lastReadPushtipsTypeId_ = 0;
         onChanged();
         return this;
       }
@@ -1150,12 +1150,12 @@ public final class CodexDataFullNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031CodexDataFullNotify.proto\032\023CodexTypeDa" +
-      "ta.proto\"\234\001\n\023CodexDataFullNotify\022&\n\016type" +
-      "_data_list\030\016 \003(\0132\016.CodexTypeData\022\033\n\023Unk3" +
-      "300_ODPDLGEKIEM\030\004 \001(\r\022\033\n\023Unk3300_DCMJLCI" +
-      "FCEH\030\r \001(\r\022#\n\033recent_viewed_pushtips_lis" +
-      "t\030\001 \003(\rB\036\n\034emu.grasscutter.net.newprotob" +
-      "\006proto3"
+      "ta.proto\"\253\001\n\023CodexDataFullNotify\022&\n\016type" +
+      "_data_list\030\016 \003(\0132\016.CodexTypeData\022#\n\033last" +
+      "_read_pushtips_codex_id\030\004 \001(\r\022\"\n\032last_re" +
+      "ad_pushtips_type_id\030\r \001(\r\022#\n\033recent_view" +
+      "ed_pushtips_list\030\001 \003(\rB\036\n\034emu.grasscutte" +
+      "r.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1167,7 +1167,7 @@ public final class CodexDataFullNotifyOuterClass {
     internal_static_CodexDataFullNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CodexDataFullNotify_descriptor,
-        new java.lang.String[] { "TypeDataList", "Unk3300ODPDLGEKIEM", "Unk3300DCMJLCIFCEH", "RecentViewedPushtipsList", });
+        new java.lang.String[] { "TypeDataList", "LastReadPushtipsCodexId", "LastReadPushtipsTypeId", "RecentViewedPushtipsList", });
     emu.grasscutter.net.newproto.CodexTypeDataOuterClass.getDescriptor();
   }
 

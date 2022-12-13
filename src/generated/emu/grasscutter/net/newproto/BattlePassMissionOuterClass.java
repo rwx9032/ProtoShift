@@ -25,16 +25,16 @@ public final class BattlePassMissionOuterClass {
     int getCurProgress();
 
     /**
-     * <code>uint32 Unk3300_MBOMOLFKPPO = 9;</code>
-     * @return The unk3300MBOMOLFKPPO.
+     * <code>uint32 mission_type = 9;</code>
+     * @return The missionType.
      */
-    int getUnk3300MBOMOLFKPPO();
+    int getMissionType();
 
     /**
-     * <code>uint32 Unk3300_DAHDCJNCALE = 14;</code>
-     * @return The unk3300DAHDCJNCALE.
+     * <code>uint32 reward_battle_pass_point = 14;</code>
+     * @return The rewardBattlePassPoint.
      */
-    int getUnk3300DAHDCJNCALE();
+    int getRewardBattlePassPoint();
 
     /**
      * <code>uint32 total_progress = 12;</code>
@@ -237,26 +237,26 @@ public final class BattlePassMissionOuterClass {
       return curProgress_;
     }
 
-    public static final int UNK3300_MBOMOLFKPPO_FIELD_NUMBER = 9;
-    private int unk3300MBOMOLFKPPO_;
+    public static final int MISSION_TYPE_FIELD_NUMBER = 9;
+    private int missionType_;
     /**
-     * <code>uint32 Unk3300_MBOMOLFKPPO = 9;</code>
-     * @return The unk3300MBOMOLFKPPO.
+     * <code>uint32 mission_type = 9;</code>
+     * @return The missionType.
      */
     @java.lang.Override
-    public int getUnk3300MBOMOLFKPPO() {
-      return unk3300MBOMOLFKPPO_;
+    public int getMissionType() {
+      return missionType_;
     }
 
-    public static final int UNK3300_DAHDCJNCALE_FIELD_NUMBER = 14;
-    private int unk3300DAHDCJNCALE_;
+    public static final int REWARD_BATTLE_PASS_POINT_FIELD_NUMBER = 14;
+    private int rewardBattlePassPoint_;
     /**
-     * <code>uint32 Unk3300_DAHDCJNCALE = 14;</code>
-     * @return The unk3300DAHDCJNCALE.
+     * <code>uint32 reward_battle_pass_point = 14;</code>
+     * @return The rewardBattlePassPoint.
      */
     @java.lang.Override
-    public int getUnk3300DAHDCJNCALE() {
-      return unk3300DAHDCJNCALE_;
+    public int getRewardBattlePassPoint() {
+      return rewardBattlePassPoint_;
     }
 
     public static final int TOTAL_PROGRESS_FIELD_NUMBER = 12;
@@ -314,8 +314,8 @@ public final class BattlePassMissionOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300MBOMOLFKPPO_ != 0) {
-        output.writeUInt32(9, unk3300MBOMOLFKPPO_);
+      if (missionType_ != 0) {
+        output.writeUInt32(9, missionType_);
       }
       if (curProgress_ != 0) {
         output.writeUInt32(10, curProgress_);
@@ -326,8 +326,8 @@ public final class BattlePassMissionOuterClass {
       if (totalProgress_ != 0) {
         output.writeUInt32(12, totalProgress_);
       }
-      if (unk3300DAHDCJNCALE_ != 0) {
-        output.writeUInt32(14, unk3300DAHDCJNCALE_);
+      if (rewardBattlePassPoint_ != 0) {
+        output.writeUInt32(14, rewardBattlePassPoint_);
       }
       if (missionId_ != 0) {
         output.writeUInt32(15, missionId_);
@@ -341,9 +341,9 @@ public final class BattlePassMissionOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300MBOMOLFKPPO_ != 0) {
+      if (missionType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300MBOMOLFKPPO_);
+          .computeUInt32Size(9, missionType_);
       }
       if (curProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -357,9 +357,9 @@ public final class BattlePassMissionOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, totalProgress_);
       }
-      if (unk3300DAHDCJNCALE_ != 0) {
+      if (rewardBattlePassPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, unk3300DAHDCJNCALE_);
+          .computeUInt32Size(14, rewardBattlePassPoint_);
       }
       if (missionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -382,10 +382,10 @@ public final class BattlePassMissionOuterClass {
 
       if (getCurProgress()
           != other.getCurProgress()) return false;
-      if (getUnk3300MBOMOLFKPPO()
-          != other.getUnk3300MBOMOLFKPPO()) return false;
-      if (getUnk3300DAHDCJNCALE()
-          != other.getUnk3300DAHDCJNCALE()) return false;
+      if (getMissionType()
+          != other.getMissionType()) return false;
+      if (getRewardBattlePassPoint()
+          != other.getRewardBattlePassPoint()) return false;
       if (getTotalProgress()
           != other.getTotalProgress()) return false;
       if (getMissionId()
@@ -404,10 +404,10 @@ public final class BattlePassMissionOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + CUR_PROGRESS_FIELD_NUMBER;
       hash = (53 * hash) + getCurProgress();
-      hash = (37 * hash) + UNK3300_MBOMOLFKPPO_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MBOMOLFKPPO();
-      hash = (37 * hash) + UNK3300_DAHDCJNCALE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DAHDCJNCALE();
+      hash = (37 * hash) + MISSION_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getMissionType();
+      hash = (37 * hash) + REWARD_BATTLE_PASS_POINT_FIELD_NUMBER;
+      hash = (53 * hash) + getRewardBattlePassPoint();
       hash = (37 * hash) + TOTAL_PROGRESS_FIELD_NUMBER;
       hash = (53 * hash) + getTotalProgress();
       hash = (37 * hash) + MISSION_ID_FIELD_NUMBER;
@@ -544,9 +544,9 @@ public final class BattlePassMissionOuterClass {
         super.clear();
         curProgress_ = 0;
 
-        unk3300MBOMOLFKPPO_ = 0;
+        missionType_ = 0;
 
-        unk3300DAHDCJNCALE_ = 0;
+        rewardBattlePassPoint_ = 0;
 
         totalProgress_ = 0;
 
@@ -581,8 +581,8 @@ public final class BattlePassMissionOuterClass {
       public emu.grasscutter.net.newproto.BattlePassMissionOuterClass.BattlePassMission buildPartial() {
         emu.grasscutter.net.newproto.BattlePassMissionOuterClass.BattlePassMission result = new emu.grasscutter.net.newproto.BattlePassMissionOuterClass.BattlePassMission(this);
         result.curProgress_ = curProgress_;
-        result.unk3300MBOMOLFKPPO_ = unk3300MBOMOLFKPPO_;
-        result.unk3300DAHDCJNCALE_ = unk3300DAHDCJNCALE_;
+        result.missionType_ = missionType_;
+        result.rewardBattlePassPoint_ = rewardBattlePassPoint_;
         result.totalProgress_ = totalProgress_;
         result.missionId_ = missionId_;
         result.missionStatus_ = missionStatus_;
@@ -637,11 +637,11 @@ public final class BattlePassMissionOuterClass {
         if (other.getCurProgress() != 0) {
           setCurProgress(other.getCurProgress());
         }
-        if (other.getUnk3300MBOMOLFKPPO() != 0) {
-          setUnk3300MBOMOLFKPPO(other.getUnk3300MBOMOLFKPPO());
+        if (other.getMissionType() != 0) {
+          setMissionType(other.getMissionType());
         }
-        if (other.getUnk3300DAHDCJNCALE() != 0) {
-          setUnk3300DAHDCJNCALE(other.getUnk3300DAHDCJNCALE());
+        if (other.getRewardBattlePassPoint() != 0) {
+          setRewardBattlePassPoint(other.getRewardBattlePassPoint());
         }
         if (other.getTotalProgress() != 0) {
           setTotalProgress(other.getTotalProgress());
@@ -679,7 +679,7 @@ public final class BattlePassMissionOuterClass {
                 done = true;
                 break;
               case 72: {
-                unk3300MBOMOLFKPPO_ = input.readUInt32();
+                missionType_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -699,7 +699,7 @@ public final class BattlePassMissionOuterClass {
                 break;
               } // case 96
               case 112: {
-                unk3300DAHDCJNCALE_ = input.readUInt32();
+                rewardBattlePassPoint_ = input.readUInt32();
 
                 break;
               } // case 112
@@ -755,64 +755,64 @@ public final class BattlePassMissionOuterClass {
         return this;
       }
 
-      private int unk3300MBOMOLFKPPO_ ;
+      private int missionType_ ;
       /**
-       * <code>uint32 Unk3300_MBOMOLFKPPO = 9;</code>
-       * @return The unk3300MBOMOLFKPPO.
+       * <code>uint32 mission_type = 9;</code>
+       * @return The missionType.
        */
       @java.lang.Override
-      public int getUnk3300MBOMOLFKPPO() {
-        return unk3300MBOMOLFKPPO_;
+      public int getMissionType() {
+        return missionType_;
       }
       /**
-       * <code>uint32 Unk3300_MBOMOLFKPPO = 9;</code>
-       * @param value The unk3300MBOMOLFKPPO to set.
+       * <code>uint32 mission_type = 9;</code>
+       * @param value The missionType to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MBOMOLFKPPO(int value) {
+      public Builder setMissionType(int value) {
         
-        unk3300MBOMOLFKPPO_ = value;
+        missionType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_MBOMOLFKPPO = 9;</code>
+       * <code>uint32 mission_type = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MBOMOLFKPPO() {
+      public Builder clearMissionType() {
         
-        unk3300MBOMOLFKPPO_ = 0;
+        missionType_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300DAHDCJNCALE_ ;
+      private int rewardBattlePassPoint_ ;
       /**
-       * <code>uint32 Unk3300_DAHDCJNCALE = 14;</code>
-       * @return The unk3300DAHDCJNCALE.
+       * <code>uint32 reward_battle_pass_point = 14;</code>
+       * @return The rewardBattlePassPoint.
        */
       @java.lang.Override
-      public int getUnk3300DAHDCJNCALE() {
-        return unk3300DAHDCJNCALE_;
+      public int getRewardBattlePassPoint() {
+        return rewardBattlePassPoint_;
       }
       /**
-       * <code>uint32 Unk3300_DAHDCJNCALE = 14;</code>
-       * @param value The unk3300DAHDCJNCALE to set.
+       * <code>uint32 reward_battle_pass_point = 14;</code>
+       * @param value The rewardBattlePassPoint to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DAHDCJNCALE(int value) {
+      public Builder setRewardBattlePassPoint(int value) {
         
-        unk3300DAHDCJNCALE_ = value;
+        rewardBattlePassPoint_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DAHDCJNCALE = 14;</code>
+       * <code>uint32 reward_battle_pass_point = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DAHDCJNCALE() {
+      public Builder clearRewardBattlePassPoint() {
         
-        unk3300DAHDCJNCALE_ = 0;
+        rewardBattlePassPoint_ = 0;
         onChanged();
         return this;
       }
@@ -1010,17 +1010,17 @@ public final class BattlePassMissionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027BattlePassMission.proto\"\323\002\n\021BattlePass" +
-      "Mission\022\024\n\014cur_progress\030\n \001(\r\022\033\n\023Unk3300" +
-      "_MBOMOLFKPPO\030\t \001(\r\022\033\n\023Unk3300_DAHDCJNCAL" +
-      "E\030\016 \001(\r\022\026\n\016total_progress\030\014 \001(\r\022\022\n\nmissi" +
-      "on_id\030\017 \001(\r\0228\n\016mission_status\030\013 \001(\0162 .Ba" +
-      "ttlePassMission.MissionStatus\"\207\001\n\rMissio" +
-      "nStatus\022\032\n\026MISSION_STATUS_INVALID\020\000\022\035\n\031M" +
-      "ISSION_STATUS_UNFINISHED\020\001\022\033\n\027MISSION_ST" +
-      "ATUS_FINISHED\020\002\022\036\n\032MISSION_STATUS_POINT_" +
-      "TAKEN\020\003B\036\n\034emu.grasscutter.net.newprotob" +
-      "\006proto3"
+      "\n\027BattlePassMission.proto\"\321\002\n\021BattlePass" +
+      "Mission\022\024\n\014cur_progress\030\n \001(\r\022\024\n\014mission" +
+      "_type\030\t \001(\r\022 \n\030reward_battle_pass_point\030" +
+      "\016 \001(\r\022\026\n\016total_progress\030\014 \001(\r\022\022\n\nmission" +
+      "_id\030\017 \001(\r\0228\n\016mission_status\030\013 \001(\0162 .Batt" +
+      "lePassMission.MissionStatus\"\207\001\n\rMissionS" +
+      "tatus\022\032\n\026MISSION_STATUS_INVALID\020\000\022\035\n\031MIS" +
+      "SION_STATUS_UNFINISHED\020\001\022\033\n\027MISSION_STAT" +
+      "US_FINISHED\020\002\022\036\n\032MISSION_STATUS_POINT_TA" +
+      "KEN\020\003B\036\n\034emu.grasscutter.net.newprotob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1031,7 +1031,7 @@ public final class BattlePassMissionOuterClass {
     internal_static_BattlePassMission_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BattlePassMission_descriptor,
-        new java.lang.String[] { "CurProgress", "Unk3300MBOMOLFKPPO", "Unk3300DAHDCJNCALE", "TotalProgress", "MissionId", "MissionStatus", });
+        new java.lang.String[] { "CurProgress", "MissionType", "RewardBattlePassPoint", "TotalProgress", "MissionId", "MissionStatus", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

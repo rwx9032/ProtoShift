@@ -25,10 +25,10 @@ public final class ResinChangeNotifyOuterClass {
     int getUnk3300KGLIHGLNAJK();
 
     /**
-     * <code>uint32 Unk3300_DADMLCPIHKJ = 13;</code>
-     * @return The unk3300DADMLCPIHKJ.
+     * <code>uint32 next_add_timestamp = 13;</code>
+     * @return The nextAddTimestamp.
      */
-    int getUnk3300DADMLCPIHKJ();
+    int getNextAddTimestamp();
 
     /**
      * <code>uint32 cur_value = 10;</code>
@@ -97,15 +97,15 @@ public final class ResinChangeNotifyOuterClass {
       return unk3300KGLIHGLNAJK_;
     }
 
-    public static final int UNK3300_DADMLCPIHKJ_FIELD_NUMBER = 13;
-    private int unk3300DADMLCPIHKJ_;
+    public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 13;
+    private int nextAddTimestamp_;
     /**
-     * <code>uint32 Unk3300_DADMLCPIHKJ = 13;</code>
-     * @return The unk3300DADMLCPIHKJ.
+     * <code>uint32 next_add_timestamp = 13;</code>
+     * @return The nextAddTimestamp.
      */
     @java.lang.Override
-    public int getUnk3300DADMLCPIHKJ() {
-      return unk3300DADMLCPIHKJ_;
+    public int getNextAddTimestamp() {
+      return nextAddTimestamp_;
     }
 
     public static final int CUR_VALUE_FIELD_NUMBER = 10;
@@ -139,8 +139,8 @@ public final class ResinChangeNotifyOuterClass {
       if (unk3300KGLIHGLNAJK_ != 0) {
         output.writeUInt32(11, unk3300KGLIHGLNAJK_);
       }
-      if (unk3300DADMLCPIHKJ_ != 0) {
-        output.writeUInt32(13, unk3300DADMLCPIHKJ_);
+      if (nextAddTimestamp_ != 0) {
+        output.writeUInt32(13, nextAddTimestamp_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -159,9 +159,9 @@ public final class ResinChangeNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, unk3300KGLIHGLNAJK_);
       }
-      if (unk3300DADMLCPIHKJ_ != 0) {
+      if (nextAddTimestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unk3300DADMLCPIHKJ_);
+          .computeUInt32Size(13, nextAddTimestamp_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -180,8 +180,8 @@ public final class ResinChangeNotifyOuterClass {
 
       if (getUnk3300KGLIHGLNAJK()
           != other.getUnk3300KGLIHGLNAJK()) return false;
-      if (getUnk3300DADMLCPIHKJ()
-          != other.getUnk3300DADMLCPIHKJ()) return false;
+      if (getNextAddTimestamp()
+          != other.getNextAddTimestamp()) return false;
       if (getCurValue()
           != other.getCurValue()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -197,8 +197,8 @@ public final class ResinChangeNotifyOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + UNK3300_KGLIHGLNAJK_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300KGLIHGLNAJK();
-      hash = (37 * hash) + UNK3300_DADMLCPIHKJ_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DADMLCPIHKJ();
+      hash = (37 * hash) + NEXT_ADD_TIMESTAMP_FIELD_NUMBER;
+      hash = (53 * hash) + getNextAddTimestamp();
       hash = (37 * hash) + CUR_VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getCurValue();
       hash = (29 * hash) + getUnknownFields().hashCode();
@@ -341,7 +341,7 @@ public final class ResinChangeNotifyOuterClass {
         super.clear();
         unk3300KGLIHGLNAJK_ = 0;
 
-        unk3300DADMLCPIHKJ_ = 0;
+        nextAddTimestamp_ = 0;
 
         curValue_ = 0;
 
@@ -372,7 +372,7 @@ public final class ResinChangeNotifyOuterClass {
       public emu.grasscutter.net.newproto.ResinChangeNotifyOuterClass.ResinChangeNotify buildPartial() {
         emu.grasscutter.net.newproto.ResinChangeNotifyOuterClass.ResinChangeNotify result = new emu.grasscutter.net.newproto.ResinChangeNotifyOuterClass.ResinChangeNotify(this);
         result.unk3300KGLIHGLNAJK_ = unk3300KGLIHGLNAJK_;
-        result.unk3300DADMLCPIHKJ_ = unk3300DADMLCPIHKJ_;
+        result.nextAddTimestamp_ = nextAddTimestamp_;
         result.curValue_ = curValue_;
         onBuilt();
         return result;
@@ -425,8 +425,8 @@ public final class ResinChangeNotifyOuterClass {
         if (other.getUnk3300KGLIHGLNAJK() != 0) {
           setUnk3300KGLIHGLNAJK(other.getUnk3300KGLIHGLNAJK());
         }
-        if (other.getUnk3300DADMLCPIHKJ() != 0) {
-          setUnk3300DADMLCPIHKJ(other.getUnk3300DADMLCPIHKJ());
+        if (other.getNextAddTimestamp() != 0) {
+          setNextAddTimestamp(other.getNextAddTimestamp());
         }
         if (other.getCurValue() != 0) {
           setCurValue(other.getCurValue());
@@ -468,7 +468,7 @@ public final class ResinChangeNotifyOuterClass {
                 break;
               } // case 88
               case 104: {
-                unk3300DADMLCPIHKJ_ = input.readUInt32();
+                nextAddTimestamp_ = input.readUInt32();
 
                 break;
               } // case 104
@@ -519,33 +519,33 @@ public final class ResinChangeNotifyOuterClass {
         return this;
       }
 
-      private int unk3300DADMLCPIHKJ_ ;
+      private int nextAddTimestamp_ ;
       /**
-       * <code>uint32 Unk3300_DADMLCPIHKJ = 13;</code>
-       * @return The unk3300DADMLCPIHKJ.
+       * <code>uint32 next_add_timestamp = 13;</code>
+       * @return The nextAddTimestamp.
        */
       @java.lang.Override
-      public int getUnk3300DADMLCPIHKJ() {
-        return unk3300DADMLCPIHKJ_;
+      public int getNextAddTimestamp() {
+        return nextAddTimestamp_;
       }
       /**
-       * <code>uint32 Unk3300_DADMLCPIHKJ = 13;</code>
-       * @param value The unk3300DADMLCPIHKJ to set.
+       * <code>uint32 next_add_timestamp = 13;</code>
+       * @param value The nextAddTimestamp to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DADMLCPIHKJ(int value) {
+      public Builder setNextAddTimestamp(int value) {
         
-        unk3300DADMLCPIHKJ_ = value;
+        nextAddTimestamp_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DADMLCPIHKJ = 13;</code>
+       * <code>uint32 next_add_timestamp = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DADMLCPIHKJ() {
+      public Builder clearNextAddTimestamp() {
         
-        unk3300DADMLCPIHKJ_ = 0;
+        nextAddTimestamp_ = 0;
         onChanged();
         return this;
       }
@@ -658,11 +658,11 @@ public final class ResinChangeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027ResinChangeNotify.proto\"`\n\021ResinChange" +
-      "Notify\022\033\n\023Unk3300_KGLIHGLNAJK\030\013 \001(\r\022\033\n\023U" +
-      "nk3300_DADMLCPIHKJ\030\r \001(\r\022\021\n\tcur_value\030\n " +
-      "\001(\rB\036\n\034emu.grasscutter.net.newprotob\006pro" +
-      "to3"
+      "\n\027ResinChangeNotify.proto\"_\n\021ResinChange" +
+      "Notify\022\033\n\023Unk3300_KGLIHGLNAJK\030\013 \001(\r\022\032\n\022n" +
+      "ext_add_timestamp\030\r \001(\r\022\021\n\tcur_value\030\n \001" +
+      "(\rB\036\n\034emu.grasscutter.net.newprotob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -673,7 +673,7 @@ public final class ResinChangeNotifyOuterClass {
     internal_static_ResinChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ResinChangeNotify_descriptor,
-        new java.lang.String[] { "Unk3300KGLIHGLNAJK", "Unk3300DADMLCPIHKJ", "CurValue", });
+        new java.lang.String[] { "Unk3300KGLIHGLNAJK", "NextAddTimestamp", "CurValue", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

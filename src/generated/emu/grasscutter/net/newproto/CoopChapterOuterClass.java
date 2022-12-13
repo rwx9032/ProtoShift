@@ -49,21 +49,21 @@ public final class CoopChapterOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-     * @return A list containing the unk3300MOOKBLFKOLC.
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
+     * @return A list containing the finishDialogList.
      */
-    java.util.List<java.lang.Integer> getUnk3300MOOKBLFKOLCList();
+    java.util.List<java.lang.Integer> getFinishDialogListList();
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-     * @return The count of unk3300MOOKBLFKOLC.
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
+     * @return The count of finishDialogList.
      */
-    int getUnk3300MOOKBLFKOLCCount();
+    int getFinishDialogListCount();
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MOOKBLFKOLC at the given index.
+     * @return The finishDialogList at the given index.
      */
-    int getUnk3300MOOKBLFKOLC(int index);
+    int getFinishDialogList(int index);
 
     /**
      * <code>.CoopChapter.State state = 7;</code>
@@ -77,10 +77,10 @@ public final class CoopChapterOuterClass {
     emu.grasscutter.net.newproto.CoopChapterOuterClass.CoopChapter.State getState();
 
     /**
-     * <code>uint32 Unk3300_KDLGLOIIINH = 11;</code>
-     * @return The unk3300KDLGLOIIINH.
+     * <code>uint32 total_end_count = 11;</code>
+     * @return The totalEndCount.
      */
-    int getUnk3300KDLGLOIIINH();
+    int getTotalEndCount();
 
     /**
      * <code>repeated .CoopReward coop_reward_list = 3;</code>
@@ -107,21 +107,21 @@ public final class CoopChapterOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-     * @return A list containing the unk3300MJLMJBMGJPP.
+     * <code>repeated uint32 lock_reason_list = 4;</code>
+     * @return A list containing the lockReasonList.
      */
-    java.util.List<java.lang.Integer> getUnk3300MJLMJBMGJPPList();
+    java.util.List<java.lang.Integer> getLockReasonListList();
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-     * @return The count of unk3300MJLMJBMGJPP.
+     * <code>repeated uint32 lock_reason_list = 4;</code>
+     * @return The count of lockReasonList.
      */
-    int getUnk3300MJLMJBMGJPPCount();
+    int getLockReasonListCount();
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
+     * <code>repeated uint32 lock_reason_list = 4;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MJLMJBMGJPP at the given index.
+     * @return The lockReasonList at the given index.
      */
-    int getUnk3300MJLMJBMGJPP(int index);
+    int getLockReasonList(int index);
 
     /**
      * <code>repeated .CoopCg coop_cg_list = 2;</code>
@@ -182,10 +182,10 @@ public final class CoopChapterOuterClass {
         int key);
 
     /**
-     * <code>uint32 Unk3300_KMJHIMBIGJF = 8;</code>
-     * @return The unk3300KMJHIMBIGJF.
+     * <code>uint32 finished_end_count = 8;</code>
+     * @return The finishedEndCount.
      */
-    int getUnk3300KMJHIMBIGJF();
+    int getFinishedEndCount();
   }
   /**
    * Protobuf type {@code CoopChapter}
@@ -201,10 +201,10 @@ public final class CoopChapterOuterClass {
     }
     private CoopChapter() {
       coopPointList_ = java.util.Collections.emptyList();
-      unk3300MOOKBLFKOLC_ = emptyIntList();
+      finishDialogList_ = emptyIntList();
       state_ = 0;
       coopRewardList_ = java.util.Collections.emptyList();
-      unk3300MJLMJBMGJPP_ = emptyIntList();
+      lockReasonList_ = emptyIntList();
       coopCgList_ = java.util.Collections.emptyList();
     }
 
@@ -422,33 +422,33 @@ public final class CoopChapterOuterClass {
       return coopPointList_.get(index);
     }
 
-    public static final int UNK3300_MOOKBLFKOLC_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList unk3300MOOKBLFKOLC_;
+    public static final int FINISH_DIALOG_LIST_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList finishDialogList_;
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-     * @return A list containing the unk3300MOOKBLFKOLC.
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
+     * @return A list containing the finishDialogList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300MOOKBLFKOLCList() {
-      return unk3300MOOKBLFKOLC_;
+        getFinishDialogListList() {
+      return finishDialogList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-     * @return The count of unk3300MOOKBLFKOLC.
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
+     * @return The count of finishDialogList.
      */
-    public int getUnk3300MOOKBLFKOLCCount() {
-      return unk3300MOOKBLFKOLC_.size();
+    public int getFinishDialogListCount() {
+      return finishDialogList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
+     * <code>repeated uint32 finish_dialog_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MOOKBLFKOLC at the given index.
+     * @return The finishDialogList at the given index.
      */
-    public int getUnk3300MOOKBLFKOLC(int index) {
-      return unk3300MOOKBLFKOLC_.getInt(index);
+    public int getFinishDialogList(int index) {
+      return finishDialogList_.getInt(index);
     }
-    private int unk3300MOOKBLFKOLCMemoizedSerializedSize = -1;
+    private int finishDialogListMemoizedSerializedSize = -1;
 
     public static final int STATE_FIELD_NUMBER = 7;
     private int state_;
@@ -469,15 +469,15 @@ public final class CoopChapterOuterClass {
       return result == null ? emu.grasscutter.net.newproto.CoopChapterOuterClass.CoopChapter.State.UNRECOGNIZED : result;
     }
 
-    public static final int UNK3300_KDLGLOIIINH_FIELD_NUMBER = 11;
-    private int unk3300KDLGLOIIINH_;
+    public static final int TOTAL_END_COUNT_FIELD_NUMBER = 11;
+    private int totalEndCount_;
     /**
-     * <code>uint32 Unk3300_KDLGLOIIINH = 11;</code>
-     * @return The unk3300KDLGLOIIINH.
+     * <code>uint32 total_end_count = 11;</code>
+     * @return The totalEndCount.
      */
     @java.lang.Override
-    public int getUnk3300KDLGLOIIINH() {
-      return unk3300KDLGLOIIINH_;
+    public int getTotalEndCount() {
+      return totalEndCount_;
     }
 
     public static final int COOP_REWARD_LIST_FIELD_NUMBER = 3;
@@ -520,33 +520,33 @@ public final class CoopChapterOuterClass {
       return coopRewardList_.get(index);
     }
 
-    public static final int UNK3300_MJLMJBMGJPP_FIELD_NUMBER = 4;
-    private com.google.protobuf.Internal.IntList unk3300MJLMJBMGJPP_;
+    public static final int LOCK_REASON_LIST_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList lockReasonList_;
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-     * @return A list containing the unk3300MJLMJBMGJPP.
+     * <code>repeated uint32 lock_reason_list = 4;</code>
+     * @return A list containing the lockReasonList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300MJLMJBMGJPPList() {
-      return unk3300MJLMJBMGJPP_;
+        getLockReasonListList() {
+      return lockReasonList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-     * @return The count of unk3300MJLMJBMGJPP.
+     * <code>repeated uint32 lock_reason_list = 4;</code>
+     * @return The count of lockReasonList.
      */
-    public int getUnk3300MJLMJBMGJPPCount() {
-      return unk3300MJLMJBMGJPP_.size();
+    public int getLockReasonListCount() {
+      return lockReasonList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
+     * <code>repeated uint32 lock_reason_list = 4;</code>
      * @param index The index of the element to return.
-     * @return The unk3300MJLMJBMGJPP at the given index.
+     * @return The lockReasonList at the given index.
      */
-    public int getUnk3300MJLMJBMGJPP(int index) {
-      return unk3300MJLMJBMGJPP_.getInt(index);
+    public int getLockReasonList(int index) {
+      return lockReasonList_.getInt(index);
     }
-    private int unk3300MJLMJBMGJPPMemoizedSerializedSize = -1;
+    private int lockReasonListMemoizedSerializedSize = -1;
 
     public static final int COOP_CG_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.newproto.CoopCgOuterClass.CoopCg> coopCgList_;
@@ -669,15 +669,15 @@ public final class CoopChapterOuterClass {
       return map.get(key);
     }
 
-    public static final int UNK3300_KMJHIMBIGJF_FIELD_NUMBER = 8;
-    private int unk3300KMJHIMBIGJF_;
+    public static final int FINISHED_END_COUNT_FIELD_NUMBER = 8;
+    private int finishedEndCount_;
     /**
-     * <code>uint32 Unk3300_KMJHIMBIGJF = 8;</code>
-     * @return The unk3300KMJHIMBIGJF.
+     * <code>uint32 finished_end_count = 8;</code>
+     * @return The finishedEndCount.
      */
     @java.lang.Override
-    public int getUnk3300KMJHIMBIGJF() {
-      return unk3300KMJHIMBIGJF_;
+    public int getFinishedEndCount() {
+      return finishedEndCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -701,31 +701,31 @@ public final class CoopChapterOuterClass {
       for (int i = 0; i < coopRewardList_.size(); i++) {
         output.writeMessage(3, coopRewardList_.get(i));
       }
-      if (getUnk3300MJLMJBMGJPPList().size() > 0) {
+      if (getLockReasonListList().size() > 0) {
         output.writeUInt32NoTag(34);
-        output.writeUInt32NoTag(unk3300MJLMJBMGJPPMemoizedSerializedSize);
+        output.writeUInt32NoTag(lockReasonListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300MJLMJBMGJPP_.size(); i++) {
-        output.writeUInt32NoTag(unk3300MJLMJBMGJPP_.getInt(i));
+      for (int i = 0; i < lockReasonList_.size(); i++) {
+        output.writeUInt32NoTag(lockReasonList_.getInt(i));
       }
-      if (getUnk3300MOOKBLFKOLCList().size() > 0) {
+      if (getFinishDialogListList().size() > 0) {
         output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(unk3300MOOKBLFKOLCMemoizedSerializedSize);
+        output.writeUInt32NoTag(finishDialogListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300MOOKBLFKOLC_.size(); i++) {
-        output.writeUInt32NoTag(unk3300MOOKBLFKOLC_.getInt(i));
+      for (int i = 0; i < finishDialogList_.size(); i++) {
+        output.writeUInt32NoTag(finishDialogList_.getInt(i));
       }
       if (state_ != emu.grasscutter.net.newproto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
         output.writeEnum(7, state_);
       }
-      if (unk3300KMJHIMBIGJF_ != 0) {
-        output.writeUInt32(8, unk3300KMJHIMBIGJF_);
+      if (finishedEndCount_ != 0) {
+        output.writeUInt32(8, finishedEndCount_);
       }
       if (id_ != 0) {
         output.writeUInt32(9, id_);
       }
-      if (unk3300KDLGLOIIINH_ != 0) {
-        output.writeUInt32(11, unk3300KDLGLOIIINH_);
+      if (totalEndCount_ != 0) {
+        output.writeUInt32(11, totalEndCount_);
       }
       for (int i = 0; i < coopPointList_.size(); i++) {
         output.writeMessage(12, coopPointList_.get(i));
@@ -755,47 +755,47 @@ public final class CoopChapterOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300MJLMJBMGJPP_.size(); i++) {
+        for (int i = 0; i < lockReasonList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300MJLMJBMGJPP_.getInt(i));
+            .computeUInt32SizeNoTag(lockReasonList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300MJLMJBMGJPPList().isEmpty()) {
+        if (!getLockReasonListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300MJLMJBMGJPPMemoizedSerializedSize = dataSize;
+        lockReasonListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300MOOKBLFKOLC_.size(); i++) {
+        for (int i = 0; i < finishDialogList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300MOOKBLFKOLC_.getInt(i));
+            .computeUInt32SizeNoTag(finishDialogList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300MOOKBLFKOLCList().isEmpty()) {
+        if (!getFinishDialogListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300MOOKBLFKOLCMemoizedSerializedSize = dataSize;
+        finishDialogListMemoizedSerializedSize = dataSize;
       }
       if (state_ != emu.grasscutter.net.newproto.CoopChapterOuterClass.CoopChapter.State.STATE_CLOSE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(7, state_);
       }
-      if (unk3300KMJHIMBIGJF_ != 0) {
+      if (finishedEndCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300KMJHIMBIGJF_);
+          .computeUInt32Size(8, finishedEndCount_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, id_);
       }
-      if (unk3300KDLGLOIIINH_ != 0) {
+      if (totalEndCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, unk3300KDLGLOIIINH_);
+          .computeUInt32Size(11, totalEndCount_);
       }
       for (int i = 0; i < coopPointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -830,21 +830,21 @@ public final class CoopChapterOuterClass {
           != other.getId()) return false;
       if (!getCoopPointListList()
           .equals(other.getCoopPointListList())) return false;
-      if (!getUnk3300MOOKBLFKOLCList()
-          .equals(other.getUnk3300MOOKBLFKOLCList())) return false;
+      if (!getFinishDialogListList()
+          .equals(other.getFinishDialogListList())) return false;
       if (state_ != other.state_) return false;
-      if (getUnk3300KDLGLOIIINH()
-          != other.getUnk3300KDLGLOIIINH()) return false;
+      if (getTotalEndCount()
+          != other.getTotalEndCount()) return false;
       if (!getCoopRewardListList()
           .equals(other.getCoopRewardListList())) return false;
-      if (!getUnk3300MJLMJBMGJPPList()
-          .equals(other.getUnk3300MJLMJBMGJPPList())) return false;
+      if (!getLockReasonListList()
+          .equals(other.getLockReasonListList())) return false;
       if (!getCoopCgListList()
           .equals(other.getCoopCgListList())) return false;
       if (!internalGetSeenEndingMap().equals(
           other.internalGetSeenEndingMap())) return false;
-      if (getUnk3300KMJHIMBIGJF()
-          != other.getUnk3300KMJHIMBIGJF()) return false;
+      if (getFinishedEndCount()
+          != other.getFinishedEndCount()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -862,21 +862,21 @@ public final class CoopChapterOuterClass {
         hash = (37 * hash) + COOP_POINT_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getCoopPointListList().hashCode();
       }
-      if (getUnk3300MOOKBLFKOLCCount() > 0) {
-        hash = (37 * hash) + UNK3300_MOOKBLFKOLC_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300MOOKBLFKOLCList().hashCode();
+      if (getFinishDialogListCount() > 0) {
+        hash = (37 * hash) + FINISH_DIALOG_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getFinishDialogListList().hashCode();
       }
       hash = (37 * hash) + STATE_FIELD_NUMBER;
       hash = (53 * hash) + state_;
-      hash = (37 * hash) + UNK3300_KDLGLOIIINH_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KDLGLOIIINH();
+      hash = (37 * hash) + TOTAL_END_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getTotalEndCount();
       if (getCoopRewardListCount() > 0) {
         hash = (37 * hash) + COOP_REWARD_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getCoopRewardListList().hashCode();
       }
-      if (getUnk3300MJLMJBMGJPPCount() > 0) {
-        hash = (37 * hash) + UNK3300_MJLMJBMGJPP_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300MJLMJBMGJPPList().hashCode();
+      if (getLockReasonListCount() > 0) {
+        hash = (37 * hash) + LOCK_REASON_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getLockReasonListList().hashCode();
       }
       if (getCoopCgListCount() > 0) {
         hash = (37 * hash) + COOP_CG_LIST_FIELD_NUMBER;
@@ -886,8 +886,8 @@ public final class CoopChapterOuterClass {
         hash = (37 * hash) + SEEN_ENDING_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetSeenEndingMap().hashCode();
       }
-      hash = (37 * hash) + UNK3300_KMJHIMBIGJF_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KMJHIMBIGJF();
+      hash = (37 * hash) + FINISHED_END_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getFinishedEndCount();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1047,11 +1047,11 @@ public final class CoopChapterOuterClass {
           coopPointListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300MOOKBLFKOLC_ = emptyIntList();
+        finishDialogList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         state_ = 0;
 
-        unk3300KDLGLOIIINH_ = 0;
+        totalEndCount_ = 0;
 
         if (coopRewardListBuilder_ == null) {
           coopRewardList_ = java.util.Collections.emptyList();
@@ -1060,7 +1060,7 @@ public final class CoopChapterOuterClass {
           coopRewardListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000004);
-        unk3300MJLMJBMGJPP_ = emptyIntList();
+        lockReasonList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
         if (coopCgListBuilder_ == null) {
           coopCgList_ = java.util.Collections.emptyList();
@@ -1070,7 +1070,7 @@ public final class CoopChapterOuterClass {
         }
         bitField0_ = (bitField0_ & ~0x00000010);
         internalGetMutableSeenEndingMap().clear();
-        unk3300KMJHIMBIGJF_ = 0;
+        finishedEndCount_ = 0;
 
         return this;
       }
@@ -1110,12 +1110,12 @@ public final class CoopChapterOuterClass {
           result.coopPointList_ = coopPointListBuilder_.build();
         }
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300MOOKBLFKOLC_.makeImmutable();
+          finishDialogList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300MOOKBLFKOLC_ = unk3300MOOKBLFKOLC_;
+        result.finishDialogList_ = finishDialogList_;
         result.state_ = state_;
-        result.unk3300KDLGLOIIINH_ = unk3300KDLGLOIIINH_;
+        result.totalEndCount_ = totalEndCount_;
         if (coopRewardListBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
             coopRewardList_ = java.util.Collections.unmodifiableList(coopRewardList_);
@@ -1126,10 +1126,10 @@ public final class CoopChapterOuterClass {
           result.coopRewardList_ = coopRewardListBuilder_.build();
         }
         if (((bitField0_ & 0x00000008) != 0)) {
-          unk3300MJLMJBMGJPP_.makeImmutable();
+          lockReasonList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000008);
         }
-        result.unk3300MJLMJBMGJPP_ = unk3300MJLMJBMGJPP_;
+        result.lockReasonList_ = lockReasonList_;
         if (coopCgListBuilder_ == null) {
           if (((bitField0_ & 0x00000010) != 0)) {
             coopCgList_ = java.util.Collections.unmodifiableList(coopCgList_);
@@ -1141,7 +1141,7 @@ public final class CoopChapterOuterClass {
         }
         result.seenEndingMap_ = internalGetSeenEndingMap();
         result.seenEndingMap_.makeImmutable();
-        result.unk3300KMJHIMBIGJF_ = unk3300KMJHIMBIGJF_;
+        result.finishedEndCount_ = finishedEndCount_;
         onBuilt();
         return result;
       }
@@ -1219,21 +1219,21 @@ public final class CoopChapterOuterClass {
             }
           }
         }
-        if (!other.unk3300MOOKBLFKOLC_.isEmpty()) {
-          if (unk3300MOOKBLFKOLC_.isEmpty()) {
-            unk3300MOOKBLFKOLC_ = other.unk3300MOOKBLFKOLC_;
+        if (!other.finishDialogList_.isEmpty()) {
+          if (finishDialogList_.isEmpty()) {
+            finishDialogList_ = other.finishDialogList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300MOOKBLFKOLCIsMutable();
-            unk3300MOOKBLFKOLC_.addAll(other.unk3300MOOKBLFKOLC_);
+            ensureFinishDialogListIsMutable();
+            finishDialogList_.addAll(other.finishDialogList_);
           }
           onChanged();
         }
         if (other.state_ != 0) {
           setStateValue(other.getStateValue());
         }
-        if (other.getUnk3300KDLGLOIIINH() != 0) {
-          setUnk3300KDLGLOIIINH(other.getUnk3300KDLGLOIIINH());
+        if (other.getTotalEndCount() != 0) {
+          setTotalEndCount(other.getTotalEndCount());
         }
         if (coopRewardListBuilder_ == null) {
           if (!other.coopRewardList_.isEmpty()) {
@@ -1261,13 +1261,13 @@ public final class CoopChapterOuterClass {
             }
           }
         }
-        if (!other.unk3300MJLMJBMGJPP_.isEmpty()) {
-          if (unk3300MJLMJBMGJPP_.isEmpty()) {
-            unk3300MJLMJBMGJPP_ = other.unk3300MJLMJBMGJPP_;
+        if (!other.lockReasonList_.isEmpty()) {
+          if (lockReasonList_.isEmpty()) {
+            lockReasonList_ = other.lockReasonList_;
             bitField0_ = (bitField0_ & ~0x00000008);
           } else {
-            ensureUnk3300MJLMJBMGJPPIsMutable();
-            unk3300MJLMJBMGJPP_.addAll(other.unk3300MJLMJBMGJPP_);
+            ensureLockReasonListIsMutable();
+            lockReasonList_.addAll(other.lockReasonList_);
           }
           onChanged();
         }
@@ -1299,8 +1299,8 @@ public final class CoopChapterOuterClass {
         }
         internalGetMutableSeenEndingMap().mergeFrom(
             other.internalGetSeenEndingMap());
-        if (other.getUnk3300KMJHIMBIGJF() != 0) {
-          setUnk3300KMJHIMBIGJF(other.getUnk3300KMJHIMBIGJF());
+        if (other.getFinishedEndCount() != 0) {
+          setFinishedEndCount(other.getFinishedEndCount());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -1356,32 +1356,32 @@ public final class CoopChapterOuterClass {
               } // case 26
               case 32: {
                 int v = input.readUInt32();
-                ensureUnk3300MJLMJBMGJPPIsMutable();
-                unk3300MJLMJBMGJPP_.addInt(v);
+                ensureLockReasonListIsMutable();
+                lockReasonList_.addInt(v);
                 break;
               } // case 32
               case 34: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300MJLMJBMGJPPIsMutable();
+                ensureLockReasonListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300MJLMJBMGJPP_.addInt(input.readUInt32());
+                  lockReasonList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
               } // case 34
               case 48: {
                 int v = input.readUInt32();
-                ensureUnk3300MOOKBLFKOLCIsMutable();
-                unk3300MOOKBLFKOLC_.addInt(v);
+                ensureFinishDialogListIsMutable();
+                finishDialogList_.addInt(v);
                 break;
               } // case 48
               case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300MOOKBLFKOLCIsMutable();
+                ensureFinishDialogListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300MOOKBLFKOLC_.addInt(input.readUInt32());
+                  finishDialogList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -1392,7 +1392,7 @@ public final class CoopChapterOuterClass {
                 break;
               } // case 56
               case 64: {
-                unk3300KMJHIMBIGJF_ = input.readUInt32();
+                finishedEndCount_ = input.readUInt32();
 
                 break;
               } // case 64
@@ -1402,7 +1402,7 @@ public final class CoopChapterOuterClass {
                 break;
               } // case 72
               case 88: {
-                unk3300KDLGLOIIINH_ = input.readUInt32();
+                totalEndCount_ = input.readUInt32();
 
                 break;
               } // case 88
@@ -1715,80 +1715,80 @@ public final class CoopChapterOuterClass {
         return coopPointListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300MOOKBLFKOLC_ = emptyIntList();
-      private void ensureUnk3300MOOKBLFKOLCIsMutable() {
+      private com.google.protobuf.Internal.IntList finishDialogList_ = emptyIntList();
+      private void ensureFinishDialogListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300MOOKBLFKOLC_ = mutableCopy(unk3300MOOKBLFKOLC_);
+          finishDialogList_ = mutableCopy(finishDialogList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-       * @return A list containing the unk3300MOOKBLFKOLC.
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
+       * @return A list containing the finishDialogList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300MOOKBLFKOLCList() {
+          getFinishDialogListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300MOOKBLFKOLC_) : unk3300MOOKBLFKOLC_;
+                 java.util.Collections.unmodifiableList(finishDialogList_) : finishDialogList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-       * @return The count of unk3300MOOKBLFKOLC.
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
+       * @return The count of finishDialogList.
        */
-      public int getUnk3300MOOKBLFKOLCCount() {
-        return unk3300MOOKBLFKOLC_.size();
+      public int getFinishDialogListCount() {
+        return finishDialogList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
        * @param index The index of the element to return.
-       * @return The unk3300MOOKBLFKOLC at the given index.
+       * @return The finishDialogList at the given index.
        */
-      public int getUnk3300MOOKBLFKOLC(int index) {
-        return unk3300MOOKBLFKOLC_.getInt(index);
+      public int getFinishDialogList(int index) {
+        return finishDialogList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300MOOKBLFKOLC to set.
+       * @param value The finishDialogList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MOOKBLFKOLC(
+      public Builder setFinishDialogList(
           int index, int value) {
-        ensureUnk3300MOOKBLFKOLCIsMutable();
-        unk3300MOOKBLFKOLC_.setInt(index, value);
+        ensureFinishDialogListIsMutable();
+        finishDialogList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-       * @param value The unk3300MOOKBLFKOLC to add.
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
+       * @param value The finishDialogList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300MOOKBLFKOLC(int value) {
-        ensureUnk3300MOOKBLFKOLCIsMutable();
-        unk3300MOOKBLFKOLC_.addInt(value);
+      public Builder addFinishDialogList(int value) {
+        ensureFinishDialogListIsMutable();
+        finishDialogList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
-       * @param values The unk3300MOOKBLFKOLC to add.
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
+       * @param values The finishDialogList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300MOOKBLFKOLC(
+      public Builder addAllFinishDialogList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300MOOKBLFKOLCIsMutable();
+        ensureFinishDialogListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300MOOKBLFKOLC_);
+            values, finishDialogList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MOOKBLFKOLC = 6;</code>
+       * <code>repeated uint32 finish_dialog_list = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MOOKBLFKOLC() {
-        unk3300MOOKBLFKOLC_ = emptyIntList();
+      public Builder clearFinishDialogList() {
+        finishDialogList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -1848,33 +1848,33 @@ public final class CoopChapterOuterClass {
         return this;
       }
 
-      private int unk3300KDLGLOIIINH_ ;
+      private int totalEndCount_ ;
       /**
-       * <code>uint32 Unk3300_KDLGLOIIINH = 11;</code>
-       * @return The unk3300KDLGLOIIINH.
+       * <code>uint32 total_end_count = 11;</code>
+       * @return The totalEndCount.
        */
       @java.lang.Override
-      public int getUnk3300KDLGLOIIINH() {
-        return unk3300KDLGLOIIINH_;
+      public int getTotalEndCount() {
+        return totalEndCount_;
       }
       /**
-       * <code>uint32 Unk3300_KDLGLOIIINH = 11;</code>
-       * @param value The unk3300KDLGLOIIINH to set.
+       * <code>uint32 total_end_count = 11;</code>
+       * @param value The totalEndCount to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KDLGLOIIINH(int value) {
+      public Builder setTotalEndCount(int value) {
         
-        unk3300KDLGLOIIINH_ = value;
+        totalEndCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KDLGLOIIINH = 11;</code>
+       * <code>uint32 total_end_count = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KDLGLOIIINH() {
+      public Builder clearTotalEndCount() {
         
-        unk3300KDLGLOIIINH_ = 0;
+        totalEndCount_ = 0;
         onChanged();
         return this;
       }
@@ -2119,80 +2119,80 @@ public final class CoopChapterOuterClass {
         return coopRewardListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300MJLMJBMGJPP_ = emptyIntList();
-      private void ensureUnk3300MJLMJBMGJPPIsMutable() {
+      private com.google.protobuf.Internal.IntList lockReasonList_ = emptyIntList();
+      private void ensureLockReasonListIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          unk3300MJLMJBMGJPP_ = mutableCopy(unk3300MJLMJBMGJPP_);
+          lockReasonList_ = mutableCopy(lockReasonList_);
           bitField0_ |= 0x00000008;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-       * @return A list containing the unk3300MJLMJBMGJPP.
+       * <code>repeated uint32 lock_reason_list = 4;</code>
+       * @return A list containing the lockReasonList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300MJLMJBMGJPPList() {
+          getLockReasonListList() {
         return ((bitField0_ & 0x00000008) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300MJLMJBMGJPP_) : unk3300MJLMJBMGJPP_;
+                 java.util.Collections.unmodifiableList(lockReasonList_) : lockReasonList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-       * @return The count of unk3300MJLMJBMGJPP.
+       * <code>repeated uint32 lock_reason_list = 4;</code>
+       * @return The count of lockReasonList.
        */
-      public int getUnk3300MJLMJBMGJPPCount() {
-        return unk3300MJLMJBMGJPP_.size();
+      public int getLockReasonListCount() {
+        return lockReasonList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
+       * <code>repeated uint32 lock_reason_list = 4;</code>
        * @param index The index of the element to return.
-       * @return The unk3300MJLMJBMGJPP at the given index.
+       * @return The lockReasonList at the given index.
        */
-      public int getUnk3300MJLMJBMGJPP(int index) {
-        return unk3300MJLMJBMGJPP_.getInt(index);
+      public int getLockReasonList(int index) {
+        return lockReasonList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
+       * <code>repeated uint32 lock_reason_list = 4;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300MJLMJBMGJPP to set.
+       * @param value The lockReasonList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MJLMJBMGJPP(
+      public Builder setLockReasonList(
           int index, int value) {
-        ensureUnk3300MJLMJBMGJPPIsMutable();
-        unk3300MJLMJBMGJPP_.setInt(index, value);
+        ensureLockReasonListIsMutable();
+        lockReasonList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-       * @param value The unk3300MJLMJBMGJPP to add.
+       * <code>repeated uint32 lock_reason_list = 4;</code>
+       * @param value The lockReasonList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300MJLMJBMGJPP(int value) {
-        ensureUnk3300MJLMJBMGJPPIsMutable();
-        unk3300MJLMJBMGJPP_.addInt(value);
+      public Builder addLockReasonList(int value) {
+        ensureLockReasonListIsMutable();
+        lockReasonList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
-       * @param values The unk3300MJLMJBMGJPP to add.
+       * <code>repeated uint32 lock_reason_list = 4;</code>
+       * @param values The lockReasonList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300MJLMJBMGJPP(
+      public Builder addAllLockReasonList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300MJLMJBMGJPPIsMutable();
+        ensureLockReasonListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300MJLMJBMGJPP_);
+            values, lockReasonList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_MJLMJBMGJPP = 4;</code>
+       * <code>repeated uint32 lock_reason_list = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MJLMJBMGJPP() {
-        unk3300MJLMJBMGJPP_ = emptyIntList();
+      public Builder clearLockReasonList() {
+        lockReasonList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
         onChanged();
         return this;
@@ -2566,33 +2566,33 @@ public final class CoopChapterOuterClass {
         return this;
       }
 
-      private int unk3300KMJHIMBIGJF_ ;
+      private int finishedEndCount_ ;
       /**
-       * <code>uint32 Unk3300_KMJHIMBIGJF = 8;</code>
-       * @return The unk3300KMJHIMBIGJF.
+       * <code>uint32 finished_end_count = 8;</code>
+       * @return The finishedEndCount.
        */
       @java.lang.Override
-      public int getUnk3300KMJHIMBIGJF() {
-        return unk3300KMJHIMBIGJF_;
+      public int getFinishedEndCount() {
+        return finishedEndCount_;
       }
       /**
-       * <code>uint32 Unk3300_KMJHIMBIGJF = 8;</code>
-       * @param value The unk3300KMJHIMBIGJF to set.
+       * <code>uint32 finished_end_count = 8;</code>
+       * @param value The finishedEndCount to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KMJHIMBIGJF(int value) {
+      public Builder setFinishedEndCount(int value) {
         
-        unk3300KMJHIMBIGJF_ = value;
+        finishedEndCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KMJHIMBIGJF = 8;</code>
+       * <code>uint32 finished_end_count = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KMJHIMBIGJF() {
+      public Builder clearFinishedEndCount() {
         
-        unk3300KMJHIMBIGJF_ = 0;
+        finishedEndCount_ = 0;
         onChanged();
         return this;
       }
@@ -2680,20 +2680,20 @@ public final class CoopChapterOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CoopChapter.proto\032\014CoopCg.proto\032\017CoopP" +
-      "oint.proto\032\020CoopReward.proto\"\345\003\n\013CoopCha" +
+      "oint.proto\032\020CoopReward.proto\"\334\003\n\013CoopCha" +
       "pter\022\n\n\002id\030\t \001(\r\022#\n\017coop_point_list\030\014 \003(" +
-      "\0132\n.CoopPoint\022\033\n\023Unk3300_MOOKBLFKOLC\030\006 \003" +
-      "(\r\022!\n\005state\030\007 \001(\0162\022.CoopChapter.State\022\033\n" +
-      "\023Unk3300_KDLGLOIIINH\030\013 \001(\r\022%\n\020coop_rewar" +
-      "d_list\030\003 \003(\0132\013.CoopReward\022\033\n\023Unk3300_MJL" +
-      "MJBMGJPP\030\004 \003(\r\022\035\n\014coop_cg_list\030\002 \003(\0132\007.C" +
-      "oopCg\0228\n\017seen_ending_map\030\017 \003(\0132\037.CoopCha" +
-      "pter.SeenEndingMapEntry\022\033\n\023Unk3300_KMJHI" +
-      "MBIGJF\030\010 \001(\r\0324\n\022SeenEndingMapEntry\022\013\n\003ke" +
-      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"X\n\005State\022\017\n\013S" +
-      "TATE_CLOSE\020\000\022\027\n\023STATE_COND_NOT_MEET\020\001\022\023\n" +
-      "\017STATE_COND_MEET\020\002\022\020\n\014STATE_ACCEPT\020\003B\036\n\034" +
-      "emu.grasscutter.net.newprotob\006proto3"
+      "\0132\n.CoopPoint\022\032\n\022finish_dialog_list\030\006 \003(" +
+      "\r\022!\n\005state\030\007 \001(\0162\022.CoopChapter.State\022\027\n\017" +
+      "total_end_count\030\013 \001(\r\022%\n\020coop_reward_lis" +
+      "t\030\003 \003(\0132\013.CoopReward\022\030\n\020lock_reason_list" +
+      "\030\004 \003(\r\022\035\n\014coop_cg_list\030\002 \003(\0132\007.CoopCg\0228\n" +
+      "\017seen_ending_map\030\017 \003(\0132\037.CoopChapter.See" +
+      "nEndingMapEntry\022\032\n\022finished_end_count\030\010 " +
+      "\001(\r\0324\n\022SeenEndingMapEntry\022\013\n\003key\030\001 \001(\r\022\r" +
+      "\n\005value\030\002 \001(\r:\0028\001\"X\n\005State\022\017\n\013STATE_CLOS" +
+      "E\020\000\022\027\n\023STATE_COND_NOT_MEET\020\001\022\023\n\017STATE_CO" +
+      "ND_MEET\020\002\022\020\n\014STATE_ACCEPT\020\003B\036\n\034emu.grass" +
+      "cutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2707,7 +2707,7 @@ public final class CoopChapterOuterClass {
     internal_static_CoopChapter_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoopChapter_descriptor,
-        new java.lang.String[] { "Id", "CoopPointList", "Unk3300MOOKBLFKOLC", "State", "Unk3300KDLGLOIIINH", "CoopRewardList", "Unk3300MJLMJBMGJPP", "CoopCgList", "SeenEndingMap", "Unk3300KMJHIMBIGJF", });
+        new java.lang.String[] { "Id", "CoopPointList", "FinishDialogList", "State", "TotalEndCount", "CoopRewardList", "LockReasonList", "CoopCgList", "SeenEndingMap", "FinishedEndCount", });
     internal_static_CoopChapter_SeenEndingMapEntry_descriptor =
       internal_static_CoopChapter_descriptor.getNestedTypes().get(0);
     internal_static_CoopChapter_SeenEndingMapEntry_fieldAccessorTable = new

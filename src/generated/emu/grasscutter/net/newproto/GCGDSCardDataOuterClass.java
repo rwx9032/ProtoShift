@@ -37,38 +37,38 @@ public final class GCGDSCardDataOuterClass {
     int getCardId();
 
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-     * @return A list containing the unk3300CIGGHHIHJFM.
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+     * @return A list containing the proficiencyRewardTakenIdxList.
      */
-    java.util.List<java.lang.Integer> getUnk3300CIGGHHIHJFMList();
+    java.util.List<java.lang.Integer> getProficiencyRewardTakenIdxListList();
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-     * @return The count of unk3300CIGGHHIHJFM.
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+     * @return The count of proficiencyRewardTakenIdxList.
      */
-    int getUnk3300CIGGHHIHJFMCount();
+    int getProficiencyRewardTakenIdxListCount();
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
      * @param index The index of the element to return.
-     * @return The unk3300CIGGHHIHJFM at the given index.
+     * @return The proficiencyRewardTakenIdxList at the given index.
      */
-    int getUnk3300CIGGHHIHJFM(int index);
+    int getProficiencyRewardTakenIdxList(int index);
 
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-     * @return A list containing the unk3300OAFMDJCPCJH.
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
+     * @return A list containing the unlockFaceTypeList.
      */
-    java.util.List<java.lang.Integer> getUnk3300OAFMDJCPCJHList();
+    java.util.List<java.lang.Integer> getUnlockFaceTypeListList();
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-     * @return The count of unk3300OAFMDJCPCJH.
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
+     * @return The count of unlockFaceTypeList.
      */
-    int getUnk3300OAFMDJCPCJHCount();
+    int getUnlockFaceTypeListCount();
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300OAFMDJCPCJH at the given index.
+     * @return The unlockFaceTypeList at the given index.
      */
-    int getUnk3300OAFMDJCPCJH(int index);
+    int getUnlockFaceTypeList(int index);
 
     /**
      * <code>uint32 proficiency = 10;</code>
@@ -89,8 +89,8 @@ public final class GCGDSCardDataOuterClass {
       super(builder);
     }
     private GCGDSCardData() {
-      unk3300CIGGHHIHJFM_ = emptyIntList();
-      unk3300OAFMDJCPCJH_ = emptyIntList();
+      proficiencyRewardTakenIdxList_ = emptyIntList();
+      unlockFaceTypeList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -151,61 +151,61 @@ public final class GCGDSCardDataOuterClass {
       return cardId_;
     }
 
-    public static final int UNK3300_CIGGHHIHJFM_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.IntList unk3300CIGGHHIHJFM_;
+    public static final int PROFICIENCY_REWARD_TAKEN_IDX_LIST_FIELD_NUMBER = 14;
+    private com.google.protobuf.Internal.IntList proficiencyRewardTakenIdxList_;
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-     * @return A list containing the unk3300CIGGHHIHJFM.
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+     * @return A list containing the proficiencyRewardTakenIdxList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300CIGGHHIHJFMList() {
-      return unk3300CIGGHHIHJFM_;
+        getProficiencyRewardTakenIdxListList() {
+      return proficiencyRewardTakenIdxList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-     * @return The count of unk3300CIGGHHIHJFM.
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+     * @return The count of proficiencyRewardTakenIdxList.
      */
-    public int getUnk3300CIGGHHIHJFMCount() {
-      return unk3300CIGGHHIHJFM_.size();
+    public int getProficiencyRewardTakenIdxListCount() {
+      return proficiencyRewardTakenIdxList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
+     * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
      * @param index The index of the element to return.
-     * @return The unk3300CIGGHHIHJFM at the given index.
+     * @return The proficiencyRewardTakenIdxList at the given index.
      */
-    public int getUnk3300CIGGHHIHJFM(int index) {
-      return unk3300CIGGHHIHJFM_.getInt(index);
+    public int getProficiencyRewardTakenIdxList(int index) {
+      return proficiencyRewardTakenIdxList_.getInt(index);
     }
-    private int unk3300CIGGHHIHJFMMemoizedSerializedSize = -1;
+    private int proficiencyRewardTakenIdxListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_OAFMDJCPCJH_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList unk3300OAFMDJCPCJH_;
+    public static final int UNLOCK_FACE_TYPE_LIST_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList unlockFaceTypeList_;
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-     * @return A list containing the unk3300OAFMDJCPCJH.
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
+     * @return A list containing the unlockFaceTypeList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300OAFMDJCPCJHList() {
-      return unk3300OAFMDJCPCJH_;
+        getUnlockFaceTypeListList() {
+      return unlockFaceTypeList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-     * @return The count of unk3300OAFMDJCPCJH.
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
+     * @return The count of unlockFaceTypeList.
      */
-    public int getUnk3300OAFMDJCPCJHCount() {
-      return unk3300OAFMDJCPCJH_.size();
+    public int getUnlockFaceTypeListCount() {
+      return unlockFaceTypeList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
+     * <code>repeated uint32 unlock_face_type_list = 6;</code>
      * @param index The index of the element to return.
-     * @return The unk3300OAFMDJCPCJH at the given index.
+     * @return The unlockFaceTypeList at the given index.
      */
-    public int getUnk3300OAFMDJCPCJH(int index) {
-      return unk3300OAFMDJCPCJH_.getInt(index);
+    public int getUnlockFaceTypeList(int index) {
+      return unlockFaceTypeList_.getInt(index);
     }
-    private int unk3300OAFMDJCPCJHMemoizedSerializedSize = -1;
+    private int unlockFaceTypeListMemoizedSerializedSize = -1;
 
     public static final int PROFICIENCY_FIELD_NUMBER = 10;
     private int proficiency_;
@@ -239,12 +239,12 @@ public final class GCGDSCardDataOuterClass {
       if (faceType_ != 0) {
         output.writeUInt32(5, faceType_);
       }
-      if (getUnk3300OAFMDJCPCJHList().size() > 0) {
+      if (getUnlockFaceTypeListList().size() > 0) {
         output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(unk3300OAFMDJCPCJHMemoizedSerializedSize);
+        output.writeUInt32NoTag(unlockFaceTypeListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300OAFMDJCPCJH_.size(); i++) {
-        output.writeUInt32NoTag(unk3300OAFMDJCPCJH_.getInt(i));
+      for (int i = 0; i < unlockFaceTypeList_.size(); i++) {
+        output.writeUInt32NoTag(unlockFaceTypeList_.getInt(i));
       }
       if (proficiency_ != 0) {
         output.writeUInt32(10, proficiency_);
@@ -252,12 +252,12 @@ public final class GCGDSCardDataOuterClass {
       if (num_ != 0) {
         output.writeUInt32(11, num_);
       }
-      if (getUnk3300CIGGHHIHJFMList().size() > 0) {
+      if (getProficiencyRewardTakenIdxListList().size() > 0) {
         output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(unk3300CIGGHHIHJFMMemoizedSerializedSize);
+        output.writeUInt32NoTag(proficiencyRewardTakenIdxListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300CIGGHHIHJFM_.size(); i++) {
-        output.writeUInt32NoTag(unk3300CIGGHHIHJFM_.getInt(i));
+      for (int i = 0; i < proficiencyRewardTakenIdxList_.size(); i++) {
+        output.writeUInt32NoTag(proficiencyRewardTakenIdxList_.getInt(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -278,17 +278,17 @@ public final class GCGDSCardDataOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300OAFMDJCPCJH_.size(); i++) {
+        for (int i = 0; i < unlockFaceTypeList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300OAFMDJCPCJH_.getInt(i));
+            .computeUInt32SizeNoTag(unlockFaceTypeList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300OAFMDJCPCJHList().isEmpty()) {
+        if (!getUnlockFaceTypeListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300OAFMDJCPCJHMemoizedSerializedSize = dataSize;
+        unlockFaceTypeListMemoizedSerializedSize = dataSize;
       }
       if (proficiency_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -300,17 +300,17 @@ public final class GCGDSCardDataOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300CIGGHHIHJFM_.size(); i++) {
+        for (int i = 0; i < proficiencyRewardTakenIdxList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300CIGGHHIHJFM_.getInt(i));
+            .computeUInt32SizeNoTag(proficiencyRewardTakenIdxList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300CIGGHHIHJFMList().isEmpty()) {
+        if (!getProficiencyRewardTakenIdxListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300CIGGHHIHJFMMemoizedSerializedSize = dataSize;
+        proficiencyRewardTakenIdxListMemoizedSerializedSize = dataSize;
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -333,10 +333,10 @@ public final class GCGDSCardDataOuterClass {
           != other.getFaceType()) return false;
       if (getCardId()
           != other.getCardId()) return false;
-      if (!getUnk3300CIGGHHIHJFMList()
-          .equals(other.getUnk3300CIGGHHIHJFMList())) return false;
-      if (!getUnk3300OAFMDJCPCJHList()
-          .equals(other.getUnk3300OAFMDJCPCJHList())) return false;
+      if (!getProficiencyRewardTakenIdxListList()
+          .equals(other.getProficiencyRewardTakenIdxListList())) return false;
+      if (!getUnlockFaceTypeListList()
+          .equals(other.getUnlockFaceTypeListList())) return false;
       if (getProficiency()
           != other.getProficiency()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -356,13 +356,13 @@ public final class GCGDSCardDataOuterClass {
       hash = (53 * hash) + getFaceType();
       hash = (37 * hash) + CARD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCardId();
-      if (getUnk3300CIGGHHIHJFMCount() > 0) {
-        hash = (37 * hash) + UNK3300_CIGGHHIHJFM_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300CIGGHHIHJFMList().hashCode();
+      if (getProficiencyRewardTakenIdxListCount() > 0) {
+        hash = (37 * hash) + PROFICIENCY_REWARD_TAKEN_IDX_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getProficiencyRewardTakenIdxListList().hashCode();
       }
-      if (getUnk3300OAFMDJCPCJHCount() > 0) {
-        hash = (37 * hash) + UNK3300_OAFMDJCPCJH_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300OAFMDJCPCJHList().hashCode();
+      if (getUnlockFaceTypeListCount() > 0) {
+        hash = (37 * hash) + UNLOCK_FACE_TYPE_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUnlockFaceTypeListList().hashCode();
       }
       hash = (37 * hash) + PROFICIENCY_FIELD_NUMBER;
       hash = (53 * hash) + getProficiency();
@@ -500,9 +500,9 @@ public final class GCGDSCardDataOuterClass {
 
         cardId_ = 0;
 
-        unk3300CIGGHHIHJFM_ = emptyIntList();
+        proficiencyRewardTakenIdxList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300OAFMDJCPCJH_ = emptyIntList();
+        unlockFaceTypeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         proficiency_ = 0;
 
@@ -537,15 +537,15 @@ public final class GCGDSCardDataOuterClass {
         result.faceType_ = faceType_;
         result.cardId_ = cardId_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          unk3300CIGGHHIHJFM_.makeImmutable();
+          proficiencyRewardTakenIdxList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.unk3300CIGGHHIHJFM_ = unk3300CIGGHHIHJFM_;
+        result.proficiencyRewardTakenIdxList_ = proficiencyRewardTakenIdxList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300OAFMDJCPCJH_.makeImmutable();
+          unlockFaceTypeList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300OAFMDJCPCJH_ = unk3300OAFMDJCPCJH_;
+        result.unlockFaceTypeList_ = unlockFaceTypeList_;
         result.proficiency_ = proficiency_;
         onBuilt();
         return result;
@@ -604,23 +604,23 @@ public final class GCGDSCardDataOuterClass {
         if (other.getCardId() != 0) {
           setCardId(other.getCardId());
         }
-        if (!other.unk3300CIGGHHIHJFM_.isEmpty()) {
-          if (unk3300CIGGHHIHJFM_.isEmpty()) {
-            unk3300CIGGHHIHJFM_ = other.unk3300CIGGHHIHJFM_;
+        if (!other.proficiencyRewardTakenIdxList_.isEmpty()) {
+          if (proficiencyRewardTakenIdxList_.isEmpty()) {
+            proficiencyRewardTakenIdxList_ = other.proficiencyRewardTakenIdxList_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureUnk3300CIGGHHIHJFMIsMutable();
-            unk3300CIGGHHIHJFM_.addAll(other.unk3300CIGGHHIHJFM_);
+            ensureProficiencyRewardTakenIdxListIsMutable();
+            proficiencyRewardTakenIdxList_.addAll(other.proficiencyRewardTakenIdxList_);
           }
           onChanged();
         }
-        if (!other.unk3300OAFMDJCPCJH_.isEmpty()) {
-          if (unk3300OAFMDJCPCJH_.isEmpty()) {
-            unk3300OAFMDJCPCJH_ = other.unk3300OAFMDJCPCJH_;
+        if (!other.unlockFaceTypeList_.isEmpty()) {
+          if (unlockFaceTypeList_.isEmpty()) {
+            unlockFaceTypeList_ = other.unlockFaceTypeList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300OAFMDJCPCJHIsMutable();
-            unk3300OAFMDJCPCJH_.addAll(other.unk3300OAFMDJCPCJH_);
+            ensureUnlockFaceTypeListIsMutable();
+            unlockFaceTypeList_.addAll(other.unlockFaceTypeList_);
           }
           onChanged();
         }
@@ -665,16 +665,16 @@ public final class GCGDSCardDataOuterClass {
               } // case 40
               case 48: {
                 int v = input.readUInt32();
-                ensureUnk3300OAFMDJCPCJHIsMutable();
-                unk3300OAFMDJCPCJH_.addInt(v);
+                ensureUnlockFaceTypeListIsMutable();
+                unlockFaceTypeList_.addInt(v);
                 break;
               } // case 48
               case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300OAFMDJCPCJHIsMutable();
+                ensureUnlockFaceTypeListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300OAFMDJCPCJH_.addInt(input.readUInt32());
+                  unlockFaceTypeList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -691,16 +691,16 @@ public final class GCGDSCardDataOuterClass {
               } // case 88
               case 112: {
                 int v = input.readUInt32();
-                ensureUnk3300CIGGHHIHJFMIsMutable();
-                unk3300CIGGHHIHJFM_.addInt(v);
+                ensureProficiencyRewardTakenIdxListIsMutable();
+                proficiencyRewardTakenIdxList_.addInt(v);
                 break;
               } // case 112
               case 114: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300CIGGHHIHJFMIsMutable();
+                ensureProficiencyRewardTakenIdxListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300CIGGHHIHJFM_.addInt(input.readUInt32());
+                  proficiencyRewardTakenIdxList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -815,159 +815,159 @@ public final class GCGDSCardDataOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300CIGGHHIHJFM_ = emptyIntList();
-      private void ensureUnk3300CIGGHHIHJFMIsMutable() {
+      private com.google.protobuf.Internal.IntList proficiencyRewardTakenIdxList_ = emptyIntList();
+      private void ensureProficiencyRewardTakenIdxListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          unk3300CIGGHHIHJFM_ = mutableCopy(unk3300CIGGHHIHJFM_);
+          proficiencyRewardTakenIdxList_ = mutableCopy(proficiencyRewardTakenIdxList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-       * @return A list containing the unk3300CIGGHHIHJFM.
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+       * @return A list containing the proficiencyRewardTakenIdxList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300CIGGHHIHJFMList() {
+          getProficiencyRewardTakenIdxListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300CIGGHHIHJFM_) : unk3300CIGGHHIHJFM_;
+                 java.util.Collections.unmodifiableList(proficiencyRewardTakenIdxList_) : proficiencyRewardTakenIdxList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-       * @return The count of unk3300CIGGHHIHJFM.
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+       * @return The count of proficiencyRewardTakenIdxList.
        */
-      public int getUnk3300CIGGHHIHJFMCount() {
-        return unk3300CIGGHHIHJFM_.size();
+      public int getProficiencyRewardTakenIdxListCount() {
+        return proficiencyRewardTakenIdxList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
        * @param index The index of the element to return.
-       * @return The unk3300CIGGHHIHJFM at the given index.
+       * @return The proficiencyRewardTakenIdxList at the given index.
        */
-      public int getUnk3300CIGGHHIHJFM(int index) {
-        return unk3300CIGGHHIHJFM_.getInt(index);
+      public int getProficiencyRewardTakenIdxList(int index) {
+        return proficiencyRewardTakenIdxList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300CIGGHHIHJFM to set.
+       * @param value The proficiencyRewardTakenIdxList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300CIGGHHIHJFM(
+      public Builder setProficiencyRewardTakenIdxList(
           int index, int value) {
-        ensureUnk3300CIGGHHIHJFMIsMutable();
-        unk3300CIGGHHIHJFM_.setInt(index, value);
+        ensureProficiencyRewardTakenIdxListIsMutable();
+        proficiencyRewardTakenIdxList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-       * @param value The unk3300CIGGHHIHJFM to add.
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+       * @param value The proficiencyRewardTakenIdxList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300CIGGHHIHJFM(int value) {
-        ensureUnk3300CIGGHHIHJFMIsMutable();
-        unk3300CIGGHHIHJFM_.addInt(value);
+      public Builder addProficiencyRewardTakenIdxList(int value) {
+        ensureProficiencyRewardTakenIdxListIsMutable();
+        proficiencyRewardTakenIdxList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
-       * @param values The unk3300CIGGHHIHJFM to add.
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
+       * @param values The proficiencyRewardTakenIdxList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300CIGGHHIHJFM(
+      public Builder addAllProficiencyRewardTakenIdxList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300CIGGHHIHJFMIsMutable();
+        ensureProficiencyRewardTakenIdxListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300CIGGHHIHJFM_);
+            values, proficiencyRewardTakenIdxList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_CIGGHHIHJFM = 14;</code>
+       * <code>repeated uint32 proficiency_reward_taken_idx_list = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300CIGGHHIHJFM() {
-        unk3300CIGGHHIHJFM_ = emptyIntList();
+      public Builder clearProficiencyRewardTakenIdxList() {
+        proficiencyRewardTakenIdxList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300OAFMDJCPCJH_ = emptyIntList();
-      private void ensureUnk3300OAFMDJCPCJHIsMutable() {
+      private com.google.protobuf.Internal.IntList unlockFaceTypeList_ = emptyIntList();
+      private void ensureUnlockFaceTypeListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300OAFMDJCPCJH_ = mutableCopy(unk3300OAFMDJCPCJH_);
+          unlockFaceTypeList_ = mutableCopy(unlockFaceTypeList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-       * @return A list containing the unk3300OAFMDJCPCJH.
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
+       * @return A list containing the unlockFaceTypeList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300OAFMDJCPCJHList() {
+          getUnlockFaceTypeListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300OAFMDJCPCJH_) : unk3300OAFMDJCPCJH_;
+                 java.util.Collections.unmodifiableList(unlockFaceTypeList_) : unlockFaceTypeList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-       * @return The count of unk3300OAFMDJCPCJH.
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
+       * @return The count of unlockFaceTypeList.
        */
-      public int getUnk3300OAFMDJCPCJHCount() {
-        return unk3300OAFMDJCPCJH_.size();
+      public int getUnlockFaceTypeListCount() {
+        return unlockFaceTypeList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
        * @param index The index of the element to return.
-       * @return The unk3300OAFMDJCPCJH at the given index.
+       * @return The unlockFaceTypeList at the given index.
        */
-      public int getUnk3300OAFMDJCPCJH(int index) {
-        return unk3300OAFMDJCPCJH_.getInt(index);
+      public int getUnlockFaceTypeList(int index) {
+        return unlockFaceTypeList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300OAFMDJCPCJH to set.
+       * @param value The unlockFaceTypeList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OAFMDJCPCJH(
+      public Builder setUnlockFaceTypeList(
           int index, int value) {
-        ensureUnk3300OAFMDJCPCJHIsMutable();
-        unk3300OAFMDJCPCJH_.setInt(index, value);
+        ensureUnlockFaceTypeListIsMutable();
+        unlockFaceTypeList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-       * @param value The unk3300OAFMDJCPCJH to add.
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
+       * @param value The unlockFaceTypeList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300OAFMDJCPCJH(int value) {
-        ensureUnk3300OAFMDJCPCJHIsMutable();
-        unk3300OAFMDJCPCJH_.addInt(value);
+      public Builder addUnlockFaceTypeList(int value) {
+        ensureUnlockFaceTypeListIsMutable();
+        unlockFaceTypeList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
-       * @param values The unk3300OAFMDJCPCJH to add.
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
+       * @param values The unlockFaceTypeList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300OAFMDJCPCJH(
+      public Builder addAllUnlockFaceTypeList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300OAFMDJCPCJHIsMutable();
+        ensureUnlockFaceTypeListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300OAFMDJCPCJH_);
+            values, unlockFaceTypeList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_OAFMDJCPCJH = 6;</code>
+       * <code>repeated uint32 unlock_face_type_list = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OAFMDJCPCJH() {
-        unk3300OAFMDJCPCJH_ = emptyIntList();
+      public Builder clearUnlockFaceTypeList() {
+        unlockFaceTypeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -1081,12 +1081,12 @@ public final class GCGDSCardDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023GCGDSCardData.proto\"\217\001\n\rGCGDSCardData\022" +
+      "\n\023GCGDSCardData.proto\"\237\001\n\rGCGDSCardData\022" +
       "\013\n\003num\030\013 \001(\r\022\021\n\tface_type\030\005 \001(\r\022\017\n\007card_" +
-      "id\030\004 \001(\r\022\033\n\023Unk3300_CIGGHHIHJFM\030\016 \003(\r\022\033\n" +
-      "\023Unk3300_OAFMDJCPCJH\030\006 \003(\r\022\023\n\013proficienc" +
-      "y\030\n \001(\rB\036\n\034emu.grasscutter.net.newprotob" +
-      "\006proto3"
+      "id\030\004 \001(\r\022)\n!proficiency_reward_taken_idx" +
+      "_list\030\016 \003(\r\022\035\n\025unlock_face_type_list\030\006 \003" +
+      "(\r\022\023\n\013proficiency\030\n \001(\rB\036\n\034emu.grasscutt" +
+      "er.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1097,7 +1097,7 @@ public final class GCGDSCardDataOuterClass {
     internal_static_GCGDSCardData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGDSCardData_descriptor,
-        new java.lang.String[] { "Num", "FaceType", "CardId", "Unk3300CIGGHHIHJFM", "Unk3300OAFMDJCPCJH", "Proficiency", });
+        new java.lang.String[] { "Num", "FaceType", "CardId", "ProficiencyRewardTakenIdxList", "UnlockFaceTypeList", "Proficiency", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

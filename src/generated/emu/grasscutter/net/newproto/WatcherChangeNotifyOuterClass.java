@@ -19,38 +19,38 @@ public final class WatcherChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-     * @return A list containing the unk3300ELDNONOCFMM.
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
+     * @return A list containing the removedWatcherList.
      */
-    java.util.List<java.lang.Integer> getUnk3300ELDNONOCFMMList();
+    java.util.List<java.lang.Integer> getRemovedWatcherListList();
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-     * @return The count of unk3300ELDNONOCFMM.
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
+     * @return The count of removedWatcherList.
      */
-    int getUnk3300ELDNONOCFMMCount();
+    int getRemovedWatcherListCount();
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
      * @param index The index of the element to return.
-     * @return The unk3300ELDNONOCFMM at the given index.
+     * @return The removedWatcherList at the given index.
      */
-    int getUnk3300ELDNONOCFMM(int index);
+    int getRemovedWatcherList(int index);
 
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-     * @return A list containing the unk3300FDMJACFMOLG.
+     * <code>repeated uint32 new_watcher_list = 5;</code>
+     * @return A list containing the newWatcherList.
      */
-    java.util.List<java.lang.Integer> getUnk3300FDMJACFMOLGList();
+    java.util.List<java.lang.Integer> getNewWatcherListList();
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-     * @return The count of unk3300FDMJACFMOLG.
+     * <code>repeated uint32 new_watcher_list = 5;</code>
+     * @return The count of newWatcherList.
      */
-    int getUnk3300FDMJACFMOLGCount();
+    int getNewWatcherListCount();
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
+     * <code>repeated uint32 new_watcher_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300FDMJACFMOLG at the given index.
+     * @return The newWatcherList at the given index.
      */
-    int getUnk3300FDMJACFMOLG(int index);
+    int getNewWatcherList(int index);
   }
   /**
    * <pre>
@@ -75,8 +75,8 @@ public final class WatcherChangeNotifyOuterClass {
       super(builder);
     }
     private WatcherChangeNotify() {
-      unk3300ELDNONOCFMM_ = emptyIntList();
-      unk3300FDMJACFMOLG_ = emptyIntList();
+      removedWatcherList_ = emptyIntList();
+      newWatcherList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -104,61 +104,61 @@ public final class WatcherChangeNotifyOuterClass {
               emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify.class, emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify.Builder.class);
     }
 
-    public static final int UNK3300_ELDNONOCFMM_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList unk3300ELDNONOCFMM_;
+    public static final int REMOVED_WATCHER_LIST_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList removedWatcherList_;
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-     * @return A list containing the unk3300ELDNONOCFMM.
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
+     * @return A list containing the removedWatcherList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300ELDNONOCFMMList() {
-      return unk3300ELDNONOCFMM_;
+        getRemovedWatcherListList() {
+      return removedWatcherList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-     * @return The count of unk3300ELDNONOCFMM.
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
+     * @return The count of removedWatcherList.
      */
-    public int getUnk3300ELDNONOCFMMCount() {
-      return unk3300ELDNONOCFMM_.size();
+    public int getRemovedWatcherListCount() {
+      return removedWatcherList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
+     * <code>repeated uint32 removed_watcher_list = 10;</code>
      * @param index The index of the element to return.
-     * @return The unk3300ELDNONOCFMM at the given index.
+     * @return The removedWatcherList at the given index.
      */
-    public int getUnk3300ELDNONOCFMM(int index) {
-      return unk3300ELDNONOCFMM_.getInt(index);
+    public int getRemovedWatcherList(int index) {
+      return removedWatcherList_.getInt(index);
     }
-    private int unk3300ELDNONOCFMMMemoizedSerializedSize = -1;
+    private int removedWatcherListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_FDMJACFMOLG_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList unk3300FDMJACFMOLG_;
+    public static final int NEW_WATCHER_LIST_FIELD_NUMBER = 5;
+    private com.google.protobuf.Internal.IntList newWatcherList_;
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-     * @return A list containing the unk3300FDMJACFMOLG.
+     * <code>repeated uint32 new_watcher_list = 5;</code>
+     * @return A list containing the newWatcherList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUnk3300FDMJACFMOLGList() {
-      return unk3300FDMJACFMOLG_;
+        getNewWatcherListList() {
+      return newWatcherList_;
     }
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-     * @return The count of unk3300FDMJACFMOLG.
+     * <code>repeated uint32 new_watcher_list = 5;</code>
+     * @return The count of newWatcherList.
      */
-    public int getUnk3300FDMJACFMOLGCount() {
-      return unk3300FDMJACFMOLG_.size();
+    public int getNewWatcherListCount() {
+      return newWatcherList_.size();
     }
     /**
-     * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
+     * <code>repeated uint32 new_watcher_list = 5;</code>
      * @param index The index of the element to return.
-     * @return The unk3300FDMJACFMOLG at the given index.
+     * @return The newWatcherList at the given index.
      */
-    public int getUnk3300FDMJACFMOLG(int index) {
-      return unk3300FDMJACFMOLG_.getInt(index);
+    public int getNewWatcherList(int index) {
+      return newWatcherList_.getInt(index);
     }
-    private int unk3300FDMJACFMOLGMemoizedSerializedSize = -1;
+    private int newWatcherListMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -175,19 +175,19 @@ public final class WatcherChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getUnk3300FDMJACFMOLGList().size() > 0) {
+      if (getNewWatcherListList().size() > 0) {
         output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(unk3300FDMJACFMOLGMemoizedSerializedSize);
+        output.writeUInt32NoTag(newWatcherListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300FDMJACFMOLG_.size(); i++) {
-        output.writeUInt32NoTag(unk3300FDMJACFMOLG_.getInt(i));
+      for (int i = 0; i < newWatcherList_.size(); i++) {
+        output.writeUInt32NoTag(newWatcherList_.getInt(i));
       }
-      if (getUnk3300ELDNONOCFMMList().size() > 0) {
+      if (getRemovedWatcherListList().size() > 0) {
         output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(unk3300ELDNONOCFMMMemoizedSerializedSize);
+        output.writeUInt32NoTag(removedWatcherListMemoizedSerializedSize);
       }
-      for (int i = 0; i < unk3300ELDNONOCFMM_.size(); i++) {
-        output.writeUInt32NoTag(unk3300ELDNONOCFMM_.getInt(i));
+      for (int i = 0; i < removedWatcherList_.size(); i++) {
+        output.writeUInt32NoTag(removedWatcherList_.getInt(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -200,31 +200,31 @@ public final class WatcherChangeNotifyOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300FDMJACFMOLG_.size(); i++) {
+        for (int i = 0; i < newWatcherList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300FDMJACFMOLG_.getInt(i));
+            .computeUInt32SizeNoTag(newWatcherList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300FDMJACFMOLGList().isEmpty()) {
+        if (!getNewWatcherListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300FDMJACFMOLGMemoizedSerializedSize = dataSize;
+        newWatcherListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < unk3300ELDNONOCFMM_.size(); i++) {
+        for (int i = 0; i < removedWatcherList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unk3300ELDNONOCFMM_.getInt(i));
+            .computeUInt32SizeNoTag(removedWatcherList_.getInt(i));
         }
         size += dataSize;
-        if (!getUnk3300ELDNONOCFMMList().isEmpty()) {
+        if (!getRemovedWatcherListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        unk3300ELDNONOCFMMMemoizedSerializedSize = dataSize;
+        removedWatcherListMemoizedSerializedSize = dataSize;
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -241,10 +241,10 @@ public final class WatcherChangeNotifyOuterClass {
       }
       emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify other = (emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify) obj;
 
-      if (!getUnk3300ELDNONOCFMMList()
-          .equals(other.getUnk3300ELDNONOCFMMList())) return false;
-      if (!getUnk3300FDMJACFMOLGList()
-          .equals(other.getUnk3300FDMJACFMOLGList())) return false;
+      if (!getRemovedWatcherListList()
+          .equals(other.getRemovedWatcherListList())) return false;
+      if (!getNewWatcherListList()
+          .equals(other.getNewWatcherListList())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -256,13 +256,13 @@ public final class WatcherChangeNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getUnk3300ELDNONOCFMMCount() > 0) {
-        hash = (37 * hash) + UNK3300_ELDNONOCFMM_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300ELDNONOCFMMList().hashCode();
+      if (getRemovedWatcherListCount() > 0) {
+        hash = (37 * hash) + REMOVED_WATCHER_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getRemovedWatcherListList().hashCode();
       }
-      if (getUnk3300FDMJACFMOLGCount() > 0) {
-        hash = (37 * hash) + UNK3300_FDMJACFMOLG_FIELD_NUMBER;
-        hash = (53 * hash) + getUnk3300FDMJACFMOLGList().hashCode();
+      if (getNewWatcherListCount() > 0) {
+        hash = (37 * hash) + NEW_WATCHER_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getNewWatcherListList().hashCode();
       }
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
@@ -402,9 +402,9 @@ public final class WatcherChangeNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300ELDNONOCFMM_ = emptyIntList();
+        removedWatcherList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300FDMJACFMOLG_ = emptyIntList();
+        newWatcherList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
@@ -434,15 +434,15 @@ public final class WatcherChangeNotifyOuterClass {
         emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify result = new emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          unk3300ELDNONOCFMM_.makeImmutable();
+          removedWatcherList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.unk3300ELDNONOCFMM_ = unk3300ELDNONOCFMM_;
+        result.removedWatcherList_ = removedWatcherList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          unk3300FDMJACFMOLG_.makeImmutable();
+          newWatcherList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.unk3300FDMJACFMOLG_ = unk3300FDMJACFMOLG_;
+        result.newWatcherList_ = newWatcherList_;
         onBuilt();
         return result;
       }
@@ -491,23 +491,23 @@ public final class WatcherChangeNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify other) {
         if (other == emu.grasscutter.net.newproto.WatcherChangeNotifyOuterClass.WatcherChangeNotify.getDefaultInstance()) return this;
-        if (!other.unk3300ELDNONOCFMM_.isEmpty()) {
-          if (unk3300ELDNONOCFMM_.isEmpty()) {
-            unk3300ELDNONOCFMM_ = other.unk3300ELDNONOCFMM_;
+        if (!other.removedWatcherList_.isEmpty()) {
+          if (removedWatcherList_.isEmpty()) {
+            removedWatcherList_ = other.removedWatcherList_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureUnk3300ELDNONOCFMMIsMutable();
-            unk3300ELDNONOCFMM_.addAll(other.unk3300ELDNONOCFMM_);
+            ensureRemovedWatcherListIsMutable();
+            removedWatcherList_.addAll(other.removedWatcherList_);
           }
           onChanged();
         }
-        if (!other.unk3300FDMJACFMOLG_.isEmpty()) {
-          if (unk3300FDMJACFMOLG_.isEmpty()) {
-            unk3300FDMJACFMOLG_ = other.unk3300FDMJACFMOLG_;
+        if (!other.newWatcherList_.isEmpty()) {
+          if (newWatcherList_.isEmpty()) {
+            newWatcherList_ = other.newWatcherList_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureUnk3300FDMJACFMOLGIsMutable();
-            unk3300FDMJACFMOLG_.addAll(other.unk3300FDMJACFMOLG_);
+            ensureNewWatcherListIsMutable();
+            newWatcherList_.addAll(other.newWatcherList_);
           }
           onChanged();
         }
@@ -539,32 +539,32 @@ public final class WatcherChangeNotifyOuterClass {
                 break;
               case 40: {
                 int v = input.readUInt32();
-                ensureUnk3300FDMJACFMOLGIsMutable();
-                unk3300FDMJACFMOLG_.addInt(v);
+                ensureNewWatcherListIsMutable();
+                newWatcherList_.addInt(v);
                 break;
               } // case 40
               case 42: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300FDMJACFMOLGIsMutable();
+                ensureNewWatcherListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300FDMJACFMOLG_.addInt(input.readUInt32());
+                  newWatcherList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
               } // case 42
               case 80: {
                 int v = input.readUInt32();
-                ensureUnk3300ELDNONOCFMMIsMutable();
-                unk3300ELDNONOCFMM_.addInt(v);
+                ensureRemovedWatcherListIsMutable();
+                removedWatcherList_.addInt(v);
                 break;
               } // case 80
               case 82: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
-                ensureUnk3300ELDNONOCFMMIsMutable();
+                ensureRemovedWatcherListIsMutable();
                 while (input.getBytesUntilLimit() > 0) {
-                  unk3300ELDNONOCFMM_.addInt(input.readUInt32());
+                  removedWatcherList_.addInt(input.readUInt32());
                 }
                 input.popLimit(limit);
                 break;
@@ -586,159 +586,159 @@ public final class WatcherChangeNotifyOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList unk3300ELDNONOCFMM_ = emptyIntList();
-      private void ensureUnk3300ELDNONOCFMMIsMutable() {
+      private com.google.protobuf.Internal.IntList removedWatcherList_ = emptyIntList();
+      private void ensureRemovedWatcherListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          unk3300ELDNONOCFMM_ = mutableCopy(unk3300ELDNONOCFMM_);
+          removedWatcherList_ = mutableCopy(removedWatcherList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-       * @return A list containing the unk3300ELDNONOCFMM.
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
+       * @return A list containing the removedWatcherList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300ELDNONOCFMMList() {
+          getRemovedWatcherListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300ELDNONOCFMM_) : unk3300ELDNONOCFMM_;
+                 java.util.Collections.unmodifiableList(removedWatcherList_) : removedWatcherList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-       * @return The count of unk3300ELDNONOCFMM.
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
+       * @return The count of removedWatcherList.
        */
-      public int getUnk3300ELDNONOCFMMCount() {
-        return unk3300ELDNONOCFMM_.size();
+      public int getRemovedWatcherListCount() {
+        return removedWatcherList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
        * @param index The index of the element to return.
-       * @return The unk3300ELDNONOCFMM at the given index.
+       * @return The removedWatcherList at the given index.
        */
-      public int getUnk3300ELDNONOCFMM(int index) {
-        return unk3300ELDNONOCFMM_.getInt(index);
+      public int getRemovedWatcherList(int index) {
+        return removedWatcherList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300ELDNONOCFMM to set.
+       * @param value The removedWatcherList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300ELDNONOCFMM(
+      public Builder setRemovedWatcherList(
           int index, int value) {
-        ensureUnk3300ELDNONOCFMMIsMutable();
-        unk3300ELDNONOCFMM_.setInt(index, value);
+        ensureRemovedWatcherListIsMutable();
+        removedWatcherList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-       * @param value The unk3300ELDNONOCFMM to add.
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
+       * @param value The removedWatcherList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300ELDNONOCFMM(int value) {
-        ensureUnk3300ELDNONOCFMMIsMutable();
-        unk3300ELDNONOCFMM_.addInt(value);
+      public Builder addRemovedWatcherList(int value) {
+        ensureRemovedWatcherListIsMutable();
+        removedWatcherList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
-       * @param values The unk3300ELDNONOCFMM to add.
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
+       * @param values The removedWatcherList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300ELDNONOCFMM(
+      public Builder addAllRemovedWatcherList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300ELDNONOCFMMIsMutable();
+        ensureRemovedWatcherListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300ELDNONOCFMM_);
+            values, removedWatcherList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_ELDNONOCFMM = 10;</code>
+       * <code>repeated uint32 removed_watcher_list = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300ELDNONOCFMM() {
-        unk3300ELDNONOCFMM_ = emptyIntList();
+      public Builder clearRemovedWatcherList() {
+        removedWatcherList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList unk3300FDMJACFMOLG_ = emptyIntList();
-      private void ensureUnk3300FDMJACFMOLGIsMutable() {
+      private com.google.protobuf.Internal.IntList newWatcherList_ = emptyIntList();
+      private void ensureNewWatcherListIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          unk3300FDMJACFMOLG_ = mutableCopy(unk3300FDMJACFMOLG_);
+          newWatcherList_ = mutableCopy(newWatcherList_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-       * @return A list containing the unk3300FDMJACFMOLG.
+       * <code>repeated uint32 new_watcher_list = 5;</code>
+       * @return A list containing the newWatcherList.
        */
       public java.util.List<java.lang.Integer>
-          getUnk3300FDMJACFMOLGList() {
+          getNewWatcherListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(unk3300FDMJACFMOLG_) : unk3300FDMJACFMOLG_;
+                 java.util.Collections.unmodifiableList(newWatcherList_) : newWatcherList_;
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-       * @return The count of unk3300FDMJACFMOLG.
+       * <code>repeated uint32 new_watcher_list = 5;</code>
+       * @return The count of newWatcherList.
        */
-      public int getUnk3300FDMJACFMOLGCount() {
-        return unk3300FDMJACFMOLG_.size();
+      public int getNewWatcherListCount() {
+        return newWatcherList_.size();
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
+       * <code>repeated uint32 new_watcher_list = 5;</code>
        * @param index The index of the element to return.
-       * @return The unk3300FDMJACFMOLG at the given index.
+       * @return The newWatcherList at the given index.
        */
-      public int getUnk3300FDMJACFMOLG(int index) {
-        return unk3300FDMJACFMOLG_.getInt(index);
+      public int getNewWatcherList(int index) {
+        return newWatcherList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
+       * <code>repeated uint32 new_watcher_list = 5;</code>
        * @param index The index to set the value at.
-       * @param value The unk3300FDMJACFMOLG to set.
+       * @param value The newWatcherList to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300FDMJACFMOLG(
+      public Builder setNewWatcherList(
           int index, int value) {
-        ensureUnk3300FDMJACFMOLGIsMutable();
-        unk3300FDMJACFMOLG_.setInt(index, value);
+        ensureNewWatcherListIsMutable();
+        newWatcherList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-       * @param value The unk3300FDMJACFMOLG to add.
+       * <code>repeated uint32 new_watcher_list = 5;</code>
+       * @param value The newWatcherList to add.
        * @return This builder for chaining.
        */
-      public Builder addUnk3300FDMJACFMOLG(int value) {
-        ensureUnk3300FDMJACFMOLGIsMutable();
-        unk3300FDMJACFMOLG_.addInt(value);
+      public Builder addNewWatcherList(int value) {
+        ensureNewWatcherListIsMutable();
+        newWatcherList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
-       * @param values The unk3300FDMJACFMOLG to add.
+       * <code>repeated uint32 new_watcher_list = 5;</code>
+       * @param values The newWatcherList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUnk3300FDMJACFMOLG(
+      public Builder addAllNewWatcherList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUnk3300FDMJACFMOLGIsMutable();
+        ensureNewWatcherListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, unk3300FDMJACFMOLG_);
+            values, newWatcherList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 Unk3300_FDMJACFMOLG = 5;</code>
+       * <code>repeated uint32 new_watcher_list = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300FDMJACFMOLG() {
-        unk3300FDMJACFMOLG_ = emptyIntList();
+      public Builder clearNewWatcherList() {
+        newWatcherList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -821,10 +821,10 @@ public final class WatcherChangeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031WatcherChangeNotify.proto\"O\n\023WatcherCh" +
-      "angeNotify\022\033\n\023Unk3300_ELDNONOCFMM\030\n \003(\r\022" +
-      "\033\n\023Unk3300_FDMJACFMOLG\030\005 \003(\rB\036\n\034emu.gras" +
-      "scutter.net.newprotob\006proto3"
+      "\n\031WatcherChangeNotify.proto\"M\n\023WatcherCh" +
+      "angeNotify\022\034\n\024removed_watcher_list\030\n \003(\r" +
+      "\022\030\n\020new_watcher_list\030\005 \003(\rB\036\n\034emu.grassc" +
+      "utter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -835,7 +835,7 @@ public final class WatcherChangeNotifyOuterClass {
     internal_static_WatcherChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WatcherChangeNotify_descriptor,
-        new java.lang.String[] { "Unk3300ELDNONOCFMM", "Unk3300FDMJACFMOLG", });
+        new java.lang.String[] { "RemovedWatcherList", "NewWatcherList", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

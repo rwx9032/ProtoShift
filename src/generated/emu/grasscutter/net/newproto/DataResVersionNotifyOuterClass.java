@@ -66,16 +66,16 @@ public final class DataResVersionNotifyOuterClass {
     boolean getIsDataNeedRelogin();
 
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-     * @return The unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 12;</code>
+     * @return The clientSilenceMd5.
      */
-    java.lang.String getUnk3300HMGCPAGLDHB();
+    java.lang.String getClientSilenceMd5();
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-     * @return The bytes for unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 12;</code>
+     * @return The bytes for clientSilenceMd5.
      */
     com.google.protobuf.ByteString
-        getUnk3300HMGCPAGLDHBBytes();
+        getClientSilenceMd5Bytes();
 
     /**
      * <code>uint32 client_data_version = 5;</code>
@@ -84,16 +84,16 @@ public final class DataResVersionNotifyOuterClass {
     int getClientDataVersion();
 
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-     * @return The unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 2;</code>
+     * @return The clientMd5.
      */
-    java.lang.String getUnk3300OPGDBOLKLJA();
+    java.lang.String getClientMd5();
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-     * @return The bytes for unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 2;</code>
+     * @return The bytes for clientMd5.
      */
     com.google.protobuf.ByteString
-        getUnk3300OPGDBOLKLJABytes();
+        getClientMd5Bytes();
 
     /**
      * <code>.ResVersionConfig res_version_config = 7;</code>
@@ -136,8 +136,8 @@ public final class DataResVersionNotifyOuterClass {
       opType_ = 0;
       clientSilenceVersionSuffix_ = "";
       clientVersionSuffix_ = "";
-      unk3300HMGCPAGLDHB_ = "";
-      unk3300OPGDBOLKLJA_ = "";
+      clientSilenceMd5_ = "";
+      clientMd5_ = "";
     }
 
     @java.lang.Override
@@ -399,38 +399,38 @@ public final class DataResVersionNotifyOuterClass {
       return isDataNeedRelogin_;
     }
 
-    public static final int UNK3300_HMGCPAGLDHB_FIELD_NUMBER = 12;
-    private volatile java.lang.Object unk3300HMGCPAGLDHB_;
+    public static final int CLIENT_SILENCE_MD5_FIELD_NUMBER = 12;
+    private volatile java.lang.Object clientSilenceMd5_;
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-     * @return The unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 12;</code>
+     * @return The clientSilenceMd5.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300HMGCPAGLDHB() {
-      java.lang.Object ref = unk3300HMGCPAGLDHB_;
+    public java.lang.String getClientSilenceMd5() {
+      java.lang.Object ref = clientSilenceMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300HMGCPAGLDHB_ = s;
+        clientSilenceMd5_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-     * @return The bytes for unk3300HMGCPAGLDHB.
+     * <code>string client_silence_md5 = 12;</code>
+     * @return The bytes for clientSilenceMd5.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300HMGCPAGLDHBBytes() {
-      java.lang.Object ref = unk3300HMGCPAGLDHB_;
+        getClientSilenceMd5Bytes() {
+      java.lang.Object ref = clientSilenceMd5_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300HMGCPAGLDHB_ = b;
+        clientSilenceMd5_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -448,38 +448,38 @@ public final class DataResVersionNotifyOuterClass {
       return clientDataVersion_;
     }
 
-    public static final int UNK3300_OPGDBOLKLJA_FIELD_NUMBER = 2;
-    private volatile java.lang.Object unk3300OPGDBOLKLJA_;
+    public static final int CLIENT_MD5_FIELD_NUMBER = 2;
+    private volatile java.lang.Object clientMd5_;
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-     * @return The unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 2;</code>
+     * @return The clientMd5.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300OPGDBOLKLJA() {
-      java.lang.Object ref = unk3300OPGDBOLKLJA_;
+    public java.lang.String getClientMd5() {
+      java.lang.Object ref = clientMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300OPGDBOLKLJA_ = s;
+        clientMd5_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-     * @return The bytes for unk3300OPGDBOLKLJA.
+     * <code>string client_md5 = 2;</code>
+     * @return The bytes for clientMd5.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300OPGDBOLKLJABytes() {
-      java.lang.Object ref = unk3300OPGDBOLKLJA_;
+        getClientMd5Bytes() {
+      java.lang.Object ref = clientMd5_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300OPGDBOLKLJA_ = b;
+        clientMd5_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -526,8 +526,8 @@ public final class DataResVersionNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300OPGDBOLKLJA_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, unk3300OPGDBOLKLJA_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, clientMd5_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, clientSilenceVersionSuffix_);
@@ -544,8 +544,8 @@ public final class DataResVersionNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 9, clientVersionSuffix_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300HMGCPAGLDHB_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, unk3300HMGCPAGLDHB_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, clientSilenceMd5_);
       }
       if (clientSilenceDataVersion_ != 0) {
         output.writeUInt32(13, clientSilenceDataVersion_);
@@ -562,8 +562,8 @@ public final class DataResVersionNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300OPGDBOLKLJA_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, unk3300OPGDBOLKLJA_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, clientMd5_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, clientSilenceVersionSuffix_);
@@ -583,8 +583,8 @@ public final class DataResVersionNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, clientVersionSuffix_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300HMGCPAGLDHB_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, unk3300HMGCPAGLDHB_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, clientSilenceMd5_);
       }
       if (clientSilenceDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -618,12 +618,12 @@ public final class DataResVersionNotifyOuterClass {
           .equals(other.getClientVersionSuffix())) return false;
       if (getIsDataNeedRelogin()
           != other.getIsDataNeedRelogin()) return false;
-      if (!getUnk3300HMGCPAGLDHB()
-          .equals(other.getUnk3300HMGCPAGLDHB())) return false;
+      if (!getClientSilenceMd5()
+          .equals(other.getClientSilenceMd5())) return false;
       if (getClientDataVersion()
           != other.getClientDataVersion()) return false;
-      if (!getUnk3300OPGDBOLKLJA()
-          .equals(other.getUnk3300OPGDBOLKLJA())) return false;
+      if (!getClientMd5()
+          .equals(other.getClientMd5())) return false;
       if (hasResVersionConfig() != other.hasResVersionConfig()) return false;
       if (hasResVersionConfig()) {
         if (!getResVersionConfig()
@@ -651,12 +651,12 @@ public final class DataResVersionNotifyOuterClass {
       hash = (37 * hash) + IS_DATA_NEED_RELOGIN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsDataNeedRelogin());
-      hash = (37 * hash) + UNK3300_HMGCPAGLDHB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300HMGCPAGLDHB().hashCode();
+      hash = (37 * hash) + CLIENT_SILENCE_MD5_FIELD_NUMBER;
+      hash = (53 * hash) + getClientSilenceMd5().hashCode();
       hash = (37 * hash) + CLIENT_DATA_VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getClientDataVersion();
-      hash = (37 * hash) + UNK3300_OPGDBOLKLJA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OPGDBOLKLJA().hashCode();
+      hash = (37 * hash) + CLIENT_MD5_FIELD_NUMBER;
+      hash = (53 * hash) + getClientMd5().hashCode();
       if (hasResVersionConfig()) {
         hash = (37 * hash) + RES_VERSION_CONFIG_FIELD_NUMBER;
         hash = (53 * hash) + getResVersionConfig().hashCode();
@@ -809,11 +809,11 @@ public final class DataResVersionNotifyOuterClass {
 
         isDataNeedRelogin_ = false;
 
-        unk3300HMGCPAGLDHB_ = "";
+        clientSilenceMd5_ = "";
 
         clientDataVersion_ = 0;
 
-        unk3300OPGDBOLKLJA_ = "";
+        clientMd5_ = "";
 
         if (resVersionConfigBuilder_ == null) {
           resVersionConfig_ = null;
@@ -852,9 +852,9 @@ public final class DataResVersionNotifyOuterClass {
         result.clientSilenceVersionSuffix_ = clientSilenceVersionSuffix_;
         result.clientVersionSuffix_ = clientVersionSuffix_;
         result.isDataNeedRelogin_ = isDataNeedRelogin_;
-        result.unk3300HMGCPAGLDHB_ = unk3300HMGCPAGLDHB_;
+        result.clientSilenceMd5_ = clientSilenceMd5_;
         result.clientDataVersion_ = clientDataVersion_;
-        result.unk3300OPGDBOLKLJA_ = unk3300OPGDBOLKLJA_;
+        result.clientMd5_ = clientMd5_;
         if (resVersionConfigBuilder_ == null) {
           result.resVersionConfig_ = resVersionConfig_;
         } else {
@@ -925,15 +925,15 @@ public final class DataResVersionNotifyOuterClass {
         if (other.getIsDataNeedRelogin() != false) {
           setIsDataNeedRelogin(other.getIsDataNeedRelogin());
         }
-        if (!other.getUnk3300HMGCPAGLDHB().isEmpty()) {
-          unk3300HMGCPAGLDHB_ = other.unk3300HMGCPAGLDHB_;
+        if (!other.getClientSilenceMd5().isEmpty()) {
+          clientSilenceMd5_ = other.clientSilenceMd5_;
           onChanged();
         }
         if (other.getClientDataVersion() != 0) {
           setClientDataVersion(other.getClientDataVersion());
         }
-        if (!other.getUnk3300OPGDBOLKLJA().isEmpty()) {
-          unk3300OPGDBOLKLJA_ = other.unk3300OPGDBOLKLJA_;
+        if (!other.getClientMd5().isEmpty()) {
+          clientMd5_ = other.clientMd5_;
           onChanged();
         }
         if (other.hasResVersionConfig()) {
@@ -966,7 +966,7 @@ public final class DataResVersionNotifyOuterClass {
                 done = true;
                 break;
               case 18: {
-                unk3300OPGDBOLKLJA_ = input.readStringRequireUtf8();
+                clientMd5_ = input.readStringRequireUtf8();
 
                 break;
               } // case 18
@@ -998,7 +998,7 @@ public final class DataResVersionNotifyOuterClass {
                 break;
               } // case 74
               case 98: {
-                unk3300HMGCPAGLDHB_ = input.readStringRequireUtf8();
+                clientSilenceMd5_ = input.readStringRequireUtf8();
 
                 break;
               } // case 98
@@ -1296,78 +1296,78 @@ public final class DataResVersionNotifyOuterClass {
         return this;
       }
 
-      private java.lang.Object unk3300HMGCPAGLDHB_ = "";
+      private java.lang.Object clientSilenceMd5_ = "";
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-       * @return The unk3300HMGCPAGLDHB.
+       * <code>string client_silence_md5 = 12;</code>
+       * @return The clientSilenceMd5.
        */
-      public java.lang.String getUnk3300HMGCPAGLDHB() {
-        java.lang.Object ref = unk3300HMGCPAGLDHB_;
+      public java.lang.String getClientSilenceMd5() {
+        java.lang.Object ref = clientSilenceMd5_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300HMGCPAGLDHB_ = s;
+          clientSilenceMd5_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-       * @return The bytes for unk3300HMGCPAGLDHB.
+       * <code>string client_silence_md5 = 12;</code>
+       * @return The bytes for clientSilenceMd5.
        */
       public com.google.protobuf.ByteString
-          getUnk3300HMGCPAGLDHBBytes() {
-        java.lang.Object ref = unk3300HMGCPAGLDHB_;
+          getClientSilenceMd5Bytes() {
+        java.lang.Object ref = clientSilenceMd5_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300HMGCPAGLDHB_ = b;
+          clientSilenceMd5_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-       * @param value The unk3300HMGCPAGLDHB to set.
+       * <code>string client_silence_md5 = 12;</code>
+       * @param value The clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HMGCPAGLDHB(
+      public Builder setClientSilenceMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300HMGCPAGLDHB_ = value;
+        clientSilenceMd5_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
+       * <code>string client_silence_md5 = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300HMGCPAGLDHB() {
+      public Builder clearClientSilenceMd5() {
         
-        unk3300HMGCPAGLDHB_ = getDefaultInstance().getUnk3300HMGCPAGLDHB();
+        clientSilenceMd5_ = getDefaultInstance().getClientSilenceMd5();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_HMGCPAGLDHB = 12;</code>
-       * @param value The bytes for unk3300HMGCPAGLDHB to set.
+       * <code>string client_silence_md5 = 12;</code>
+       * @param value The bytes for clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300HMGCPAGLDHBBytes(
+      public Builder setClientSilenceMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300HMGCPAGLDHB_ = value;
+        clientSilenceMd5_ = value;
         onChanged();
         return this;
       }
@@ -1403,78 +1403,78 @@ public final class DataResVersionNotifyOuterClass {
         return this;
       }
 
-      private java.lang.Object unk3300OPGDBOLKLJA_ = "";
+      private java.lang.Object clientMd5_ = "";
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-       * @return The unk3300OPGDBOLKLJA.
+       * <code>string client_md5 = 2;</code>
+       * @return The clientMd5.
        */
-      public java.lang.String getUnk3300OPGDBOLKLJA() {
-        java.lang.Object ref = unk3300OPGDBOLKLJA_;
+      public java.lang.String getClientMd5() {
+        java.lang.Object ref = clientMd5_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300OPGDBOLKLJA_ = s;
+          clientMd5_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-       * @return The bytes for unk3300OPGDBOLKLJA.
+       * <code>string client_md5 = 2;</code>
+       * @return The bytes for clientMd5.
        */
       public com.google.protobuf.ByteString
-          getUnk3300OPGDBOLKLJABytes() {
-        java.lang.Object ref = unk3300OPGDBOLKLJA_;
+          getClientMd5Bytes() {
+        java.lang.Object ref = clientMd5_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300OPGDBOLKLJA_ = b;
+          clientMd5_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-       * @param value The unk3300OPGDBOLKLJA to set.
+       * <code>string client_md5 = 2;</code>
+       * @param value The clientMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OPGDBOLKLJA(
+      public Builder setClientMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300OPGDBOLKLJA_ = value;
+        clientMd5_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
+       * <code>string client_md5 = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OPGDBOLKLJA() {
+      public Builder clearClientMd5() {
         
-        unk3300OPGDBOLKLJA_ = getDefaultInstance().getUnk3300OPGDBOLKLJA();
+        clientMd5_ = getDefaultInstance().getClientMd5();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_OPGDBOLKLJA = 2;</code>
-       * @param value The bytes for unk3300OPGDBOLKLJA to set.
+       * <code>string client_md5 = 2;</code>
+       * @param value The bytes for clientMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OPGDBOLKLJABytes(
+      public Builder setClientMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300OPGDBOLKLJA_ = value;
+        clientMd5_ = value;
         onChanged();
         return this;
       }
@@ -1676,20 +1676,20 @@ public final class DataResVersionNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032DataResVersionNotify.proto\032\026ResVersion" +
-      "Config.proto\"\355\003\n\024DataResVersionNotify\022#\n" +
+      "Config.proto\"\343\003\n\024DataResVersionNotify\022#\n" +
       "\033client_silence_data_version\030\r \001(\r\022;\n\007op" +
       "_type\030\006 \001(\0162*.DataResVersionNotify.DataR" +
       "esVersionOpType\022%\n\035client_silence_versio" +
       "n_suffix\030\003 \001(\t\022\035\n\025client_version_suffix\030" +
-      "\t \001(\t\022\034\n\024is_data_need_relogin\030\017 \001(\010\022\033\n\023U" +
-      "nk3300_HMGCPAGLDHB\030\014 \001(\t\022\033\n\023client_data_" +
-      "version\030\005 \001(\r\022\033\n\023Unk3300_OPGDBOLKLJA\030\002 \001" +
-      "(\t\022-\n\022res_version_config\030\007 \001(\0132\021.ResVers" +
-      "ionConfig\"\210\001\n\024DataResVersionOpType\022!\n\035DA" +
-      "TA_RES_VERSION_OP_TYPE_NONE\020\000\022$\n DATA_RE" +
-      "S_VERSION_OP_TYPE_RELOGIN\020\001\022\'\n#DATA_RES_" +
-      "VERSION_OP_TYPE_MP_RELOGIN\020\002B\036\n\034emu.gras" +
-      "scutter.net.newprotob\006proto3"
+      "\t \001(\t\022\034\n\024is_data_need_relogin\030\017 \001(\010\022\032\n\022c" +
+      "lient_silence_md5\030\014 \001(\t\022\033\n\023client_data_v" +
+      "ersion\030\005 \001(\r\022\022\n\nclient_md5\030\002 \001(\t\022-\n\022res_" +
+      "version_config\030\007 \001(\0132\021.ResVersionConfig\"" +
+      "\210\001\n\024DataResVersionOpType\022!\n\035DATA_RES_VER" +
+      "SION_OP_TYPE_NONE\020\000\022$\n DATA_RES_VERSION_" +
+      "OP_TYPE_RELOGIN\020\001\022\'\n#DATA_RES_VERSION_OP" +
+      "_TYPE_MP_RELOGIN\020\002B\036\n\034emu.grasscutter.ne" +
+      "t.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1701,7 +1701,7 @@ public final class DataResVersionNotifyOuterClass {
     internal_static_DataResVersionNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DataResVersionNotify_descriptor,
-        new java.lang.String[] { "ClientSilenceDataVersion", "OpType", "ClientSilenceVersionSuffix", "ClientVersionSuffix", "IsDataNeedRelogin", "Unk3300HMGCPAGLDHB", "ClientDataVersion", "Unk3300OPGDBOLKLJA", "ResVersionConfig", });
+        new java.lang.String[] { "ClientSilenceDataVersion", "OpType", "ClientSilenceVersionSuffix", "ClientVersionSuffix", "IsDataNeedRelogin", "ClientSilenceMd5", "ClientDataVersion", "ClientMd5", "ResVersionConfig", });
     emu.grasscutter.net.newproto.ResVersionConfigOuterClass.getDescriptor();
   }
 

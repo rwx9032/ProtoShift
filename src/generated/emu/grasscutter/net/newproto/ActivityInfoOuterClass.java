@@ -149,10 +149,10 @@ public final class ActivityInfoOuterClass {
     int getTakenRewardList(int index);
 
     /**
-     * <code>uint32 Unk3300_GCEAKEMMJEA = 697;</code>
-     * @return The unk3300GCEAKEMMJEA.
+     * <code>uint32 selected_avatar_reward_id = 697;</code>
+     * @return The selectedAvatarRewardId.
      */
-    int getUnk3300GCEAKEMMJEA();
+    int getSelectedAvatarRewardId();
 
     /**
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 36;</code>
@@ -201,10 +201,10 @@ public final class ActivityInfoOuterClass {
     boolean getUnk3300ABJKLALKLDG();
 
     /**
-     * <code>uint32 Unk3300_DMILOONBELH = 3;</code>
-     * @return The unk3300DMILOONBELH.
+     * <code>uint32 activity_type = 3;</code>
+     * @return The activityType.
      */
-    int getUnk3300DMILOONBELH();
+    int getActivityType();
 
     /**
      * <code>bool Unk3300_CBCEHLJJOGI = 1375;</code>
@@ -1674,15 +1674,15 @@ public final class ActivityInfoOuterClass {
     }
     private int takenRewardListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_GCEAKEMMJEA_FIELD_NUMBER = 697;
-    private int unk3300GCEAKEMMJEA_;
+    public static final int SELECTED_AVATAR_REWARD_ID_FIELD_NUMBER = 697;
+    private int selectedAvatarRewardId_;
     /**
-     * <code>uint32 Unk3300_GCEAKEMMJEA = 697;</code>
-     * @return The unk3300GCEAKEMMJEA.
+     * <code>uint32 selected_avatar_reward_id = 697;</code>
+     * @return The selectedAvatarRewardId.
      */
     @java.lang.Override
-    public int getUnk3300GCEAKEMMJEA() {
-      return unk3300GCEAKEMMJEA_;
+    public int getSelectedAvatarRewardId() {
+      return selectedAvatarRewardId_;
     }
 
     public static final int ACTIVITY_COIN_MAP_FIELD_NUMBER = 36;
@@ -1788,15 +1788,15 @@ public final class ActivityInfoOuterClass {
       return unk3300ABJKLALKLDG_;
     }
 
-    public static final int UNK3300_DMILOONBELH_FIELD_NUMBER = 3;
-    private int unk3300DMILOONBELH_;
+    public static final int ACTIVITY_TYPE_FIELD_NUMBER = 3;
+    private int activityType_;
     /**
-     * <code>uint32 Unk3300_DMILOONBELH = 3;</code>
-     * @return The unk3300DMILOONBELH.
+     * <code>uint32 activity_type = 3;</code>
+     * @return The activityType.
      */
     @java.lang.Override
-    public int getUnk3300DMILOONBELH() {
-      return unk3300DMILOONBELH_;
+    public int getActivityType() {
+      return activityType_;
     }
 
     public static final int UNK3300_CBCEHLJJOGI_FIELD_NUMBER = 1375;
@@ -3926,8 +3926,8 @@ public final class ActivityInfoOuterClass {
       if (detailCase_ == 2) {
         output.writeMessage(2, (emu.grasscutter.net.newproto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo) detail_);
       }
-      if (unk3300DMILOONBELH_ != 0) {
-        output.writeUInt32(3, unk3300DMILOONBELH_);
+      if (activityType_ != 0) {
+        output.writeUInt32(3, activityType_);
       }
       if (detailCase_ == 4) {
         output.writeMessage(4, (emu.grasscutter.net.newproto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo) detail_);
@@ -4033,8 +4033,8 @@ public final class ActivityInfoOuterClass {
       if (detailCase_ == 686) {
         output.writeMessage(686, (emu.grasscutter.net.newproto.BuoyantCombatDetailInfoOuterClass.BuoyantCombatDetailInfo) detail_);
       }
-      if (unk3300GCEAKEMMJEA_ != 0) {
-        output.writeUInt32(697, unk3300GCEAKEMMJEA_);
+      if (selectedAvatarRewardId_ != 0) {
+        output.writeUInt32(697, selectedAvatarRewardId_);
       }
       if (detailCase_ == 699) {
         output.writeMessage(699, (emu.grasscutter.net.newproto.WinterCampActivityDetailInfoOuterClass.WinterCampActivityDetailInfo) detail_);
@@ -4213,9 +4213,9 @@ public final class ActivityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, (emu.grasscutter.net.newproto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo) detail_);
       }
-      if (unk3300DMILOONBELH_ != 0) {
+      if (activityType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300DMILOONBELH_);
+          .computeUInt32Size(3, activityType_);
       }
       if (detailCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
@@ -4367,9 +4367,9 @@ public final class ActivityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(686, (emu.grasscutter.net.newproto.BuoyantCombatDetailInfoOuterClass.BuoyantCombatDetailInfo) detail_);
       }
-      if (unk3300GCEAKEMMJEA_ != 0) {
+      if (selectedAvatarRewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(697, unk3300GCEAKEMMJEA_);
+          .computeUInt32Size(697, selectedAvatarRewardId_);
       }
       if (detailCase_ == 699) {
         size += com.google.protobuf.CodedOutputStream
@@ -4630,16 +4630,16 @@ public final class ActivityInfoOuterClass {
           != other.getActivityId()) return false;
       if (!getTakenRewardListList()
           .equals(other.getTakenRewardListList())) return false;
-      if (getUnk3300GCEAKEMMJEA()
-          != other.getUnk3300GCEAKEMMJEA()) return false;
+      if (getSelectedAvatarRewardId()
+          != other.getSelectedAvatarRewardId()) return false;
       if (!internalGetActivityCoinMap().equals(
           other.internalGetActivityCoinMap())) return false;
       if (getFirstDayStartTime()
           != other.getFirstDayStartTime()) return false;
       if (getUnk3300ABJKLALKLDG()
           != other.getUnk3300ABJKLALKLDG()) return false;
-      if (getUnk3300DMILOONBELH()
-          != other.getUnk3300DMILOONBELH()) return false;
+      if (getActivityType()
+          != other.getActivityType()) return false;
       if (getUnk3300CBCEHLJJOGI()
           != other.getUnk3300CBCEHLJJOGI()) return false;
       if (getBeginTime()
@@ -4956,8 +4956,8 @@ public final class ActivityInfoOuterClass {
         hash = (37 * hash) + TAKEN_REWARD_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTakenRewardListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_GCEAKEMMJEA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GCEAKEMMJEA();
+      hash = (37 * hash) + SELECTED_AVATAR_REWARD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSelectedAvatarRewardId();
       if (!internalGetActivityCoinMap().getMap().isEmpty()) {
         hash = (37 * hash) + ACTIVITY_COIN_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetActivityCoinMap().hashCode();
@@ -4967,8 +4967,8 @@ public final class ActivityInfoOuterClass {
       hash = (37 * hash) + UNK3300_ABJKLALKLDG_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300ABJKLALKLDG());
-      hash = (37 * hash) + UNK3300_DMILOONBELH_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DMILOONBELH();
+      hash = (37 * hash) + ACTIVITY_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getActivityType();
       hash = (37 * hash) + UNK3300_CBCEHLJJOGI_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300CBCEHLJJOGI());
@@ -5431,14 +5431,14 @@ public final class ActivityInfoOuterClass {
 
         takenRewardList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000008);
-        unk3300GCEAKEMMJEA_ = 0;
+        selectedAvatarRewardId_ = 0;
 
         internalGetMutableActivityCoinMap().clear();
         firstDayStartTime_ = 0;
 
         unk3300ABJKLALKLDG_ = false;
 
-        unk3300DMILOONBELH_ = 0;
+        activityType_ = 0;
 
         unk3300CBCEHLJJOGI_ = false;
 
@@ -5705,12 +5705,12 @@ public final class ActivityInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000008);
         }
         result.takenRewardList_ = takenRewardList_;
-        result.unk3300GCEAKEMMJEA_ = unk3300GCEAKEMMJEA_;
+        result.selectedAvatarRewardId_ = selectedAvatarRewardId_;
         result.activityCoinMap_ = internalGetActivityCoinMap();
         result.activityCoinMap_.makeImmutable();
         result.firstDayStartTime_ = firstDayStartTime_;
         result.unk3300ABJKLALKLDG_ = unk3300ABJKLALKLDG_;
-        result.unk3300DMILOONBELH_ = unk3300DMILOONBELH_;
+        result.activityType_ = activityType_;
         result.unk3300CBCEHLJJOGI_ = unk3300CBCEHLJJOGI_;
         result.beginTime_ = beginTime_;
         result.unk3300MDBDPIBEGGH_ = unk3300MDBDPIBEGGH_;
@@ -6308,8 +6308,8 @@ public final class ActivityInfoOuterClass {
           }
           onChanged();
         }
-        if (other.getUnk3300GCEAKEMMJEA() != 0) {
-          setUnk3300GCEAKEMMJEA(other.getUnk3300GCEAKEMMJEA());
+        if (other.getSelectedAvatarRewardId() != 0) {
+          setSelectedAvatarRewardId(other.getSelectedAvatarRewardId());
         }
         internalGetMutableActivityCoinMap().mergeFrom(
             other.internalGetActivityCoinMap());
@@ -6319,8 +6319,8 @@ public final class ActivityInfoOuterClass {
         if (other.getUnk3300ABJKLALKLDG() != false) {
           setUnk3300ABJKLALKLDG(other.getUnk3300ABJKLALKLDG());
         }
-        if (other.getUnk3300DMILOONBELH() != 0) {
-          setUnk3300DMILOONBELH(other.getUnk3300DMILOONBELH());
+        if (other.getActivityType() != 0) {
+          setActivityType(other.getActivityType());
         }
         if (other.getUnk3300CBCEHLJJOGI() != false) {
           setUnk3300CBCEHLJJOGI(other.getUnk3300CBCEHLJJOGI());
@@ -6642,7 +6642,7 @@ public final class ActivityInfoOuterClass {
                 break;
               } // case 18
               case 24: {
-                unk3300DMILOONBELH_ = input.readUInt32();
+                activityType_ = input.readUInt32();
 
                 break;
               } // case 24
@@ -6875,7 +6875,7 @@ public final class ActivityInfoOuterClass {
                 break;
               } // case 5490
               case 5576: {
-                unk3300GCEAKEMMJEA_ = input.readUInt32();
+                selectedAvatarRewardId_ = input.readUInt32();
 
                 break;
               } // case 5576
@@ -8158,33 +8158,33 @@ public final class ActivityInfoOuterClass {
         return this;
       }
 
-      private int unk3300GCEAKEMMJEA_ ;
+      private int selectedAvatarRewardId_ ;
       /**
-       * <code>uint32 Unk3300_GCEAKEMMJEA = 697;</code>
-       * @return The unk3300GCEAKEMMJEA.
+       * <code>uint32 selected_avatar_reward_id = 697;</code>
+       * @return The selectedAvatarRewardId.
        */
       @java.lang.Override
-      public int getUnk3300GCEAKEMMJEA() {
-        return unk3300GCEAKEMMJEA_;
+      public int getSelectedAvatarRewardId() {
+        return selectedAvatarRewardId_;
       }
       /**
-       * <code>uint32 Unk3300_GCEAKEMMJEA = 697;</code>
-       * @param value The unk3300GCEAKEMMJEA to set.
+       * <code>uint32 selected_avatar_reward_id = 697;</code>
+       * @param value The selectedAvatarRewardId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GCEAKEMMJEA(int value) {
+      public Builder setSelectedAvatarRewardId(int value) {
         
-        unk3300GCEAKEMMJEA_ = value;
+        selectedAvatarRewardId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GCEAKEMMJEA = 697;</code>
+       * <code>uint32 selected_avatar_reward_id = 697;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GCEAKEMMJEA() {
+      public Builder clearSelectedAvatarRewardId() {
         
-        unk3300GCEAKEMMJEA_ = 0;
+        selectedAvatarRewardId_ = 0;
         onChanged();
         return this;
       }
@@ -8379,33 +8379,33 @@ public final class ActivityInfoOuterClass {
         return this;
       }
 
-      private int unk3300DMILOONBELH_ ;
+      private int activityType_ ;
       /**
-       * <code>uint32 Unk3300_DMILOONBELH = 3;</code>
-       * @return The unk3300DMILOONBELH.
+       * <code>uint32 activity_type = 3;</code>
+       * @return The activityType.
        */
       @java.lang.Override
-      public int getUnk3300DMILOONBELH() {
-        return unk3300DMILOONBELH_;
+      public int getActivityType() {
+        return activityType_;
       }
       /**
-       * <code>uint32 Unk3300_DMILOONBELH = 3;</code>
-       * @param value The unk3300DMILOONBELH to set.
+       * <code>uint32 activity_type = 3;</code>
+       * @param value The activityType to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DMILOONBELH(int value) {
+      public Builder setActivityType(int value) {
         
-        unk3300DMILOONBELH_ = value;
+        activityType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DMILOONBELH = 3;</code>
+       * <code>uint32 activity_type = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DMILOONBELH() {
+      public Builder clearActivityType() {
         
-        unk3300DMILOONBELH_ = 0;
+        activityType_ = 0;
         onChanged();
         return this;
       }
@@ -17838,12 +17838,12 @@ public final class ActivityInfoOuterClass {
       "her_info_list\030\006 \003(\0132\024.ActivityWatcherInf" +
       "o\022<\n\034activity_push_tips_data_list\030\313\016 \003(\013" +
       "2\025.ActivityPushTipsData\022\023\n\013activity_id\030\r" +
-      " \001(\r\022\032\n\021taken_reward_list\030\341\016 \003(\r\022\034\n\023Unk3" +
-      "300_GCEAKEMMJEA\030\271\005 \001(\r\022=\n\021activity_coin_" +
-      "map\030$ \003(\0132\".ActivityInfo.ActivityCoinMap" +
-      "Entry\022\035\n\024first_day_start_time\030\222\006 \001(\r\022\034\n\023" +
-      "Unk3300_ABJKLALKLDG\030\316\013 \001(\010\022\033\n\023Unk3300_DM" +
-      "ILOONBELH\030\003 \001(\r\022\034\n\023Unk3300_CBCEHLJJOGI\030\337" +
+      " \001(\r\022\032\n\021taken_reward_list\030\341\016 \003(\r\022\"\n\031sele" +
+      "cted_avatar_reward_id\030\271\005 \001(\r\022=\n\021activity" +
+      "_coin_map\030$ \003(\0132\".ActivityInfo.ActivityC" +
+      "oinMapEntry\022\035\n\024first_day_start_time\030\222\006 \001" +
+      "(\r\022\034\n\023Unk3300_ABJKLALKLDG\030\316\013 \001(\010\022\025\n\racti" +
+      "vity_type\030\003 \001(\r\022\034\n\023Unk3300_CBCEHLJJOGI\030\337" +
       "\n \001(\010\022\022\n\nbegin_time\030\001 \001(\r\022\033\n\023Unk3300_MDB" +
       "DPIBEGGH\030\014 \001(\010\022=\n\021wish_gift_num_map\030\253\007 \003" +
       "(\0132!.ActivityInfo.WishGiftNumMapEntry\022\020\n" +
@@ -18019,7 +18019,7 @@ public final class ActivityInfoOuterClass {
     internal_static_ActivityInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ActivityInfo_descriptor,
-        new java.lang.String[] { "Unk3300MJNPGEKLOCG", "IsFinished", "CurScore", "ScheduleId", "Unk3300JAEALAIOOID", "Unk3300ICNJJKDHPCH", "Unk3300BGNIBLKCPCA", "Unk3300NEPKLLBJFKK", "WatcherInfoList", "ActivityPushTipsDataList", "ActivityId", "TakenRewardList", "Unk3300GCEAKEMMJEA", "ActivityCoinMap", "FirstDayStartTime", "Unk3300ABJKLALKLDG", "Unk3300DMILOONBELH", "Unk3300CBCEHLJJOGI", "BeginTime", "Unk3300MDBDPIBEGGH", "WishGiftNumMap", "EndTime", "Unk3300HKKNIHNBHAE", "SamLampInfo", "CrucibleInfo", "SalesmanInfo", "TrialAvatarInfo", "DeliveryInfo", "AsterInfo", "FlightInfo", "DragonSpineInfo", "EffigyInfo", "TreasureMapInfo", "BlessingInfo", "SeaLampInfo", "ExpeditionInfo", "ArenaChallengeInfo", "FleurFairInfo", "WaterSpiritInfo", "ChannelerSlabInfo", "MistTrialActivityInfo", "HideAndSeekInfo", "FindHilichurlInfo", "SummerTimeInfo", "BuoyantCombatInfo", "EchoShellInfo", "BounceConjuringInfo", "BlitzRushInfo", "ChessInfo", "SumoInfo", "MoonfinTrialInfo", "LunaRiteInfo", "PlantFlowerInfo", "MusicGameInfo", "RoguelikeDungeonInfo", "DigInfo", "HachiInfo", "WinterCampInfo", "PotionInfo", "TanukiTravelActivityInfo", "LanternRiteActivityInfo", "MichiaeMatsuriInfo", "BartenderInfo", "UgcInfo", "CrystalLinkInfo", "IrodoriInfo", "PhotoInfo", "SpiceInfo", "GachaInfo", "LuminanceStoneChallengeInfo", "RogueDiaryInfo", "SummerTimeV2Info", "IslandPartyInfo", "GearInfo", "GravenInnocenceInfo", "InstableSprayInfo", "MuqadasPotionInfo", "TreasureSeelieInfo", "RockBoardExploreInfo", "VintageInfo", "WindFieldInfo", "FungusFighterInfo", "CharAmusementInfo", "EffigyChallengeInfo", "CoinCollectInfo", "BrickBreakerInfo", "Detail", });
+        new java.lang.String[] { "Unk3300MJNPGEKLOCG", "IsFinished", "CurScore", "ScheduleId", "Unk3300JAEALAIOOID", "Unk3300ICNJJKDHPCH", "Unk3300BGNIBLKCPCA", "Unk3300NEPKLLBJFKK", "WatcherInfoList", "ActivityPushTipsDataList", "ActivityId", "TakenRewardList", "SelectedAvatarRewardId", "ActivityCoinMap", "FirstDayStartTime", "Unk3300ABJKLALKLDG", "ActivityType", "Unk3300CBCEHLJJOGI", "BeginTime", "Unk3300MDBDPIBEGGH", "WishGiftNumMap", "EndTime", "Unk3300HKKNIHNBHAE", "SamLampInfo", "CrucibleInfo", "SalesmanInfo", "TrialAvatarInfo", "DeliveryInfo", "AsterInfo", "FlightInfo", "DragonSpineInfo", "EffigyInfo", "TreasureMapInfo", "BlessingInfo", "SeaLampInfo", "ExpeditionInfo", "ArenaChallengeInfo", "FleurFairInfo", "WaterSpiritInfo", "ChannelerSlabInfo", "MistTrialActivityInfo", "HideAndSeekInfo", "FindHilichurlInfo", "SummerTimeInfo", "BuoyantCombatInfo", "EchoShellInfo", "BounceConjuringInfo", "BlitzRushInfo", "ChessInfo", "SumoInfo", "MoonfinTrialInfo", "LunaRiteInfo", "PlantFlowerInfo", "MusicGameInfo", "RoguelikeDungeonInfo", "DigInfo", "HachiInfo", "WinterCampInfo", "PotionInfo", "TanukiTravelActivityInfo", "LanternRiteActivityInfo", "MichiaeMatsuriInfo", "BartenderInfo", "UgcInfo", "CrystalLinkInfo", "IrodoriInfo", "PhotoInfo", "SpiceInfo", "GachaInfo", "LuminanceStoneChallengeInfo", "RogueDiaryInfo", "SummerTimeV2Info", "IslandPartyInfo", "GearInfo", "GravenInnocenceInfo", "InstableSprayInfo", "MuqadasPotionInfo", "TreasureSeelieInfo", "RockBoardExploreInfo", "VintageInfo", "WindFieldInfo", "FungusFighterInfo", "CharAmusementInfo", "EffigyChallengeInfo", "CoinCollectInfo", "BrickBreakerInfo", "Detail", });
     internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor =
       internal_static_ActivityInfo_descriptor.getNestedTypes().get(0);
     internal_static_ActivityInfo_ActivityCoinMapEntry_fieldAccessorTable = new

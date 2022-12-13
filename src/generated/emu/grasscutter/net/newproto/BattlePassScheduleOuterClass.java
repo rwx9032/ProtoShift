@@ -25,10 +25,10 @@ public final class BattlePassScheduleOuterClass {
     int getScheduleId();
 
     /**
-     * <code>uint32 Unk3300_MAAJDKMIODC = 2;</code>
-     * @return The unk3300MAAJDKMIODC.
+     * <code>uint32 point = 2;</code>
+     * @return The point.
      */
-    int getUnk3300MAAJDKMIODC();
+    int getPoint();
 
     /**
      * <code>uint32 level = 7;</code>
@@ -37,28 +37,28 @@ public final class BattlePassScheduleOuterClass {
     int getLevel();
 
     /**
-     * <code>bool Unk3300_KODFJENCJLE = 8;</code>
-     * @return The unk3300KODFJENCJLE.
+     * <code>bool is_extra_paid_reward_taken = 8;</code>
+     * @return The isExtraPaidRewardTaken.
      */
-    boolean getUnk3300KODFJENCJLE();
+    boolean getIsExtraPaidRewardTaken();
 
     /**
-     * <code>uint32 Unk3300_ELMNFBOLEOA = 14;</code>
-     * @return The unk3300ELMNFBOLEOA.
+     * <code>uint32 cur_cycle_points = 14;</code>
+     * @return The curCyclePoints.
      */
-    int getUnk3300ELMNFBOLEOA();
+    int getCurCyclePoints();
 
     /**
-     * <code>bool Unk3300_KALOGHHMJJE = 12;</code>
-     * @return The unk3300KALOGHHMJJE.
+     * <code>bool is_viewed = 12;</code>
+     * @return The isViewed.
      */
-    boolean getUnk3300KALOGHHMJJE();
+    boolean getIsViewed();
 
     /**
-     * <code>uint32 Unk3300_FILCIPPAHHL = 4;</code>
-     * @return The unk3300FILCIPPAHHL.
+     * <code>uint32 paid_platform_flags = 4;</code>
+     * @return The paidPlatformFlags.
      */
-    int getUnk3300FILCIPPAHHL();
+    int getPaidPlatformFlags();
 
     /**
      * <code>.BattlePassCycle cur_cycle = 11;</code>
@@ -190,15 +190,15 @@ public final class BattlePassScheduleOuterClass {
       return scheduleId_;
     }
 
-    public static final int UNK3300_MAAJDKMIODC_FIELD_NUMBER = 2;
-    private int unk3300MAAJDKMIODC_;
+    public static final int POINT_FIELD_NUMBER = 2;
+    private int point_;
     /**
-     * <code>uint32 Unk3300_MAAJDKMIODC = 2;</code>
-     * @return The unk3300MAAJDKMIODC.
+     * <code>uint32 point = 2;</code>
+     * @return The point.
      */
     @java.lang.Override
-    public int getUnk3300MAAJDKMIODC() {
-      return unk3300MAAJDKMIODC_;
+    public int getPoint() {
+      return point_;
     }
 
     public static final int LEVEL_FIELD_NUMBER = 7;
@@ -212,48 +212,48 @@ public final class BattlePassScheduleOuterClass {
       return level_;
     }
 
-    public static final int UNK3300_KODFJENCJLE_FIELD_NUMBER = 8;
-    private boolean unk3300KODFJENCJLE_;
+    public static final int IS_EXTRA_PAID_REWARD_TAKEN_FIELD_NUMBER = 8;
+    private boolean isExtraPaidRewardTaken_;
     /**
-     * <code>bool Unk3300_KODFJENCJLE = 8;</code>
-     * @return The unk3300KODFJENCJLE.
+     * <code>bool is_extra_paid_reward_taken = 8;</code>
+     * @return The isExtraPaidRewardTaken.
      */
     @java.lang.Override
-    public boolean getUnk3300KODFJENCJLE() {
-      return unk3300KODFJENCJLE_;
+    public boolean getIsExtraPaidRewardTaken() {
+      return isExtraPaidRewardTaken_;
     }
 
-    public static final int UNK3300_ELMNFBOLEOA_FIELD_NUMBER = 14;
-    private int unk3300ELMNFBOLEOA_;
+    public static final int CUR_CYCLE_POINTS_FIELD_NUMBER = 14;
+    private int curCyclePoints_;
     /**
-     * <code>uint32 Unk3300_ELMNFBOLEOA = 14;</code>
-     * @return The unk3300ELMNFBOLEOA.
+     * <code>uint32 cur_cycle_points = 14;</code>
+     * @return The curCyclePoints.
      */
     @java.lang.Override
-    public int getUnk3300ELMNFBOLEOA() {
-      return unk3300ELMNFBOLEOA_;
+    public int getCurCyclePoints() {
+      return curCyclePoints_;
     }
 
-    public static final int UNK3300_KALOGHHMJJE_FIELD_NUMBER = 12;
-    private boolean unk3300KALOGHHMJJE_;
+    public static final int IS_VIEWED_FIELD_NUMBER = 12;
+    private boolean isViewed_;
     /**
-     * <code>bool Unk3300_KALOGHHMJJE = 12;</code>
-     * @return The unk3300KALOGHHMJJE.
+     * <code>bool is_viewed = 12;</code>
+     * @return The isViewed.
      */
     @java.lang.Override
-    public boolean getUnk3300KALOGHHMJJE() {
-      return unk3300KALOGHHMJJE_;
+    public boolean getIsViewed() {
+      return isViewed_;
     }
 
-    public static final int UNK3300_FILCIPPAHHL_FIELD_NUMBER = 4;
-    private int unk3300FILCIPPAHHL_;
+    public static final int PAID_PLATFORM_FLAGS_FIELD_NUMBER = 4;
+    private int paidPlatformFlags_;
     /**
-     * <code>uint32 Unk3300_FILCIPPAHHL = 4;</code>
-     * @return The unk3300FILCIPPAHHL.
+     * <code>uint32 paid_platform_flags = 4;</code>
+     * @return The paidPlatformFlags.
      */
     @java.lang.Override
-    public int getUnk3300FILCIPPAHHL() {
-      return unk3300FILCIPPAHHL_;
+    public int getPaidPlatformFlags() {
+      return paidPlatformFlags_;
     }
 
     public static final int CUR_CYCLE_FIELD_NUMBER = 11;
@@ -406,14 +406,14 @@ public final class BattlePassScheduleOuterClass {
       if (beginTime_ != 0) {
         output.writeUInt32(1, beginTime_);
       }
-      if (unk3300MAAJDKMIODC_ != 0) {
-        output.writeUInt32(2, unk3300MAAJDKMIODC_);
+      if (point_ != 0) {
+        output.writeUInt32(2, point_);
       }
       for (int i = 0; i < rewardTakenList_.size(); i++) {
         output.writeMessage(3, rewardTakenList_.get(i));
       }
-      if (unk3300FILCIPPAHHL_ != 0) {
-        output.writeUInt32(4, unk3300FILCIPPAHHL_);
+      if (paidPlatformFlags_ != 0) {
+        output.writeUInt32(4, paidPlatformFlags_);
       }
       if (scheduleId_ != 0) {
         output.writeUInt32(5, scheduleId_);
@@ -421,8 +421,8 @@ public final class BattlePassScheduleOuterClass {
       if (level_ != 0) {
         output.writeUInt32(7, level_);
       }
-      if (unk3300KODFJENCJLE_ != false) {
-        output.writeBool(8, unk3300KODFJENCJLE_);
+      if (isExtraPaidRewardTaken_ != false) {
+        output.writeBool(8, isExtraPaidRewardTaken_);
       }
       if (productInfo_ != null) {
         output.writeMessage(10, getProductInfo());
@@ -430,14 +430,14 @@ public final class BattlePassScheduleOuterClass {
       if (curCycle_ != null) {
         output.writeMessage(11, getCurCycle());
       }
-      if (unk3300KALOGHHMJJE_ != false) {
-        output.writeBool(12, unk3300KALOGHHMJJE_);
+      if (isViewed_ != false) {
+        output.writeBool(12, isViewed_);
       }
       if (endTime_ != 0) {
         output.writeUInt32(13, endTime_);
       }
-      if (unk3300ELMNFBOLEOA_ != 0) {
-        output.writeUInt32(14, unk3300ELMNFBOLEOA_);
+      if (curCyclePoints_ != 0) {
+        output.writeUInt32(14, curCyclePoints_);
       }
       if (unlockStatus_ != emu.grasscutter.net.newproto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BATTLE_PASS_UNLOCK_STATUS_INVALID.getNumber()) {
         output.writeEnum(15, unlockStatus_);
@@ -455,17 +455,17 @@ public final class BattlePassScheduleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, beginTime_);
       }
-      if (unk3300MAAJDKMIODC_ != 0) {
+      if (point_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300MAAJDKMIODC_);
+          .computeUInt32Size(2, point_);
       }
       for (int i = 0; i < rewardTakenList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, rewardTakenList_.get(i));
       }
-      if (unk3300FILCIPPAHHL_ != 0) {
+      if (paidPlatformFlags_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, unk3300FILCIPPAHHL_);
+          .computeUInt32Size(4, paidPlatformFlags_);
       }
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -475,9 +475,9 @@ public final class BattlePassScheduleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(7, level_);
       }
-      if (unk3300KODFJENCJLE_ != false) {
+      if (isExtraPaidRewardTaken_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, unk3300KODFJENCJLE_);
+          .computeBoolSize(8, isExtraPaidRewardTaken_);
       }
       if (productInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -487,17 +487,17 @@ public final class BattlePassScheduleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(11, getCurCycle());
       }
-      if (unk3300KALOGHHMJJE_ != false) {
+      if (isViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, unk3300KALOGHHMJJE_);
+          .computeBoolSize(12, isViewed_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, endTime_);
       }
-      if (unk3300ELMNFBOLEOA_ != 0) {
+      if (curCyclePoints_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, unk3300ELMNFBOLEOA_);
+          .computeUInt32Size(14, curCyclePoints_);
       }
       if (unlockStatus_ != emu.grasscutter.net.newproto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BATTLE_PASS_UNLOCK_STATUS_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -520,18 +520,18 @@ public final class BattlePassScheduleOuterClass {
 
       if (getScheduleId()
           != other.getScheduleId()) return false;
-      if (getUnk3300MAAJDKMIODC()
-          != other.getUnk3300MAAJDKMIODC()) return false;
+      if (getPoint()
+          != other.getPoint()) return false;
       if (getLevel()
           != other.getLevel()) return false;
-      if (getUnk3300KODFJENCJLE()
-          != other.getUnk3300KODFJENCJLE()) return false;
-      if (getUnk3300ELMNFBOLEOA()
-          != other.getUnk3300ELMNFBOLEOA()) return false;
-      if (getUnk3300KALOGHHMJJE()
-          != other.getUnk3300KALOGHHMJJE()) return false;
-      if (getUnk3300FILCIPPAHHL()
-          != other.getUnk3300FILCIPPAHHL()) return false;
+      if (getIsExtraPaidRewardTaken()
+          != other.getIsExtraPaidRewardTaken()) return false;
+      if (getCurCyclePoints()
+          != other.getCurCyclePoints()) return false;
+      if (getIsViewed()
+          != other.getIsViewed()) return false;
+      if (getPaidPlatformFlags()
+          != other.getPaidPlatformFlags()) return false;
       if (hasCurCycle() != other.hasCurCycle()) return false;
       if (hasCurCycle()) {
         if (!getCurCycle()
@@ -562,20 +562,20 @@ public final class BattlePassScheduleOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getScheduleId();
-      hash = (37 * hash) + UNK3300_MAAJDKMIODC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MAAJDKMIODC();
+      hash = (37 * hash) + POINT_FIELD_NUMBER;
+      hash = (53 * hash) + getPoint();
       hash = (37 * hash) + LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getLevel();
-      hash = (37 * hash) + UNK3300_KODFJENCJLE_FIELD_NUMBER;
+      hash = (37 * hash) + IS_EXTRA_PAID_REWARD_TAKEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300KODFJENCJLE());
-      hash = (37 * hash) + UNK3300_ELMNFBOLEOA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300ELMNFBOLEOA();
-      hash = (37 * hash) + UNK3300_KALOGHHMJJE_FIELD_NUMBER;
+          getIsExtraPaidRewardTaken());
+      hash = (37 * hash) + CUR_CYCLE_POINTS_FIELD_NUMBER;
+      hash = (53 * hash) + getCurCyclePoints();
+      hash = (37 * hash) + IS_VIEWED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300KALOGHHMJJE());
-      hash = (37 * hash) + UNK3300_FILCIPPAHHL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300FILCIPPAHHL();
+          getIsViewed());
+      hash = (37 * hash) + PAID_PLATFORM_FLAGS_FIELD_NUMBER;
+      hash = (53 * hash) + getPaidPlatformFlags();
       if (hasCurCycle()) {
         hash = (37 * hash) + CUR_CYCLE_FIELD_NUMBER;
         hash = (53 * hash) + getCurCycle().hashCode();
@@ -724,17 +724,17 @@ public final class BattlePassScheduleOuterClass {
         super.clear();
         scheduleId_ = 0;
 
-        unk3300MAAJDKMIODC_ = 0;
+        point_ = 0;
 
         level_ = 0;
 
-        unk3300KODFJENCJLE_ = false;
+        isExtraPaidRewardTaken_ = false;
 
-        unk3300ELMNFBOLEOA_ = 0;
+        curCyclePoints_ = 0;
 
-        unk3300KALOGHHMJJE_ = false;
+        isViewed_ = false;
 
-        unk3300FILCIPPAHHL_ = 0;
+        paidPlatformFlags_ = 0;
 
         if (curCycleBuilder_ == null) {
           curCycle_ = null;
@@ -789,12 +789,12 @@ public final class BattlePassScheduleOuterClass {
         emu.grasscutter.net.newproto.BattlePassScheduleOuterClass.BattlePassSchedule result = new emu.grasscutter.net.newproto.BattlePassScheduleOuterClass.BattlePassSchedule(this);
         int from_bitField0_ = bitField0_;
         result.scheduleId_ = scheduleId_;
-        result.unk3300MAAJDKMIODC_ = unk3300MAAJDKMIODC_;
+        result.point_ = point_;
         result.level_ = level_;
-        result.unk3300KODFJENCJLE_ = unk3300KODFJENCJLE_;
-        result.unk3300ELMNFBOLEOA_ = unk3300ELMNFBOLEOA_;
-        result.unk3300KALOGHHMJJE_ = unk3300KALOGHHMJJE_;
-        result.unk3300FILCIPPAHHL_ = unk3300FILCIPPAHHL_;
+        result.isExtraPaidRewardTaken_ = isExtraPaidRewardTaken_;
+        result.curCyclePoints_ = curCyclePoints_;
+        result.isViewed_ = isViewed_;
+        result.paidPlatformFlags_ = paidPlatformFlags_;
         if (curCycleBuilder_ == null) {
           result.curCycle_ = curCycle_;
         } else {
@@ -868,23 +868,23 @@ public final class BattlePassScheduleOuterClass {
         if (other.getScheduleId() != 0) {
           setScheduleId(other.getScheduleId());
         }
-        if (other.getUnk3300MAAJDKMIODC() != 0) {
-          setUnk3300MAAJDKMIODC(other.getUnk3300MAAJDKMIODC());
+        if (other.getPoint() != 0) {
+          setPoint(other.getPoint());
         }
         if (other.getLevel() != 0) {
           setLevel(other.getLevel());
         }
-        if (other.getUnk3300KODFJENCJLE() != false) {
-          setUnk3300KODFJENCJLE(other.getUnk3300KODFJENCJLE());
+        if (other.getIsExtraPaidRewardTaken() != false) {
+          setIsExtraPaidRewardTaken(other.getIsExtraPaidRewardTaken());
         }
-        if (other.getUnk3300ELMNFBOLEOA() != 0) {
-          setUnk3300ELMNFBOLEOA(other.getUnk3300ELMNFBOLEOA());
+        if (other.getCurCyclePoints() != 0) {
+          setCurCyclePoints(other.getCurCyclePoints());
         }
-        if (other.getUnk3300KALOGHHMJJE() != false) {
-          setUnk3300KALOGHHMJJE(other.getUnk3300KALOGHHMJJE());
+        if (other.getIsViewed() != false) {
+          setIsViewed(other.getIsViewed());
         }
-        if (other.getUnk3300FILCIPPAHHL() != 0) {
-          setUnk3300FILCIPPAHHL(other.getUnk3300FILCIPPAHHL());
+        if (other.getPaidPlatformFlags() != 0) {
+          setPaidPlatformFlags(other.getPaidPlatformFlags());
         }
         if (other.hasCurCycle()) {
           mergeCurCycle(other.getCurCycle());
@@ -959,7 +959,7 @@ public final class BattlePassScheduleOuterClass {
                 break;
               } // case 8
               case 16: {
-                unk3300MAAJDKMIODC_ = input.readUInt32();
+                point_ = input.readUInt32();
 
                 break;
               } // case 16
@@ -977,7 +977,7 @@ public final class BattlePassScheduleOuterClass {
                 break;
               } // case 26
               case 32: {
-                unk3300FILCIPPAHHL_ = input.readUInt32();
+                paidPlatformFlags_ = input.readUInt32();
 
                 break;
               } // case 32
@@ -992,7 +992,7 @@ public final class BattlePassScheduleOuterClass {
                 break;
               } // case 56
               case 64: {
-                unk3300KODFJENCJLE_ = input.readBool();
+                isExtraPaidRewardTaken_ = input.readBool();
 
                 break;
               } // case 64
@@ -1011,7 +1011,7 @@ public final class BattlePassScheduleOuterClass {
                 break;
               } // case 90
               case 96: {
-                unk3300KALOGHHMJJE_ = input.readBool();
+                isViewed_ = input.readBool();
 
                 break;
               } // case 96
@@ -1021,7 +1021,7 @@ public final class BattlePassScheduleOuterClass {
                 break;
               } // case 104
               case 112: {
-                unk3300ELMNFBOLEOA_ = input.readUInt32();
+                curCyclePoints_ = input.readUInt32();
 
                 break;
               } // case 112
@@ -1078,33 +1078,33 @@ public final class BattlePassScheduleOuterClass {
         return this;
       }
 
-      private int unk3300MAAJDKMIODC_ ;
+      private int point_ ;
       /**
-       * <code>uint32 Unk3300_MAAJDKMIODC = 2;</code>
-       * @return The unk3300MAAJDKMIODC.
+       * <code>uint32 point = 2;</code>
+       * @return The point.
        */
       @java.lang.Override
-      public int getUnk3300MAAJDKMIODC() {
-        return unk3300MAAJDKMIODC_;
+      public int getPoint() {
+        return point_;
       }
       /**
-       * <code>uint32 Unk3300_MAAJDKMIODC = 2;</code>
-       * @param value The unk3300MAAJDKMIODC to set.
+       * <code>uint32 point = 2;</code>
+       * @param value The point to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MAAJDKMIODC(int value) {
+      public Builder setPoint(int value) {
         
-        unk3300MAAJDKMIODC_ = value;
+        point_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_MAAJDKMIODC = 2;</code>
+       * <code>uint32 point = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MAAJDKMIODC() {
+      public Builder clearPoint() {
         
-        unk3300MAAJDKMIODC_ = 0;
+        point_ = 0;
         onChanged();
         return this;
       }
@@ -1140,126 +1140,126 @@ public final class BattlePassScheduleOuterClass {
         return this;
       }
 
-      private boolean unk3300KODFJENCJLE_ ;
+      private boolean isExtraPaidRewardTaken_ ;
       /**
-       * <code>bool Unk3300_KODFJENCJLE = 8;</code>
-       * @return The unk3300KODFJENCJLE.
+       * <code>bool is_extra_paid_reward_taken = 8;</code>
+       * @return The isExtraPaidRewardTaken.
        */
       @java.lang.Override
-      public boolean getUnk3300KODFJENCJLE() {
-        return unk3300KODFJENCJLE_;
+      public boolean getIsExtraPaidRewardTaken() {
+        return isExtraPaidRewardTaken_;
       }
       /**
-       * <code>bool Unk3300_KODFJENCJLE = 8;</code>
-       * @param value The unk3300KODFJENCJLE to set.
+       * <code>bool is_extra_paid_reward_taken = 8;</code>
+       * @param value The isExtraPaidRewardTaken to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KODFJENCJLE(boolean value) {
+      public Builder setIsExtraPaidRewardTaken(boolean value) {
         
-        unk3300KODFJENCJLE_ = value;
+        isExtraPaidRewardTaken_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_KODFJENCJLE = 8;</code>
+       * <code>bool is_extra_paid_reward_taken = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KODFJENCJLE() {
+      public Builder clearIsExtraPaidRewardTaken() {
         
-        unk3300KODFJENCJLE_ = false;
+        isExtraPaidRewardTaken_ = false;
         onChanged();
         return this;
       }
 
-      private int unk3300ELMNFBOLEOA_ ;
+      private int curCyclePoints_ ;
       /**
-       * <code>uint32 Unk3300_ELMNFBOLEOA = 14;</code>
-       * @return The unk3300ELMNFBOLEOA.
+       * <code>uint32 cur_cycle_points = 14;</code>
+       * @return The curCyclePoints.
        */
       @java.lang.Override
-      public int getUnk3300ELMNFBOLEOA() {
-        return unk3300ELMNFBOLEOA_;
+      public int getCurCyclePoints() {
+        return curCyclePoints_;
       }
       /**
-       * <code>uint32 Unk3300_ELMNFBOLEOA = 14;</code>
-       * @param value The unk3300ELMNFBOLEOA to set.
+       * <code>uint32 cur_cycle_points = 14;</code>
+       * @param value The curCyclePoints to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300ELMNFBOLEOA(int value) {
+      public Builder setCurCyclePoints(int value) {
         
-        unk3300ELMNFBOLEOA_ = value;
+        curCyclePoints_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_ELMNFBOLEOA = 14;</code>
+       * <code>uint32 cur_cycle_points = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300ELMNFBOLEOA() {
+      public Builder clearCurCyclePoints() {
         
-        unk3300ELMNFBOLEOA_ = 0;
+        curCyclePoints_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean unk3300KALOGHHMJJE_ ;
+      private boolean isViewed_ ;
       /**
-       * <code>bool Unk3300_KALOGHHMJJE = 12;</code>
-       * @return The unk3300KALOGHHMJJE.
+       * <code>bool is_viewed = 12;</code>
+       * @return The isViewed.
        */
       @java.lang.Override
-      public boolean getUnk3300KALOGHHMJJE() {
-        return unk3300KALOGHHMJJE_;
+      public boolean getIsViewed() {
+        return isViewed_;
       }
       /**
-       * <code>bool Unk3300_KALOGHHMJJE = 12;</code>
-       * @param value The unk3300KALOGHHMJJE to set.
+       * <code>bool is_viewed = 12;</code>
+       * @param value The isViewed to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KALOGHHMJJE(boolean value) {
+      public Builder setIsViewed(boolean value) {
         
-        unk3300KALOGHHMJJE_ = value;
+        isViewed_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_KALOGHHMJJE = 12;</code>
+       * <code>bool is_viewed = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KALOGHHMJJE() {
+      public Builder clearIsViewed() {
         
-        unk3300KALOGHHMJJE_ = false;
+        isViewed_ = false;
         onChanged();
         return this;
       }
 
-      private int unk3300FILCIPPAHHL_ ;
+      private int paidPlatformFlags_ ;
       /**
-       * <code>uint32 Unk3300_FILCIPPAHHL = 4;</code>
-       * @return The unk3300FILCIPPAHHL.
+       * <code>uint32 paid_platform_flags = 4;</code>
+       * @return The paidPlatformFlags.
        */
       @java.lang.Override
-      public int getUnk3300FILCIPPAHHL() {
-        return unk3300FILCIPPAHHL_;
+      public int getPaidPlatformFlags() {
+        return paidPlatformFlags_;
       }
       /**
-       * <code>uint32 Unk3300_FILCIPPAHHL = 4;</code>
-       * @param value The unk3300FILCIPPAHHL to set.
+       * <code>uint32 paid_platform_flags = 4;</code>
+       * @param value The paidPlatformFlags to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300FILCIPPAHHL(int value) {
+      public Builder setPaidPlatformFlags(int value) {
         
-        unk3300FILCIPPAHHL_ = value;
+        paidPlatformFlags_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_FILCIPPAHHL = 4;</code>
+       * <code>uint32 paid_platform_flags = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300FILCIPPAHHL() {
+      public Builder clearPaidPlatformFlags() {
         
-        unk3300FILCIPPAHHL_ = 0;
+        paidPlatformFlags_ = 0;
         onChanged();
         return this;
       }
@@ -1938,18 +1938,18 @@ public final class BattlePassScheduleOuterClass {
       "\n\030BattlePassSchedule.proto\032\025BattlePassCy" +
       "cle.proto\032\027BattlePassProduct.proto\032\031Batt" +
       "lePassRewardTag.proto\032\034BattlePassUnlockS" +
-      "tatus.proto\"\237\003\n\022BattlePassSchedule\022\023\n\013sc" +
-      "hedule_id\030\005 \001(\r\022\033\n\023Unk3300_MAAJDKMIODC\030\002" +
-      " \001(\r\022\r\n\005level\030\007 \001(\r\022\033\n\023Unk3300_KODFJENCJ" +
-      "LE\030\010 \001(\010\022\033\n\023Unk3300_ELMNFBOLEOA\030\016 \001(\r\022\033\n" +
-      "\023Unk3300_KALOGHHMJJE\030\014 \001(\010\022\033\n\023Unk3300_FI" +
-      "LCIPPAHHL\030\004 \001(\r\022#\n\tcur_cycle\030\013 \001(\0132\020.Bat" +
-      "tlePassCycle\022\022\n\nbegin_time\030\001 \001(\r\022.\n\runlo" +
-      "ck_status\030\017 \001(\0162\027.BattlePassUnlockStatus" +
-      "\022(\n\014product_info\030\n \001(\0132\022.BattlePassProdu" +
-      "ct\022\020\n\010end_time\030\r \001(\r\022/\n\021reward_taken_lis" +
-      "t\030\003 \003(\0132\024.BattlePassRewardTagB\036\n\034emu.gra" +
-      "sscutter.net.newprotob\006proto3"
+      "tatus.proto\"\213\003\n\022BattlePassSchedule\022\023\n\013sc" +
+      "hedule_id\030\005 \001(\r\022\r\n\005point\030\002 \001(\r\022\r\n\005level\030" +
+      "\007 \001(\r\022\"\n\032is_extra_paid_reward_taken\030\010 \001(" +
+      "\010\022\030\n\020cur_cycle_points\030\016 \001(\r\022\021\n\tis_viewed" +
+      "\030\014 \001(\010\022\033\n\023paid_platform_flags\030\004 \001(\r\022#\n\tc" +
+      "ur_cycle\030\013 \001(\0132\020.BattlePassCycle\022\022\n\nbegi" +
+      "n_time\030\001 \001(\r\022.\n\runlock_status\030\017 \001(\0162\027.Ba" +
+      "ttlePassUnlockStatus\022(\n\014product_info\030\n \001" +
+      "(\0132\022.BattlePassProduct\022\020\n\010end_time\030\r \001(\r" +
+      "\022/\n\021reward_taken_list\030\003 \003(\0132\024.BattlePass" +
+      "RewardTagB\036\n\034emu.grasscutter.net.newprot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1964,7 +1964,7 @@ public final class BattlePassScheduleOuterClass {
     internal_static_BattlePassSchedule_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BattlePassSchedule_descriptor,
-        new java.lang.String[] { "ScheduleId", "Unk3300MAAJDKMIODC", "Level", "Unk3300KODFJENCJLE", "Unk3300ELMNFBOLEOA", "Unk3300KALOGHHMJJE", "Unk3300FILCIPPAHHL", "CurCycle", "BeginTime", "UnlockStatus", "ProductInfo", "EndTime", "RewardTakenList", });
+        new java.lang.String[] { "ScheduleId", "Point", "Level", "IsExtraPaidRewardTaken", "CurCyclePoints", "IsViewed", "PaidPlatformFlags", "CurCycle", "BeginTime", "UnlockStatus", "ProductInfo", "EndTime", "RewardTakenList", });
     emu.grasscutter.net.newproto.BattlePassCycleOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.BattlePassProductOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.BattlePassRewardTagOuterClass.getDescriptor();

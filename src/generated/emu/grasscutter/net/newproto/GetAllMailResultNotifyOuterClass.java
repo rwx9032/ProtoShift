@@ -19,10 +19,10 @@ public final class GetAllMailResultNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_LMCAADPAICM = 13;</code>
-     * @return The unk3300LMCAADPAICM.
+     * <code>uint32 page_index = 13;</code>
+     * @return The pageIndex.
      */
-    int getUnk3300LMCAADPAICM();
+    int getPageIndex();
 
     /**
      * <code>string transaction = 14;</code>
@@ -73,10 +73,10 @@ public final class GetAllMailResultNotifyOuterClass {
         int index);
 
     /**
-     * <code>uint32 Unk3300_PGJIHELKCEA = 6;</code>
-     * @return The unk3300PGJIHELKCEA.
+     * <code>uint32 total_page_count = 6;</code>
+     * @return The totalPageCount.
      */
-    int getUnk3300PGJIHELKCEA();
+    int getTotalPageCount();
   }
   /**
    * <pre>
@@ -130,15 +130,15 @@ public final class GetAllMailResultNotifyOuterClass {
               emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify.class, emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify.Builder.class);
     }
 
-    public static final int UNK3300_LMCAADPAICM_FIELD_NUMBER = 13;
-    private int unk3300LMCAADPAICM_;
+    public static final int PAGE_INDEX_FIELD_NUMBER = 13;
+    private int pageIndex_;
     /**
-     * <code>uint32 Unk3300_LMCAADPAICM = 13;</code>
-     * @return The unk3300LMCAADPAICM.
+     * <code>uint32 page_index = 13;</code>
+     * @return The pageIndex.
      */
     @java.lang.Override
-    public int getUnk3300LMCAADPAICM() {
-      return unk3300LMCAADPAICM_;
+    public int getPageIndex() {
+      return pageIndex_;
     }
 
     public static final int TRANSACTION_FIELD_NUMBER = 14;
@@ -241,15 +241,15 @@ public final class GetAllMailResultNotifyOuterClass {
       return mailList_.get(index);
     }
 
-    public static final int UNK3300_PGJIHELKCEA_FIELD_NUMBER = 6;
-    private int unk3300PGJIHELKCEA_;
+    public static final int TOTAL_PAGE_COUNT_FIELD_NUMBER = 6;
+    private int totalPageCount_;
     /**
-     * <code>uint32 Unk3300_PGJIHELKCEA = 6;</code>
-     * @return The unk3300PGJIHELKCEA.
+     * <code>uint32 total_page_count = 6;</code>
+     * @return The totalPageCount.
      */
     @java.lang.Override
-    public int getUnk3300PGJIHELKCEA() {
-      return unk3300PGJIHELKCEA_;
+    public int getTotalPageCount() {
+      return totalPageCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -269,8 +269,8 @@ public final class GetAllMailResultNotifyOuterClass {
       for (int i = 0; i < mailList_.size(); i++) {
         output.writeMessage(2, mailList_.get(i));
       }
-      if (unk3300PGJIHELKCEA_ != 0) {
-        output.writeUInt32(6, unk3300PGJIHELKCEA_);
+      if (totalPageCount_ != 0) {
+        output.writeUInt32(6, totalPageCount_);
       }
       if (retcode_ != 0) {
         output.writeInt32(7, retcode_);
@@ -278,8 +278,8 @@ public final class GetAllMailResultNotifyOuterClass {
       if (isCollected_ != false) {
         output.writeBool(12, isCollected_);
       }
-      if (unk3300LMCAADPAICM_ != 0) {
-        output.writeUInt32(13, unk3300LMCAADPAICM_);
+      if (pageIndex_ != 0) {
+        output.writeUInt32(13, pageIndex_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 14, transaction_);
@@ -297,9 +297,9 @@ public final class GetAllMailResultNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, mailList_.get(i));
       }
-      if (unk3300PGJIHELKCEA_ != 0) {
+      if (totalPageCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, unk3300PGJIHELKCEA_);
+          .computeUInt32Size(6, totalPageCount_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -309,9 +309,9 @@ public final class GetAllMailResultNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(12, isCollected_);
       }
-      if (unk3300LMCAADPAICM_ != 0) {
+      if (pageIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unk3300LMCAADPAICM_);
+          .computeUInt32Size(13, pageIndex_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, transaction_);
@@ -331,8 +331,8 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify other = (emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify) obj;
 
-      if (getUnk3300LMCAADPAICM()
-          != other.getUnk3300LMCAADPAICM()) return false;
+      if (getPageIndex()
+          != other.getPageIndex()) return false;
       if (!getTransaction()
           .equals(other.getTransaction())) return false;
       if (getIsCollected()
@@ -341,8 +341,8 @@ public final class GetAllMailResultNotifyOuterClass {
           != other.getRetcode()) return false;
       if (!getMailListList()
           .equals(other.getMailListList())) return false;
-      if (getUnk3300PGJIHELKCEA()
-          != other.getUnk3300PGJIHELKCEA()) return false;
+      if (getTotalPageCount()
+          != other.getTotalPageCount()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -354,8 +354,8 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_LMCAADPAICM_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300LMCAADPAICM();
+      hash = (37 * hash) + PAGE_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getPageIndex();
       hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
       hash = (53 * hash) + getTransaction().hashCode();
       hash = (37 * hash) + IS_COLLECTED_FIELD_NUMBER;
@@ -367,8 +367,8 @@ public final class GetAllMailResultNotifyOuterClass {
         hash = (37 * hash) + MAIL_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getMailListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_PGJIHELKCEA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300PGJIHELKCEA();
+      hash = (37 * hash) + TOTAL_PAGE_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getTotalPageCount();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -507,7 +507,7 @@ public final class GetAllMailResultNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300LMCAADPAICM_ = 0;
+        pageIndex_ = 0;
 
         transaction_ = "";
 
@@ -522,7 +522,7 @@ public final class GetAllMailResultNotifyOuterClass {
           mailListBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300PGJIHELKCEA_ = 0;
+        totalPageCount_ = 0;
 
         return this;
       }
@@ -551,7 +551,7 @@ public final class GetAllMailResultNotifyOuterClass {
       public emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify buildPartial() {
         emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify result = new emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300LMCAADPAICM_ = unk3300LMCAADPAICM_;
+        result.pageIndex_ = pageIndex_;
         result.transaction_ = transaction_;
         result.isCollected_ = isCollected_;
         result.retcode_ = retcode_;
@@ -564,7 +564,7 @@ public final class GetAllMailResultNotifyOuterClass {
         } else {
           result.mailList_ = mailListBuilder_.build();
         }
-        result.unk3300PGJIHELKCEA_ = unk3300PGJIHELKCEA_;
+        result.totalPageCount_ = totalPageCount_;
         onBuilt();
         return result;
       }
@@ -613,8 +613,8 @@ public final class GetAllMailResultNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify other) {
         if (other == emu.grasscutter.net.newproto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify.getDefaultInstance()) return this;
-        if (other.getUnk3300LMCAADPAICM() != 0) {
-          setUnk3300LMCAADPAICM(other.getUnk3300LMCAADPAICM());
+        if (other.getPageIndex() != 0) {
+          setPageIndex(other.getPageIndex());
         }
         if (!other.getTransaction().isEmpty()) {
           transaction_ = other.transaction_;
@@ -652,8 +652,8 @@ public final class GetAllMailResultNotifyOuterClass {
             }
           }
         }
-        if (other.getUnk3300PGJIHELKCEA() != 0) {
-          setUnk3300PGJIHELKCEA(other.getUnk3300PGJIHELKCEA());
+        if (other.getTotalPageCount() != 0) {
+          setTotalPageCount(other.getTotalPageCount());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         onChanged();
@@ -695,7 +695,7 @@ public final class GetAllMailResultNotifyOuterClass {
                 break;
               } // case 18
               case 48: {
-                unk3300PGJIHELKCEA_ = input.readUInt32();
+                totalPageCount_ = input.readUInt32();
 
                 break;
               } // case 48
@@ -710,7 +710,7 @@ public final class GetAllMailResultNotifyOuterClass {
                 break;
               } // case 96
               case 104: {
-                unk3300LMCAADPAICM_ = input.readUInt32();
+                pageIndex_ = input.readUInt32();
 
                 break;
               } // case 104
@@ -736,33 +736,33 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300LMCAADPAICM_ ;
+      private int pageIndex_ ;
       /**
-       * <code>uint32 Unk3300_LMCAADPAICM = 13;</code>
-       * @return The unk3300LMCAADPAICM.
+       * <code>uint32 page_index = 13;</code>
+       * @return The pageIndex.
        */
       @java.lang.Override
-      public int getUnk3300LMCAADPAICM() {
-        return unk3300LMCAADPAICM_;
+      public int getPageIndex() {
+        return pageIndex_;
       }
       /**
-       * <code>uint32 Unk3300_LMCAADPAICM = 13;</code>
-       * @param value The unk3300LMCAADPAICM to set.
+       * <code>uint32 page_index = 13;</code>
+       * @param value The pageIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300LMCAADPAICM(int value) {
+      public Builder setPageIndex(int value) {
         
-        unk3300LMCAADPAICM_ = value;
+        pageIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_LMCAADPAICM = 13;</code>
+       * <code>uint32 page_index = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300LMCAADPAICM() {
+      public Builder clearPageIndex() {
         
-        unk3300LMCAADPAICM_ = 0;
+        pageIndex_ = 0;
         onChanged();
         return this;
       }
@@ -1145,33 +1145,33 @@ public final class GetAllMailResultNotifyOuterClass {
         return mailListBuilder_;
       }
 
-      private int unk3300PGJIHELKCEA_ ;
+      private int totalPageCount_ ;
       /**
-       * <code>uint32 Unk3300_PGJIHELKCEA = 6;</code>
-       * @return The unk3300PGJIHELKCEA.
+       * <code>uint32 total_page_count = 6;</code>
+       * @return The totalPageCount.
        */
       @java.lang.Override
-      public int getUnk3300PGJIHELKCEA() {
-        return unk3300PGJIHELKCEA_;
+      public int getTotalPageCount() {
+        return totalPageCount_;
       }
       /**
-       * <code>uint32 Unk3300_PGJIHELKCEA = 6;</code>
-       * @param value The unk3300PGJIHELKCEA to set.
+       * <code>uint32 total_page_count = 6;</code>
+       * @param value The totalPageCount to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PGJIHELKCEA(int value) {
+      public Builder setTotalPageCount(int value) {
         
-        unk3300PGJIHELKCEA_ = value;
+        totalPageCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_PGJIHELKCEA = 6;</code>
+       * <code>uint32 total_page_count = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PGJIHELKCEA() {
+      public Builder clearTotalPageCount() {
         
-        unk3300PGJIHELKCEA_ = 0;
+        totalPageCount_ = 0;
         onChanged();
         return this;
       }
@@ -1254,12 +1254,12 @@ public final class GetAllMailResultNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetAllMailResultNotify.proto\032\016MailData" +
-      ".proto\"\254\001\n\026GetAllMailResultNotify\022\033\n\023Unk" +
-      "3300_LMCAADPAICM\030\r \001(\r\022\023\n\013transaction\030\016 " +
-      "\001(\t\022\024\n\014is_collected\030\014 \001(\010\022\017\n\007retcode\030\007 \001" +
-      "(\005\022\034\n\tmail_list\030\002 \003(\0132\t.MailData\022\033\n\023Unk3" +
-      "300_PGJIHELKCEA\030\006 \001(\rB\036\n\034emu.grasscutter" +
-      ".net.newprotob\006proto3"
+      ".proto\"\240\001\n\026GetAllMailResultNotify\022\022\n\npag" +
+      "e_index\030\r \001(\r\022\023\n\013transaction\030\016 \001(\t\022\024\n\014is" +
+      "_collected\030\014 \001(\010\022\017\n\007retcode\030\007 \001(\005\022\034\n\tmai" +
+      "l_list\030\002 \003(\0132\t.MailData\022\030\n\020total_page_co" +
+      "unt\030\006 \001(\rB\036\n\034emu.grasscutter.net.newprot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1271,7 +1271,7 @@ public final class GetAllMailResultNotifyOuterClass {
     internal_static_GetAllMailResultNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetAllMailResultNotify_descriptor,
-        new java.lang.String[] { "Unk3300LMCAADPAICM", "Transaction", "IsCollected", "Retcode", "MailList", "Unk3300PGJIHELKCEA", });
+        new java.lang.String[] { "PageIndex", "Transaction", "IsCollected", "Retcode", "MailList", "TotalPageCount", });
     emu.grasscutter.net.newproto.MailDataOuterClass.getDescriptor();
   }
 

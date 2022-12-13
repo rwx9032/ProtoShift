@@ -49,10 +49,10 @@ public final class GachaItemOuterClass {
         int index);
 
     /**
-     * <code>bool Unk3300_JNOOHBNJFIE = 13;</code>
-     * @return The unk3300JNOOHBNJFIE.
+     * <code>bool is_gacha_item_new = 13;</code>
+     * @return The isGachaItemNew.
      */
-    boolean getUnk3300JNOOHBNJFIE();
+    boolean getIsGachaItemNew();
 
     /**
      * <code>.ItemParam gacha_item = 5;</code>
@@ -186,15 +186,15 @@ public final class GachaItemOuterClass {
       return transferItems_.get(index);
     }
 
-    public static final int UNK3300_JNOOHBNJFIE_FIELD_NUMBER = 13;
-    private boolean unk3300JNOOHBNJFIE_;
+    public static final int IS_GACHA_ITEM_NEW_FIELD_NUMBER = 13;
+    private boolean isGachaItemNew_;
     /**
-     * <code>bool Unk3300_JNOOHBNJFIE = 13;</code>
-     * @return The unk3300JNOOHBNJFIE.
+     * <code>bool is_gacha_item_new = 13;</code>
+     * @return The isGachaItemNew.
      */
     @java.lang.Override
-    public boolean getUnk3300JNOOHBNJFIE() {
-      return unk3300JNOOHBNJFIE_;
+    public boolean getIsGachaItemNew() {
+      return isGachaItemNew_;
     }
 
     public static final int GACHA_ITEM_FIELD_NUMBER = 5;
@@ -289,8 +289,8 @@ public final class GachaItemOuterClass {
       for (int i = 0; i < tokenItemList_.size(); i++) {
         output.writeMessage(10, tokenItemList_.get(i));
       }
-      if (unk3300JNOOHBNJFIE_ != false) {
-        output.writeBool(13, unk3300JNOOHBNJFIE_);
+      if (isGachaItemNew_ != false) {
+        output.writeBool(13, isGachaItemNew_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -317,9 +317,9 @@ public final class GachaItemOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, tokenItemList_.get(i));
       }
-      if (unk3300JNOOHBNJFIE_ != false) {
+      if (isGachaItemNew_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, unk3300JNOOHBNJFIE_);
+          .computeBoolSize(13, isGachaItemNew_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -340,8 +340,8 @@ public final class GachaItemOuterClass {
           != other.getUnk3300BGIOJBJFMFL()) return false;
       if (!getTransferItemsList()
           .equals(other.getTransferItemsList())) return false;
-      if (getUnk3300JNOOHBNJFIE()
-          != other.getUnk3300JNOOHBNJFIE()) return false;
+      if (getIsGachaItemNew()
+          != other.getIsGachaItemNew()) return false;
       if (hasGachaItem() != other.hasGachaItem()) return false;
       if (hasGachaItem()) {
         if (!getGachaItem()
@@ -367,9 +367,9 @@ public final class GachaItemOuterClass {
         hash = (37 * hash) + TRANSFER_ITEMS_FIELD_NUMBER;
         hash = (53 * hash) + getTransferItemsList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_JNOOHBNJFIE_FIELD_NUMBER;
+      hash = (37 * hash) + IS_GACHA_ITEM_NEW_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300JNOOHBNJFIE());
+          getIsGachaItemNew());
       if (hasGachaItem()) {
         hash = (37 * hash) + GACHA_ITEM_FIELD_NUMBER;
         hash = (53 * hash) + getGachaItem().hashCode();
@@ -515,7 +515,7 @@ public final class GachaItemOuterClass {
           transferItemsBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300JNOOHBNJFIE_ = false;
+        isGachaItemNew_ = false;
 
         if (gachaItemBuilder_ == null) {
           gachaItem_ = null;
@@ -567,7 +567,7 @@ public final class GachaItemOuterClass {
         } else {
           result.transferItems_ = transferItemsBuilder_.build();
         }
-        result.unk3300JNOOHBNJFIE_ = unk3300JNOOHBNJFIE_;
+        result.isGachaItemNew_ = isGachaItemNew_;
         if (gachaItemBuilder_ == null) {
           result.gachaItem_ = gachaItem_;
         } else {
@@ -659,8 +659,8 @@ public final class GachaItemOuterClass {
             }
           }
         }
-        if (other.getUnk3300JNOOHBNJFIE() != false) {
-          setUnk3300JNOOHBNJFIE(other.getUnk3300JNOOHBNJFIE());
+        if (other.getIsGachaItemNew() != false) {
+          setIsGachaItemNew(other.getIsGachaItemNew());
         }
         if (other.hasGachaItem()) {
           mergeGachaItem(other.getGachaItem());
@@ -756,7 +756,7 @@ public final class GachaItemOuterClass {
                 break;
               } // case 82
               case 104: {
-                unk3300JNOOHBNJFIE_ = input.readBool();
+                isGachaItemNew_ = input.readBool();
 
                 break;
               } // case 104
@@ -1048,33 +1048,33 @@ public final class GachaItemOuterClass {
         return transferItemsBuilder_;
       }
 
-      private boolean unk3300JNOOHBNJFIE_ ;
+      private boolean isGachaItemNew_ ;
       /**
-       * <code>bool Unk3300_JNOOHBNJFIE = 13;</code>
-       * @return The unk3300JNOOHBNJFIE.
+       * <code>bool is_gacha_item_new = 13;</code>
+       * @return The isGachaItemNew.
        */
       @java.lang.Override
-      public boolean getUnk3300JNOOHBNJFIE() {
-        return unk3300JNOOHBNJFIE_;
+      public boolean getIsGachaItemNew() {
+        return isGachaItemNew_;
       }
       /**
-       * <code>bool Unk3300_JNOOHBNJFIE = 13;</code>
-       * @param value The unk3300JNOOHBNJFIE to set.
+       * <code>bool is_gacha_item_new = 13;</code>
+       * @param value The isGachaItemNew to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JNOOHBNJFIE(boolean value) {
+      public Builder setIsGachaItemNew(boolean value) {
         
-        unk3300JNOOHBNJFIE_ = value;
+        isGachaItemNew_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_JNOOHBNJFIE = 13;</code>
+       * <code>bool is_gacha_item_new = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JNOOHBNJFIE() {
+      public Builder clearIsGachaItemNew() {
         
-        unk3300JNOOHBNJFIE_ = false;
+        isGachaItemNew_ = false;
         onChanged();
         return this;
       }
@@ -1516,13 +1516,13 @@ public final class GachaItemOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017GachaItem.proto\032\027GachaTransferItem.pro" +
-      "to\032\017ItemParam.proto\"\266\001\n\tGachaItem\022\033\n\023Unk" +
+      "to\032\017ItemParam.proto\"\264\001\n\tGachaItem\022\033\n\023Unk" +
       "3300_BGIOJBJFMFL\030\010 \001(\010\022*\n\016transfer_items" +
-      "\030\006 \003(\0132\022.GachaTransferItem\022\033\n\023Unk3300_JN" +
-      "OOHBNJFIE\030\r \001(\010\022\036\n\ngacha_item\030\005 \001(\0132\n.It" +
-      "emParam\022#\n\017token_item_list\030\n \003(\0132\n.ItemP" +
-      "aramB\036\n\034emu.grasscutter.net.newprotob\006pr" +
-      "oto3"
+      "\030\006 \003(\0132\022.GachaTransferItem\022\031\n\021is_gacha_i" +
+      "tem_new\030\r \001(\010\022\036\n\ngacha_item\030\005 \001(\0132\n.Item" +
+      "Param\022#\n\017token_item_list\030\n \003(\0132\n.ItemPar" +
+      "amB\036\n\034emu.grasscutter.net.newprotob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1535,7 +1535,7 @@ public final class GachaItemOuterClass {
     internal_static_GachaItem_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GachaItem_descriptor,
-        new java.lang.String[] { "Unk3300BGIOJBJFMFL", "TransferItems", "Unk3300JNOOHBNJFIE", "GachaItem", "TokenItemList", });
+        new java.lang.String[] { "Unk3300BGIOJBJFMFL", "TransferItems", "IsGachaItemNew", "GachaItem", "TokenItemList", });
     emu.grasscutter.net.newproto.GachaTransferItemOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.ItemParamOuterClass.getDescriptor();
   }

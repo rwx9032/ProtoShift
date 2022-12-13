@@ -19,40 +19,40 @@ public final class BattlePassProductOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-     * @return The unk3300AOMGCJOGGED.
+     * <code>string upgrade_product_id = 12;</code>
+     * @return The upgradeProductId.
      */
-    java.lang.String getUnk3300AOMGCJOGGED();
+    java.lang.String getUpgradeProductId();
     /**
-     * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-     * @return The bytes for unk3300AOMGCJOGGED.
+     * <code>string upgrade_product_id = 12;</code>
+     * @return The bytes for upgradeProductId.
      */
     com.google.protobuf.ByteString
-        getUnk3300AOMGCJOGGEDBytes();
+        getUpgradeProductIdBytes();
 
     /**
-     * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-     * @return The unk3300NHOAGMGNEIM.
+     * <code>string normal_product_id = 9;</code>
+     * @return The normalProductId.
      */
-    java.lang.String getUnk3300NHOAGMGNEIM();
+    java.lang.String getNormalProductId();
     /**
-     * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-     * @return The bytes for unk3300NHOAGMGNEIM.
+     * <code>string normal_product_id = 9;</code>
+     * @return The bytes for normalProductId.
      */
     com.google.protobuf.ByteString
-        getUnk3300NHOAGMGNEIMBytes();
+        getNormalProductIdBytes();
 
     /**
-     * <code>string Unk3300_NIEBADLADMK = 7;</code>
-     * @return The unk3300NIEBADLADMK.
+     * <code>string extra_product_id = 7;</code>
+     * @return The extraProductId.
      */
-    java.lang.String getUnk3300NIEBADLADMK();
+    java.lang.String getExtraProductId();
     /**
-     * <code>string Unk3300_NIEBADLADMK = 7;</code>
-     * @return The bytes for unk3300NIEBADLADMK.
+     * <code>string extra_product_id = 7;</code>
+     * @return The bytes for extraProductId.
      */
     com.google.protobuf.ByteString
-        getUnk3300NIEBADLADMKBytes();
+        getExtraProductIdBytes();
   }
   /**
    * Protobuf type {@code BattlePassProduct}
@@ -67,9 +67,9 @@ public final class BattlePassProductOuterClass {
       super(builder);
     }
     private BattlePassProduct() {
-      unk3300AOMGCJOGGED_ = "";
-      unk3300NHOAGMGNEIM_ = "";
-      unk3300NIEBADLADMK_ = "";
+      upgradeProductId_ = "";
+      normalProductId_ = "";
+      extraProductId_ = "";
     }
 
     @java.lang.Override
@@ -97,114 +97,114 @@ public final class BattlePassProductOuterClass {
               emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct.class, emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct.Builder.class);
     }
 
-    public static final int UNK3300_AOMGCJOGGED_FIELD_NUMBER = 12;
-    private volatile java.lang.Object unk3300AOMGCJOGGED_;
+    public static final int UPGRADE_PRODUCT_ID_FIELD_NUMBER = 12;
+    private volatile java.lang.Object upgradeProductId_;
     /**
-     * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-     * @return The unk3300AOMGCJOGGED.
+     * <code>string upgrade_product_id = 12;</code>
+     * @return The upgradeProductId.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300AOMGCJOGGED() {
-      java.lang.Object ref = unk3300AOMGCJOGGED_;
+    public java.lang.String getUpgradeProductId() {
+      java.lang.Object ref = upgradeProductId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300AOMGCJOGGED_ = s;
+        upgradeProductId_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-     * @return The bytes for unk3300AOMGCJOGGED.
+     * <code>string upgrade_product_id = 12;</code>
+     * @return The bytes for upgradeProductId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300AOMGCJOGGEDBytes() {
-      java.lang.Object ref = unk3300AOMGCJOGGED_;
+        getUpgradeProductIdBytes() {
+      java.lang.Object ref = upgradeProductId_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300AOMGCJOGGED_ = b;
+        upgradeProductId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int UNK3300_NHOAGMGNEIM_FIELD_NUMBER = 9;
-    private volatile java.lang.Object unk3300NHOAGMGNEIM_;
+    public static final int NORMAL_PRODUCT_ID_FIELD_NUMBER = 9;
+    private volatile java.lang.Object normalProductId_;
     /**
-     * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-     * @return The unk3300NHOAGMGNEIM.
+     * <code>string normal_product_id = 9;</code>
+     * @return The normalProductId.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300NHOAGMGNEIM() {
-      java.lang.Object ref = unk3300NHOAGMGNEIM_;
+    public java.lang.String getNormalProductId() {
+      java.lang.Object ref = normalProductId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300NHOAGMGNEIM_ = s;
+        normalProductId_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-     * @return The bytes for unk3300NHOAGMGNEIM.
+     * <code>string normal_product_id = 9;</code>
+     * @return The bytes for normalProductId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300NHOAGMGNEIMBytes() {
-      java.lang.Object ref = unk3300NHOAGMGNEIM_;
+        getNormalProductIdBytes() {
+      java.lang.Object ref = normalProductId_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300NHOAGMGNEIM_ = b;
+        normalProductId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int UNK3300_NIEBADLADMK_FIELD_NUMBER = 7;
-    private volatile java.lang.Object unk3300NIEBADLADMK_;
+    public static final int EXTRA_PRODUCT_ID_FIELD_NUMBER = 7;
+    private volatile java.lang.Object extraProductId_;
     /**
-     * <code>string Unk3300_NIEBADLADMK = 7;</code>
-     * @return The unk3300NIEBADLADMK.
+     * <code>string extra_product_id = 7;</code>
+     * @return The extraProductId.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300NIEBADLADMK() {
-      java.lang.Object ref = unk3300NIEBADLADMK_;
+    public java.lang.String getExtraProductId() {
+      java.lang.Object ref = extraProductId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300NIEBADLADMK_ = s;
+        extraProductId_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_NIEBADLADMK = 7;</code>
-     * @return The bytes for unk3300NIEBADLADMK.
+     * <code>string extra_product_id = 7;</code>
+     * @return The bytes for extraProductId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300NIEBADLADMKBytes() {
-      java.lang.Object ref = unk3300NIEBADLADMK_;
+        getExtraProductIdBytes() {
+      java.lang.Object ref = extraProductId_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300NIEBADLADMK_ = b;
+        extraProductId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -225,14 +225,14 @@ public final class BattlePassProductOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NIEBADLADMK_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, unk3300NIEBADLADMK_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(extraProductId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, extraProductId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NHOAGMGNEIM_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, unk3300NHOAGMGNEIM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(normalProductId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, normalProductId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300AOMGCJOGGED_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, unk3300AOMGCJOGGED_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(upgradeProductId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, upgradeProductId_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -243,14 +243,14 @@ public final class BattlePassProductOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NIEBADLADMK_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, unk3300NIEBADLADMK_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(extraProductId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, extraProductId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300NHOAGMGNEIM_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, unk3300NHOAGMGNEIM_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(normalProductId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, normalProductId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300AOMGCJOGGED_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, unk3300AOMGCJOGGED_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(upgradeProductId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, upgradeProductId_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -267,12 +267,12 @@ public final class BattlePassProductOuterClass {
       }
       emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct other = (emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct) obj;
 
-      if (!getUnk3300AOMGCJOGGED()
-          .equals(other.getUnk3300AOMGCJOGGED())) return false;
-      if (!getUnk3300NHOAGMGNEIM()
-          .equals(other.getUnk3300NHOAGMGNEIM())) return false;
-      if (!getUnk3300NIEBADLADMK()
-          .equals(other.getUnk3300NIEBADLADMK())) return false;
+      if (!getUpgradeProductId()
+          .equals(other.getUpgradeProductId())) return false;
+      if (!getNormalProductId()
+          .equals(other.getNormalProductId())) return false;
+      if (!getExtraProductId()
+          .equals(other.getExtraProductId())) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
       return true;
     }
@@ -284,12 +284,12 @@ public final class BattlePassProductOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_AOMGCJOGGED_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300AOMGCJOGGED().hashCode();
-      hash = (37 * hash) + UNK3300_NHOAGMGNEIM_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NHOAGMGNEIM().hashCode();
-      hash = (37 * hash) + UNK3300_NIEBADLADMK_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NIEBADLADMK().hashCode();
+      hash = (37 * hash) + UPGRADE_PRODUCT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getUpgradeProductId().hashCode();
+      hash = (37 * hash) + NORMAL_PRODUCT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getNormalProductId().hashCode();
+      hash = (37 * hash) + EXTRA_PRODUCT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getExtraProductId().hashCode();
       hash = (29 * hash) + getUnknownFields().hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -418,11 +418,11 @@ public final class BattlePassProductOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300AOMGCJOGGED_ = "";
+        upgradeProductId_ = "";
 
-        unk3300NHOAGMGNEIM_ = "";
+        normalProductId_ = "";
 
-        unk3300NIEBADLADMK_ = "";
+        extraProductId_ = "";
 
         return this;
       }
@@ -450,9 +450,9 @@ public final class BattlePassProductOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct buildPartial() {
         emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct result = new emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct(this);
-        result.unk3300AOMGCJOGGED_ = unk3300AOMGCJOGGED_;
-        result.unk3300NHOAGMGNEIM_ = unk3300NHOAGMGNEIM_;
-        result.unk3300NIEBADLADMK_ = unk3300NIEBADLADMK_;
+        result.upgradeProductId_ = upgradeProductId_;
+        result.normalProductId_ = normalProductId_;
+        result.extraProductId_ = extraProductId_;
         onBuilt();
         return result;
       }
@@ -501,16 +501,16 @@ public final class BattlePassProductOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct other) {
         if (other == emu.grasscutter.net.newproto.BattlePassProductOuterClass.BattlePassProduct.getDefaultInstance()) return this;
-        if (!other.getUnk3300AOMGCJOGGED().isEmpty()) {
-          unk3300AOMGCJOGGED_ = other.unk3300AOMGCJOGGED_;
+        if (!other.getUpgradeProductId().isEmpty()) {
+          upgradeProductId_ = other.upgradeProductId_;
           onChanged();
         }
-        if (!other.getUnk3300NHOAGMGNEIM().isEmpty()) {
-          unk3300NHOAGMGNEIM_ = other.unk3300NHOAGMGNEIM_;
+        if (!other.getNormalProductId().isEmpty()) {
+          normalProductId_ = other.normalProductId_;
           onChanged();
         }
-        if (!other.getUnk3300NIEBADLADMK().isEmpty()) {
-          unk3300NIEBADLADMK_ = other.unk3300NIEBADLADMK_;
+        if (!other.getExtraProductId().isEmpty()) {
+          extraProductId_ = other.extraProductId_;
           onChanged();
         }
         this.mergeUnknownFields(other.getUnknownFields());
@@ -540,17 +540,17 @@ public final class BattlePassProductOuterClass {
                 done = true;
                 break;
               case 58: {
-                unk3300NIEBADLADMK_ = input.readStringRequireUtf8();
+                extraProductId_ = input.readStringRequireUtf8();
 
                 break;
               } // case 58
               case 74: {
-                unk3300NHOAGMGNEIM_ = input.readStringRequireUtf8();
+                normalProductId_ = input.readStringRequireUtf8();
 
                 break;
               } // case 74
               case 98: {
-                unk3300AOMGCJOGGED_ = input.readStringRequireUtf8();
+                upgradeProductId_ = input.readStringRequireUtf8();
 
                 break;
               } // case 98
@@ -570,230 +570,230 @@ public final class BattlePassProductOuterClass {
         return this;
       }
 
-      private java.lang.Object unk3300AOMGCJOGGED_ = "";
+      private java.lang.Object upgradeProductId_ = "";
       /**
-       * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-       * @return The unk3300AOMGCJOGGED.
+       * <code>string upgrade_product_id = 12;</code>
+       * @return The upgradeProductId.
        */
-      public java.lang.String getUnk3300AOMGCJOGGED() {
-        java.lang.Object ref = unk3300AOMGCJOGGED_;
+      public java.lang.String getUpgradeProductId() {
+        java.lang.Object ref = upgradeProductId_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300AOMGCJOGGED_ = s;
+          upgradeProductId_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-       * @return The bytes for unk3300AOMGCJOGGED.
+       * <code>string upgrade_product_id = 12;</code>
+       * @return The bytes for upgradeProductId.
        */
       public com.google.protobuf.ByteString
-          getUnk3300AOMGCJOGGEDBytes() {
-        java.lang.Object ref = unk3300AOMGCJOGGED_;
+          getUpgradeProductIdBytes() {
+        java.lang.Object ref = upgradeProductId_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300AOMGCJOGGED_ = b;
+          upgradeProductId_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-       * @param value The unk3300AOMGCJOGGED to set.
+       * <code>string upgrade_product_id = 12;</code>
+       * @param value The upgradeProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300AOMGCJOGGED(
+      public Builder setUpgradeProductId(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300AOMGCJOGGED_ = value;
+        upgradeProductId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_AOMGCJOGGED = 12;</code>
+       * <code>string upgrade_product_id = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300AOMGCJOGGED() {
+      public Builder clearUpgradeProductId() {
         
-        unk3300AOMGCJOGGED_ = getDefaultInstance().getUnk3300AOMGCJOGGED();
+        upgradeProductId_ = getDefaultInstance().getUpgradeProductId();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_AOMGCJOGGED = 12;</code>
-       * @param value The bytes for unk3300AOMGCJOGGED to set.
+       * <code>string upgrade_product_id = 12;</code>
+       * @param value The bytes for upgradeProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300AOMGCJOGGEDBytes(
+      public Builder setUpgradeProductIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300AOMGCJOGGED_ = value;
+        upgradeProductId_ = value;
         onChanged();
         return this;
       }
 
-      private java.lang.Object unk3300NHOAGMGNEIM_ = "";
+      private java.lang.Object normalProductId_ = "";
       /**
-       * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-       * @return The unk3300NHOAGMGNEIM.
+       * <code>string normal_product_id = 9;</code>
+       * @return The normalProductId.
        */
-      public java.lang.String getUnk3300NHOAGMGNEIM() {
-        java.lang.Object ref = unk3300NHOAGMGNEIM_;
+      public java.lang.String getNormalProductId() {
+        java.lang.Object ref = normalProductId_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300NHOAGMGNEIM_ = s;
+          normalProductId_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-       * @return The bytes for unk3300NHOAGMGNEIM.
+       * <code>string normal_product_id = 9;</code>
+       * @return The bytes for normalProductId.
        */
       public com.google.protobuf.ByteString
-          getUnk3300NHOAGMGNEIMBytes() {
-        java.lang.Object ref = unk3300NHOAGMGNEIM_;
+          getNormalProductIdBytes() {
+        java.lang.Object ref = normalProductId_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300NHOAGMGNEIM_ = b;
+          normalProductId_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-       * @param value The unk3300NHOAGMGNEIM to set.
+       * <code>string normal_product_id = 9;</code>
+       * @param value The normalProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NHOAGMGNEIM(
+      public Builder setNormalProductId(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300NHOAGMGNEIM_ = value;
+        normalProductId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
+       * <code>string normal_product_id = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NHOAGMGNEIM() {
+      public Builder clearNormalProductId() {
         
-        unk3300NHOAGMGNEIM_ = getDefaultInstance().getUnk3300NHOAGMGNEIM();
+        normalProductId_ = getDefaultInstance().getNormalProductId();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NHOAGMGNEIM = 9;</code>
-       * @param value The bytes for unk3300NHOAGMGNEIM to set.
+       * <code>string normal_product_id = 9;</code>
+       * @param value The bytes for normalProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NHOAGMGNEIMBytes(
+      public Builder setNormalProductIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300NHOAGMGNEIM_ = value;
+        normalProductId_ = value;
         onChanged();
         return this;
       }
 
-      private java.lang.Object unk3300NIEBADLADMK_ = "";
+      private java.lang.Object extraProductId_ = "";
       /**
-       * <code>string Unk3300_NIEBADLADMK = 7;</code>
-       * @return The unk3300NIEBADLADMK.
+       * <code>string extra_product_id = 7;</code>
+       * @return The extraProductId.
        */
-      public java.lang.String getUnk3300NIEBADLADMK() {
-        java.lang.Object ref = unk3300NIEBADLADMK_;
+      public java.lang.String getExtraProductId() {
+        java.lang.Object ref = extraProductId_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300NIEBADLADMK_ = s;
+          extraProductId_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_NIEBADLADMK = 7;</code>
-       * @return The bytes for unk3300NIEBADLADMK.
+       * <code>string extra_product_id = 7;</code>
+       * @return The bytes for extraProductId.
        */
       public com.google.protobuf.ByteString
-          getUnk3300NIEBADLADMKBytes() {
-        java.lang.Object ref = unk3300NIEBADLADMK_;
+          getExtraProductIdBytes() {
+        java.lang.Object ref = extraProductId_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300NIEBADLADMK_ = b;
+          extraProductId_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_NIEBADLADMK = 7;</code>
-       * @param value The unk3300NIEBADLADMK to set.
+       * <code>string extra_product_id = 7;</code>
+       * @param value The extraProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NIEBADLADMK(
+      public Builder setExtraProductId(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300NIEBADLADMK_ = value;
+        extraProductId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NIEBADLADMK = 7;</code>
+       * <code>string extra_product_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NIEBADLADMK() {
+      public Builder clearExtraProductId() {
         
-        unk3300NIEBADLADMK_ = getDefaultInstance().getUnk3300NIEBADLADMK();
+        extraProductId_ = getDefaultInstance().getExtraProductId();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_NIEBADLADMK = 7;</code>
-       * @param value The bytes for unk3300NIEBADLADMK to set.
+       * <code>string extra_product_id = 7;</code>
+       * @param value The bytes for extraProductId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NIEBADLADMKBytes(
+      public Builder setExtraProductIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300NIEBADLADMK_ = value;
+        extraProductId_ = value;
         onChanged();
         return this;
       }
@@ -875,11 +875,11 @@ public final class BattlePassProductOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027BattlePassProduct.proto\"j\n\021BattlePassP" +
-      "roduct\022\033\n\023Unk3300_AOMGCJOGGED\030\014 \001(\t\022\033\n\023U" +
-      "nk3300_NHOAGMGNEIM\030\t \001(\t\022\033\n\023Unk3300_NIEB" +
-      "ADLADMK\030\007 \001(\tB\036\n\034emu.grasscutter.net.new" +
-      "protob\006proto3"
+      "\n\027BattlePassProduct.proto\"d\n\021BattlePassP" +
+      "roduct\022\032\n\022upgrade_product_id\030\014 \001(\t\022\031\n\021no" +
+      "rmal_product_id\030\t \001(\t\022\030\n\020extra_product_i" +
+      "d\030\007 \001(\tB\036\n\034emu.grasscutter.net.newprotob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -890,7 +890,7 @@ public final class BattlePassProductOuterClass {
     internal_static_BattlePassProduct_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BattlePassProduct_descriptor,
-        new java.lang.String[] { "Unk3300AOMGCJOGGED", "Unk3300NHOAGMGNEIM", "Unk3300NIEBADLADMK", });
+        new java.lang.String[] { "UpgradeProductId", "NormalProductId", "ExtraProductId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

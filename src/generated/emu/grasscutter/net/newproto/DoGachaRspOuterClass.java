@@ -25,10 +25,10 @@ public final class DoGachaRspOuterClass {
     boolean getUnk3300OHFMHIHJHPJ();
 
     /**
-     * <code>uint32 Unk3300_JLELMHELIDC = 3;</code>
-     * @return The unk3300JLELMHELIDC.
+     * <code>uint32 left_gacha_times = 3;</code>
+     * @return The leftGachaTimes.
      */
-    int getUnk3300JLELMHELIDC();
+    int getLeftGachaTimes();
 
     /**
      * <code>repeated .GachaItem gacha_item_list = 9;</code>
@@ -67,22 +67,22 @@ public final class DoGachaRspOuterClass {
     int getGachaType();
 
     /**
-     * <code>uint32 Unk3300_OPGAHAGHEPF = 6;</code>
-     * @return The unk3300OPGAHAGHEPF.
+     * <code>uint32 new_gacha_random = 6;</code>
+     * @return The newGachaRandom.
      */
-    int getUnk3300OPGAHAGHEPF();
+    int getNewGachaRandom();
 
     /**
-     * <code>uint32 Unk3300_NMOKGFGDFFC = 1;</code>
-     * @return The unk3300NMOKGFGDFFC.
+     * <code>uint32 wish_progress = 1;</code>
+     * @return The wishProgress.
      */
-    int getUnk3300NMOKGFGDFFC();
+    int getWishProgress();
 
     /**
-     * <code>uint32 Unk3300_BLLMPAJNCPI = 5;</code>
-     * @return The unk3300BLLMPAJNCPI.
+     * <code>uint32 wish_max_progress = 5;</code>
+     * @return The wishMaxProgress.
      */
-    int getUnk3300BLLMPAJNCPI();
+    int getWishMaxProgress();
 
     /**
      * <code>uint32 gacha_times = 4;</code>
@@ -91,34 +91,34 @@ public final class DoGachaRspOuterClass {
     int getGachaTimes();
 
     /**
-     * <code>uint32 Unk3300_GLPMIEMBGGL = 15;</code>
-     * @return The unk3300GLPMIEMBGGL.
+     * <code>uint32 gacha_times_limit = 15;</code>
+     * @return The gachaTimesLimit.
      */
-    int getUnk3300GLPMIEMBGGL();
+    int getGachaTimesLimit();
 
     /**
-     * <code>uint32 Unk3300_KEIJFMKAKDH = 12;</code>
-     * @return The unk3300KEIJFMKAKDH.
+     * <code>uint32 wish_item_id = 12;</code>
+     * @return The wishItemId.
      */
-    int getUnk3300KEIJFMKAKDH();
+    int getWishItemId();
 
     /**
-     * <code>uint32 Unk3300_DBFMKAMNPCL = 13;</code>
-     * @return The unk3300DBFMKAMNPCL.
+     * <code>uint32 ten_cost_item_id = 13;</code>
+     * @return The tenCostItemId.
      */
-    int getUnk3300DBFMKAMNPCL();
+    int getTenCostItemId();
 
     /**
-     * <code>uint32 Unk3300_JLBFLPEMAPP = 8;</code>
-     * @return The unk3300JLBFLPEMAPP.
+     * <code>uint32 cost_item_num = 8;</code>
+     * @return The costItemNum.
      */
-    int getUnk3300JLBFLPEMAPP();
+    int getCostItemNum();
 
     /**
-     * <code>uint32 Unk3300_MEDMCPFCIOO = 2;</code>
-     * @return The unk3300MEDMCPFCIOO.
+     * <code>uint32 ten_cost_item_num = 2;</code>
+     * @return The tenCostItemNum.
      */
-    int getUnk3300MEDMCPFCIOO();
+    int getTenCostItemNum();
 
     /**
      * <code>uint32 Unk3300_HLANONBCBLM = 1550;</code>
@@ -127,10 +127,10 @@ public final class DoGachaRspOuterClass {
     int getUnk3300HLANONBCBLM();
 
     /**
-     * <code>uint32 Unk3300_PLFMMOFNGAG = 7;</code>
-     * @return The unk3300PLFMMOFNGAG.
+     * <code>uint32 cost_item_id = 7;</code>
+     * @return The costItemId.
      */
-    int getUnk3300PLFMMOFNGAG();
+    int getCostItemId();
 
     /**
      * <code>uint32 gacha_schedule_id = 14;</code>
@@ -212,15 +212,15 @@ public final class DoGachaRspOuterClass {
       return unk3300OHFMHIHJHPJ_;
     }
 
-    public static final int UNK3300_JLELMHELIDC_FIELD_NUMBER = 3;
-    private int unk3300JLELMHELIDC_;
+    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 3;
+    private int leftGachaTimes_;
     /**
-     * <code>uint32 Unk3300_JLELMHELIDC = 3;</code>
-     * @return The unk3300JLELMHELIDC.
+     * <code>uint32 left_gacha_times = 3;</code>
+     * @return The leftGachaTimes.
      */
     @java.lang.Override
-    public int getUnk3300JLELMHELIDC() {
-      return unk3300JLELMHELIDC_;
+    public int getLeftGachaTimes() {
+      return leftGachaTimes_;
     }
 
     public static final int GACHA_ITEM_LIST_FIELD_NUMBER = 9;
@@ -285,37 +285,37 @@ public final class DoGachaRspOuterClass {
       return gachaType_;
     }
 
-    public static final int UNK3300_OPGAHAGHEPF_FIELD_NUMBER = 6;
-    private int unk3300OPGAHAGHEPF_;
+    public static final int NEW_GACHA_RANDOM_FIELD_NUMBER = 6;
+    private int newGachaRandom_;
     /**
-     * <code>uint32 Unk3300_OPGAHAGHEPF = 6;</code>
-     * @return The unk3300OPGAHAGHEPF.
+     * <code>uint32 new_gacha_random = 6;</code>
+     * @return The newGachaRandom.
      */
     @java.lang.Override
-    public int getUnk3300OPGAHAGHEPF() {
-      return unk3300OPGAHAGHEPF_;
+    public int getNewGachaRandom() {
+      return newGachaRandom_;
     }
 
-    public static final int UNK3300_NMOKGFGDFFC_FIELD_NUMBER = 1;
-    private int unk3300NMOKGFGDFFC_;
+    public static final int WISH_PROGRESS_FIELD_NUMBER = 1;
+    private int wishProgress_;
     /**
-     * <code>uint32 Unk3300_NMOKGFGDFFC = 1;</code>
-     * @return The unk3300NMOKGFGDFFC.
+     * <code>uint32 wish_progress = 1;</code>
+     * @return The wishProgress.
      */
     @java.lang.Override
-    public int getUnk3300NMOKGFGDFFC() {
-      return unk3300NMOKGFGDFFC_;
+    public int getWishProgress() {
+      return wishProgress_;
     }
 
-    public static final int UNK3300_BLLMPAJNCPI_FIELD_NUMBER = 5;
-    private int unk3300BLLMPAJNCPI_;
+    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 5;
+    private int wishMaxProgress_;
     /**
-     * <code>uint32 Unk3300_BLLMPAJNCPI = 5;</code>
-     * @return The unk3300BLLMPAJNCPI.
+     * <code>uint32 wish_max_progress = 5;</code>
+     * @return The wishMaxProgress.
      */
     @java.lang.Override
-    public int getUnk3300BLLMPAJNCPI() {
-      return unk3300BLLMPAJNCPI_;
+    public int getWishMaxProgress() {
+      return wishMaxProgress_;
     }
 
     public static final int GACHA_TIMES_FIELD_NUMBER = 4;
@@ -329,59 +329,59 @@ public final class DoGachaRspOuterClass {
       return gachaTimes_;
     }
 
-    public static final int UNK3300_GLPMIEMBGGL_FIELD_NUMBER = 15;
-    private int unk3300GLPMIEMBGGL_;
+    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 15;
+    private int gachaTimesLimit_;
     /**
-     * <code>uint32 Unk3300_GLPMIEMBGGL = 15;</code>
-     * @return The unk3300GLPMIEMBGGL.
+     * <code>uint32 gacha_times_limit = 15;</code>
+     * @return The gachaTimesLimit.
      */
     @java.lang.Override
-    public int getUnk3300GLPMIEMBGGL() {
-      return unk3300GLPMIEMBGGL_;
+    public int getGachaTimesLimit() {
+      return gachaTimesLimit_;
     }
 
-    public static final int UNK3300_KEIJFMKAKDH_FIELD_NUMBER = 12;
-    private int unk3300KEIJFMKAKDH_;
+    public static final int WISH_ITEM_ID_FIELD_NUMBER = 12;
+    private int wishItemId_;
     /**
-     * <code>uint32 Unk3300_KEIJFMKAKDH = 12;</code>
-     * @return The unk3300KEIJFMKAKDH.
+     * <code>uint32 wish_item_id = 12;</code>
+     * @return The wishItemId.
      */
     @java.lang.Override
-    public int getUnk3300KEIJFMKAKDH() {
-      return unk3300KEIJFMKAKDH_;
+    public int getWishItemId() {
+      return wishItemId_;
     }
 
-    public static final int UNK3300_DBFMKAMNPCL_FIELD_NUMBER = 13;
-    private int unk3300DBFMKAMNPCL_;
+    public static final int TEN_COST_ITEM_ID_FIELD_NUMBER = 13;
+    private int tenCostItemId_;
     /**
-     * <code>uint32 Unk3300_DBFMKAMNPCL = 13;</code>
-     * @return The unk3300DBFMKAMNPCL.
+     * <code>uint32 ten_cost_item_id = 13;</code>
+     * @return The tenCostItemId.
      */
     @java.lang.Override
-    public int getUnk3300DBFMKAMNPCL() {
-      return unk3300DBFMKAMNPCL_;
+    public int getTenCostItemId() {
+      return tenCostItemId_;
     }
 
-    public static final int UNK3300_JLBFLPEMAPP_FIELD_NUMBER = 8;
-    private int unk3300JLBFLPEMAPP_;
+    public static final int COST_ITEM_NUM_FIELD_NUMBER = 8;
+    private int costItemNum_;
     /**
-     * <code>uint32 Unk3300_JLBFLPEMAPP = 8;</code>
-     * @return The unk3300JLBFLPEMAPP.
+     * <code>uint32 cost_item_num = 8;</code>
+     * @return The costItemNum.
      */
     @java.lang.Override
-    public int getUnk3300JLBFLPEMAPP() {
-      return unk3300JLBFLPEMAPP_;
+    public int getCostItemNum() {
+      return costItemNum_;
     }
 
-    public static final int UNK3300_MEDMCPFCIOO_FIELD_NUMBER = 2;
-    private int unk3300MEDMCPFCIOO_;
+    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 2;
+    private int tenCostItemNum_;
     /**
-     * <code>uint32 Unk3300_MEDMCPFCIOO = 2;</code>
-     * @return The unk3300MEDMCPFCIOO.
+     * <code>uint32 ten_cost_item_num = 2;</code>
+     * @return The tenCostItemNum.
      */
     @java.lang.Override
-    public int getUnk3300MEDMCPFCIOO() {
-      return unk3300MEDMCPFCIOO_;
+    public int getTenCostItemNum() {
+      return tenCostItemNum_;
     }
 
     public static final int UNK3300_HLANONBCBLM_FIELD_NUMBER = 1550;
@@ -395,15 +395,15 @@ public final class DoGachaRspOuterClass {
       return unk3300HLANONBCBLM_;
     }
 
-    public static final int UNK3300_PLFMMOFNGAG_FIELD_NUMBER = 7;
-    private int unk3300PLFMMOFNGAG_;
+    public static final int COST_ITEM_ID_FIELD_NUMBER = 7;
+    private int costItemId_;
     /**
-     * <code>uint32 Unk3300_PLFMMOFNGAG = 7;</code>
-     * @return The unk3300PLFMMOFNGAG.
+     * <code>uint32 cost_item_id = 7;</code>
+     * @return The costItemId.
      */
     @java.lang.Override
-    public int getUnk3300PLFMMOFNGAG() {
-      return unk3300PLFMMOFNGAG_;
+    public int getCostItemId() {
+      return costItemId_;
     }
 
     public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 14;
@@ -453,29 +453,29 @@ public final class DoGachaRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300NMOKGFGDFFC_ != 0) {
-        output.writeUInt32(1, unk3300NMOKGFGDFFC_);
+      if (wishProgress_ != 0) {
+        output.writeUInt32(1, wishProgress_);
       }
-      if (unk3300MEDMCPFCIOO_ != 0) {
-        output.writeUInt32(2, unk3300MEDMCPFCIOO_);
+      if (tenCostItemNum_ != 0) {
+        output.writeUInt32(2, tenCostItemNum_);
       }
-      if (unk3300JLELMHELIDC_ != 0) {
-        output.writeUInt32(3, unk3300JLELMHELIDC_);
+      if (leftGachaTimes_ != 0) {
+        output.writeUInt32(3, leftGachaTimes_);
       }
       if (gachaTimes_ != 0) {
         output.writeUInt32(4, gachaTimes_);
       }
-      if (unk3300BLLMPAJNCPI_ != 0) {
-        output.writeUInt32(5, unk3300BLLMPAJNCPI_);
+      if (wishMaxProgress_ != 0) {
+        output.writeUInt32(5, wishMaxProgress_);
       }
-      if (unk3300OPGAHAGHEPF_ != 0) {
-        output.writeUInt32(6, unk3300OPGAHAGHEPF_);
+      if (newGachaRandom_ != 0) {
+        output.writeUInt32(6, newGachaRandom_);
       }
-      if (unk3300PLFMMOFNGAG_ != 0) {
-        output.writeUInt32(7, unk3300PLFMMOFNGAG_);
+      if (costItemId_ != 0) {
+        output.writeUInt32(7, costItemId_);
       }
-      if (unk3300JLBFLPEMAPP_ != 0) {
-        output.writeUInt32(8, unk3300JLBFLPEMAPP_);
+      if (costItemNum_ != 0) {
+        output.writeUInt32(8, costItemNum_);
       }
       for (int i = 0; i < gachaItemList_.size(); i++) {
         output.writeMessage(9, gachaItemList_.get(i));
@@ -486,17 +486,17 @@ public final class DoGachaRspOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(11, retcode_);
       }
-      if (unk3300KEIJFMKAKDH_ != 0) {
-        output.writeUInt32(12, unk3300KEIJFMKAKDH_);
+      if (wishItemId_ != 0) {
+        output.writeUInt32(12, wishItemId_);
       }
-      if (unk3300DBFMKAMNPCL_ != 0) {
-        output.writeUInt32(13, unk3300DBFMKAMNPCL_);
+      if (tenCostItemId_ != 0) {
+        output.writeUInt32(13, tenCostItemId_);
       }
       if (gachaScheduleId_ != 0) {
         output.writeUInt32(14, gachaScheduleId_);
       }
-      if (unk3300GLPMIEMBGGL_ != 0) {
-        output.writeUInt32(15, unk3300GLPMIEMBGGL_);
+      if (gachaTimesLimit_ != 0) {
+        output.writeUInt32(15, gachaTimesLimit_);
       }
       if (dailyGachaTimes_ != 0) {
         output.writeUInt32(467, dailyGachaTimes_);
@@ -519,37 +519,37 @@ public final class DoGachaRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300NMOKGFGDFFC_ != 0) {
+      if (wishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, unk3300NMOKGFGDFFC_);
+          .computeUInt32Size(1, wishProgress_);
       }
-      if (unk3300MEDMCPFCIOO_ != 0) {
+      if (tenCostItemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300MEDMCPFCIOO_);
+          .computeUInt32Size(2, tenCostItemNum_);
       }
-      if (unk3300JLELMHELIDC_ != 0) {
+      if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300JLELMHELIDC_);
+          .computeUInt32Size(3, leftGachaTimes_);
       }
       if (gachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, gachaTimes_);
       }
-      if (unk3300BLLMPAJNCPI_ != 0) {
+      if (wishMaxProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, unk3300BLLMPAJNCPI_);
+          .computeUInt32Size(5, wishMaxProgress_);
       }
-      if (unk3300OPGAHAGHEPF_ != 0) {
+      if (newGachaRandom_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, unk3300OPGAHAGHEPF_);
+          .computeUInt32Size(6, newGachaRandom_);
       }
-      if (unk3300PLFMMOFNGAG_ != 0) {
+      if (costItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, unk3300PLFMMOFNGAG_);
+          .computeUInt32Size(7, costItemId_);
       }
-      if (unk3300JLBFLPEMAPP_ != 0) {
+      if (costItemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unk3300JLBFLPEMAPP_);
+          .computeUInt32Size(8, costItemNum_);
       }
       for (int i = 0; i < gachaItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -563,21 +563,21 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(11, retcode_);
       }
-      if (unk3300KEIJFMKAKDH_ != 0) {
+      if (wishItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, unk3300KEIJFMKAKDH_);
+          .computeUInt32Size(12, wishItemId_);
       }
-      if (unk3300DBFMKAMNPCL_ != 0) {
+      if (tenCostItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, unk3300DBFMKAMNPCL_);
+          .computeUInt32Size(13, tenCostItemId_);
       }
       if (gachaScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, gachaScheduleId_);
       }
-      if (unk3300GLPMIEMBGGL_ != 0) {
+      if (gachaTimesLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, unk3300GLPMIEMBGGL_);
+          .computeUInt32Size(15, gachaTimesLimit_);
       }
       if (dailyGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -612,36 +612,36 @@ public final class DoGachaRspOuterClass {
 
       if (getUnk3300OHFMHIHJHPJ()
           != other.getUnk3300OHFMHIHJHPJ()) return false;
-      if (getUnk3300JLELMHELIDC()
-          != other.getUnk3300JLELMHELIDC()) return false;
+      if (getLeftGachaTimes()
+          != other.getLeftGachaTimes()) return false;
       if (!getGachaItemListList()
           .equals(other.getGachaItemListList())) return false;
       if (getUnk3300HBILIAEIHNK()
           != other.getUnk3300HBILIAEIHNK()) return false;
       if (getGachaType()
           != other.getGachaType()) return false;
-      if (getUnk3300OPGAHAGHEPF()
-          != other.getUnk3300OPGAHAGHEPF()) return false;
-      if (getUnk3300NMOKGFGDFFC()
-          != other.getUnk3300NMOKGFGDFFC()) return false;
-      if (getUnk3300BLLMPAJNCPI()
-          != other.getUnk3300BLLMPAJNCPI()) return false;
+      if (getNewGachaRandom()
+          != other.getNewGachaRandom()) return false;
+      if (getWishProgress()
+          != other.getWishProgress()) return false;
+      if (getWishMaxProgress()
+          != other.getWishMaxProgress()) return false;
       if (getGachaTimes()
           != other.getGachaTimes()) return false;
-      if (getUnk3300GLPMIEMBGGL()
-          != other.getUnk3300GLPMIEMBGGL()) return false;
-      if (getUnk3300KEIJFMKAKDH()
-          != other.getUnk3300KEIJFMKAKDH()) return false;
-      if (getUnk3300DBFMKAMNPCL()
-          != other.getUnk3300DBFMKAMNPCL()) return false;
-      if (getUnk3300JLBFLPEMAPP()
-          != other.getUnk3300JLBFLPEMAPP()) return false;
-      if (getUnk3300MEDMCPFCIOO()
-          != other.getUnk3300MEDMCPFCIOO()) return false;
+      if (getGachaTimesLimit()
+          != other.getGachaTimesLimit()) return false;
+      if (getWishItemId()
+          != other.getWishItemId()) return false;
+      if (getTenCostItemId()
+          != other.getTenCostItemId()) return false;
+      if (getCostItemNum()
+          != other.getCostItemNum()) return false;
+      if (getTenCostItemNum()
+          != other.getTenCostItemNum()) return false;
       if (getUnk3300HLANONBCBLM()
           != other.getUnk3300HLANONBCBLM()) return false;
-      if (getUnk3300PLFMMOFNGAG()
-          != other.getUnk3300PLFMMOFNGAG()) return false;
+      if (getCostItemId()
+          != other.getCostItemId()) return false;
       if (getGachaScheduleId()
           != other.getGachaScheduleId()) return false;
       if (getDailyGachaTimes()
@@ -662,8 +662,8 @@ public final class DoGachaRspOuterClass {
       hash = (37 * hash) + UNK3300_OHFMHIHJHPJ_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getUnk3300OHFMHIHJHPJ());
-      hash = (37 * hash) + UNK3300_JLELMHELIDC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300JLELMHELIDC();
+      hash = (37 * hash) + LEFT_GACHA_TIMES_FIELD_NUMBER;
+      hash = (53 * hash) + getLeftGachaTimes();
       if (getGachaItemListCount() > 0) {
         hash = (37 * hash) + GACHA_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getGachaItemListList().hashCode();
@@ -673,28 +673,28 @@ public final class DoGachaRspOuterClass {
           getUnk3300HBILIAEIHNK());
       hash = (37 * hash) + GACHA_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getGachaType();
-      hash = (37 * hash) + UNK3300_OPGAHAGHEPF_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300OPGAHAGHEPF();
-      hash = (37 * hash) + UNK3300_NMOKGFGDFFC_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300NMOKGFGDFFC();
-      hash = (37 * hash) + UNK3300_BLLMPAJNCPI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300BLLMPAJNCPI();
+      hash = (37 * hash) + NEW_GACHA_RANDOM_FIELD_NUMBER;
+      hash = (53 * hash) + getNewGachaRandom();
+      hash = (37 * hash) + WISH_PROGRESS_FIELD_NUMBER;
+      hash = (53 * hash) + getWishProgress();
+      hash = (37 * hash) + WISH_MAX_PROGRESS_FIELD_NUMBER;
+      hash = (53 * hash) + getWishMaxProgress();
       hash = (37 * hash) + GACHA_TIMES_FIELD_NUMBER;
       hash = (53 * hash) + getGachaTimes();
-      hash = (37 * hash) + UNK3300_GLPMIEMBGGL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300GLPMIEMBGGL();
-      hash = (37 * hash) + UNK3300_KEIJFMKAKDH_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KEIJFMKAKDH();
-      hash = (37 * hash) + UNK3300_DBFMKAMNPCL_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300DBFMKAMNPCL();
-      hash = (37 * hash) + UNK3300_JLBFLPEMAPP_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300JLBFLPEMAPP();
-      hash = (37 * hash) + UNK3300_MEDMCPFCIOO_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MEDMCPFCIOO();
+      hash = (37 * hash) + GACHA_TIMES_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getGachaTimesLimit();
+      hash = (37 * hash) + WISH_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getWishItemId();
+      hash = (37 * hash) + TEN_COST_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTenCostItemId();
+      hash = (37 * hash) + COST_ITEM_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getCostItemNum();
+      hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getTenCostItemNum();
       hash = (37 * hash) + UNK3300_HLANONBCBLM_FIELD_NUMBER;
       hash = (53 * hash) + getUnk3300HLANONBCBLM();
-      hash = (37 * hash) + UNK3300_PLFMMOFNGAG_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300PLFMMOFNGAG();
+      hash = (37 * hash) + COST_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCostItemId();
       hash = (37 * hash) + GACHA_SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getGachaScheduleId();
       hash = (37 * hash) + DAILY_GACHA_TIMES_FIELD_NUMBER;
@@ -841,7 +841,7 @@ public final class DoGachaRspOuterClass {
         super.clear();
         unk3300OHFMHIHJHPJ_ = false;
 
-        unk3300JLELMHELIDC_ = 0;
+        leftGachaTimes_ = 0;
 
         if (gachaItemListBuilder_ == null) {
           gachaItemList_ = java.util.Collections.emptyList();
@@ -854,27 +854,27 @@ public final class DoGachaRspOuterClass {
 
         gachaType_ = 0;
 
-        unk3300OPGAHAGHEPF_ = 0;
+        newGachaRandom_ = 0;
 
-        unk3300NMOKGFGDFFC_ = 0;
+        wishProgress_ = 0;
 
-        unk3300BLLMPAJNCPI_ = 0;
+        wishMaxProgress_ = 0;
 
         gachaTimes_ = 0;
 
-        unk3300GLPMIEMBGGL_ = 0;
+        gachaTimesLimit_ = 0;
 
-        unk3300KEIJFMKAKDH_ = 0;
+        wishItemId_ = 0;
 
-        unk3300DBFMKAMNPCL_ = 0;
+        tenCostItemId_ = 0;
 
-        unk3300JLBFLPEMAPP_ = 0;
+        costItemNum_ = 0;
 
-        unk3300MEDMCPFCIOO_ = 0;
+        tenCostItemNum_ = 0;
 
         unk3300HLANONBCBLM_ = 0;
 
-        unk3300PLFMMOFNGAG_ = 0;
+        costItemId_ = 0;
 
         gachaScheduleId_ = 0;
 
@@ -910,7 +910,7 @@ public final class DoGachaRspOuterClass {
         emu.grasscutter.net.newproto.DoGachaRspOuterClass.DoGachaRsp result = new emu.grasscutter.net.newproto.DoGachaRspOuterClass.DoGachaRsp(this);
         int from_bitField0_ = bitField0_;
         result.unk3300OHFMHIHJHPJ_ = unk3300OHFMHIHJHPJ_;
-        result.unk3300JLELMHELIDC_ = unk3300JLELMHELIDC_;
+        result.leftGachaTimes_ = leftGachaTimes_;
         if (gachaItemListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             gachaItemList_ = java.util.Collections.unmodifiableList(gachaItemList_);
@@ -922,17 +922,17 @@ public final class DoGachaRspOuterClass {
         }
         result.unk3300HBILIAEIHNK_ = unk3300HBILIAEIHNK_;
         result.gachaType_ = gachaType_;
-        result.unk3300OPGAHAGHEPF_ = unk3300OPGAHAGHEPF_;
-        result.unk3300NMOKGFGDFFC_ = unk3300NMOKGFGDFFC_;
-        result.unk3300BLLMPAJNCPI_ = unk3300BLLMPAJNCPI_;
+        result.newGachaRandom_ = newGachaRandom_;
+        result.wishProgress_ = wishProgress_;
+        result.wishMaxProgress_ = wishMaxProgress_;
         result.gachaTimes_ = gachaTimes_;
-        result.unk3300GLPMIEMBGGL_ = unk3300GLPMIEMBGGL_;
-        result.unk3300KEIJFMKAKDH_ = unk3300KEIJFMKAKDH_;
-        result.unk3300DBFMKAMNPCL_ = unk3300DBFMKAMNPCL_;
-        result.unk3300JLBFLPEMAPP_ = unk3300JLBFLPEMAPP_;
-        result.unk3300MEDMCPFCIOO_ = unk3300MEDMCPFCIOO_;
+        result.gachaTimesLimit_ = gachaTimesLimit_;
+        result.wishItemId_ = wishItemId_;
+        result.tenCostItemId_ = tenCostItemId_;
+        result.costItemNum_ = costItemNum_;
+        result.tenCostItemNum_ = tenCostItemNum_;
         result.unk3300HLANONBCBLM_ = unk3300HLANONBCBLM_;
-        result.unk3300PLFMMOFNGAG_ = unk3300PLFMMOFNGAG_;
+        result.costItemId_ = costItemId_;
         result.gachaScheduleId_ = gachaScheduleId_;
         result.dailyGachaTimes_ = dailyGachaTimes_;
         result.retcode_ = retcode_;
@@ -987,8 +987,8 @@ public final class DoGachaRspOuterClass {
         if (other.getUnk3300OHFMHIHJHPJ() != false) {
           setUnk3300OHFMHIHJHPJ(other.getUnk3300OHFMHIHJHPJ());
         }
-        if (other.getUnk3300JLELMHELIDC() != 0) {
-          setUnk3300JLELMHELIDC(other.getUnk3300JLELMHELIDC());
+        if (other.getLeftGachaTimes() != 0) {
+          setLeftGachaTimes(other.getLeftGachaTimes());
         }
         if (gachaItemListBuilder_ == null) {
           if (!other.gachaItemList_.isEmpty()) {
@@ -1022,38 +1022,38 @@ public final class DoGachaRspOuterClass {
         if (other.getGachaType() != 0) {
           setGachaType(other.getGachaType());
         }
-        if (other.getUnk3300OPGAHAGHEPF() != 0) {
-          setUnk3300OPGAHAGHEPF(other.getUnk3300OPGAHAGHEPF());
+        if (other.getNewGachaRandom() != 0) {
+          setNewGachaRandom(other.getNewGachaRandom());
         }
-        if (other.getUnk3300NMOKGFGDFFC() != 0) {
-          setUnk3300NMOKGFGDFFC(other.getUnk3300NMOKGFGDFFC());
+        if (other.getWishProgress() != 0) {
+          setWishProgress(other.getWishProgress());
         }
-        if (other.getUnk3300BLLMPAJNCPI() != 0) {
-          setUnk3300BLLMPAJNCPI(other.getUnk3300BLLMPAJNCPI());
+        if (other.getWishMaxProgress() != 0) {
+          setWishMaxProgress(other.getWishMaxProgress());
         }
         if (other.getGachaTimes() != 0) {
           setGachaTimes(other.getGachaTimes());
         }
-        if (other.getUnk3300GLPMIEMBGGL() != 0) {
-          setUnk3300GLPMIEMBGGL(other.getUnk3300GLPMIEMBGGL());
+        if (other.getGachaTimesLimit() != 0) {
+          setGachaTimesLimit(other.getGachaTimesLimit());
         }
-        if (other.getUnk3300KEIJFMKAKDH() != 0) {
-          setUnk3300KEIJFMKAKDH(other.getUnk3300KEIJFMKAKDH());
+        if (other.getWishItemId() != 0) {
+          setWishItemId(other.getWishItemId());
         }
-        if (other.getUnk3300DBFMKAMNPCL() != 0) {
-          setUnk3300DBFMKAMNPCL(other.getUnk3300DBFMKAMNPCL());
+        if (other.getTenCostItemId() != 0) {
+          setTenCostItemId(other.getTenCostItemId());
         }
-        if (other.getUnk3300JLBFLPEMAPP() != 0) {
-          setUnk3300JLBFLPEMAPP(other.getUnk3300JLBFLPEMAPP());
+        if (other.getCostItemNum() != 0) {
+          setCostItemNum(other.getCostItemNum());
         }
-        if (other.getUnk3300MEDMCPFCIOO() != 0) {
-          setUnk3300MEDMCPFCIOO(other.getUnk3300MEDMCPFCIOO());
+        if (other.getTenCostItemNum() != 0) {
+          setTenCostItemNum(other.getTenCostItemNum());
         }
         if (other.getUnk3300HLANONBCBLM() != 0) {
           setUnk3300HLANONBCBLM(other.getUnk3300HLANONBCBLM());
         }
-        if (other.getUnk3300PLFMMOFNGAG() != 0) {
-          setUnk3300PLFMMOFNGAG(other.getUnk3300PLFMMOFNGAG());
+        if (other.getCostItemId() != 0) {
+          setCostItemId(other.getCostItemId());
         }
         if (other.getGachaScheduleId() != 0) {
           setGachaScheduleId(other.getGachaScheduleId());
@@ -1091,17 +1091,17 @@ public final class DoGachaRspOuterClass {
                 done = true;
                 break;
               case 8: {
-                unk3300NMOKGFGDFFC_ = input.readUInt32();
+                wishProgress_ = input.readUInt32();
 
                 break;
               } // case 8
               case 16: {
-                unk3300MEDMCPFCIOO_ = input.readUInt32();
+                tenCostItemNum_ = input.readUInt32();
 
                 break;
               } // case 16
               case 24: {
-                unk3300JLELMHELIDC_ = input.readUInt32();
+                leftGachaTimes_ = input.readUInt32();
 
                 break;
               } // case 24
@@ -1111,22 +1111,22 @@ public final class DoGachaRspOuterClass {
                 break;
               } // case 32
               case 40: {
-                unk3300BLLMPAJNCPI_ = input.readUInt32();
+                wishMaxProgress_ = input.readUInt32();
 
                 break;
               } // case 40
               case 48: {
-                unk3300OPGAHAGHEPF_ = input.readUInt32();
+                newGachaRandom_ = input.readUInt32();
 
                 break;
               } // case 48
               case 56: {
-                unk3300PLFMMOFNGAG_ = input.readUInt32();
+                costItemId_ = input.readUInt32();
 
                 break;
               } // case 56
               case 64: {
-                unk3300JLBFLPEMAPP_ = input.readUInt32();
+                costItemNum_ = input.readUInt32();
 
                 break;
               } // case 64
@@ -1154,12 +1154,12 @@ public final class DoGachaRspOuterClass {
                 break;
               } // case 88
               case 96: {
-                unk3300KEIJFMKAKDH_ = input.readUInt32();
+                wishItemId_ = input.readUInt32();
 
                 break;
               } // case 96
               case 104: {
-                unk3300DBFMKAMNPCL_ = input.readUInt32();
+                tenCostItemId_ = input.readUInt32();
 
                 break;
               } // case 104
@@ -1169,7 +1169,7 @@ public final class DoGachaRspOuterClass {
                 break;
               } // case 112
               case 120: {
-                unk3300GLPMIEMBGGL_ = input.readUInt32();
+                gachaTimesLimit_ = input.readUInt32();
 
                 break;
               } // case 120
@@ -1241,33 +1241,33 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int unk3300JLELMHELIDC_ ;
+      private int leftGachaTimes_ ;
       /**
-       * <code>uint32 Unk3300_JLELMHELIDC = 3;</code>
-       * @return The unk3300JLELMHELIDC.
+       * <code>uint32 left_gacha_times = 3;</code>
+       * @return The leftGachaTimes.
        */
       @java.lang.Override
-      public int getUnk3300JLELMHELIDC() {
-        return unk3300JLELMHELIDC_;
+      public int getLeftGachaTimes() {
+        return leftGachaTimes_;
       }
       /**
-       * <code>uint32 Unk3300_JLELMHELIDC = 3;</code>
-       * @param value The unk3300JLELMHELIDC to set.
+       * <code>uint32 left_gacha_times = 3;</code>
+       * @param value The leftGachaTimes to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JLELMHELIDC(int value) {
+      public Builder setLeftGachaTimes(int value) {
         
-        unk3300JLELMHELIDC_ = value;
+        leftGachaTimes_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_JLELMHELIDC = 3;</code>
+       * <code>uint32 left_gacha_times = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JLELMHELIDC() {
+      public Builder clearLeftGachaTimes() {
         
-        unk3300JLELMHELIDC_ = 0;
+        leftGachaTimes_ = 0;
         onChanged();
         return this;
       }
@@ -1574,95 +1574,95 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int unk3300OPGAHAGHEPF_ ;
+      private int newGachaRandom_ ;
       /**
-       * <code>uint32 Unk3300_OPGAHAGHEPF = 6;</code>
-       * @return The unk3300OPGAHAGHEPF.
+       * <code>uint32 new_gacha_random = 6;</code>
+       * @return The newGachaRandom.
        */
       @java.lang.Override
-      public int getUnk3300OPGAHAGHEPF() {
-        return unk3300OPGAHAGHEPF_;
+      public int getNewGachaRandom() {
+        return newGachaRandom_;
       }
       /**
-       * <code>uint32 Unk3300_OPGAHAGHEPF = 6;</code>
-       * @param value The unk3300OPGAHAGHEPF to set.
+       * <code>uint32 new_gacha_random = 6;</code>
+       * @param value The newGachaRandom to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OPGAHAGHEPF(int value) {
+      public Builder setNewGachaRandom(int value) {
         
-        unk3300OPGAHAGHEPF_ = value;
+        newGachaRandom_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_OPGAHAGHEPF = 6;</code>
+       * <code>uint32 new_gacha_random = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OPGAHAGHEPF() {
+      public Builder clearNewGachaRandom() {
         
-        unk3300OPGAHAGHEPF_ = 0;
+        newGachaRandom_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300NMOKGFGDFFC_ ;
+      private int wishProgress_ ;
       /**
-       * <code>uint32 Unk3300_NMOKGFGDFFC = 1;</code>
-       * @return The unk3300NMOKGFGDFFC.
+       * <code>uint32 wish_progress = 1;</code>
+       * @return The wishProgress.
        */
       @java.lang.Override
-      public int getUnk3300NMOKGFGDFFC() {
-        return unk3300NMOKGFGDFFC_;
+      public int getWishProgress() {
+        return wishProgress_;
       }
       /**
-       * <code>uint32 Unk3300_NMOKGFGDFFC = 1;</code>
-       * @param value The unk3300NMOKGFGDFFC to set.
+       * <code>uint32 wish_progress = 1;</code>
+       * @param value The wishProgress to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NMOKGFGDFFC(int value) {
+      public Builder setWishProgress(int value) {
         
-        unk3300NMOKGFGDFFC_ = value;
+        wishProgress_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_NMOKGFGDFFC = 1;</code>
+       * <code>uint32 wish_progress = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NMOKGFGDFFC() {
+      public Builder clearWishProgress() {
         
-        unk3300NMOKGFGDFFC_ = 0;
+        wishProgress_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300BLLMPAJNCPI_ ;
+      private int wishMaxProgress_ ;
       /**
-       * <code>uint32 Unk3300_BLLMPAJNCPI = 5;</code>
-       * @return The unk3300BLLMPAJNCPI.
+       * <code>uint32 wish_max_progress = 5;</code>
+       * @return The wishMaxProgress.
        */
       @java.lang.Override
-      public int getUnk3300BLLMPAJNCPI() {
-        return unk3300BLLMPAJNCPI_;
+      public int getWishMaxProgress() {
+        return wishMaxProgress_;
       }
       /**
-       * <code>uint32 Unk3300_BLLMPAJNCPI = 5;</code>
-       * @param value The unk3300BLLMPAJNCPI to set.
+       * <code>uint32 wish_max_progress = 5;</code>
+       * @param value The wishMaxProgress to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BLLMPAJNCPI(int value) {
+      public Builder setWishMaxProgress(int value) {
         
-        unk3300BLLMPAJNCPI_ = value;
+        wishMaxProgress_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_BLLMPAJNCPI = 5;</code>
+       * <code>uint32 wish_max_progress = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BLLMPAJNCPI() {
+      public Builder clearWishMaxProgress() {
         
-        unk3300BLLMPAJNCPI_ = 0;
+        wishMaxProgress_ = 0;
         onChanged();
         return this;
       }
@@ -1698,157 +1698,157 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int unk3300GLPMIEMBGGL_ ;
+      private int gachaTimesLimit_ ;
       /**
-       * <code>uint32 Unk3300_GLPMIEMBGGL = 15;</code>
-       * @return The unk3300GLPMIEMBGGL.
+       * <code>uint32 gacha_times_limit = 15;</code>
+       * @return The gachaTimesLimit.
        */
       @java.lang.Override
-      public int getUnk3300GLPMIEMBGGL() {
-        return unk3300GLPMIEMBGGL_;
+      public int getGachaTimesLimit() {
+        return gachaTimesLimit_;
       }
       /**
-       * <code>uint32 Unk3300_GLPMIEMBGGL = 15;</code>
-       * @param value The unk3300GLPMIEMBGGL to set.
+       * <code>uint32 gacha_times_limit = 15;</code>
+       * @param value The gachaTimesLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300GLPMIEMBGGL(int value) {
+      public Builder setGachaTimesLimit(int value) {
         
-        unk3300GLPMIEMBGGL_ = value;
+        gachaTimesLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_GLPMIEMBGGL = 15;</code>
+       * <code>uint32 gacha_times_limit = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300GLPMIEMBGGL() {
+      public Builder clearGachaTimesLimit() {
         
-        unk3300GLPMIEMBGGL_ = 0;
+        gachaTimesLimit_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300KEIJFMKAKDH_ ;
+      private int wishItemId_ ;
       /**
-       * <code>uint32 Unk3300_KEIJFMKAKDH = 12;</code>
-       * @return The unk3300KEIJFMKAKDH.
+       * <code>uint32 wish_item_id = 12;</code>
+       * @return The wishItemId.
        */
       @java.lang.Override
-      public int getUnk3300KEIJFMKAKDH() {
-        return unk3300KEIJFMKAKDH_;
+      public int getWishItemId() {
+        return wishItemId_;
       }
       /**
-       * <code>uint32 Unk3300_KEIJFMKAKDH = 12;</code>
-       * @param value The unk3300KEIJFMKAKDH to set.
+       * <code>uint32 wish_item_id = 12;</code>
+       * @param value The wishItemId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KEIJFMKAKDH(int value) {
+      public Builder setWishItemId(int value) {
         
-        unk3300KEIJFMKAKDH_ = value;
+        wishItemId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KEIJFMKAKDH = 12;</code>
+       * <code>uint32 wish_item_id = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KEIJFMKAKDH() {
+      public Builder clearWishItemId() {
         
-        unk3300KEIJFMKAKDH_ = 0;
+        wishItemId_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300DBFMKAMNPCL_ ;
+      private int tenCostItemId_ ;
       /**
-       * <code>uint32 Unk3300_DBFMKAMNPCL = 13;</code>
-       * @return The unk3300DBFMKAMNPCL.
+       * <code>uint32 ten_cost_item_id = 13;</code>
+       * @return The tenCostItemId.
        */
       @java.lang.Override
-      public int getUnk3300DBFMKAMNPCL() {
-        return unk3300DBFMKAMNPCL_;
+      public int getTenCostItemId() {
+        return tenCostItemId_;
       }
       /**
-       * <code>uint32 Unk3300_DBFMKAMNPCL = 13;</code>
-       * @param value The unk3300DBFMKAMNPCL to set.
+       * <code>uint32 ten_cost_item_id = 13;</code>
+       * @param value The tenCostItemId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300DBFMKAMNPCL(int value) {
+      public Builder setTenCostItemId(int value) {
         
-        unk3300DBFMKAMNPCL_ = value;
+        tenCostItemId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_DBFMKAMNPCL = 13;</code>
+       * <code>uint32 ten_cost_item_id = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300DBFMKAMNPCL() {
+      public Builder clearTenCostItemId() {
         
-        unk3300DBFMKAMNPCL_ = 0;
+        tenCostItemId_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300JLBFLPEMAPP_ ;
+      private int costItemNum_ ;
       /**
-       * <code>uint32 Unk3300_JLBFLPEMAPP = 8;</code>
-       * @return The unk3300JLBFLPEMAPP.
+       * <code>uint32 cost_item_num = 8;</code>
+       * @return The costItemNum.
        */
       @java.lang.Override
-      public int getUnk3300JLBFLPEMAPP() {
-        return unk3300JLBFLPEMAPP_;
+      public int getCostItemNum() {
+        return costItemNum_;
       }
       /**
-       * <code>uint32 Unk3300_JLBFLPEMAPP = 8;</code>
-       * @param value The unk3300JLBFLPEMAPP to set.
+       * <code>uint32 cost_item_num = 8;</code>
+       * @param value The costItemNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300JLBFLPEMAPP(int value) {
+      public Builder setCostItemNum(int value) {
         
-        unk3300JLBFLPEMAPP_ = value;
+        costItemNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_JLBFLPEMAPP = 8;</code>
+       * <code>uint32 cost_item_num = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300JLBFLPEMAPP() {
+      public Builder clearCostItemNum() {
         
-        unk3300JLBFLPEMAPP_ = 0;
+        costItemNum_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300MEDMCPFCIOO_ ;
+      private int tenCostItemNum_ ;
       /**
-       * <code>uint32 Unk3300_MEDMCPFCIOO = 2;</code>
-       * @return The unk3300MEDMCPFCIOO.
+       * <code>uint32 ten_cost_item_num = 2;</code>
+       * @return The tenCostItemNum.
        */
       @java.lang.Override
-      public int getUnk3300MEDMCPFCIOO() {
-        return unk3300MEDMCPFCIOO_;
+      public int getTenCostItemNum() {
+        return tenCostItemNum_;
       }
       /**
-       * <code>uint32 Unk3300_MEDMCPFCIOO = 2;</code>
-       * @param value The unk3300MEDMCPFCIOO to set.
+       * <code>uint32 ten_cost_item_num = 2;</code>
+       * @param value The tenCostItemNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MEDMCPFCIOO(int value) {
+      public Builder setTenCostItemNum(int value) {
         
-        unk3300MEDMCPFCIOO_ = value;
+        tenCostItemNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_MEDMCPFCIOO = 2;</code>
+       * <code>uint32 ten_cost_item_num = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MEDMCPFCIOO() {
+      public Builder clearTenCostItemNum() {
         
-        unk3300MEDMCPFCIOO_ = 0;
+        tenCostItemNum_ = 0;
         onChanged();
         return this;
       }
@@ -1884,33 +1884,33 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int unk3300PLFMMOFNGAG_ ;
+      private int costItemId_ ;
       /**
-       * <code>uint32 Unk3300_PLFMMOFNGAG = 7;</code>
-       * @return The unk3300PLFMMOFNGAG.
+       * <code>uint32 cost_item_id = 7;</code>
+       * @return The costItemId.
        */
       @java.lang.Override
-      public int getUnk3300PLFMMOFNGAG() {
-        return unk3300PLFMMOFNGAG_;
+      public int getCostItemId() {
+        return costItemId_;
       }
       /**
-       * <code>uint32 Unk3300_PLFMMOFNGAG = 7;</code>
-       * @param value The unk3300PLFMMOFNGAG to set.
+       * <code>uint32 cost_item_id = 7;</code>
+       * @param value The costItemId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PLFMMOFNGAG(int value) {
+      public Builder setCostItemId(int value) {
         
-        unk3300PLFMMOFNGAG_ = value;
+        costItemId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_PLFMMOFNGAG = 7;</code>
+       * <code>uint32 cost_item_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PLFMMOFNGAG() {
+      public Builder clearCostItemId() {
         
-        unk3300PLFMMOFNGAG_ = 0;
+        costItemId_ = 0;
         onChanged();
         return this;
       }
@@ -2085,22 +2085,21 @@ public final class DoGachaRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\236\004\n\n" +
+      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\365\003\n\n" +
       "DoGachaRsp\022\034\n\023Unk3300_OHFMHIHJHPJ\030\224\016 \001(\010" +
-      "\022\033\n\023Unk3300_JLELMHELIDC\030\003 \001(\r\022#\n\017gacha_i" +
-      "tem_list\030\t \003(\0132\n.GachaItem\022\034\n\023Unk3300_HB" +
-      "ILIAEIHNK\030\337\016 \001(\010\022\022\n\ngacha_type\030\n \001(\r\022\033\n\023" +
-      "Unk3300_OPGAHAGHEPF\030\006 \001(\r\022\033\n\023Unk3300_NMO" +
-      "KGFGDFFC\030\001 \001(\r\022\033\n\023Unk3300_BLLMPAJNCPI\030\005 " +
-      "\001(\r\022\023\n\013gacha_times\030\004 \001(\r\022\033\n\023Unk3300_GLPM" +
-      "IEMBGGL\030\017 \001(\r\022\033\n\023Unk3300_KEIJFMKAKDH\030\014 \001" +
-      "(\r\022\033\n\023Unk3300_DBFMKAMNPCL\030\r \001(\r\022\033\n\023Unk33" +
-      "00_JLBFLPEMAPP\030\010 \001(\r\022\033\n\023Unk3300_MEDMCPFC" +
-      "IOO\030\002 \001(\r\022\034\n\023Unk3300_HLANONBCBLM\030\216\014 \001(\r\022" +
-      "\033\n\023Unk3300_PLFMMOFNGAG\030\007 \001(\r\022\031\n\021gacha_sc" +
-      "hedule_id\030\016 \001(\r\022\032\n\021daily_gacha_times\030\323\003 " +
-      "\001(\r\022\017\n\007retcode\030\013 \001(\005B\036\n\034emu.grasscutter." +
-      "net.newprotob\006proto3"
+      "\022\030\n\020left_gacha_times\030\003 \001(\r\022#\n\017gacha_item" +
+      "_list\030\t \003(\0132\n.GachaItem\022\034\n\023Unk3300_HBILI" +
+      "AEIHNK\030\337\016 \001(\010\022\022\n\ngacha_type\030\n \001(\r\022\030\n\020new" +
+      "_gacha_random\030\006 \001(\r\022\025\n\rwish_progress\030\001 \001" +
+      "(\r\022\031\n\021wish_max_progress\030\005 \001(\r\022\023\n\013gacha_t" +
+      "imes\030\004 \001(\r\022\031\n\021gacha_times_limit\030\017 \001(\r\022\024\n" +
+      "\014wish_item_id\030\014 \001(\r\022\030\n\020ten_cost_item_id\030" +
+      "\r \001(\r\022\025\n\rcost_item_num\030\010 \001(\r\022\031\n\021ten_cost" +
+      "_item_num\030\002 \001(\r\022\034\n\023Unk3300_HLANONBCBLM\030\216" +
+      "\014 \001(\r\022\024\n\014cost_item_id\030\007 \001(\r\022\031\n\021gacha_sch" +
+      "edule_id\030\016 \001(\r\022\032\n\021daily_gacha_times\030\323\003 \001" +
+      "(\r\022\017\n\007retcode\030\013 \001(\005B\036\n\034emu.grasscutter.n" +
+      "et.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2112,7 +2111,7 @@ public final class DoGachaRspOuterClass {
     internal_static_DoGachaRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DoGachaRsp_descriptor,
-        new java.lang.String[] { "Unk3300OHFMHIHJHPJ", "Unk3300JLELMHELIDC", "GachaItemList", "Unk3300HBILIAEIHNK", "GachaType", "Unk3300OPGAHAGHEPF", "Unk3300NMOKGFGDFFC", "Unk3300BLLMPAJNCPI", "GachaTimes", "Unk3300GLPMIEMBGGL", "Unk3300KEIJFMKAKDH", "Unk3300DBFMKAMNPCL", "Unk3300JLBFLPEMAPP", "Unk3300MEDMCPFCIOO", "Unk3300HLANONBCBLM", "Unk3300PLFMMOFNGAG", "GachaScheduleId", "DailyGachaTimes", "Retcode", });
+        new java.lang.String[] { "Unk3300OHFMHIHJHPJ", "LeftGachaTimes", "GachaItemList", "Unk3300HBILIAEIHNK", "GachaType", "NewGachaRandom", "WishProgress", "WishMaxProgress", "GachaTimes", "GachaTimesLimit", "WishItemId", "TenCostItemId", "CostItemNum", "TenCostItemNum", "Unk3300HLANONBCBLM", "CostItemId", "GachaScheduleId", "DailyGachaTimes", "Retcode", });
     emu.grasscutter.net.newproto.GachaItemOuterClass.getDescriptor();
   }
 

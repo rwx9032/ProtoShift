@@ -25,10 +25,10 @@ public final class DungeonEntryInfoOuterClass {
     int getEndTime();
 
     /**
-     * <code>uint32 Unk3300_KNKFCOKMECI = 9;</code>
-     * @return The unk3300KNKFCOKMECI.
+     * <code>uint32 max_boss_chest_num = 9;</code>
+     * @return The maxBossChestNum.
      */
-    int getUnk3300KNKFCOKMECI();
+    int getMaxBossChestNum();
 
     /**
      * <code>bool is_passed = 13;</code>
@@ -70,10 +70,10 @@ public final class DungeonEntryInfoOuterClass {
     int getNextRefreshTime();
 
     /**
-     * <code>uint32 Unk3300_ONLALCCKIEE = 3;</code>
-     * @return The unk3300ONLALCCKIEE.
+     * <code>uint32 next_boss_chest_refresh_time = 3;</code>
+     * @return The nextBossChestRefreshTime.
      */
-    int getUnk3300ONLALCCKIEE();
+    int getNextBossChestRefreshTime();
 
     /**
      * <code>uint32 start_time = 11;</code>
@@ -132,15 +132,15 @@ public final class DungeonEntryInfoOuterClass {
       return endTime_;
     }
 
-    public static final int UNK3300_KNKFCOKMECI_FIELD_NUMBER = 9;
-    private int unk3300KNKFCOKMECI_;
+    public static final int MAX_BOSS_CHEST_NUM_FIELD_NUMBER = 9;
+    private int maxBossChestNum_;
     /**
-     * <code>uint32 Unk3300_KNKFCOKMECI = 9;</code>
-     * @return The unk3300KNKFCOKMECI.
+     * <code>uint32 max_boss_chest_num = 9;</code>
+     * @return The maxBossChestNum.
      */
     @java.lang.Override
-    public int getUnk3300KNKFCOKMECI() {
-      return unk3300KNKFCOKMECI_;
+    public int getMaxBossChestNum() {
+      return maxBossChestNum_;
     }
 
     public static final int IS_PASSED_FIELD_NUMBER = 13;
@@ -213,15 +213,15 @@ public final class DungeonEntryInfoOuterClass {
       return nextRefreshTime_;
     }
 
-    public static final int UNK3300_ONLALCCKIEE_FIELD_NUMBER = 3;
-    private int unk3300ONLALCCKIEE_;
+    public static final int NEXT_BOSS_CHEST_REFRESH_TIME_FIELD_NUMBER = 3;
+    private int nextBossChestRefreshTime_;
     /**
-     * <code>uint32 Unk3300_ONLALCCKIEE = 3;</code>
-     * @return The unk3300ONLALCCKIEE.
+     * <code>uint32 next_boss_chest_refresh_time = 3;</code>
+     * @return The nextBossChestRefreshTime.
      */
     @java.lang.Override
-    public int getUnk3300ONLALCCKIEE() {
-      return unk3300ONLALCCKIEE_;
+    public int getNextBossChestRefreshTime() {
+      return nextBossChestRefreshTime_;
     }
 
     public static final int START_TIME_FIELD_NUMBER = 11;
@@ -249,8 +249,8 @@ public final class DungeonEntryInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300ONLALCCKIEE_ != 0) {
-        output.writeUInt32(3, unk3300ONLALCCKIEE_);
+      if (nextBossChestRefreshTime_ != 0) {
+        output.writeUInt32(3, nextBossChestRefreshTime_);
       }
       if (unk3300IDMPGPKMMEH_ != 0) {
         output.writeUInt32(5, unk3300IDMPGPKMMEH_);
@@ -261,8 +261,8 @@ public final class DungeonEntryInfoOuterClass {
       if (dungeonId_ != 0) {
         output.writeUInt32(8, dungeonId_);
       }
-      if (unk3300KNKFCOKMECI_ != 0) {
-        output.writeUInt32(9, unk3300KNKFCOKMECI_);
+      if (maxBossChestNum_ != 0) {
+        output.writeUInt32(9, maxBossChestNum_);
       }
       if (nextRefreshTime_ != 0) {
         output.writeUInt32(10, nextRefreshTime_);
@@ -285,9 +285,9 @@ public final class DungeonEntryInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300ONLALCCKIEE_ != 0) {
+      if (nextBossChestRefreshTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300ONLALCCKIEE_);
+          .computeUInt32Size(3, nextBossChestRefreshTime_);
       }
       if (unk3300IDMPGPKMMEH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -301,9 +301,9 @@ public final class DungeonEntryInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, dungeonId_);
       }
-      if (unk3300KNKFCOKMECI_ != 0) {
+      if (maxBossChestNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, unk3300KNKFCOKMECI_);
+          .computeUInt32Size(9, maxBossChestNum_);
       }
       if (nextRefreshTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -338,8 +338,8 @@ public final class DungeonEntryInfoOuterClass {
 
       if (getEndTime()
           != other.getEndTime()) return false;
-      if (getUnk3300KNKFCOKMECI()
-          != other.getUnk3300KNKFCOKMECI()) return false;
+      if (getMaxBossChestNum()
+          != other.getMaxBossChestNum()) return false;
       if (getIsPassed()
           != other.getIsPassed()) return false;
       if (hasWeeklyBossResinDiscountInfo() != other.hasWeeklyBossResinDiscountInfo()) return false;
@@ -353,8 +353,8 @@ public final class DungeonEntryInfoOuterClass {
           != other.getUnk3300IDMPGPKMMEH()) return false;
       if (getNextRefreshTime()
           != other.getNextRefreshTime()) return false;
-      if (getUnk3300ONLALCCKIEE()
-          != other.getUnk3300ONLALCCKIEE()) return false;
+      if (getNextBossChestRefreshTime()
+          != other.getNextBossChestRefreshTime()) return false;
       if (getStartTime()
           != other.getStartTime()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -370,8 +370,8 @@ public final class DungeonEntryInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + END_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getEndTime();
-      hash = (37 * hash) + UNK3300_KNKFCOKMECI_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300KNKFCOKMECI();
+      hash = (37 * hash) + MAX_BOSS_CHEST_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxBossChestNum();
       hash = (37 * hash) + IS_PASSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsPassed());
@@ -385,8 +385,8 @@ public final class DungeonEntryInfoOuterClass {
       hash = (53 * hash) + getUnk3300IDMPGPKMMEH();
       hash = (37 * hash) + NEXT_REFRESH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getNextRefreshTime();
-      hash = (37 * hash) + UNK3300_ONLALCCKIEE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300ONLALCCKIEE();
+      hash = (37 * hash) + NEXT_BOSS_CHEST_REFRESH_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getNextBossChestRefreshTime();
       hash = (37 * hash) + START_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getStartTime();
       hash = (29 * hash) + getUnknownFields().hashCode();
@@ -519,7 +519,7 @@ public final class DungeonEntryInfoOuterClass {
         super.clear();
         endTime_ = 0;
 
-        unk3300KNKFCOKMECI_ = 0;
+        maxBossChestNum_ = 0;
 
         isPassed_ = false;
 
@@ -535,7 +535,7 @@ public final class DungeonEntryInfoOuterClass {
 
         nextRefreshTime_ = 0;
 
-        unk3300ONLALCCKIEE_ = 0;
+        nextBossChestRefreshTime_ = 0;
 
         startTime_ = 0;
 
@@ -566,7 +566,7 @@ public final class DungeonEntryInfoOuterClass {
       public emu.grasscutter.net.newproto.DungeonEntryInfoOuterClass.DungeonEntryInfo buildPartial() {
         emu.grasscutter.net.newproto.DungeonEntryInfoOuterClass.DungeonEntryInfo result = new emu.grasscutter.net.newproto.DungeonEntryInfoOuterClass.DungeonEntryInfo(this);
         result.endTime_ = endTime_;
-        result.unk3300KNKFCOKMECI_ = unk3300KNKFCOKMECI_;
+        result.maxBossChestNum_ = maxBossChestNum_;
         result.isPassed_ = isPassed_;
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           result.weeklyBossResinDiscountInfo_ = weeklyBossResinDiscountInfo_;
@@ -576,7 +576,7 @@ public final class DungeonEntryInfoOuterClass {
         result.dungeonId_ = dungeonId_;
         result.unk3300IDMPGPKMMEH_ = unk3300IDMPGPKMMEH_;
         result.nextRefreshTime_ = nextRefreshTime_;
-        result.unk3300ONLALCCKIEE_ = unk3300ONLALCCKIEE_;
+        result.nextBossChestRefreshTime_ = nextBossChestRefreshTime_;
         result.startTime_ = startTime_;
         onBuilt();
         return result;
@@ -629,8 +629,8 @@ public final class DungeonEntryInfoOuterClass {
         if (other.getEndTime() != 0) {
           setEndTime(other.getEndTime());
         }
-        if (other.getUnk3300KNKFCOKMECI() != 0) {
-          setUnk3300KNKFCOKMECI(other.getUnk3300KNKFCOKMECI());
+        if (other.getMaxBossChestNum() != 0) {
+          setMaxBossChestNum(other.getMaxBossChestNum());
         }
         if (other.getIsPassed() != false) {
           setIsPassed(other.getIsPassed());
@@ -647,8 +647,8 @@ public final class DungeonEntryInfoOuterClass {
         if (other.getNextRefreshTime() != 0) {
           setNextRefreshTime(other.getNextRefreshTime());
         }
-        if (other.getUnk3300ONLALCCKIEE() != 0) {
-          setUnk3300ONLALCCKIEE(other.getUnk3300ONLALCCKIEE());
+        if (other.getNextBossChestRefreshTime() != 0) {
+          setNextBossChestRefreshTime(other.getNextBossChestRefreshTime());
         }
         if (other.getStartTime() != 0) {
           setStartTime(other.getStartTime());
@@ -680,7 +680,7 @@ public final class DungeonEntryInfoOuterClass {
                 done = true;
                 break;
               case 24: {
-                unk3300ONLALCCKIEE_ = input.readUInt32();
+                nextBossChestRefreshTime_ = input.readUInt32();
 
                 break;
               } // case 24
@@ -702,7 +702,7 @@ public final class DungeonEntryInfoOuterClass {
                 break;
               } // case 64
               case 72: {
-                unk3300KNKFCOKMECI_ = input.readUInt32();
+                maxBossChestNum_ = input.readUInt32();
 
                 break;
               } // case 72
@@ -773,33 +773,33 @@ public final class DungeonEntryInfoOuterClass {
         return this;
       }
 
-      private int unk3300KNKFCOKMECI_ ;
+      private int maxBossChestNum_ ;
       /**
-       * <code>uint32 Unk3300_KNKFCOKMECI = 9;</code>
-       * @return The unk3300KNKFCOKMECI.
+       * <code>uint32 max_boss_chest_num = 9;</code>
+       * @return The maxBossChestNum.
        */
       @java.lang.Override
-      public int getUnk3300KNKFCOKMECI() {
-        return unk3300KNKFCOKMECI_;
+      public int getMaxBossChestNum() {
+        return maxBossChestNum_;
       }
       /**
-       * <code>uint32 Unk3300_KNKFCOKMECI = 9;</code>
-       * @param value The unk3300KNKFCOKMECI to set.
+       * <code>uint32 max_boss_chest_num = 9;</code>
+       * @param value The maxBossChestNum to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300KNKFCOKMECI(int value) {
+      public Builder setMaxBossChestNum(int value) {
         
-        unk3300KNKFCOKMECI_ = value;
+        maxBossChestNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_KNKFCOKMECI = 9;</code>
+       * <code>uint32 max_boss_chest_num = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300KNKFCOKMECI() {
+      public Builder clearMaxBossChestNum() {
         
-        unk3300KNKFCOKMECI_ = 0;
+        maxBossChestNum_ = 0;
         onChanged();
         return this;
       }
@@ -1047,33 +1047,33 @@ public final class DungeonEntryInfoOuterClass {
         return this;
       }
 
-      private int unk3300ONLALCCKIEE_ ;
+      private int nextBossChestRefreshTime_ ;
       /**
-       * <code>uint32 Unk3300_ONLALCCKIEE = 3;</code>
-       * @return The unk3300ONLALCCKIEE.
+       * <code>uint32 next_boss_chest_refresh_time = 3;</code>
+       * @return The nextBossChestRefreshTime.
        */
       @java.lang.Override
-      public int getUnk3300ONLALCCKIEE() {
-        return unk3300ONLALCCKIEE_;
+      public int getNextBossChestRefreshTime() {
+        return nextBossChestRefreshTime_;
       }
       /**
-       * <code>uint32 Unk3300_ONLALCCKIEE = 3;</code>
-       * @param value The unk3300ONLALCCKIEE to set.
+       * <code>uint32 next_boss_chest_refresh_time = 3;</code>
+       * @param value The nextBossChestRefreshTime to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300ONLALCCKIEE(int value) {
+      public Builder setNextBossChestRefreshTime(int value) {
         
-        unk3300ONLALCCKIEE_ = value;
+        nextBossChestRefreshTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_ONLALCCKIEE = 3;</code>
+       * <code>uint32 next_boss_chest_refresh_time = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300ONLALCCKIEE() {
+      public Builder clearNextBossChestRefreshTime() {
         
-        unk3300ONLALCCKIEE_ = 0;
+        nextBossChestRefreshTime_ = 0;
         onChanged();
         return this;
       }
@@ -1187,15 +1187,15 @@ public final class DungeonEntryInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026DungeonEntryInfo.proto\032!WeeklyBossResi" +
-      "nDiscountInfo.proto\"\230\002\n\020DungeonEntryInfo" +
-      "\022\020\n\010end_time\030\016 \001(\r\022\033\n\023Unk3300_KNKFCOKMEC" +
-      "I\030\t \001(\r\022\021\n\tis_passed\030\r \001(\010\022E\n\037weekly_bos" +
-      "s_resin_discount_info\030\006 \001(\0132\034.WeeklyBoss" +
-      "ResinDiscountInfo\022\022\n\ndungeon_id\030\010 \001(\r\022\033\n" +
-      "\023Unk3300_IDMPGPKMMEH\030\005 \001(\r\022\031\n\021next_refre" +
-      "sh_time\030\n \001(\r\022\033\n\023Unk3300_ONLALCCKIEE\030\003 \001" +
-      "(\r\022\022\n\nstart_time\030\013 \001(\rB\036\n\034emu.grasscutte" +
-      "r.net.newprotob\006proto3"
+      "nDiscountInfo.proto\"\240\002\n\020DungeonEntryInfo" +
+      "\022\020\n\010end_time\030\016 \001(\r\022\032\n\022max_boss_chest_num" +
+      "\030\t \001(\r\022\021\n\tis_passed\030\r \001(\010\022E\n\037weekly_boss" +
+      "_resin_discount_info\030\006 \001(\0132\034.WeeklyBossR" +
+      "esinDiscountInfo\022\022\n\ndungeon_id\030\010 \001(\r\022\033\n\023" +
+      "Unk3300_IDMPGPKMMEH\030\005 \001(\r\022\031\n\021next_refres" +
+      "h_time\030\n \001(\r\022$\n\034next_boss_chest_refresh_" +
+      "time\030\003 \001(\r\022\022\n\nstart_time\030\013 \001(\rB\036\n\034emu.gr" +
+      "asscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1207,7 +1207,7 @@ public final class DungeonEntryInfoOuterClass {
     internal_static_DungeonEntryInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DungeonEntryInfo_descriptor,
-        new java.lang.String[] { "EndTime", "Unk3300KNKFCOKMECI", "IsPassed", "WeeklyBossResinDiscountInfo", "DungeonId", "Unk3300IDMPGPKMMEH", "NextRefreshTime", "Unk3300ONLALCCKIEE", "StartTime", });
+        new java.lang.String[] { "EndTime", "MaxBossChestNum", "IsPassed", "WeeklyBossResinDiscountInfo", "DungeonId", "Unk3300IDMPGPKMMEH", "NextRefreshTime", "NextBossChestRefreshTime", "StartTime", });
     emu.grasscutter.net.newproto.WeeklyBossResinDiscountInfoOuterClass.getDescriptor();
   }
 

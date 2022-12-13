@@ -103,16 +103,16 @@ public final class PlayerLoginReqOuterClass {
     int getAccountType();
 
     /**
-     * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-     * @return The unk3300BBAABEHNFOE.
+     * <code>string security_library_md5 = 868;</code>
+     * @return The securityLibraryMd5.
      */
-    java.lang.String getUnk3300BBAABEHNFOE();
+    java.lang.String getSecurityLibraryMd5();
     /**
-     * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-     * @return The bytes for unk3300BBAABEHNFOE.
+     * <code>string security_library_md5 = 868;</code>
+     * @return The bytes for securityLibraryMd5.
      */
     com.google.protobuf.ByteString
-        getUnk3300BBAABEHNFOEBytes();
+        getSecurityLibraryMd5Bytes();
 
     /**
      * <code>string online_id = 577;</code>
@@ -187,10 +187,10 @@ public final class PlayerLoginReqOuterClass {
         getDeviceInfoBytes();
 
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 1458;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 1458;</code>
+     * @return The subChannelId.
      */
-    int getUnk3300IADFJHNFKIB();
+    int getSubChannelId();
 
     /**
      * <code>bool is_editor = 1;</code>
@@ -280,16 +280,16 @@ public final class PlayerLoginReqOuterClass {
     boolean getIsTransfer();
 
     /**
-     * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-     * @return The unk3300BIAKNIALBFJ.
+     * <code>string security_library_version = 828;</code>
+     * @return The securityLibraryVersion.
      */
-    java.lang.String getUnk3300BIAKNIALBFJ();
+    java.lang.String getSecurityLibraryVersion();
     /**
-     * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-     * @return The bytes for unk3300BIAKNIALBFJ.
+     * <code>string security_library_version = 828;</code>
+     * @return The bytes for securityLibraryVersion.
      */
     com.google.protobuf.ByteString
-        getUnk3300BIAKNIALBFJBytes();
+        getSecurityLibraryVersionBytes();
 
     /**
      * <code>string client_version = 2;</code>
@@ -425,7 +425,7 @@ public final class PlayerLoginReqOuterClass {
       platform_ = "";
       checksum_ = "";
       clientVerisonHash_ = "";
-      unk3300BBAABEHNFOE_ = "";
+      securityLibraryMd5_ = "";
       onlineId_ = "";
       deviceName_ = "";
       birthday_ = "";
@@ -434,7 +434,7 @@ public final class PlayerLoginReqOuterClass {
       token_ = "";
       checksumClientVersion_ = "";
       countryCode_ = "";
-      unk3300BIAKNIALBFJ_ = "";
+      securityLibraryVersion_ = "";
       clientVersion_ = "";
       systemVersion_ = "";
       psnId_ = "";
@@ -686,38 +686,38 @@ public final class PlayerLoginReqOuterClass {
       return accountType_;
     }
 
-    public static final int UNK3300_BBAABEHNFOE_FIELD_NUMBER = 868;
-    private volatile java.lang.Object unk3300BBAABEHNFOE_;
+    public static final int SECURITY_LIBRARY_MD5_FIELD_NUMBER = 868;
+    private volatile java.lang.Object securityLibraryMd5_;
     /**
-     * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-     * @return The unk3300BBAABEHNFOE.
+     * <code>string security_library_md5 = 868;</code>
+     * @return The securityLibraryMd5.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300BBAABEHNFOE() {
-      java.lang.Object ref = unk3300BBAABEHNFOE_;
+    public java.lang.String getSecurityLibraryMd5() {
+      java.lang.Object ref = securityLibraryMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300BBAABEHNFOE_ = s;
+        securityLibraryMd5_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-     * @return The bytes for unk3300BBAABEHNFOE.
+     * <code>string security_library_md5 = 868;</code>
+     * @return The bytes for securityLibraryMd5.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300BBAABEHNFOEBytes() {
-      java.lang.Object ref = unk3300BBAABEHNFOE_;
+        getSecurityLibraryMd5Bytes() {
+      java.lang.Object ref = securityLibraryMd5_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300BBAABEHNFOE_ = b;
+        securityLibraryMd5_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -936,15 +936,15 @@ public final class PlayerLoginReqOuterClass {
       }
     }
 
-    public static final int UNK3300_IADFJHNFKIB_FIELD_NUMBER = 1458;
-    private int unk3300IADFJHNFKIB_;
+    public static final int SUB_CHANNEL_ID_FIELD_NUMBER = 1458;
+    private int subChannelId_;
     /**
-     * <code>uint32 Unk3300_IADFJHNFKIB = 1458;</code>
-     * @return The unk3300IADFJHNFKIB.
+     * <code>uint32 sub_channel_id = 1458;</code>
+     * @return The subChannelId.
      */
     @java.lang.Override
-    public int getUnk3300IADFJHNFKIB() {
-      return unk3300IADFJHNFKIB_;
+    public int getSubChannelId() {
+      return subChannelId_;
     }
 
     public static final int IS_EDITOR_FIELD_NUMBER = 1;
@@ -1153,38 +1153,38 @@ public final class PlayerLoginReqOuterClass {
       return isTransfer_;
     }
 
-    public static final int UNK3300_BIAKNIALBFJ_FIELD_NUMBER = 828;
-    private volatile java.lang.Object unk3300BIAKNIALBFJ_;
+    public static final int SECURITY_LIBRARY_VERSION_FIELD_NUMBER = 828;
+    private volatile java.lang.Object securityLibraryVersion_;
     /**
-     * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-     * @return The unk3300BIAKNIALBFJ.
+     * <code>string security_library_version = 828;</code>
+     * @return The securityLibraryVersion.
      */
     @java.lang.Override
-    public java.lang.String getUnk3300BIAKNIALBFJ() {
-      java.lang.Object ref = unk3300BIAKNIALBFJ_;
+    public java.lang.String getSecurityLibraryVersion() {
+      java.lang.Object ref = securityLibraryVersion_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        unk3300BIAKNIALBFJ_ = s;
+        securityLibraryVersion_ = s;
         return s;
       }
     }
     /**
-     * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-     * @return The bytes for unk3300BIAKNIALBFJ.
+     * <code>string security_library_version = 828;</code>
+     * @return The bytes for securityLibraryVersion.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getUnk3300BIAKNIALBFJBytes() {
-      java.lang.Object ref = unk3300BIAKNIALBFJ_;
+        getSecurityLibraryVersionBytes() {
+      java.lang.Object ref = securityLibraryVersion_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        unk3300BIAKNIALBFJ_ = b;
+        securityLibraryVersion_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1535,14 +1535,14 @@ public final class PlayerLoginReqOuterClass {
       if (isTransfer_ != false) {
         output.writeBool(624, isTransfer_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300BIAKNIALBFJ_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 828, unk3300BIAKNIALBFJ_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryVersion_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 828, securityLibraryVersion_);
       }
       if (clientDataVersion_ != 0) {
         output.writeUInt32(847, clientDataVersion_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300BBAABEHNFOE_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 868, unk3300BBAABEHNFOE_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 868, securityLibraryMd5_);
       }
       if (!securityCmdReply_.isEmpty()) {
         output.writeBytes(874, securityCmdReply_);
@@ -1565,8 +1565,8 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(checksum_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1334, checksum_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
-        output.writeUInt32(1458, unk3300IADFJHNFKIB_);
+      if (subChannelId_ != 0) {
+        output.writeUInt32(1458, subChannelId_);
       }
       if (channelId_ != 0) {
         output.writeUInt32(1565, channelId_);
@@ -1684,15 +1684,15 @@ public final class PlayerLoginReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(624, isTransfer_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300BIAKNIALBFJ_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(828, unk3300BIAKNIALBFJ_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryVersion_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(828, securityLibraryVersion_);
       }
       if (clientDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(847, clientDataVersion_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(unk3300BBAABEHNFOE_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(868, unk3300BBAABEHNFOE_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(securityLibraryMd5_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(868, securityLibraryMd5_);
       }
       if (!securityCmdReply_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
@@ -1719,9 +1719,9 @@ public final class PlayerLoginReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(checksum_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1334, checksum_);
       }
-      if (unk3300IADFJHNFKIB_ != 0) {
+      if (subChannelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1458, unk3300IADFJHNFKIB_);
+          .computeUInt32Size(1458, subChannelId_);
       }
       if (channelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1780,8 +1780,8 @@ public final class PlayerLoginReqOuterClass {
           != other.getClientDataVersion()) return false;
       if (getAccountType()
           != other.getAccountType()) return false;
-      if (!getUnk3300BBAABEHNFOE()
-          .equals(other.getUnk3300BBAABEHNFOE())) return false;
+      if (!getSecurityLibraryMd5()
+          .equals(other.getSecurityLibraryMd5())) return false;
       if (!getOnlineId()
           .equals(other.getOnlineId())) return false;
       if (getUnk3300PMGFBMJNNCL()
@@ -1796,8 +1796,8 @@ public final class PlayerLoginReqOuterClass {
           .equals(other.getAccountUid())) return false;
       if (!getDeviceInfo()
           .equals(other.getDeviceInfo())) return false;
-      if (getUnk3300IADFJHNFKIB()
-          != other.getUnk3300IADFJHNFKIB()) return false;
+      if (getSubChannelId()
+          != other.getSubChannelId()) return false;
       if (getIsEditor()
           != other.getIsEditor()) return false;
       if (!getToken()
@@ -1821,8 +1821,8 @@ public final class PlayerLoginReqOuterClass {
       }
       if (getIsTransfer()
           != other.getIsTransfer()) return false;
-      if (!getUnk3300BIAKNIALBFJ()
-          .equals(other.getUnk3300BIAKNIALBFJ())) return false;
+      if (!getSecurityLibraryVersion()
+          .equals(other.getSecurityLibraryVersion())) return false;
       if (!getClientVersion()
           .equals(other.getClientVersion())) return false;
       if (getIsGuest()
@@ -1881,8 +1881,8 @@ public final class PlayerLoginReqOuterClass {
       hash = (53 * hash) + getClientDataVersion();
       hash = (37 * hash) + ACCOUNT_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getAccountType();
-      hash = (37 * hash) + UNK3300_BBAABEHNFOE_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300BBAABEHNFOE().hashCode();
+      hash = (37 * hash) + SECURITY_LIBRARY_MD5_FIELD_NUMBER;
+      hash = (53 * hash) + getSecurityLibraryMd5().hashCode();
       hash = (37 * hash) + ONLINE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getOnlineId().hashCode();
       hash = (37 * hash) + UNK3300_PMGFBMJNNCL_FIELD_NUMBER;
@@ -1897,8 +1897,8 @@ public final class PlayerLoginReqOuterClass {
       hash = (53 * hash) + getAccountUid().hashCode();
       hash = (37 * hash) + DEVICE_INFO_FIELD_NUMBER;
       hash = (53 * hash) + getDeviceInfo().hashCode();
-      hash = (37 * hash) + UNK3300_IADFJHNFKIB_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300IADFJHNFKIB();
+      hash = (37 * hash) + SUB_CHANNEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSubChannelId();
       hash = (37 * hash) + IS_EDITOR_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsEditor());
@@ -1923,8 +1923,8 @@ public final class PlayerLoginReqOuterClass {
       hash = (37 * hash) + IS_TRANSFER_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsTransfer());
-      hash = (37 * hash) + UNK3300_BIAKNIALBFJ_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300BIAKNIALBFJ().hashCode();
+      hash = (37 * hash) + SECURITY_LIBRARY_VERSION_FIELD_NUMBER;
+      hash = (53 * hash) + getSecurityLibraryVersion().hashCode();
       hash = (37 * hash) + CLIENT_VERSION_FIELD_NUMBER;
       hash = (53 * hash) + getClientVersion().hashCode();
       hash = (37 * hash) + IS_GUEST_FIELD_NUMBER;
@@ -2112,7 +2112,7 @@ public final class PlayerLoginReqOuterClass {
 
         accountType_ = 0;
 
-        unk3300BBAABEHNFOE_ = "";
+        securityLibraryMd5_ = "";
 
         onlineId_ = "";
 
@@ -2128,7 +2128,7 @@ public final class PlayerLoginReqOuterClass {
 
         deviceInfo_ = "";
 
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
 
         isEditor_ = false;
 
@@ -2154,7 +2154,7 @@ public final class PlayerLoginReqOuterClass {
         }
         isTransfer_ = false;
 
-        unk3300BIAKNIALBFJ_ = "";
+        securityLibraryVersion_ = "";
 
         clientVersion_ = "";
 
@@ -2220,7 +2220,7 @@ public final class PlayerLoginReqOuterClass {
         result.languageType_ = languageType_;
         result.clientDataVersion_ = clientDataVersion_;
         result.accountType_ = accountType_;
-        result.unk3300BBAABEHNFOE_ = unk3300BBAABEHNFOE_;
+        result.securityLibraryMd5_ = securityLibraryMd5_;
         result.onlineId_ = onlineId_;
         result.unk3300PMGFBMJNNCL_ = unk3300PMGFBMJNNCL_;
         result.deviceName_ = deviceName_;
@@ -2228,7 +2228,7 @@ public final class PlayerLoginReqOuterClass {
         result.tag_ = tag_;
         result.accountUid_ = accountUid_;
         result.deviceInfo_ = deviceInfo_;
-        result.unk3300IADFJHNFKIB_ = unk3300IADFJHNFKIB_;
+        result.subChannelId_ = subChannelId_;
         result.isEditor_ = isEditor_;
         result.token_ = token_;
         result.regPlatform_ = regPlatform_;
@@ -2243,7 +2243,7 @@ public final class PlayerLoginReqOuterClass {
           result.trackingIoInfo_ = trackingIoInfoBuilder_.build();
         }
         result.isTransfer_ = isTransfer_;
-        result.unk3300BIAKNIALBFJ_ = unk3300BIAKNIALBFJ_;
+        result.securityLibraryVersion_ = securityLibraryVersion_;
         result.clientVersion_ = clientVersion_;
         result.isGuest_ = isGuest_;
         result.systemVersion_ = systemVersion_;
@@ -2342,8 +2342,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getAccountType() != 0) {
           setAccountType(other.getAccountType());
         }
-        if (!other.getUnk3300BBAABEHNFOE().isEmpty()) {
-          unk3300BBAABEHNFOE_ = other.unk3300BBAABEHNFOE_;
+        if (!other.getSecurityLibraryMd5().isEmpty()) {
+          securityLibraryMd5_ = other.securityLibraryMd5_;
           onChanged();
         }
         if (!other.getOnlineId().isEmpty()) {
@@ -2372,8 +2372,8 @@ public final class PlayerLoginReqOuterClass {
           deviceInfo_ = other.deviceInfo_;
           onChanged();
         }
-        if (other.getUnk3300IADFJHNFKIB() != 0) {
-          setUnk3300IADFJHNFKIB(other.getUnk3300IADFJHNFKIB());
+        if (other.getSubChannelId() != 0) {
+          setSubChannelId(other.getSubChannelId());
         }
         if (other.getIsEditor() != false) {
           setIsEditor(other.getIsEditor());
@@ -2408,8 +2408,8 @@ public final class PlayerLoginReqOuterClass {
         if (other.getIsTransfer() != false) {
           setIsTransfer(other.getIsTransfer());
         }
-        if (!other.getUnk3300BIAKNIALBFJ().isEmpty()) {
-          unk3300BIAKNIALBFJ_ = other.unk3300BIAKNIALBFJ_;
+        if (!other.getSecurityLibraryVersion().isEmpty()) {
+          securityLibraryVersion_ = other.securityLibraryVersion_;
           onChanged();
         }
         if (!other.getClientVersion().isEmpty()) {
@@ -2606,7 +2606,7 @@ public final class PlayerLoginReqOuterClass {
                 break;
               } // case 4992
               case 6626: {
-                unk3300BIAKNIALBFJ_ = input.readStringRequireUtf8();
+                securityLibraryVersion_ = input.readStringRequireUtf8();
 
                 break;
               } // case 6626
@@ -2616,7 +2616,7 @@ public final class PlayerLoginReqOuterClass {
                 break;
               } // case 6776
               case 6946: {
-                unk3300BBAABEHNFOE_ = input.readStringRequireUtf8();
+                securityLibraryMd5_ = input.readStringRequireUtf8();
 
                 break;
               } // case 6946
@@ -2656,7 +2656,7 @@ public final class PlayerLoginReqOuterClass {
                 break;
               } // case 10674
               case 11664: {
-                unk3300IADFJHNFKIB_ = input.readUInt32();
+                subChannelId_ = input.readUInt32();
 
                 break;
               } // case 11664
@@ -3201,78 +3201,78 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private java.lang.Object unk3300BBAABEHNFOE_ = "";
+      private java.lang.Object securityLibraryMd5_ = "";
       /**
-       * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-       * @return The unk3300BBAABEHNFOE.
+       * <code>string security_library_md5 = 868;</code>
+       * @return The securityLibraryMd5.
        */
-      public java.lang.String getUnk3300BBAABEHNFOE() {
-        java.lang.Object ref = unk3300BBAABEHNFOE_;
+      public java.lang.String getSecurityLibraryMd5() {
+        java.lang.Object ref = securityLibraryMd5_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300BBAABEHNFOE_ = s;
+          securityLibraryMd5_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-       * @return The bytes for unk3300BBAABEHNFOE.
+       * <code>string security_library_md5 = 868;</code>
+       * @return The bytes for securityLibraryMd5.
        */
       public com.google.protobuf.ByteString
-          getUnk3300BBAABEHNFOEBytes() {
-        java.lang.Object ref = unk3300BBAABEHNFOE_;
+          getSecurityLibraryMd5Bytes() {
+        java.lang.Object ref = securityLibraryMd5_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300BBAABEHNFOE_ = b;
+          securityLibraryMd5_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-       * @param value The unk3300BBAABEHNFOE to set.
+       * <code>string security_library_md5 = 868;</code>
+       * @param value The securityLibraryMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BBAABEHNFOE(
+      public Builder setSecurityLibraryMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300BBAABEHNFOE_ = value;
+        securityLibraryMd5_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_BBAABEHNFOE = 868;</code>
+       * <code>string security_library_md5 = 868;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BBAABEHNFOE() {
+      public Builder clearSecurityLibraryMd5() {
         
-        unk3300BBAABEHNFOE_ = getDefaultInstance().getUnk3300BBAABEHNFOE();
+        securityLibraryMd5_ = getDefaultInstance().getSecurityLibraryMd5();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_BBAABEHNFOE = 868;</code>
-       * @param value The bytes for unk3300BBAABEHNFOE to set.
+       * <code>string security_library_md5 = 868;</code>
+       * @param value The bytes for securityLibraryMd5 to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BBAABEHNFOEBytes(
+      public Builder setSecurityLibraryMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300BBAABEHNFOE_ = value;
+        securityLibraryMd5_ = value;
         onChanged();
         return this;
       }
@@ -3719,33 +3719,33 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private int unk3300IADFJHNFKIB_ ;
+      private int subChannelId_ ;
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1458;</code>
-       * @return The unk3300IADFJHNFKIB.
+       * <code>uint32 sub_channel_id = 1458;</code>
+       * @return The subChannelId.
        */
       @java.lang.Override
-      public int getUnk3300IADFJHNFKIB() {
-        return unk3300IADFJHNFKIB_;
+      public int getSubChannelId() {
+        return subChannelId_;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1458;</code>
-       * @param value The unk3300IADFJHNFKIB to set.
+       * <code>uint32 sub_channel_id = 1458;</code>
+       * @param value The subChannelId to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300IADFJHNFKIB(int value) {
+      public Builder setSubChannelId(int value) {
         
-        unk3300IADFJHNFKIB_ = value;
+        subChannelId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_IADFJHNFKIB = 1458;</code>
+       * <code>uint32 sub_channel_id = 1458;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300IADFJHNFKIB() {
+      public Builder clearSubChannelId() {
         
-        unk3300IADFJHNFKIB_ = 0;
+        subChannelId_ = 0;
         onChanged();
         return this;
       }
@@ -4283,78 +4283,78 @@ public final class PlayerLoginReqOuterClass {
         return this;
       }
 
-      private java.lang.Object unk3300BIAKNIALBFJ_ = "";
+      private java.lang.Object securityLibraryVersion_ = "";
       /**
-       * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-       * @return The unk3300BIAKNIALBFJ.
+       * <code>string security_library_version = 828;</code>
+       * @return The securityLibraryVersion.
        */
-      public java.lang.String getUnk3300BIAKNIALBFJ() {
-        java.lang.Object ref = unk3300BIAKNIALBFJ_;
+      public java.lang.String getSecurityLibraryVersion() {
+        java.lang.Object ref = securityLibraryVersion_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          unk3300BIAKNIALBFJ_ = s;
+          securityLibraryVersion_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-       * @return The bytes for unk3300BIAKNIALBFJ.
+       * <code>string security_library_version = 828;</code>
+       * @return The bytes for securityLibraryVersion.
        */
       public com.google.protobuf.ByteString
-          getUnk3300BIAKNIALBFJBytes() {
-        java.lang.Object ref = unk3300BIAKNIALBFJ_;
+          getSecurityLibraryVersionBytes() {
+        java.lang.Object ref = securityLibraryVersion_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          unk3300BIAKNIALBFJ_ = b;
+          securityLibraryVersion_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-       * @param value The unk3300BIAKNIALBFJ to set.
+       * <code>string security_library_version = 828;</code>
+       * @param value The securityLibraryVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BIAKNIALBFJ(
+      public Builder setSecurityLibraryVersion(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        unk3300BIAKNIALBFJ_ = value;
+        securityLibraryVersion_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
+       * <code>string security_library_version = 828;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300BIAKNIALBFJ() {
+      public Builder clearSecurityLibraryVersion() {
         
-        unk3300BIAKNIALBFJ_ = getDefaultInstance().getUnk3300BIAKNIALBFJ();
+        securityLibraryVersion_ = getDefaultInstance().getSecurityLibraryVersion();
         onChanged();
         return this;
       }
       /**
-       * <code>string Unk3300_BIAKNIALBFJ = 828;</code>
-       * @param value The bytes for unk3300BIAKNIALBFJ to set.
+       * <code>string security_library_version = 828;</code>
+       * @param value The bytes for securityLibraryVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300BIAKNIALBFJBytes(
+      public Builder setSecurityLibraryVersionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        unk3300BIAKNIALBFJ_ = value;
+        securityLibraryVersion_ = value;
         onChanged();
         return this;
       }
@@ -5083,35 +5083,35 @@ public final class PlayerLoginReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024PlayerLoginReq.proto\032\030AdjustTrackingIn" +
-      "fo.proto\032\024TrackingIOInfo.proto\"\247\010\n\016Playe" +
+      "fo.proto\032\024TrackingIOInfo.proto\"\250\010\n\016Playe" +
       "rLoginReq\022\023\n\013device_uuid\030\005 \001(\t\022\022\n\ntarget" +
       "_uid\030\n \001(\r\022\027\n\016extra_bin_data\030\376\017 \001(\014\022\020\n\010p" +
       "latform\030\004 \001(\t\022\021\n\010checksum\030\266\n \001(\t\022\023\n\nchan" +
       "nel_id\030\235\014 \001(\r\022\034\n\023client_verison_hash\030\370\017 " +
       "\001(\t\022\025\n\rlanguage_type\030\013 \001(\r\022\034\n\023client_dat" +
-      "a_version\030\317\006 \001(\r\022\024\n\014account_type\030\007 \001(\r\022\034" +
-      "\n\023Unk3300_BBAABEHNFOE\030\344\006 \001(\t\022\022\n\tonline_i" +
-      "d\030\301\004 \001(\t\022\033\n\023Unk3300_PMGFBMJNNCL\030R \001(\r\022\023\n" +
-      "\013device_name\030\014 \001(\t\022\021\n\010birthday\030\353\006 \001(\t\022\014\n" +
-      "\003tag\030\215\004 \001(\r\022\023\n\013account_uid\030\016 \001(\t\022\023\n\013devi" +
-      "ce_info\030\017 \001(\t\022\034\n\023Unk3300_IADFJHNFKIB\030\262\013 " +
-      "\001(\r\022\021\n\tis_editor\030\001 \001(\010\022\r\n\005token\030\010 \001(\t\022\025\n" +
-      "\014reg_platform\030\250\003 \001(\r\022 \n\027checksum_client_" +
-      "version\030\305\004 \001(\t\022\033\n\023Unk3300_OOBHAIIIPHH\030U " +
-      "\001(\r\022\034\n\023Unk3300_NDLANBEIGEG\030\250\n \001(\r\022\024\n\014cou" +
-      "ntry_code\030h \001(\t\022\034\n\023Unk3300_PIPLDEAPMMN\030\376" +
-      "\r \001(\r\022*\n\020tracking_io_info\030\261\r \001(\0132\017.Track" +
-      "ingIOInfo\022\024\n\013is_transfer\030\360\004 \001(\010\022\034\n\023Unk33" +
-      "00_BIAKNIALBFJ\030\274\006 \001(\t\022\026\n\016client_version\030" +
-      "\002 \001(\t\022\020\n\010is_guest\030\r \001(\010\022\026\n\016system_versio" +
-      "n\030\006 \001(\t\022\036\n\025target_home_owner_uid\030\203\007 \001(\r\022" +
-      "\017\n\006psn_id\030\372\010 \001(\t\022\033\n\022security_cmd_reply\030\352" +
-      "\006 \001(\014\022\034\n\023Unk3300_OFFHPAFIFGD\030\204\010 \001(\r\022\022\n\nl" +
-      "ogin_rand\030\t \001(\004\0221\n\024adjust_tracking_info\030" +
-      "@ \001(\0132\023.AdjustTrackingInfo\022\037\n\026environmen" +
-      "t_error_code\030\200\002 \001(\014\022\025\n\rplatform_type\030\003 \001" +
-      "(\r\022\014\n\003cps\030\277\017 \001(\tB\036\n\034emu.grasscutter.net." +
-      "newprotob\006proto3"
+      "a_version\030\317\006 \001(\r\022\024\n\014account_type\030\007 \001(\r\022\035" +
+      "\n\024security_library_md5\030\344\006 \001(\t\022\022\n\tonline_" +
+      "id\030\301\004 \001(\t\022\033\n\023Unk3300_PMGFBMJNNCL\030R \001(\r\022\023" +
+      "\n\013device_name\030\014 \001(\t\022\021\n\010birthday\030\353\006 \001(\t\022\014" +
+      "\n\003tag\030\215\004 \001(\r\022\023\n\013account_uid\030\016 \001(\t\022\023\n\013dev" +
+      "ice_info\030\017 \001(\t\022\027\n\016sub_channel_id\030\262\013 \001(\r\022" +
+      "\021\n\tis_editor\030\001 \001(\010\022\r\n\005token\030\010 \001(\t\022\025\n\014reg" +
+      "_platform\030\250\003 \001(\r\022 \n\027checksum_client_vers" +
+      "ion\030\305\004 \001(\t\022\033\n\023Unk3300_OOBHAIIIPHH\030U \001(\r\022" +
+      "\034\n\023Unk3300_NDLANBEIGEG\030\250\n \001(\r\022\024\n\014country" +
+      "_code\030h \001(\t\022\034\n\023Unk3300_PIPLDEAPMMN\030\376\r \001(" +
+      "\r\022*\n\020tracking_io_info\030\261\r \001(\0132\017.TrackingI" +
+      "OInfo\022\024\n\013is_transfer\030\360\004 \001(\010\022!\n\030security_" +
+      "library_version\030\274\006 \001(\t\022\026\n\016client_version" +
+      "\030\002 \001(\t\022\020\n\010is_guest\030\r \001(\010\022\026\n\016system_versi" +
+      "on\030\006 \001(\t\022\036\n\025target_home_owner_uid\030\203\007 \001(\r" +
+      "\022\017\n\006psn_id\030\372\010 \001(\t\022\033\n\022security_cmd_reply\030" +
+      "\352\006 \001(\014\022\034\n\023Unk3300_OFFHPAFIFGD\030\204\010 \001(\r\022\022\n\n" +
+      "login_rand\030\t \001(\004\0221\n\024adjust_tracking_info" +
+      "\030@ \001(\0132\023.AdjustTrackingInfo\022\037\n\026environme" +
+      "nt_error_code\030\200\002 \001(\014\022\025\n\rplatform_type\030\003 " +
+      "\001(\r\022\014\n\003cps\030\277\017 \001(\tB\036\n\034emu.grasscutter.net" +
+      ".newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5124,7 +5124,7 @@ public final class PlayerLoginReqOuterClass {
     internal_static_PlayerLoginReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerLoginReq_descriptor,
-        new java.lang.String[] { "DeviceUuid", "TargetUid", "ExtraBinData", "Platform", "Checksum", "ChannelId", "ClientVerisonHash", "LanguageType", "ClientDataVersion", "AccountType", "Unk3300BBAABEHNFOE", "OnlineId", "Unk3300PMGFBMJNNCL", "DeviceName", "Birthday", "Tag", "AccountUid", "DeviceInfo", "Unk3300IADFJHNFKIB", "IsEditor", "Token", "RegPlatform", "ChecksumClientVersion", "Unk3300OOBHAIIIPHH", "Unk3300NDLANBEIGEG", "CountryCode", "Unk3300PIPLDEAPMMN", "TrackingIoInfo", "IsTransfer", "Unk3300BIAKNIALBFJ", "ClientVersion", "IsGuest", "SystemVersion", "TargetHomeOwnerUid", "PsnId", "SecurityCmdReply", "Unk3300OFFHPAFIFGD", "LoginRand", "AdjustTrackingInfo", "EnvironmentErrorCode", "PlatformType", "Cps", });
+        new java.lang.String[] { "DeviceUuid", "TargetUid", "ExtraBinData", "Platform", "Checksum", "ChannelId", "ClientVerisonHash", "LanguageType", "ClientDataVersion", "AccountType", "SecurityLibraryMd5", "OnlineId", "Unk3300PMGFBMJNNCL", "DeviceName", "Birthday", "Tag", "AccountUid", "DeviceInfo", "SubChannelId", "IsEditor", "Token", "RegPlatform", "ChecksumClientVersion", "Unk3300OOBHAIIIPHH", "Unk3300NDLANBEIGEG", "CountryCode", "Unk3300PIPLDEAPMMN", "TrackingIoInfo", "IsTransfer", "SecurityLibraryVersion", "ClientVersion", "IsGuest", "SystemVersion", "TargetHomeOwnerUid", "PsnId", "SecurityCmdReply", "Unk3300OFFHPAFIFGD", "LoginRand", "AdjustTrackingInfo", "EnvironmentErrorCode", "PlatformType", "Cps", });
     emu.grasscutter.net.newproto.AdjustTrackingInfoOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.TrackingIOInfoOuterClass.getDescriptor();
   }

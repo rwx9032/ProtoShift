@@ -19,16 +19,16 @@ public final class ClientCollectorDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 Unk3300_PPAOJCGAAEA = 2;</code>
-     * @return The unk3300PPAOJCGAAEA.
+     * <code>uint32 max_points = 2;</code>
+     * @return The maxPoints.
      */
-    int getUnk3300PPAOJCGAAEA();
+    int getMaxPoints();
 
     /**
-     * <code>uint32 Unk3300_MFCHJHPJALD = 3;</code>
-     * @return The unk3300MFCHJHPJALD.
+     * <code>uint32 curr_points = 3;</code>
+     * @return The currPoints.
      */
-    int getUnk3300MFCHJHPJALD();
+    int getCurrPoints();
 
     /**
      * <code>uint32 material_id = 9;</code>
@@ -76,26 +76,26 @@ public final class ClientCollectorDataOuterClass {
               emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData.class, emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData.Builder.class);
     }
 
-    public static final int UNK3300_PPAOJCGAAEA_FIELD_NUMBER = 2;
-    private int unk3300PPAOJCGAAEA_;
+    public static final int MAX_POINTS_FIELD_NUMBER = 2;
+    private int maxPoints_;
     /**
-     * <code>uint32 Unk3300_PPAOJCGAAEA = 2;</code>
-     * @return The unk3300PPAOJCGAAEA.
+     * <code>uint32 max_points = 2;</code>
+     * @return The maxPoints.
      */
     @java.lang.Override
-    public int getUnk3300PPAOJCGAAEA() {
-      return unk3300PPAOJCGAAEA_;
+    public int getMaxPoints() {
+      return maxPoints_;
     }
 
-    public static final int UNK3300_MFCHJHPJALD_FIELD_NUMBER = 3;
-    private int unk3300MFCHJHPJALD_;
+    public static final int CURR_POINTS_FIELD_NUMBER = 3;
+    private int currPoints_;
     /**
-     * <code>uint32 Unk3300_MFCHJHPJALD = 3;</code>
-     * @return The unk3300MFCHJHPJALD.
+     * <code>uint32 curr_points = 3;</code>
+     * @return The currPoints.
      */
     @java.lang.Override
-    public int getUnk3300MFCHJHPJALD() {
-      return unk3300MFCHJHPJALD_;
+    public int getCurrPoints() {
+      return currPoints_;
     }
 
     public static final int MATERIAL_ID_FIELD_NUMBER = 9;
@@ -123,11 +123,11 @@ public final class ClientCollectorDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (unk3300PPAOJCGAAEA_ != 0) {
-        output.writeUInt32(2, unk3300PPAOJCGAAEA_);
+      if (maxPoints_ != 0) {
+        output.writeUInt32(2, maxPoints_);
       }
-      if (unk3300MFCHJHPJALD_ != 0) {
-        output.writeUInt32(3, unk3300MFCHJHPJALD_);
+      if (currPoints_ != 0) {
+        output.writeUInt32(3, currPoints_);
       }
       if (materialId_ != 0) {
         output.writeUInt32(9, materialId_);
@@ -141,13 +141,13 @@ public final class ClientCollectorDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (unk3300PPAOJCGAAEA_ != 0) {
+      if (maxPoints_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, unk3300PPAOJCGAAEA_);
+          .computeUInt32Size(2, maxPoints_);
       }
-      if (unk3300MFCHJHPJALD_ != 0) {
+      if (currPoints_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, unk3300MFCHJHPJALD_);
+          .computeUInt32Size(3, currPoints_);
       }
       if (materialId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -168,10 +168,10 @@ public final class ClientCollectorDataOuterClass {
       }
       emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData other = (emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData) obj;
 
-      if (getUnk3300PPAOJCGAAEA()
-          != other.getUnk3300PPAOJCGAAEA()) return false;
-      if (getUnk3300MFCHJHPJALD()
-          != other.getUnk3300MFCHJHPJALD()) return false;
+      if (getMaxPoints()
+          != other.getMaxPoints()) return false;
+      if (getCurrPoints()
+          != other.getCurrPoints()) return false;
       if (getMaterialId()
           != other.getMaterialId()) return false;
       if (!getUnknownFields().equals(other.getUnknownFields())) return false;
@@ -185,10 +185,10 @@ public final class ClientCollectorDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_PPAOJCGAAEA_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300PPAOJCGAAEA();
-      hash = (37 * hash) + UNK3300_MFCHJHPJALD_FIELD_NUMBER;
-      hash = (53 * hash) + getUnk3300MFCHJHPJALD();
+      hash = (37 * hash) + MAX_POINTS_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxPoints();
+      hash = (37 * hash) + CURR_POINTS_FIELD_NUMBER;
+      hash = (53 * hash) + getCurrPoints();
       hash = (37 * hash) + MATERIAL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMaterialId();
       hash = (29 * hash) + getUnknownFields().hashCode();
@@ -319,9 +319,9 @@ public final class ClientCollectorDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300PPAOJCGAAEA_ = 0;
+        maxPoints_ = 0;
 
-        unk3300MFCHJHPJALD_ = 0;
+        currPoints_ = 0;
 
         materialId_ = 0;
 
@@ -351,8 +351,8 @@ public final class ClientCollectorDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData buildPartial() {
         emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData result = new emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData(this);
-        result.unk3300PPAOJCGAAEA_ = unk3300PPAOJCGAAEA_;
-        result.unk3300MFCHJHPJALD_ = unk3300MFCHJHPJALD_;
+        result.maxPoints_ = maxPoints_;
+        result.currPoints_ = currPoints_;
         result.materialId_ = materialId_;
         onBuilt();
         return result;
@@ -402,11 +402,11 @@ public final class ClientCollectorDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData other) {
         if (other == emu.grasscutter.net.newproto.ClientCollectorDataOuterClass.ClientCollectorData.getDefaultInstance()) return this;
-        if (other.getUnk3300PPAOJCGAAEA() != 0) {
-          setUnk3300PPAOJCGAAEA(other.getUnk3300PPAOJCGAAEA());
+        if (other.getMaxPoints() != 0) {
+          setMaxPoints(other.getMaxPoints());
         }
-        if (other.getUnk3300MFCHJHPJALD() != 0) {
-          setUnk3300MFCHJHPJALD(other.getUnk3300MFCHJHPJALD());
+        if (other.getCurrPoints() != 0) {
+          setCurrPoints(other.getCurrPoints());
         }
         if (other.getMaterialId() != 0) {
           setMaterialId(other.getMaterialId());
@@ -438,12 +438,12 @@ public final class ClientCollectorDataOuterClass {
                 done = true;
                 break;
               case 16: {
-                unk3300PPAOJCGAAEA_ = input.readUInt32();
+                maxPoints_ = input.readUInt32();
 
                 break;
               } // case 16
               case 24: {
-                unk3300MFCHJHPJALD_ = input.readUInt32();
+                currPoints_ = input.readUInt32();
 
                 break;
               } // case 24
@@ -468,64 +468,64 @@ public final class ClientCollectorDataOuterClass {
         return this;
       }
 
-      private int unk3300PPAOJCGAAEA_ ;
+      private int maxPoints_ ;
       /**
-       * <code>uint32 Unk3300_PPAOJCGAAEA = 2;</code>
-       * @return The unk3300PPAOJCGAAEA.
+       * <code>uint32 max_points = 2;</code>
+       * @return The maxPoints.
        */
       @java.lang.Override
-      public int getUnk3300PPAOJCGAAEA() {
-        return unk3300PPAOJCGAAEA_;
+      public int getMaxPoints() {
+        return maxPoints_;
       }
       /**
-       * <code>uint32 Unk3300_PPAOJCGAAEA = 2;</code>
-       * @param value The unk3300PPAOJCGAAEA to set.
+       * <code>uint32 max_points = 2;</code>
+       * @param value The maxPoints to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300PPAOJCGAAEA(int value) {
+      public Builder setMaxPoints(int value) {
         
-        unk3300PPAOJCGAAEA_ = value;
+        maxPoints_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_PPAOJCGAAEA = 2;</code>
+       * <code>uint32 max_points = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300PPAOJCGAAEA() {
+      public Builder clearMaxPoints() {
         
-        unk3300PPAOJCGAAEA_ = 0;
+        maxPoints_ = 0;
         onChanged();
         return this;
       }
 
-      private int unk3300MFCHJHPJALD_ ;
+      private int currPoints_ ;
       /**
-       * <code>uint32 Unk3300_MFCHJHPJALD = 3;</code>
-       * @return The unk3300MFCHJHPJALD.
+       * <code>uint32 curr_points = 3;</code>
+       * @return The currPoints.
        */
       @java.lang.Override
-      public int getUnk3300MFCHJHPJALD() {
-        return unk3300MFCHJHPJALD_;
+      public int getCurrPoints() {
+        return currPoints_;
       }
       /**
-       * <code>uint32 Unk3300_MFCHJHPJALD = 3;</code>
-       * @param value The unk3300MFCHJHPJALD to set.
+       * <code>uint32 curr_points = 3;</code>
+       * @param value The currPoints to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300MFCHJHPJALD(int value) {
+      public Builder setCurrPoints(int value) {
         
-        unk3300MFCHJHPJALD_ = value;
+        currPoints_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 Unk3300_MFCHJHPJALD = 3;</code>
+       * <code>uint32 curr_points = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300MFCHJHPJALD() {
+      public Builder clearCurrPoints() {
         
-        unk3300MFCHJHPJALD_ = 0;
+        currPoints_ = 0;
         onChanged();
         return this;
       }
@@ -638,11 +638,10 @@ public final class ClientCollectorDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031ClientCollectorData.proto\"d\n\023ClientCol" +
-      "lectorData\022\033\n\023Unk3300_PPAOJCGAAEA\030\002 \001(\r\022" +
-      "\033\n\023Unk3300_MFCHJHPJALD\030\003 \001(\r\022\023\n\013material" +
-      "_id\030\t \001(\rB\036\n\034emu.grasscutter.net.newprot" +
-      "ob\006proto3"
+      "\n\031ClientCollectorData.proto\"S\n\023ClientCol" +
+      "lectorData\022\022\n\nmax_points\030\002 \001(\r\022\023\n\013curr_p" +
+      "oints\030\003 \001(\r\022\023\n\013material_id\030\t \001(\rB\036\n\034emu." +
+      "grasscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -653,7 +652,7 @@ public final class ClientCollectorDataOuterClass {
     internal_static_ClientCollectorData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ClientCollectorData_descriptor,
-        new java.lang.String[] { "Unk3300PPAOJCGAAEA", "Unk3300MFCHJHPJALD", "MaterialId", });
+        new java.lang.String[] { "MaxPoints", "CurrPoints", "MaterialId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

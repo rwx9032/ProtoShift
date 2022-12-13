@@ -19,15 +19,15 @@ public final class GCGMsgMoveCardOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-     * @return The enum numeric value on the wire for unk3300EJHNJMBJBKG.
+     * <code>.GCGZoneType to = 9;</code>
+     * @return The enum numeric value on the wire for to.
      */
-    int getUnk3300EJHNJMBJBKGValue();
+    int getToValue();
     /**
-     * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-     * @return The unk3300EJHNJMBJBKG.
+     * <code>.GCGZoneType to = 9;</code>
+     * @return The to.
      */
-    emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300EJHNJMBJBKG();
+    emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getTo();
 
     /**
      * <code>repeated uint32 fail_guid_list = 2;</code>
@@ -47,15 +47,15 @@ public final class GCGMsgMoveCardOuterClass {
     int getFailGuidList(int index);
 
     /**
-     * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-     * @return The enum numeric value on the wire for unk3300NJILOBDEECC.
+     * <code>.GCGZoneType from = 14;</code>
+     * @return The enum numeric value on the wire for from.
      */
-    int getUnk3300NJILOBDEECCValue();
+    int getFromValue();
     /**
-     * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-     * @return The unk3300NJILOBDEECC.
+     * <code>.GCGZoneType from = 14;</code>
+     * @return The from.
      */
-    emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300NJILOBDEECC();
+    emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getFrom();
 
     /**
      * <code>uint32 controller_id = 4;</code>
@@ -104,9 +104,9 @@ public final class GCGMsgMoveCardOuterClass {
       super(builder);
     }
     private GCGMsgMoveCard() {
-      unk3300EJHNJMBJBKG_ = 0;
+      to_ = 0;
       failGuidList_ = emptyIntList();
-      unk3300NJILOBDEECC_ = 0;
+      from_ = 0;
       reason_ = 0;
       cardGuidList_ = emptyIntList();
     }
@@ -136,22 +136,22 @@ public final class GCGMsgMoveCardOuterClass {
               emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard.class, emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard.Builder.class);
     }
 
-    public static final int UNK3300_EJHNJMBJBKG_FIELD_NUMBER = 9;
-    private int unk3300EJHNJMBJBKG_;
+    public static final int TO_FIELD_NUMBER = 9;
+    private int to_;
     /**
-     * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-     * @return The enum numeric value on the wire for unk3300EJHNJMBJBKG.
+     * <code>.GCGZoneType to = 9;</code>
+     * @return The enum numeric value on the wire for to.
      */
-    @java.lang.Override public int getUnk3300EJHNJMBJBKGValue() {
-      return unk3300EJHNJMBJBKG_;
+    @java.lang.Override public int getToValue() {
+      return to_;
     }
     /**
-     * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-     * @return The unk3300EJHNJMBJBKG.
+     * <code>.GCGZoneType to = 9;</code>
+     * @return The to.
      */
-    @java.lang.Override public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300EJHNJMBJBKG() {
+    @java.lang.Override public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getTo() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(unk3300EJHNJMBJBKG_);
+      emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(to_);
       return result == null ? emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.UNRECOGNIZED : result;
     }
 
@@ -183,22 +183,22 @@ public final class GCGMsgMoveCardOuterClass {
     }
     private int failGuidListMemoizedSerializedSize = -1;
 
-    public static final int UNK3300_NJILOBDEECC_FIELD_NUMBER = 14;
-    private int unk3300NJILOBDEECC_;
+    public static final int FROM_FIELD_NUMBER = 14;
+    private int from_;
     /**
-     * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-     * @return The enum numeric value on the wire for unk3300NJILOBDEECC.
+     * <code>.GCGZoneType from = 14;</code>
+     * @return The enum numeric value on the wire for from.
      */
-    @java.lang.Override public int getUnk3300NJILOBDEECCValue() {
-      return unk3300NJILOBDEECC_;
+    @java.lang.Override public int getFromValue() {
+      return from_;
     }
     /**
-     * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-     * @return The unk3300NJILOBDEECC.
+     * <code>.GCGZoneType from = 14;</code>
+     * @return The from.
      */
-    @java.lang.Override public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300NJILOBDEECC() {
+    @java.lang.Override public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getFrom() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(unk3300NJILOBDEECC_);
+      emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(from_);
       return result == null ? emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.UNRECOGNIZED : result;
     }
 
@@ -292,14 +292,14 @@ public final class GCGMsgMoveCardOuterClass {
       for (int i = 0; i < cardGuidList_.size(); i++) {
         output.writeUInt32NoTag(cardGuidList_.getInt(i));
       }
-      if (unk3300EJHNJMBJBKG_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
-        output.writeEnum(9, unk3300EJHNJMBJBKG_);
+      if (to_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
+        output.writeEnum(9, to_);
       }
       if (reason_ != emu.grasscutter.net.newproto.GCGReasonOuterClass.GCGReason.GCG_REASON_DEFAULT.getNumber()) {
         output.writeEnum(13, reason_);
       }
-      if (unk3300NJILOBDEECC_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
-        output.writeEnum(14, unk3300NJILOBDEECC_);
+      if (from_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
+        output.writeEnum(14, from_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -342,17 +342,17 @@ public final class GCGMsgMoveCardOuterClass {
         }
         cardGuidListMemoizedSerializedSize = dataSize;
       }
-      if (unk3300EJHNJMBJBKG_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
+      if (to_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, unk3300EJHNJMBJBKG_);
+          .computeEnumSize(9, to_);
       }
       if (reason_ != emu.grasscutter.net.newproto.GCGReasonOuterClass.GCGReason.GCG_REASON_DEFAULT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(13, reason_);
       }
-      if (unk3300NJILOBDEECC_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
+      if (from_ != emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.GCG_ZONE_TYPE_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, unk3300NJILOBDEECC_);
+          .computeEnumSize(14, from_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -369,10 +369,10 @@ public final class GCGMsgMoveCardOuterClass {
       }
       emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard other = (emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard) obj;
 
-      if (unk3300EJHNJMBJBKG_ != other.unk3300EJHNJMBJBKG_) return false;
+      if (to_ != other.to_) return false;
       if (!getFailGuidListList()
           .equals(other.getFailGuidListList())) return false;
-      if (unk3300NJILOBDEECC_ != other.unk3300NJILOBDEECC_) return false;
+      if (from_ != other.from_) return false;
       if (getControllerId()
           != other.getControllerId()) return false;
       if (reason_ != other.reason_) return false;
@@ -389,14 +389,14 @@ public final class GCGMsgMoveCardOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UNK3300_EJHNJMBJBKG_FIELD_NUMBER;
-      hash = (53 * hash) + unk3300EJHNJMBJBKG_;
+      hash = (37 * hash) + TO_FIELD_NUMBER;
+      hash = (53 * hash) + to_;
       if (getFailGuidListCount() > 0) {
         hash = (37 * hash) + FAIL_GUID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFailGuidListList().hashCode();
       }
-      hash = (37 * hash) + UNK3300_NJILOBDEECC_FIELD_NUMBER;
-      hash = (53 * hash) + unk3300NJILOBDEECC_;
+      hash = (37 * hash) + FROM_FIELD_NUMBER;
+      hash = (53 * hash) + from_;
       hash = (37 * hash) + CONTROLLER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getControllerId();
       hash = (37 * hash) + REASON_FIELD_NUMBER;
@@ -533,11 +533,11 @@ public final class GCGMsgMoveCardOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        unk3300EJHNJMBJBKG_ = 0;
+        to_ = 0;
 
         failGuidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        unk3300NJILOBDEECC_ = 0;
+        from_ = 0;
 
         controllerId_ = 0;
 
@@ -572,13 +572,13 @@ public final class GCGMsgMoveCardOuterClass {
       public emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard buildPartial() {
         emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard result = new emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard(this);
         int from_bitField0_ = bitField0_;
-        result.unk3300EJHNJMBJBKG_ = unk3300EJHNJMBJBKG_;
+        result.to_ = to_;
         if (((bitField0_ & 0x00000001) != 0)) {
           failGuidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.failGuidList_ = failGuidList_;
-        result.unk3300NJILOBDEECC_ = unk3300NJILOBDEECC_;
+        result.from_ = from_;
         result.controllerId_ = controllerId_;
         result.reason_ = reason_;
         if (((bitField0_ & 0x00000002) != 0)) {
@@ -634,8 +634,8 @@ public final class GCGMsgMoveCardOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard other) {
         if (other == emu.grasscutter.net.newproto.GCGMsgMoveCardOuterClass.GCGMsgMoveCard.getDefaultInstance()) return this;
-        if (other.unk3300EJHNJMBJBKG_ != 0) {
-          setUnk3300EJHNJMBJBKGValue(other.getUnk3300EJHNJMBJBKGValue());
+        if (other.to_ != 0) {
+          setToValue(other.getToValue());
         }
         if (!other.failGuidList_.isEmpty()) {
           if (failGuidList_.isEmpty()) {
@@ -647,8 +647,8 @@ public final class GCGMsgMoveCardOuterClass {
           }
           onChanged();
         }
-        if (other.unk3300NJILOBDEECC_ != 0) {
-          setUnk3300NJILOBDEECCValue(other.getUnk3300NJILOBDEECCValue());
+        if (other.from_ != 0) {
+          setFromValue(other.getFromValue());
         }
         if (other.getControllerId() != 0) {
           setControllerId(other.getControllerId());
@@ -730,7 +730,7 @@ public final class GCGMsgMoveCardOuterClass {
                 break;
               } // case 42
               case 72: {
-                unk3300EJHNJMBJBKG_ = input.readEnum();
+                to_ = input.readEnum();
 
                 break;
               } // case 72
@@ -740,7 +740,7 @@ public final class GCGMsgMoveCardOuterClass {
                 break;
               } // case 104
               case 112: {
-                unk3300NJILOBDEECC_ = input.readEnum();
+                from_ = input.readEnum();
 
                 break;
               } // case 112
@@ -761,56 +761,56 @@ public final class GCGMsgMoveCardOuterClass {
       }
       private int bitField0_;
 
-      private int unk3300EJHNJMBJBKG_ = 0;
+      private int to_ = 0;
       /**
-       * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-       * @return The enum numeric value on the wire for unk3300EJHNJMBJBKG.
+       * <code>.GCGZoneType to = 9;</code>
+       * @return The enum numeric value on the wire for to.
        */
-      @java.lang.Override public int getUnk3300EJHNJMBJBKGValue() {
-        return unk3300EJHNJMBJBKG_;
+      @java.lang.Override public int getToValue() {
+        return to_;
       }
       /**
-       * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-       * @param value The enum numeric value on the wire for unk3300EJHNJMBJBKG to set.
+       * <code>.GCGZoneType to = 9;</code>
+       * @param value The enum numeric value on the wire for to to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300EJHNJMBJBKGValue(int value) {
+      public Builder setToValue(int value) {
         
-        unk3300EJHNJMBJBKG_ = value;
+        to_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-       * @return The unk3300EJHNJMBJBKG.
+       * <code>.GCGZoneType to = 9;</code>
+       * @return The to.
        */
       @java.lang.Override
-      public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300EJHNJMBJBKG() {
+      public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getTo() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(unk3300EJHNJMBJBKG_);
+        emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(to_);
         return result == null ? emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
-       * @param value The unk3300EJHNJMBJBKG to set.
+       * <code>.GCGZoneType to = 9;</code>
+       * @param value The to to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300EJHNJMBJBKG(emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType value) {
+      public Builder setTo(emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        unk3300EJHNJMBJBKG_ = value.getNumber();
+        to_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGZoneType Unk3300_EJHNJMBJBKG = 9;</code>
+       * <code>.GCGZoneType to = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300EJHNJMBJBKG() {
+      public Builder clearTo() {
         
-        unk3300EJHNJMBJBKG_ = 0;
+        to_ = 0;
         onChanged();
         return this;
       }
@@ -894,56 +894,56 @@ public final class GCGMsgMoveCardOuterClass {
         return this;
       }
 
-      private int unk3300NJILOBDEECC_ = 0;
+      private int from_ = 0;
       /**
-       * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-       * @return The enum numeric value on the wire for unk3300NJILOBDEECC.
+       * <code>.GCGZoneType from = 14;</code>
+       * @return The enum numeric value on the wire for from.
        */
-      @java.lang.Override public int getUnk3300NJILOBDEECCValue() {
-        return unk3300NJILOBDEECC_;
+      @java.lang.Override public int getFromValue() {
+        return from_;
       }
       /**
-       * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-       * @param value The enum numeric value on the wire for unk3300NJILOBDEECC to set.
+       * <code>.GCGZoneType from = 14;</code>
+       * @param value The enum numeric value on the wire for from to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NJILOBDEECCValue(int value) {
+      public Builder setFromValue(int value) {
         
-        unk3300NJILOBDEECC_ = value;
+        from_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-       * @return The unk3300NJILOBDEECC.
+       * <code>.GCGZoneType from = 14;</code>
+       * @return The from.
        */
       @java.lang.Override
-      public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getUnk3300NJILOBDEECC() {
+      public emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType getFrom() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(unk3300NJILOBDEECC_);
+        emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType result = emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.valueOf(from_);
         return result == null ? emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
-       * @param value The unk3300NJILOBDEECC to set.
+       * <code>.GCGZoneType from = 14;</code>
+       * @param value The from to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NJILOBDEECC(emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType value) {
+      public Builder setFrom(emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.GCGZoneType value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        unk3300NJILOBDEECC_ = value.getNumber();
+        from_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.GCGZoneType Unk3300_NJILOBDEECC = 14;</code>
+       * <code>.GCGZoneType from = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NJILOBDEECC() {
+      public Builder clearFrom() {
         
-        unk3300NJILOBDEECC_ = 0;
+        from_ = 0;
         onChanged();
         return this;
       }
@@ -1190,13 +1190,12 @@ public final class GCGMsgMoveCardOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024GCGMsgMoveCard.proto\032\017GCGReason.proto\032" +
-      "\021GCGZoneType.proto\"\311\001\n\016GCGMsgMoveCard\022)\n" +
-      "\023Unk3300_EJHNJMBJBKG\030\t \001(\0162\014.GCGZoneType" +
-      "\022\026\n\016fail_guid_list\030\002 \003(\r\022)\n\023Unk3300_NJIL" +
-      "OBDEECC\030\016 \001(\0162\014.GCGZoneType\022\025\n\rcontrolle" +
-      "r_id\030\004 \001(\r\022\032\n\006reason\030\r \001(\0162\n.GCGReason\022\026" +
-      "\n\016card_guid_list\030\005 \003(\rB\036\n\034emu.grasscutte" +
-      "r.net.newprotob\006proto3"
+      "\021GCGZoneType.proto\"\251\001\n\016GCGMsgMoveCard\022\030\n" +
+      "\002to\030\t \001(\0162\014.GCGZoneType\022\026\n\016fail_guid_lis" +
+      "t\030\002 \003(\r\022\032\n\004from\030\016 \001(\0162\014.GCGZoneType\022\025\n\rc" +
+      "ontroller_id\030\004 \001(\r\022\032\n\006reason\030\r \001(\0162\n.GCG" +
+      "Reason\022\026\n\016card_guid_list\030\005 \003(\rB\036\n\034emu.gr" +
+      "asscutter.net.newprotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1209,7 +1208,7 @@ public final class GCGMsgMoveCardOuterClass {
     internal_static_GCGMsgMoveCard_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGMsgMoveCard_descriptor,
-        new java.lang.String[] { "Unk3300EJHNJMBJBKG", "FailGuidList", "Unk3300NJILOBDEECC", "ControllerId", "Reason", "CardGuidList", });
+        new java.lang.String[] { "To", "FailGuidList", "From", "ControllerId", "Reason", "CardGuidList", });
     emu.grasscutter.net.newproto.GCGReasonOuterClass.getDescriptor();
     emu.grasscutter.net.newproto.GCGZoneTypeOuterClass.getDescriptor();
   }
